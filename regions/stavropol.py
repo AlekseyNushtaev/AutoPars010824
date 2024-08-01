@@ -2,7 +2,11 @@ import requests
 import bs4
 import fake_headers
 
-def autoshop26():
+from bot import bot
+from config import ADMIN_ID
+
+
+async def autoshop26(dct_up):
     headers = fake_headers.Headers(browser='firefox', os='win')
     link = 'https://autoshop26.ru/auto/'
     response = requests.get(link, headers.generate())
@@ -14,5 +18,10 @@ def autoshop26():
         data = card.get("data-model").replace('null', 'None').replace('\\', '')
         dct = eval(data)
         link = 'https://autoshop26.ru' + card.find("a").get("href")
-        res.append([dct["brand"].lower() + ', ' + dct["model"].lower(), dct["cost"], link])
+        name = dct["brand"].lower() + ', ' + dct["model"].lower().replace(" ", "")
+        try:
+            name = dct_up[name]
+        except KeyError:
+            await bot.send_message(ADMIN_ID, f'{name} {link}')
+        res.append([name, dct["cost"], link])
     return res

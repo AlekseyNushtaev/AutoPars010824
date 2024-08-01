@@ -1,0 +1,368 @@
+baic, bj40 |BAIC, BJ40
+baic, x35 |BAIC, X35
+baic, x55 |BAIC, X55
+baic, x7 |BAIC, X7
+baic, x75 |BAIC, X75
+baic, u5plus |BAIC, U5 Plus
+belgee, x50 |Belgee, X50
+brilliance, v3 |Brilliance, V3
+brilliance, v5 |Brilliance, V5
+сhangan, cs35plus |Changan, CS35 Plus
+сhangan, cs55 |Changan, CS55
+сhangan, cs75fl |Changan, CS75FL
+сhangan, alsvin |Changan, Alsvin
+сhangan, uni-k |Changan, UNI-K
+сhangan, cs55plus |Changan, CS55 Plus
+сhangan, cs35plusnew |Changan, CS35 Plus New
+сhangan, uni-v |Changan, UNI-V
+сhangan, cs85coupe |Changan, CS85 Coupe
+сhangan, cs95 |Changan, CS95
+сhangan, uni-t |Changan, UNI-T
+сhangan, eadoplus |Changan, Eado Plus
+сhangan, hunter |Changan, Hunter
+сhangan, lamore |Changan, Lamore
+changan, alsvin |Changan, Alsvin
+changan, cs35plus |Changan, CS35 Plus
+changan, cs35plusnew |Changan, CS35 Plus New
+changan, cs55 |Changan, CS55
+changan, cs55plus |Changan, CS55 Plus
+changan, cs75 |Changan, CS75
+changan, cs75fl |Changan, CS75FL
+changan, cs75plus |Changan, CS75 Plus
+changan, cs85coupe |Changan, CS85 Coupe
+changan, cs95 |Changan, CS95
+changan, cs95new |Changan, CS95 New
+changan, eadoplus |Changan, Eado Plus
+changan, hunter |Changan, Hunter
+changan, hunterplus |Changan, Hunter Plus
+changan, lamore |Changan, Lamore
+changan, raetonplus |Changan, Raeton Plus
+changan, uni-k |Changan, UNI-K
+changan, uni-t |Changan, UNI-T
+changan, uni-v |Changan, UNI-V
+chery, arrizo8 |Chery, Arrizo 8
+chery, explore06new |Chery, Explore 06 New
+chery, tiggo3 |Chery, Tiggo 3
+chery, tiggo3xnew |Chery, Tiggo 3x New
+chery, tiggo4 |Chery, Tiggo 4
+chery, tiggo4pro |Chery, Tiggo 4 Pro
+chery, tiggo5 |Chery, Tiggo 5
+chery, tiggo7 |Chery, Tiggo 7
+chery, tiggo7pro |Chery, Tiggo 7 Pro
+chery, tiggo7promax |Chery, Tiggo 7 Pro Max
+chery, tiggo7promaxnew |Chery, Tiggo 7 Pro Max New
+chery, tiggo8 |Chery, Tiggo 8
+chery, tiggo8pro |Chery, Tiggo 8 Pro
+chery, tiggo8proe+ |Chery, Tiggo 8 Pro e+
+chery, tiggo8promax |Chery, Tiggo 8 Pro Max
+chery, tiggo8promaxnew |Chery, Tiggo 8 Pro Max New
+chery, tiggo9 |Chery, Tiggo 9
+chevrolet, captiva |Chevrolet, Captiva
+chevrolet, cobalt |Chevrolet, Cobalt
+chevrolet, nexia |Chevrolet, Nexia
+chevrolet, spark |Chevrolet, Spark
+chevrolet, trailblazer |Chevrolet, Trailblazer
+chevrolet, traverse |Chevrolet, Traverse
+datsun, mi-do |Datsun, MI-DO
+datsun, on-do |Datsun, ON-DO
+dfm, 580 |DFM, 580
+dfm, ax7 |DFM, AX7
+dongfeng, 580new |Dongfeng, 580 New
+dongfeng, df6 |Dongfeng, DF6
+dongfeng, dfskix5 |Dongfeng, DFSK IX5
+dongfeng, dfskix7 |Dongfeng, DFSK IX7
+dongfeng, shinemax |Dongfeng, Shine Max
+dongfeng, ax7 | Dongfeng, AX7
+dongfeng, 580 | Dongfeng, 580
+evolute, i-space |Evolute, i-SPACE
+exeed, lx |EXEED, LX
+exeed, lx1.6awd |EXEED, LX
+exeed, rx |EXEED, RX
+exeed, txl |EXEED, TXL
+exeed, txl2.0 |EXEED, TXL
+exeed, txlnew |EXEED, TXL New
+exeed, vx |EXEED, VX
+exeed, vxle |EXEED, VX LE
+exeed, vxnew |EXEED, VX New
+faw, bestuneb70 |FAW, Bestune B70
+faw, bestunet55 |FAW, Bestune T55
+faw, bestunet77 |FAW, Bestune T77
+faw, bestunet99 |FAW, Bestune T99
+faw, bestuneт99new |FAW, Bestune T99 New
+faw, besturnx80 |FAW, Besturn X80
+faw, newx40 |FAW, X40 New
+faw, x40 |FAW, X40
+faw, x80 |FAW, X80
+forthing, t5evo |Forthing, T5 Evo
+forthing, yacht |Forthing, Yacht
+foton, sauvana |Foton, Sauvana
+foton, tunland |Foton, Tunland
+gac, gn8 |Gac, GN8
+gac, gs3new |Gac, GS3 New
+gac, gs5 |Gac, GS5
+gac, gs8 |Gac, GS8
+gac, gs8new |Gac, GS8 New
+gac, m8 |Gac, M8
+geely, atlas |Geely, Atlas
+geely, atlasnew |Geely, Atlas New
+geely, atlaspro |Geely, Atlas Pro
+geely, belgeex50 |Geely, Belgee X50
+geely, coolray |Geely, Coolray
+geely, coolraynew |Geely, Coolray New
+geely, emgrandnew |Geely, Emgrand New
+geely, emgrandx7 |Geely, Emgrand X7
+geely, emgrandx7new |Geely, Emgrand X7
+geely, emgrand |Geely, Emgrand
+geely, gs |Geely, GS
+geely, monjaro |Geely, Monjaro
+geely, okavango |Geely, Okavango
+geely, okavangonew |Geely, Okavango New
+geely, preface |Geely, Preface
+geely, tugella |Geely, Tugella
+geely, tugellanew |Geely, Tugella New
+haval, dargo |Haval, Dargo
+haval, dargox |Haval, Dargo X
+haval, f7new |Haval, F7 New
+haval, f7xnew |Haval, F7x New
+haval, h2 |Haval, H2
+haval, h3 |Haval, H3
+haval, h5 |Haval, H5
+haval, h6 |Haval, H6
+haval, h9 |Haval, H9
+haval, jolion |Haval, Jolion
+haval, jolionnew |Haval, Jolion New
+haval, m6 |Haval, M6
+haval, newf7 |Haval, F7 New
+haval, newf7x |Haval, F7x New
+hawtai, boliger |Hawtai, Boliger
+hawtai, laville |Hawtai, Laville
+hyundai, bayon |Hyundai, Bayon
+hyundai, creta |Hyundai, Creta
+hyundai, cretanew |Hyundai, Creta New
+hyundai, elantra |Hyundai, Elantra
+hyundai, elantranew |Hyundai, Elantra New
+hyundai, newsolaris |Hyundai, Solaris New
+hyundai, newsonata |Hyundai, Sonata New
+hyundai, palisade |Hyundai, Palisade
+hyundai, santafenew |Hyundai, Santa Fe New
+hyundai, solaris |Hyundai, Solaris
+hyundai, sonata |Hyundai, Sonata
+hyundai, staria |Hyundai, Staria
+hyundai, tucson |Hyundai, Tucson
+hyundai, tucsonnew |Hyundai, Tucson New
+hyundai, новаяcreta |Hyundai, Creta New
+hyundai, новаяelantra |Hyundai, Elantra New
+hyundai, новыйtucson |Hyundai, Tucson New
+jac, j7 |JAC, J7
+jac, js4 |JAC, JS4
+jac, js6 |JAC, JS6
+jac, s3 |JAC, S3
+jac, s5 |JAC, S5
+jac, s7 |JAC, S7
+jac, t6 |JAC, T6
+jac, t8pro |JAC, T8 Pro
+jac, t9new |JAC, T9 New
+jaecoo, j7 |JAECOO, J7
+jaecoo, j8 |JAECOO, J8
+jetour, dashing |Jetour, Dashing
+jetour, t2new |Jetour, T2 New
+jetour, x70plus |Jetour, X70 Plus
+jetour, x90plus |Jetour, X90 Plus
+jetta, va3 |Jetta, VA3
+jetta, vs5 |Jetta, VS5
+jetta, vs7 |Jetta, VS7
+kaiyi, e5 |KAIYI, E5
+kaiyi, x3 |KAIYI, X3
+kaiyi, x3pro |KAIYI, X3 Pro
+kaiyi, x7kunlun |KAIYI, X7 Kunlun
+kia, carnival |KIA, Carnival
+kia, ceed |KIA, Ceed
+kia, ceednew |KIA, Ceed New
+kia, ceedsw |KIA, Ceed SW
+kia, ceedswnew |KIA, Ceed SW New
+kia, cerato |KIA, Cerato
+kia, ceratonew |KIA, Cerato New
+kia, k5 |KIA, K5
+kia, newsoul |KIA, Soul New
+kia, picanto |KIA, Picanto
+kia, picantonew |KIA, Picanto New
+kia, proceed |KIA, ProCeed
+kia, rio |KIA, Rio
+kia, rionew |KIA, Rio New
+kia, riox |KIA, Rio X
+kia, riox-line |KIA, Rio X-Line
+kia, seltos |KIA, Seltos
+kia, sorentonew |KIA, Sorento New
+kia, soul |KIA, Soul
+kia, sportage |KIA, Sportage
+kia, sportage5 |KIA, Sportage 5
+kia, stingernew |KIA, Stinger New
+kia, xceed |KIA, XCeed
+kia, новыйcerato |KIA, Cerato New
+kia, новыйpicanto |KIA, Picanto New
+kia, новыйrio |KIA, Rio New
+kia, новыйsorento |KIA, Sorento New
+lada, 4x4bronto |Lada, 4x4 Bronto
+lada, grantacross |Lada, Granta Cross
+lada, grantadriveactive |Lada, Granta Drive Active
+lada, grantahatchback |Lada, Granta Hatchback
+lada, grantaliftback |Lada, Granta Liftback
+lada, grantasedan |Lada, Granta Sedan
+lada, grantasportdriveactiveлифтбек |Lada, Granta Drive Active Liftback
+lada, grantasportлифтбек |Lada, Granta Sport Liftback
+lada, grantasportседан |Lada, Granta Sport Sedan
+lada, grantaлифтбек |Lada, Granta Liftback
+lada, grantaседан |Lada, Granta Sedan
+lada, grantaуниверсал |Lada, Granta Universal
+lada, grantaхэтчбек |Lada, Granta Hatchback
+lada, новаяgrantacедан |Lada, Granta Sedan New
+lada, новаяgrantaлифтбек |Lada, Granta Liftback New
+lada, новаяgrantaуниверcал |Lada, Granta Universal New
+lada, новаяgrantaхэтчбек |Lada, Granta Hatchback New
+lada, новаяgrantaседан |Lada, Granta Sedan New
+lada, новаяgrantaуниверсал |Lada, Granta Universal New
+lada, grantacrosscross |Lada, Granta Cross
+lada, grantadriveactivedriveactive |Lada, Granta Drive Active
+lada, largus |Lada, Largus
+lada, larguscross |Lada, Largus Cross
+lada, largusуниверсал |Lada, Largus Универсал
+lada, largusфургон |Lada, Largus Фургон
+lada, niva |Lada, Niva
+lada, nivalegend3д. |Lada, Niva Legend 3 двери
+lada, nivalegend3дв. |Lada, Niva Legend 3 двери
+lada, nivalegend5д. |Lada, Niva Legend 5 дверей
+lada, nivalegend5дв. |Lada, Niva Legend 3 дверей
+lada, nivalegendurban3д. |Lada, Niva Legend Urban 3 двери
+lada, nivalegendurban5д. |Lada, Niva Legend Urban 5 дверей
+lada, nivalegendbronto |Lada, Niva Legend Bronto
+lada, nivaoff-road |Lada, Niva Off-Road
+lada, nivatravel |Lada, Niva Travel
+lada, vesta |Lada, Vesta Sedan
+lada, vestacng |Lada, Vesta CNG
+lada, vestacross |Lada, Vesta Cross
+lada, vestacrossnew |Lada, Vesta Cross New
+lada, vestanew |Lada, Vesta Sedan New
+lada, vestasport |Lada, Vesta Sport
+lada, vestasportline |Lada, Vesta Sportline
+lada, vestasw |Lada, Vesta SW
+lada, vestaswcross |Lada, Vesta SW Cross
+lada, vestaswcrossnew |Lada, Vesta SW Cross New
+lada, vestaswnew |Lada, Vesta SW New
+lada, vestaседан |Lada, Vesta Sedan
+lada, vestаcедан |Lada, Vesta Sedan
+lada, xray |Lada, Xray
+lada, xraycross |Lada, Xray Cross
+lada, новыйlargus |Lada, Largus New
+lada, новыйlarguscross |Lada, Largus Cross New
+lada, новыйlargusфургон |Lada, Фургон
+lifan, murman |Lifan, Murman
+lifan, myway |Lifan, MyWay
+lifan, solanoii |Lifan, Solano II
+lifan, x50 |Lifan, X50
+lifan, x60 |Lifan, X60
+lifan, x70 |Lifan, X70
+livan, s6pro |Lifan, S6 Pro
+livan, x3pro |Lifan, X3 Pro
+livan, x6pro |Lifan, X6 Pro
+mazda, cx-30 |Mazda, CX-30
+mazda, cx-5 |Mazda, CX-5
+mazda, cx-9 |Mazda, CX-9
+mazda, new6 |Mazda, 6 New
+mg, 5 |MG, 5
+mg, 6 |MG, 6
+mg, hs |MG, HS
+mg, zs |MG, ZS
+mitsubishi, asxnew |Mitsubishi, ASX New
+mitsubishi, newl200 |Mitsubishi, L200 New
+mitsubishi, outlander7мест |Mitsubishi, Outlander
+mitsubishi, outlandernew |Mitsubishi, Outlander New
+mitsubishi, pajerosportnew |Mitsubishi, Pajero Sport New
+moskvich, 3 |Moskvich, 3
+moskvich, 3e |Moskvich, 3e
+moskvich, 6 |Moskvich, 6
+nissan, murano |Nissan, Murano
+nissan, newmurano |Nissan, Murano New
+nissan, newterrano |Nissan, Terrano New
+nissan, qashqai |Nissan, Qashqai
+nissan, qashqainew |Nissan, Qashqai New
+nissan, terrano |Nissan, Terrano
+nissan, x-trail |Nissan, X-trail
+nissan, x-trailnew |Nissan, X-trail New
+nissan, newx-trail |Nissan, X-trail New
+omoda, c5 |OMODA, C5
+omoda, s5 |OMODA, S5
+omoda, s5gt |OMODA, S5 GT
+oting, paladinnew |Oting, Paladin New
+ravon, nexiar3 |Ravon, Nexia R3
+ravon, r2 |Ravon, R2
+ravon, r4 |Ravon, R4
+renault, arkana |Renault, Arkana
+renault, duster |Renault, Duster
+renault, dusternew |Renault, Duster New
+renault, kaptur |Renault, Kaptur
+renault, kapturnew |Renault, Kaptur New
+renault, logan |Renault, Logan
+renault, loganstepway |Renault, Logan Stepway
+renault, loganstepwaycity |Renault, Logan Stepway City
+renault, newarkana |Renault, Arkana New
+renault, newlogan |Renault, Logan New
+renault, newsandero |Renault, Sandero New
+renault, newsanderostepway |Renault, Sandero Stepway New
+renault, sandero |Renault, Sandero
+renault, sanderostepway |Renault, Sandero Stepway
+renault, sanderostepwaycity |Renault, Stepway City
+renault, новыйduster |Renault, Duster New
+skoda, karoq |Skoda, Karoq
+skoda, kodiaqnew |Skoda, Kodiaq New
+skoda, octavia |Skoda, Octavia
+skoda, octaviaa8 |Skoda, Octavia A8
+skoda, rapid |Skoda, Rapid
+skoda, rapidnew |Skoda, Rapid New
+skoda, superb |Skoda, Superb
+skoda, superbcombi |Skoda, Superb Combi
+skoda, superbnew |Skoda, Superb New
+skoda, новаяoctavia |Skoda, Octavia New
+skoda, обновленныйkodiaq |Skoda, Kodiaq New
+solaris, hc |Solaris, HC
+solaris, hs |Solaris, HS
+solaris, krs |Solaris, KRS
+solaris, krx |Solaris, KRX
+soueast, dx8s |Soueast, DX8S
+ssangyong, actyon |SsangYong, Actyon
+suzuki, newjimny |Suzuki, Jimny New
+suzuki, sx4 |Suzuki, SX4
+suzuki, vitara |Suzuki, Vitara
+swm, g01 |SWM, G01
+swm, g01f |SWM, G01F
+swm, g05pro |SWM, G05 Pro
+tank, 300 |TANK, 300
+tank, 500 |TANK, 500
+toyota, c-hrnew |Toyota, CH-R New
+toyota, camrynew |Toyota, Camry New
+toyota, hiluxnew |Toyota, Hilux New
+toyota, newcorolla |Toyota, Corolla New
+toyota, rav4new |Toyota, RAV4 New
+uaz, hunter |UAZ, Hunter
+uaz, patriot |UAZ, Patriot
+uaz, patriotnew |UAZ, Patriot New
+uaz, patriotpickup |UAZ, Patriot Pickup
+uaz, pickupnew |UAZ, Pickup New
+volkswagen, arteon |Volkswagen, Arteon
+volkswagen, golfnew |Volkswagen, Golf New
+volkswagen, jetta |Volkswagen, Jetta
+volkswagen, jettanew |Volkswagen, Jetta New
+volkswagen, newpolo |Volkswagen, Polo New
+volkswagen, passat |Volkswagen, Passat
+volkswagen, passatnew |Volkswagen, Passat New
+volkswagen, polo |Volkswagen, Polo
+volkswagen, taos |Volkswagen, Taos
+volkswagen, teramontnew |Volkswagen, Teramont New
+volkswagen, tiguan |Volkswagen, Tiguan
+volkswagen, tiguannew |Volkswagen, Tiguan New
+volkswagen, touaregnew |Volkswagen, Touareg New
+volkswagen, новыйtiguan |Volkswagen, Tiguan New
+zotye, coupa |Zotye, Coupa
+zotye, t600 |Zotye, T600
+москвич, 3 |Moskvich, 3
+москвич, 3e |Moskvich, 3e
+xcite, x-cross7new |XCite, X-Cross 7 New
