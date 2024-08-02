@@ -10,9 +10,10 @@ from selenium.webdriver import Chrome
 
 from bot import bot
 from config import ADMIN_ID, CHANEL_ID
-from parser import parser_stavropol, parser_surgut
+from parser import parser_stavropol, parser_surgut, parser_krasnodar
 
 router =Router()
+
 
 async def pars():
     try:
@@ -26,12 +27,15 @@ async def pars():
         options = Options()
         options.add_argument('--headless')
         options.add_argument('--no-sandbox')
+        options.add_argument("--window-size=1200,600")
         options.add_argument('--disable-dev-shm-usage')
         browser = Chrome(service=browser_service, options=options)
         await parser_stavropol(dct)
         await bot.send_document(CHANEL_ID, types.FSInputFile(path="stavropol.xlsx"))
         await parser_surgut(dct, browser)
         await bot.send_document(CHANEL_ID, types.FSInputFile(path="surgut.xlsx"))
+        await parser_krasnodar(dct, browser)
+        await bot.send_document(CHANEL_ID, types.FSInputFile(path="krasnodar.xlsx"))
         browser.quit()
     except Exception as e:
         await bot.send_message(ADMIN_ID, str(e))

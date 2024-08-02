@@ -1,21 +1,19 @@
-import csv
 import time
-
+import requests
 import bs4
 import fake_headers
-import openpyxl
-import requests
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
+
+from bot import bot
+from config import ADMIN_ID
+from pprint import pprint
+
+from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver import Chrome
 
-from regions.stavropol import autoshop26
-from regions.surgut import autosurgut186, profsouz, aspect, sibir
-
-
-def krd_93_auto(dct_up):
+async def krd_93_auto(dct_up):
     headers = fake_headers.Headers(browser='firefox', os='win')
     link = 'https://krd93-auto.ru/auto/'
     response = requests.get(link, headers.generate())
@@ -31,12 +29,12 @@ def krd_93_auto(dct_up):
         try:
             name = dct_up[name]
         except KeyError:
-            pass
+            await bot.send_message(ADMIN_ID, f'{name} {link}')
         res.append([name, dct["cost"], link])
     return res
 
 
-def car_kranodar(dct_up):
+async def car_kranodar(dct_up):
     headers = fake_headers.Headers(browser='firefox', os='win')
     link = 'https://car-krasnodar.ru/cars/'
     response = requests.get(link, headers.generate())
@@ -65,12 +63,12 @@ def car_kranodar(dct_up):
             try:
                 name = dct_up[name]
             except KeyError:
-                pass
+                await bot.send_message(ADMIN_ID, f'{name} {link}')
             res.append([name, cost, link])
     return res
 
 
-def avangard_yug(dct_up, browser):
+async def avangard_yug(dct_up, browser):
     link = 'https://avangard-yug.ru/auto'
     browser.get(link)
     time.sleep(2)
@@ -93,12 +91,12 @@ def avangard_yug(dct_up, browser):
         try:
             name = dct_up[name]
         except KeyError:
-            pass
+            await bot.send_message(ADMIN_ID, f'{name} {link}')
         res.append([name, cost, link])
     return res
 
 
-def ac_pegas(dct_up, browser):
+async def ac_pegas(dct_up, browser):
     link = 'https://ac-pegas.ru/auto'
     browser.get(link)
     time.sleep(2)
@@ -121,12 +119,12 @@ def ac_pegas(dct_up, browser):
         try:
             name = dct_up[name]
         except KeyError:
-            pass
+            await bot.send_message(ADMIN_ID, f'{name} {link}')
         res.append([name, cost, link])
     return res
 
 
-def rostov_avto(dct_up, browser):
+async def rostov_avto(dct_up, browser):
     link = 'https://rostov-avto-1.ru/'
     browser.get(link)
     time.sleep(5)
@@ -161,12 +159,12 @@ def rostov_avto(dct_up, browser):
         try:
             name = dct_up[name]
         except KeyError:
-            pass
+            await bot.send_message(ADMIN_ID, f'{name} {link}')
         res.append([name, cost, link])
     return res
 
 
-def loft_autoug(dct_up):
+async def loft_autoug(dct_up):
     headers = fake_headers.Headers(browser='firefox', os='win')
     link = 'https://loft-autoug.ru/auto/'
     response = requests.get(link, headers.generate())
@@ -194,144 +192,6 @@ def loft_autoug(dct_up):
             try:
                 name = dct_up[name]
             except KeyError:
-                pass
+                await bot.send_message(ADMIN_ID, f'{name} {link}')
             res.append([name, cost, link])
     return res
-
-def pars(dct_up, browser):
-    try:
-        res_1 = krd_93_auto(dct_up)
-    except Exception:
-        res_1 = []
-
-    try:
-        res_2 = car_kranodar(dct_up)
-    except Exception:
-        res_2 = []
-
-    try:
-        res_3 = avangard_yug(dct_up, browser)
-    except Exception:
-        res_3 = []
-
-    try:
-        res_4 = ac_pegas(dct_up,browser)
-    except Exception:
-        res_4 = []
-
-    try:
-        res_5 = rostov_avto(dct_up, browser)
-    except Exception:
-        res_5 = []
-
-    try:
-        res_6 = loft_autoug(dct_up)
-    except Exception:
-        res_6 = []
-
-    res = res_1 + res_2 + res_3 + res_4 + res_5 + res_6
-    res_1_name = [x[0] for x in res_1]
-    res_2_name = [x[0] for x in res_2]
-    res_3_name = [x[0] for x in res_3]
-    res_4_name = [x[0] for x in res_4]
-    res_5_name = [x[0] for x in res_5]
-    res_6_name = [x[0] for x in res_6]
-    res_name = []
-    for item in res:
-        if item[0] not in res_name:
-            res_name.append(item[0])
-    res_name.sort()
-    print('1')
-    wb = openpyxl.Workbook()
-    sheet = wb['Sheet']
-    sheet.cell(row=1, column=1).value = 'brand'
-    sheet.cell(row=1, column=2).value = 'model'
-    sheet.cell(row=1, column=3).value = 'min_price'
-    sheet.cell(row=1, column=4).value = 'min_price_url'
-    sheet.cell(row=1, column=5).value = 'krd93-auto.ru'
-    sheet.cell(row=1, column=6).value = 'krd93-auto.ru_price'
-    sheet.cell(row=1, column=7).value = 'car-krasnodar.ru'
-    sheet.cell(row=1, column=8).value = 'car-krasnodar.ru_price'
-    sheet.cell(row=1, column=9).value = 'avangard-yug.ru'
-    sheet.cell(row=1, column=10).value = 'avangard-yug.ru_price'
-    sheet.cell(row=1, column=11).value = 'ac-pegas.ru'
-    sheet.cell(row=1, column=12).value = 'ac-pegas.ru_price'
-    sheet.cell(row=1, column=13).value = 'rostov-avto-1.ru'
-    sheet.cell(row=1, column=14).value = 'rostov-avto-1.ru_price'
-    sheet.cell(row=1, column=15).value = 'loft-autoug.ru'
-    sheet.cell(row=1, column=16).value = 'loft-autoug.ru_price'
-
-    for i in range(2, len(res_name) + 2):
-        print('2')
-        sheet.cell(row=i, column=1).value = res_name[i-2].split(', ')[0]
-        try:
-            sheet.cell(row=i, column=2).value = res_name[i - 2].split(', ')[1]
-        except Exception:
-            print(res_name[i - 2])
-        dct = {}
-        lst = []
-        if res_name[i-2] in res_1_name:
-            index = res_1_name.index(res_name[i - 2])
-            sheet.cell(row=i, column=5).value = res_1[index][1]
-            sheet.cell(row=i, column=6).value = res_1[index][2]
-            dct[str(res_1[index][1])] = res_1[index][2]
-            lst.append(int(res_1[index][1]))
-        if res_name[i-2] in res_2_name:
-            index = res_2_name.index(res_name[i - 2])
-            sheet.cell(row=i, column=7).value = res_2[index][1]
-            sheet.cell(row=i, column=8).value = res_2[index][2]
-            dct[str(res_2[index][1])] = res_2[index][2]
-            lst.append(int(res_2[index][1]))
-        if res_name[i-2] in res_3_name:
-            index = res_3_name.index(res_name[i - 2])
-            sheet.cell(row=i, column=9).value = res_3[index][1]
-            sheet.cell(row=i, column=10).value = res_3[index][2]
-            dct[str(res_3[index][1])] = res_3[index][2]
-            lst.append(int(res_3[index][1]))
-        if res_name[i-2] in res_4_name:
-            index = res_4_name.index(res_name[i - 2])
-            sheet.cell(row=i, column=11).value = res_4[index][1]
-            sheet.cell(row=i, column=12).value = res_4[index][2]
-            dct[str(res_4[index][1])] = res_4[index][2]
-            lst.append(int(res_4[index][1]))
-        if res_name[i-2] in res_5_name:
-            index = res_5_name.index(res_name[i - 2])
-            sheet.cell(row=i, column=13).value = res_5[index][1]
-            sheet.cell(row=i, column=14).value = res_5[index][2]
-            dct[str(res_5[index][1])] = res_5[index][2]
-            lst.append(int(res_5[index][1]))
-        if res_name[i-2] in res_6_name:
-            index = res_6_name.index(res_name[i - 2])
-            sheet.cell(row=i, column=15).value = res_6[index][1]
-            sheet.cell(row=i, column=16).value = res_6[index][2]
-            dct[str(res_6[index][1])] = res_6[index][2]
-            lst.append(int(res_6[index][1]))
-        sheet.cell(row=i, column=3).value = min(lst)
-        sheet.cell(row=i, column=4).value = dct[str(min(lst))]
-    wb.save('krasnodar.xlsx')
-    data = []
-    for i in range(1, len(res_name) + 1):
-        string = []
-        for y in range(1, 4):
-            string.append(sheet.cell(row=i, column=y).value)
-        data.append(string)
-    with open('krasnodar.csv', 'w', encoding='utf-8') as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-
-
-dct = {}
-with open('../autolist.txt', 'r', encoding='utf-8') as f:
-    lst = f.readlines()
-    for item in lst:
-        dct[item.split('|')[0].strip()] = item.split('|')[1].strip()
-chrome_driver_path = ChromeDriverManager().install()
-browser_service = Service(executable_path=chrome_driver_path)
-options = Options()
-options.add_argument('--headless')
-options.add_argument('--no-sandbox')
-options.add_argument("--window-size=1200,600")
-options.add_argument('--disable-dev-shm-usage')
-browser = Chrome(service=browser_service, options=options)
-
-pars(dct, browser)
