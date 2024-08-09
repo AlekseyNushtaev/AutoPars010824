@@ -10,7 +10,7 @@ from selenium.webdriver import Chrome
 
 from bot import bot
 from config import ADMIN_ID, CHANEL_ID
-from parser import parser_stavropol, parser_surgut, parser_krasnodar
+from parser import parser_stavropol, parser_surgut, parser_krasnodar, parser_moscow
 
 router =Router()
 
@@ -36,6 +36,8 @@ async def pars():
         await bot.send_document(CHANEL_ID, types.FSInputFile(path="surgut.xlsx"))
         await parser_krasnodar(dct, browser)
         await bot.send_document(CHANEL_ID, types.FSInputFile(path="krasnodar.xlsx"))
+        await parser_moscow(dct, browser)
+        await bot.send_document(CHANEL_ID, types.FSInputFile(path="moscow.xlsx"))
         browser.quit()
     except Exception as e:
         await bot.send_message(ADMIN_ID, str(e))

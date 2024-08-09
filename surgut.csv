@@ -20,7 +20,7 @@ Changan,CS85 Coupe,1979900
 Changan,CS95,3309900
 Changan,CS95 New,2949900
 Changan,Eado Plus,1469900
-Changan,Hunter,2724900
+Changan,Hunter,2939900
 Changan,Hunter Plus,2679900
 Changan,Lamore,2039900
 Changan,Raeton Plus,1995000
@@ -35,11 +35,11 @@ Chery,Tiggo 4 Pro,869900
 Chery,Tiggo 7,479900
 Chery,Tiggo 7 Pro,820300
 Chery,Tiggo 7 Pro Max,1169900
-Chery,Tiggo 7 Pro Max New,2770000
+Chery,Tiggo 7 Pro Max New,2120000
 Chery,Tiggo 8,1389900
 Chery,Tiggo 8 Pro,1169900
 Chery,Tiggo 8 Pro Max,1873400
-Chery,Tiggo 8 Pro Max New,3146000
+Chery,Tiggo 8 Pro Max New,3410000
 Chery,Tiggo 8 Pro e+,4859900
 Chery,Tiggo 9,3970000
 Chevrolet,Captiva,1759000
@@ -60,6 +60,7 @@ Dongfeng,DFSK IX5,2191000
 Dongfeng,DFSK IX7,2991000
 Dongfeng,Shine Max,2990000
 EXEED,LX,1469900
+EXEED,LX AWD,1950000
 EXEED,RX,3540000
 EXEED,TXL,2749900
 EXEED,TXL New,2099900
@@ -153,9 +154,9 @@ KAIYI,X3,1481650
 KAIYI,X3 Pro,1764900
 KAIYI,X7 Kunlun,2207900
 KIA,Carnival,2954900
-KIA,Ceed,1794900
+KIA,Ceed,1134900
 KIA,Ceed New,860300
-KIA,Ceed SW,1864900
+KIA,Ceed SW,1504900
 KIA,Ceed SW New,870300
 KIA,Cerato,1784900
 KIA,Cerato New,870300
@@ -189,9 +190,10 @@ Lada,Granta Sport Sedan,1249900
 Lada,Granta Universal,302100
 Lada,Granta Universal New,414300
 Lada,Largus,444300
+Lada,Largus 7 мест,1332900
 Lada,Largus Cross,558900
 Lada,Largus Cross New,1077900
-Lada,Largus New 5,935900
+Lada,Largus New,935900
 Lada,Largus Фургон,444300
 Lada,Niva,742900
 Lada,Niva Legend 3 дверей,618900
@@ -215,16 +217,16 @@ Lada,Vesta Sport,570300
 Lada,Vesta Sportline,1269900
 Lada,Xray,409300
 Lada,Xray Cross,522300
-Lada,Фургон,1001900
+Lada,Фургон New,1001900
 Lifan,Murman,555300
 Lifan,MyWay,606300
-Lifan,S6 Pro,1634930
-Lifan,Solano II,306300
-Lifan,X3 Pro,1129900
+Lifan,Solano 2,306300
 Lifan,X50,420300
-Lifan,X6 Pro,1690930
 Lifan,X60,396300
 Lifan,X70,675300
+Livan,S6 Pro,1634930
+Livan,X3 Pro,1129900
+Livan,X6 Pro,1690930
 MG,5,1630000
 MG,6,770000
 MG,HS,2319000
