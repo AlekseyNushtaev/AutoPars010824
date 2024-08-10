@@ -261,48 +261,56 @@ async def parser_surgut(dct_up, browser):
 
 async def parser_moscow(dct_up, browser):
     try:
+        await bot.send_message(ADMIN_ID, ' begin https://nord-car.ru/catalog')
         res_1 = await nord_car(dct_up)
     except Exception as e:
         res_1 = []
         await bot.send_message(ADMIN_ID, 'https://nord-car.ru/catalog')
         await bot.send_message(ADMIN_ID, str(e))
     try:
+        await bot.send_message(ADMIN_ID, 'begin https://dc-dbr.ru/catalog')
         res_2 = await dc_dbr(dct_up)
     except Exception as e:
         res_2 = []
         await bot.send_message(ADMIN_ID, 'https://dc-dbr.ru/catalog')
         await bot.send_message(ADMIN_ID, str(e))
     try:
+        await bot.send_message(ADMIN_ID, 'begin https://autos-s.ru/auto')
         res_3 = await autos_s(dct_up, browser)
     except Exception as e:
         res_3 = []
         await bot.send_message(ADMIN_ID, 'https://autos-s.ru/auto')
         await bot.send_message(ADMIN_ID, str(e))
     try:
+        await bot.send_message(ADMIN_ID, 'begin https://warshauto.ru/')
         res_4 = await warshauto(dct_up, browser)
     except Exception as e:
         res_4 = []
         await bot.send_message(ADMIN_ID, 'https://warshauto.ru/')
         await bot.send_message(ADMIN_ID, str(e))
     try:
+        await bot.send_message(ADMIN_ID, 'begin https://kosmos-cars.ru/')
         res_5 = await kosmos_cars(dct_up)
     except Exception as e:
         res_5 = []
         await bot.send_message(ADMIN_ID, 'https://kosmos-cars.ru/')
         await bot.send_message(ADMIN_ID, str(e))
     try:
+        await bot.send_message(ADMIN_ID, 'begin https://idol-avto.ru/cars-new/?page=100')
         res_6 = await idol_avto(dct_up)
     except Exception as e:
         res_6 = []
         await bot.send_message(ADMIN_ID, 'https://idol-avto.ru/cars-new/?page=100')
         await bot.send_message(ADMIN_ID, str(e))
     try:
+        await bot.send_message(ADMIN_ID, 'begin https://vita-auto.ru/')
         res_7 = await vita_avto(dct_up)
     except Exception as e:
         res_7 = []
         await bot.send_message(ADMIN_ID, 'https://vita-auto.ru/')
         await bot.send_message(ADMIN_ID, str(e))
     try:
+        await bot.send_message(ADMIN_ID, 'begin https://alcon-auto.ru')
         res_8 = await alcon_avto(dct_up, browser)
     except Exception as e:
         res_8 = []

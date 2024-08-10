@@ -45,7 +45,7 @@ async def scheduler():
     await pars()
     while True:
         time = datetime.now()
-        if str(time.hour) == '10':
+        if str(time.hour) == '7':
             await pars()
             await asyncio.sleep(3600)
         await asyncio.sleep(60)
