@@ -2,7 +2,7 @@ import csv
 
 import openpyxl
 from bot import bot
-from config import ADMIN_ID
+from config import ADMIN_ID, CHANEL_ID
 from regions.stavropol import autoshop26
 from regions.surgut import *
 from regions.krasnodar import *
@@ -13,7 +13,7 @@ async def parser_stavropol(dct_up):
         res = await autoshop26(dct_up)
     except Exception as e:
         res = []
-        await bot.send_message(ADMIN_ID, 'https://autoshop26.ru/auto/')
+        await bot.send_message(CHANEL_ID, 'https://autoshop26.ru/auto/ error')
         await bot.send_message(ADMIN_ID, str(e))
     res.sort(key=lambda x: x[0])
     wb = openpyxl.Workbook()
@@ -48,37 +48,37 @@ async def parser_krasnodar(dct_up, browser):
         res_1 = await krd_93_auto(dct_up)
     except Exception as e:
         res_1 = []
-        await bot.send_message(ADMIN_ID, 'https://krd93-auto.ru/auto/')
+        await bot.send_message(CHANEL_ID, 'https://krd93-auto.ru/auto/ error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
         res_2 = await car_kranodar(dct_up)
     except Exception as e:
         res_2 = []
-        await bot.send_message(ADMIN_ID, 'https://car-krasnodar.ru/cars/')
+        await bot.send_message(CHANEL_ID, 'https://car-krasnodar.ru/cars/ error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
         res_3 = await avangard_yug(dct_up, browser)
     except Exception as e:
         res_3 = []
-        await bot.send_message(ADMIN_ID, 'https://avangard-yug.ru/auto')
+        await bot.send_message(CHANEL_ID, 'https://avangard-yug.ru/auto error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
         res_4 = await ac_pegas(dct_up,browser)
     except Exception as e:
         res_4 = []
-        await bot.send_message(ADMIN_ID, 'https://ac-pegas.ru/auto')
+        await bot.send_message(CHANEL_ID, 'https://ac-pegas.ru/auto error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
         res_5 = await rostov_avto(dct_up, browser)
     except Exception as e:
         res_5 = []
-        await bot.send_message(ADMIN_ID, 'https://rostov-avto-1.ru/')
+        await bot.send_message(CHANEL_ID, 'https://rostov-avto-1.ru/ error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
         res_6 = await loft_autoug(dct_up)
     except Exception as e:
         res_6 = []
-        await bot.send_message(ADMIN_ID, 'https://loft-autoug.ru/auto/')
+        await bot.send_message(CHANEL_ID, 'https://loft-autoug.ru/auto/ error')
         await bot.send_message(ADMIN_ID, str(e))
     res = res_1 + res_2 + res_3 + res_4 + res_5 + res_6
     res_1_name = [x[0] for x in res_1]
@@ -171,25 +171,25 @@ async def parser_surgut(dct_up, browser):
         res_1 = await autosurgut186(dct_up)
     except Exception as e:
         res_1 = []
-        await bot.send_message(ADMIN_ID, 'https://autosurgut186.ru/auto/')
+        await bot.send_message(CHANEL_ID, 'https://autosurgut186.ru/auto/ error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
         res_2 = await profsouz(dct_up, browser)
     except Exception as e:
         res_2 = []
-        await bot.send_message(ADMIN_ID, 'https://auto-centre-profsouz.ru/auto')
+        await bot.send_message(CHANEL_ID, 'https://auto-centre-profsouz.ru/auto error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
         res_3 = await aspect(dct_up, browser)
     except Exception as e:
         res_3 = []
-        await bot.send_message(ADMIN_ID, 'https://aspect-motors.ru/auto')
+        await bot.send_message(CHANEL_ID, 'https://aspect-motors.ru/auto error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
         res_4 = await sibir(dct_up)
     except Exception as e:
         res_4 = []
-        await bot.send_message(ADMIN_ID, 'https://sibir-morots.ru/auto/')
+        await bot.send_message(CHANEL_ID, 'https://sibir-morots.ru/auto/ error')
         await bot.send_message(ADMIN_ID, str(e))
     res = res_1 + res_2 + res_3 + res_4
     res_1_name = [x[0] for x in res_1]
@@ -261,60 +261,60 @@ async def parser_surgut(dct_up, browser):
 
 async def parser_moscow(dct_up, browser):
     try:
-        await bot.send_message(ADMIN_ID, ' begin https://nord-car.ru/catalog')
+        await bot.send_message(ADMIN_ID, 'begin https://nord-car.ru/catalog')
         res_1 = await nord_car(dct_up)
     except Exception as e:
         res_1 = []
-        await bot.send_message(ADMIN_ID, 'https://nord-car.ru/catalog')
+        await bot.send_message(CHANEL_ID, 'https://nord-car.ru/catalog error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
         await bot.send_message(ADMIN_ID, 'begin https://dc-dbr.ru/catalog')
         res_2 = await dc_dbr(dct_up)
     except Exception as e:
         res_2 = []
-        await bot.send_message(ADMIN_ID, 'https://dc-dbr.ru/catalog')
+        await bot.send_message(CHANEL_ID, 'https://dc-dbr.ru/catalog error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
         await bot.send_message(ADMIN_ID, 'begin https://autos-s.ru/auto')
         res_3 = await autos_s(dct_up, browser)
     except Exception as e:
         res_3 = []
-        await bot.send_message(ADMIN_ID, 'https://autos-s.ru/auto')
+        await bot.send_message(CHANEL_ID, 'https://autos-s.ru/auto error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
         await bot.send_message(ADMIN_ID, 'begin https://warshauto.ru/')
         res_4 = await warshauto(dct_up, browser)
     except Exception as e:
         res_4 = []
-        await bot.send_message(ADMIN_ID, 'https://warshauto.ru/')
+        await bot.send_message(CHANEL_ID, 'https://warshauto.ru/ error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
         await bot.send_message(ADMIN_ID, 'begin https://kosmos-cars.ru/')
         res_5 = await kosmos_cars(dct_up)
     except Exception as e:
         res_5 = []
-        await bot.send_message(ADMIN_ID, 'https://kosmos-cars.ru/')
+        await bot.send_message(CHANEL_ID, 'https://kosmos-cars.ru/ error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
         await bot.send_message(ADMIN_ID, 'begin https://idol-avto.ru/cars-new/?page=100')
         res_6 = await idol_avto(dct_up)
     except Exception as e:
         res_6 = []
-        await bot.send_message(ADMIN_ID, 'https://idol-avto.ru/cars-new/?page=100')
+        await bot.send_message(CHANEL_ID, 'https://idol-avto.ru/ error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
         await bot.send_message(ADMIN_ID, 'begin https://vita-auto.ru/')
         res_7 = await vita_avto(dct_up)
     except Exception as e:
         res_7 = []
-        await bot.send_message(ADMIN_ID, 'https://vita-auto.ru/')
+        await bot.send_message(CHANEL_ID, 'https://vita-auto.ru/ error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
         await bot.send_message(ADMIN_ID, 'begin https://alcon-auto.ru')
         res_8 = await alcon_avto(dct_up, browser)
     except Exception as e:
         res_8 = []
-        await bot.send_message(ADMIN_ID, 'https://alcon-auto.ru')
+        await bot.send_message(CHANEL_ID, 'https://alcon-auto.ru error')
         await bot.send_message(ADMIN_ID, str(e))
     res = res_1 + res_2 + res_3 + res_4 + res_5 + res_6 + res_7 + res_8
     res_1_name = [x[0] for x in res_1]

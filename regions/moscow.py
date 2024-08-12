@@ -115,7 +115,7 @@ async def warshauto(dct_up, browser):
     for brand in brands:
         link_1 = brand.find("a").get("href")
         browser.get(link_1)
-        time.sleep(3)
+        time.sleep(2)
         html = browser.page_source
         soup = bs4.BeautifulSoup(html, 'lxml')
         cards = soup.find_all(attrs={"class": "lineup"})
