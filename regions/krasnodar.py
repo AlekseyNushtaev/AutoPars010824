@@ -5,7 +5,7 @@ import fake_headers
 from selenium.webdriver.common.by import By
 
 from bot import bot
-from config import ADMIN_ID
+from config import ADMIN_ID, CHANEL_ID
 from pprint import pprint
 
 from selenium.webdriver.chrome.service import Service
@@ -29,7 +29,7 @@ async def krd_93_auto(dct_up):
         try:
             name = dct_up[name]
         except KeyError:
-            await bot.send_message(ADMIN_ID, f'{name} {link}')
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, dct["cost"], link])
     return res
 
@@ -63,7 +63,7 @@ async def car_kranodar(dct_up):
             try:
                 name = dct_up[name]
             except KeyError:
-                await bot.send_message(ADMIN_ID, f'{name} {link}')
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
             res.append([name, cost, link])
     return res
 
@@ -91,7 +91,7 @@ async def avangard_yug(dct_up, browser):
         try:
             name = dct_up[name]
         except KeyError:
-            await bot.send_message(ADMIN_ID, f'{name} {link}')
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, cost, link])
     return res
 
@@ -119,7 +119,7 @@ async def ac_pegas(dct_up, browser):
         try:
             name = dct_up[name]
         except KeyError:
-            await bot.send_message(ADMIN_ID, f'{name} {link}')
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, cost, link])
     return res
 
@@ -159,7 +159,7 @@ async def rostov_avto(dct_up, browser):
         try:
             name = dct_up[name]
         except KeyError:
-            await bot.send_message(ADMIN_ID, f'{name} {link}')
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, cost, link])
     return res
 
@@ -192,6 +192,6 @@ async def loft_autoug(dct_up):
             try:
                 name = dct_up[name]
             except KeyError:
-                await bot.send_message(ADMIN_ID, f'{name} {link}')
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
             res.append([name, cost, link])
     return res

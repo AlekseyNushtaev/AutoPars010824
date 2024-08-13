@@ -5,7 +5,7 @@ import fake_headers
 from selenium.webdriver.common.by import By
 
 from bot import bot
-from config import ADMIN_ID
+from config import ADMIN_ID, CHANEL_ID
 from pprint import pprint
 
 from selenium.webdriver.chrome.service import Service
@@ -34,7 +34,7 @@ async def nord_car(dct_up):
         try:
             name = dct_up[name]
         except KeyError:
-            await bot.send_message(ADMIN_ID, f'{name} {link}')
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, price, link])
     return res
 
@@ -72,7 +72,7 @@ async def dc_dbr(dct_up):
         try:
             name = dct_up[name]
         except KeyError:
-            await bot.send_message(ADMIN_ID, f'{name} {link}')
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, cost, link])
     return res
 
@@ -100,7 +100,7 @@ async def autos_s(dct_up, browser):
         try:
             name = dct_up[name]
         except KeyError:
-            await bot.send_message(ADMIN_ID, f'{name} {link}')
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, cost, link])
     return res
 
@@ -134,7 +134,7 @@ async def warshauto(dct_up, browser):
             try:
                 name = dct_up[name]
             except KeyError:
-                await bot.send_message(ADMIN_ID, f'{name} {link}')
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
             res.append([name, cost, link])
     return res
 
@@ -169,7 +169,7 @@ async def kosmos_cars(dct_up):
             try:
                 name = dct_up[name]
             except KeyError:
-                await bot.send_message(ADMIN_ID, f'{name} {link}')
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
             res.append([name, cost, link])
     return res
 
@@ -197,7 +197,7 @@ async def idol_avto(dct_up):
         try:
             name = dct_up[name]
         except KeyError:
-            await bot.send_message(ADMIN_ID, f'{name} {link}')
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, cost, link])
     return res
 
@@ -231,7 +231,7 @@ async def vita_avto(dct_up):
             try:
                 name = dct_up[name]
             except KeyError:
-                await bot.send_message(ADMIN_ID, f'{name} {link}')
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
             res.append([name, cost, link])
     return res
 
@@ -269,6 +269,6 @@ async def alcon_avto(dct_up, browser):
             try:
                 name = dct_up[name]
             except KeyError:
-                await bot.send_message(ADMIN_ID, f'{name} {link}')
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
             res.append([name, cost, link])
     return res

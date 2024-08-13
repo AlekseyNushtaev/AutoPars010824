@@ -4,7 +4,7 @@ import bs4
 import fake_headers
 
 from bot import bot
-from config import ADMIN_ID
+from config import ADMIN_ID, CHANEL_ID
 
 
 async def autosurgut186(dct_up):
@@ -23,7 +23,7 @@ async def autosurgut186(dct_up):
         try:
             name = dct_up[name]
         except KeyError:
-            await bot.send_message(ADMIN_ID, f'{name} {link}')
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, dct["cost"], link])
     return res
 
@@ -51,7 +51,7 @@ async def profsouz(dct_up, browser):
         try:
             name = dct_up[name]
         except KeyError:
-            await bot.send_message(ADMIN_ID, f'{name} {link}')
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, cost, link])
     return res
 
@@ -79,7 +79,7 @@ async def aspect(dct_up, browser):
         try:
             name = dct_up[name]
         except KeyError:
-            await bot.send_message(ADMIN_ID, f'{name} {link}')
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, cost, link])
     return res
 
@@ -100,6 +100,6 @@ async def sibir(dct_up):
         try:
             name = dct_up[name]
         except KeyError:
-            pass
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, dct["cost"], link])
     return res

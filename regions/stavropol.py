@@ -22,6 +22,6 @@ async def autoshop26(dct_up):
         try:
             name = dct_up[name]
         except KeyError:
-            await bot.send_message(ADMIN_ID, f'{name} {link}')
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, dct["cost"], link])
     return res
