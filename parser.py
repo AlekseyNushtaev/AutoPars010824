@@ -7,6 +7,7 @@ from regions.stavropol import autoshop26
 from regions.surgut import *
 from regions.krasnodar import *
 from regions.moscow import *
+from pprint import pprint
 
 
 async def parser_stavropol(dct_up):
@@ -133,7 +134,7 @@ async def parser_krasnodar(dct_up, browser):
     sheet.cell(row=1, column=17).value = 'loft-autoug.ru_price'
 
     for i in range(2, len(res_name) + 2):
-        sheet.cell(row=i, column=1).value = dct_id[res[i - 2][0].strip()]
+        sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
         sheet.cell(row=i, column=2).value = res_name[i-2].split(', ')[0]
         sheet.cell(row=i, column=3).value = res_name[i-2].split(', ')[1]
         dct = {}
@@ -248,7 +249,7 @@ async def parser_surgut(dct_up, browser):
     sheet.cell(row=1, column=13).value = 'sibir-morots.ru_price'
 
     for i in range(2, len(res_name) + 2):
-        sheet.cell(row=i, column=1).value = dct_id[res[i - 2][0].strip()]
+        sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
         sheet.cell(row=i, column=2).value = res_name[i-2].split(', ')[0]
         sheet.cell(row=i, column=3).value = res_name[i-2].split(', ')[1]
         dct = {}

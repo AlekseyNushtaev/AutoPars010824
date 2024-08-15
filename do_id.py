@@ -17,6 +17,6 @@ res = []
 for item in lst:
     name = item.split('|')[1].strip()
     res.append(item.strip() + ' | ' + str(dct[name]))
-with open('autolist.txt', 'w', encoding='utf-8') as f:
+with open('autolist_1.txt', 'w', encoding='utf-8') as f:
     for i in res:
         f.write(i + '\n')
