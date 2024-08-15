@@ -76,9 +76,12 @@ chery, tiggo7pro |Chery, Tiggo 7 Pro | 155
 chery, tiggo7promax |Chery, Tiggo 7 Pro Max | 156
 chery, newtiggo7promax |Chery, Tiggo 7 Pro Max New | 157
 chery, tiggo7promaxnew |Chery, Tiggo 7 Pro Max New | 157
+chery, tiggo7proplug-in-hybrid |Chery, Tiggo 7 Pro Plug-In-Hybrid | 679
 chery, tiggo8 |Chery, Tiggo 8 | 158
 chery, tiggo8pro |Chery, Tiggo 8 Pro | 159
 chery, tiggo8proe+ |Chery, Tiggo 8 Pro e+ | 160
+chery, tiggo8proe+hybrid |Chery, Tiggo 8 Pro e+ Hybrid | 677
+chery, tiggo8proplug-in-hybrid |Chery, Tiggo 8 Pro Plug-In-Hybrid | 678
 chery, tiggo8promax |Chery, Tiggo 8 Pro Max | 161
 chery, tiggo8promaxрестайлинг |Chery, Tiggo 8 Pro Max Restyling | 162
 chery, newtiggo8 |Chery, Tiggo 8 New | 163
@@ -190,6 +193,7 @@ geely, atlasnew |Geely, Atlas New | 251
 geely, atlaspro |Geely, Atlas Pro | 252
 geely, boyue |Geely, Boyue | 253
 geely, belgeex50 |Geely, Belgee X50 | 254
+geely, belgeex70 |Geely, Belgee X70 | 680
 geely, coolray |Geely, Coolray | 255
 geely, coolrayрестайлинг |Geely, Coolray Restyling | 256
 geely, coolraynew |Geely, Coolray New | 257
@@ -295,7 +299,9 @@ jac, s3 |JAC, S3 | 341
 jac, s5 |JAC, S5 | 342
 jac, s7 |JAC, S7 | 343
 jac, t6 |JAC, T6 | 344
+jac, t8 |JAC, T8 | 681
 jac, t8pro |JAC, T8 Pro | 345
+jac, t9 |JAC, T9 | 682
 jac, t9new |JAC, T9 New | 346
 jaecoo, j7 |JAECOO, J7 | 347
 jaecoo, j8 |JAECOO, J8 | 348
