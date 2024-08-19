@@ -1,3 +1,4 @@
+import datetime
 import time
 import requests
 import bs4
@@ -206,12 +207,13 @@ async def vita_avto(dct_up):
     headers = fake_headers.Headers(browser='firefox', os='win')
     link = 'https://vita-auto.ru/'
     response = requests.get(link, headers.generate())
+    print(response.status_code)
     html = response.text
     soup = bs4.BeautifulSoup(html, 'lxml')
     brands = soup.find_all(attrs={"class": "catalogTop_item"})
     res = []
     for brand_ in brands:
-        time.sleep(0.5)
+        time.sleep(1)
         brand = brand_.find(attrs={"class": "nameCar"}).text.strip().lower()
         link_1 = 'https://vita-auto.ru' + brand_.find("a").get("href")
         response = requests.get(link_1, headers.generate())
@@ -271,4 +273,57 @@ async def alcon_avto(dct_up, browser):
             except KeyError:
                 await bot.send_message(CHANEL_ID, f'{name} {link}')
             res.append([name, cost, link])
+    return res
+
+
+async def autodealer_moscow(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://autodealer-moscow.ru/auto/'
+    response = requests.get(link, headers.generate())
+    html = response.text
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "catalog--brands-list--brand--model-card--content"})
+    res = []
+    for card in cards:
+        link = 'https://autodealer-moscow.ru' + card.find(attrs={"class": "brand-model"}).get("href")
+        title = card.find(attrs={"brand-model"}).text.lower().strip()
+        brand = title.split()[0]
+        model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i")
+        name = brand.lower() + ', ' + model.lower()
+        price_ = card.find(attrs={"class": "price-new mt-2 rub"}).text
+        price = ''
+        for i in price_:
+            if i.isdigit():
+                price += i
+        try:
+            name = dct_up[name]
+        except KeyError:
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
+        res.append([name, price, link])
+    return res
+
+
+async def az_cars(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://az-cars.ru/'
+    response = requests.get(link, headers.generate())
+    html = response.text
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "car_block_front"})
+    res = []
+    for card in cards:
+        link = card.find("a").get("href")
+        model = card.find(attrs={"car_title_front"}).text.lower().strip().replace(" ", "")
+        brand = 'Hyundai'
+        name = brand.lower() + ', ' + model.lower()
+        price_ = card.find(attrs={"class": "item new_price"}).text
+        price = ''
+        for i in price_:
+            if i.isdigit():
+                price += i
+        try:
+            name = dct_up[name]
+        except KeyError:
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
+        res.append([name, price, link])
     return res

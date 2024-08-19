@@ -1,5 +1,6 @@
 import asyncio
 from datetime import datetime
+import os
 
 
 from aiogram import Router, types
@@ -18,6 +19,7 @@ router =Router()
 async def pars():
     try:
         dct = {}
+        os.replace('id.xlsx', '/var/www/html/storage/id.xlsx')
         with open('autolist.txt', 'r', encoding='utf-8') as f:
             lst = f.readlines()
             for item in lst:

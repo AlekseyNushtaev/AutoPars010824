@@ -245,6 +245,7 @@ haval, h5 |Haval, H5 | 297
 haval, h6 |Haval, H6 | 298
 haval, h6new |Haval, H6 New | 299
 haval, h9 |Haval, H9 | 300
+haval, h9new |Haval, H9 New | 684
 haval, jolion |Haval, Jolion | 301
 haval, jolionрестайлинг |Haval, Jolion Restyling | 302
 haval, jolionnew |Haval, Jolion New | 303
@@ -293,6 +294,7 @@ hyundai, новыйtucson |Hyundai, Tucson New | 335
 jac, iev7s |JAC, iEV7S | 336
 jac, j7 |JAC, J7 | 337
 jac, js3 |JAC, JS3 | 338
+jac, js3new |JAC, JS3 New | 683
 jac, js4 |JAC, JS4 | 339
 jac, js6 |JAC, JS6 | 340
 jac, s3 |JAC, S3 | 341
@@ -422,7 +424,7 @@ lada, nivalegend3д. |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3дв. |Lada, Niva Legend 3 двери | 423
 lada, nivalegend5д. |Lada, Niva Legend 5 дверей | 424
 lada, nivalegend5dv |Lada, Niva Legend 5 дверей | 424
-lada, nivalegend5дв. |Lada, Niva Legend 3 двери | 423
+lada, nivalegend5дв. |Lada, Niva Legend 5 дверей | 424
 lada, nivalegendurban3д. |Lada, Niva Legend Urban 3 двери | 425
 lada, nivalegendurban5д. |Lada, Niva Legend Urban 5 дверей | 426
 lada, 4x4urban3дв. |Lada, Niva Urban 3 двери | 427

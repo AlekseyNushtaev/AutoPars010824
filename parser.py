@@ -3,7 +3,7 @@ import csv
 import openpyxl
 from bot import bot
 from config import ADMIN_ID, CHANEL_ID
-from regions.stavropol import autoshop26
+from regions.stavropol import *
 from regions.surgut import *
 from regions.krasnodar import *
 from regions.moscow import *
@@ -12,12 +12,34 @@ from pprint import pprint
 
 async def parser_stavropol(dct_up):
     try:
-        res = await autoshop26(dct_up)
+        res_1 = await autoshop26(dct_up)
     except Exception as e:
-        res = []
+        res_1 = []
         await bot.send_message(CHANEL_ID, 'https://autoshop26.ru/auto/ error')
         await bot.send_message(ADMIN_ID, str(e))
-    res.sort(key=lambda x: x[0])
+    try:
+        res_2 = await autocenter_stav(dct_up)
+    except Exception as e:
+        res_2 = []
+        await bot.send_message(CHANEL_ID, 'https://autocenter-stav.ru/auto/ error')
+        await bot.send_message(ADMIN_ID, str(e))
+    res = res_1 + res_2
+    red = []
+    print(len(res_2))
+    for item in res_2:
+        if item[0] in red:
+            print(item)
+        else:
+            red.append(item[0])
+    res_1_name = [x[0] for x in res_1]
+    res_2_name = [x[0] for x in res_2]
+    res_name = []
+    for item in res:
+        if item[0] not in res_name:
+            res_name.append(item[0])
+    res_name.sort()
+    print(len(res_name))
+    pprint(res_name)
     wb = openpyxl.Workbook()
     sheet = wb['Sheet']
     dct_id = {}
@@ -35,15 +57,31 @@ async def parser_stavropol(dct_up):
     sheet.cell(row=1, column=5).value = 'min_price_url'
     sheet.cell(row=1, column=6).value = 'autoshop26.ru'
     sheet.cell(row=1, column=7).value = 'autoshop26.ru_price'
+    sheet.cell(row=1, column=8).value = 'autocenter-stav.ru'
+    sheet.cell(row=1, column=9).value = 'autocenter-stav.ru_price'
     for i in range(2, len(res) + 2):
-        sheet.cell(row=i, column=1).value = dct_id[res[i - 2][0].strip()]
-        sheet.cell(row=i, column=2).value = res[i - 2][0].split(', ')[0]
-        sheet.cell(row=i, column=2).value = res[i-2][0].split(', ')[0]
-        sheet.cell(row=i, column=3).value = res[i-2][0].split(', ')[1]
-        sheet.cell(row=i, column=4).value = res[i-2][1]
-        sheet.cell(row=i, column=5).value = res[i-2][2]
-        sheet.cell(row=i, column=6).value = res[i-2][1]
-        sheet.cell(row=i, column=7).value = res[i-2][2]
+        try:
+            sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
+        except Exception:
+            sheet.cell(row=i, column=1).value = 'Новая машина, необходимо назначить id'
+        sheet.cell(row=i, column=2).value = res_name[i - 2].split(', ')[0]
+        sheet.cell(row=i, column=3).value = res_name[i - 2].split(', ')[1]
+        dct = {}
+        lst = []
+        if res_name[i - 2] in res_1_name:
+            index = res_1_name.index(res_name[i - 2])
+            sheet.cell(row=i, column=6).value = res_1[index][1]
+            sheet.cell(row=i, column=7).value = res_1[index][2]
+            dct[str(res_1[index][1])] = res_1[index][2]
+            lst.append(int(res_1[index][1]))
+        if res_name[i - 2] in res_2_name:
+            index = res_2_name.index(res_name[i - 2])
+            sheet.cell(row=i, column=8).value = res_2[index][1]
+            sheet.cell(row=i, column=9).value = res_2[index][2]
+            dct[str(res_2[index][1])] = res_2[index][2]
+            lst.append(int(res_2[index][1]))
+        sheet.cell(row=i, column=4).value = min(lst)
+        sheet.cell(row=i, column=5).value = dct[str(min(lst))]
     wb.save('xlsx/stavropol.xlsx')
     data = []
     for i in range(1, len(res) + 1):
@@ -134,7 +172,10 @@ async def parser_krasnodar(dct_up, browser):
     sheet.cell(row=1, column=17).value = 'loft-autoug.ru_price'
 
     for i in range(2, len(res_name) + 2):
-        sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
+        try:
+            sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
+        except Exception:
+            sheet.cell(row=i, column=1).value = 'Новая машина, необходимо назначить id'
         sheet.cell(row=i, column=2).value = res_name[i-2].split(', ')[0]
         sheet.cell(row=i, column=3).value = res_name[i-2].split(', ')[1]
         dct = {}
@@ -249,7 +290,10 @@ async def parser_surgut(dct_up, browser):
     sheet.cell(row=1, column=13).value = 'sibir-morots.ru_price'
 
     for i in range(2, len(res_name) + 2):
-        sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
+        try:
+            sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
+        except Exception:
+            sheet.cell(row=i, column=1).value = 'Новая машина, необходимо назначить id'
         sheet.cell(row=i, column=2).value = res_name[i-2].split(', ')[0]
         sheet.cell(row=i, column=3).value = res_name[i-2].split(', ')[1]
         dct = {}
@@ -349,7 +393,21 @@ async def parser_moscow(dct_up, browser):
         res_8 = []
         await bot.send_message(CHANEL_ID, 'https://alcon-auto.ru error')
         await bot.send_message(ADMIN_ID, str(e))
-    res = res_1 + res_2 + res_3 + res_4 + res_5 + res_6 + res_7 + res_8
+    try:
+        await bot.send_message(ADMIN_ID, 'begin https://autodealer-moscow.ru')
+        res_9 = await autodealer_moscow(dct_up)
+    except Exception as e:
+        res_9 = []
+        await bot.send_message(CHANEL_ID, 'https://autodealer-moscow.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        await bot.send_message(ADMIN_ID, 'begin https://az-cars.ru')
+        res_10 = await az_cars(dct_up)
+    except Exception as e:
+        res_10 = []
+        await bot.send_message(CHANEL_ID, 'https://az-cars.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    res = res_1 + res_2 + res_3 + res_4 + res_5 + res_6 + res_7 + res_8 + res_9 + res_10
     res_1_name = [x[0] for x in res_1]
     res_2_name = [x[0] for x in res_2]
     res_3_name = [x[0] for x in res_3]
@@ -358,6 +416,8 @@ async def parser_moscow(dct_up, browser):
     res_6_name = [x[0] for x in res_6]
     res_7_name = [x[0] for x in res_7]
     res_8_name = [x[0] for x in res_8]
+    res_9_name = [x[0] for x in res_9]
+    res_10_name = [x[0] for x in res_10]
     res_name = []
     for item in res:
         if item[0] not in res_name:
@@ -394,9 +454,15 @@ async def parser_moscow(dct_up, browser):
     sheet.cell(row=1, column=19).value = 'vita-auto.ru_price'
     sheet.cell(row=1, column=20).value = 'alcon-auto.ru'
     sheet.cell(row=1, column=21).value = 'alcon-auto.ru_price'
-
+    sheet.cell(row=1, column=22).value = 'autodealer-moscow.ru'
+    sheet.cell(row=1, column=23).value = 'autodealer-moscow.ru_price'
+    sheet.cell(row=1, column=24).value = 'az-cars.ru'
+    sheet.cell(row=1, column=25).value = 'az-cars.ru_price'
     for i in range(2, len(res_name) + 2):
-        sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
+        try:
+            sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
+        except Exception:
+            sheet.cell(row=i, column=1).value = 'Новая машина, необходимо назначить id'
         sheet.cell(row=i, column=2).value = res_name[i-2].split(', ')[0]
         sheet.cell(row=i, column=3).value = res_name[i-2].split(', ')[1]
         dct = {}
@@ -449,6 +515,18 @@ async def parser_moscow(dct_up, browser):
             sheet.cell(row=i, column=21).value = res_8[index][2]
             dct[str(res_8[index][1])] = res_8[index][2]
             lst.append(int(res_8[index][1]))
+        if res_name[i-2] in res_9_name:
+            index = res_9_name.index(res_name[i - 2])
+            sheet.cell(row=i, column=22).value = res_9[index][1]
+            sheet.cell(row=i, column=23).value = res_9[index][2]
+            dct[str(res_9[index][1])] = res_9[index][2]
+            lst.append(int(res_9[index][1]))
+        if res_name[i-2] in res_10_name:
+            index = res_10_name.index(res_name[i - 2])
+            sheet.cell(row=i, column=24).value = res_10[index][1]
+            sheet.cell(row=i, column=25).value = res_10[index][2]
+            dct[str(res_10[index][1])] = res_10[index][2]
+            lst.append(int(res_10[index][1]))
         sheet.cell(row=i, column=4).value = min(lst)
         sheet.cell(row=i, column=5).value = dct[str(min(lst))]
     wb.save('xlsx/moscow.xlsx')
