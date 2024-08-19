@@ -207,7 +207,6 @@ async def vita_avto(dct_up):
     headers = fake_headers.Headers(browser='firefox', os='win')
     link = 'https://vita-auto.ru/'
     response = requests.get(link, headers.generate())
-    print(response.status_code)
     html = response.text
     soup = bs4.BeautifulSoup(html, 'lxml')
     brands = soup.find_all(attrs={"class": "catalogTop_item"})

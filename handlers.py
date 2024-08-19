@@ -1,6 +1,6 @@
 import asyncio
 from datetime import datetime
-import os
+import shutil
 
 
 from aiogram import Router, types
@@ -19,7 +19,7 @@ router =Router()
 async def pars():
     try:
         dct = {}
-        os.replace('id.xlsx', '/var/www/html/storage/id.xlsx')
+        shutil.copy('id.xlsx', '/var/www/html/storage/id.xlsx')
         with open('autolist.txt', 'r', encoding='utf-8') as f:
             lst = f.readlines()
             for item in lst:
@@ -34,16 +34,16 @@ async def pars():
         browser = Chrome(service=browser_service, options=options)
         await parser_stavropol(dct)
         await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/stavropol.xlsx"))
-        os.replace('csv/stavropol.csv', '/var/www/html/storage/stavropol.csv')
+        shutil.copy('csv/stavropol.csv', '/var/www/html/storage/stavropol.csv')
         await parser_surgut(dct, browser)
         await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/surgut.xlsx"))
-        os.replace('csv/surgut.csv', '/var/www/html/storage/surgut.csv')
+        shutil.copy('csv/surgut.csv', '/var/www/html/storage/surgut.csv')
         await parser_krasnodar(dct, browser)
         await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/krasnodar.xlsx"))
-        os.replace('csv/krasnodar.csv', '/var/www/html/storage/krasnodar.csv')
+        shutil.copy('csv/krasnodar.csv', '/var/www/html/storage/krasnodar.csv')
         await parser_moscow(dct, browser)
         await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/moscow.xlsx"))
-        os.replace('csv/moscow.csv', '/var/www/html/storage/moscow.csv')
+        shutil.copy('csv/moscow.csv', '/var/www/html/storage/moscow.csv')
         browser.quit()
     except Exception as e:
         await bot.send_message(ADMIN_ID, str(e))
