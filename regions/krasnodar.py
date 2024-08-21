@@ -44,6 +44,7 @@ async def car_kranodar(dct_up):
     res = []
     for br in brands:
         link_1 = 'https://car-krasnodar.ru' + br.find("a").get("href")
+        time.sleep(0.2)
         response = requests.get(link_1, headers.generate())
         html = response.text
         soup = bs4.BeautifulSoup(html, 'lxml')

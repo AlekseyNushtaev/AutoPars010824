@@ -1,3 +1,7 @@
+haval, jolion1 |Haval, Jolion New | 303
+geely, atlas1 |Geely, Atlas New | 251
+geely, coolray1 |Geely, Coolray New | 257
+chery, tiggo8promax1 |Chery, Tiggo 8 Pro Max New | 164
 aito, m5 | Aito, M5 | 100
 aito, m7 | Aito, M7 | 101
 baic, bj40 |BAIC, BJ40 | 102
@@ -8,7 +12,9 @@ baic, x7 |BAIC, X7 | 106
 baic, x75 |BAIC, X75 | 107
 baic, u5plus |BAIC, U5 Plus | 108
 belgee, x50 |Belgee, X50 | 109
+belgee, х50(sx11) |Belgee, X50 | 109
 belgee, x70 |Belgee, X70 | 110
+belgee, х70 |Belgee, X70 | 110
 brilliance, v3 |Brilliance, V3 | 111
 brilliance, v5 |Brilliance, V5 | 112
 brilliance, v51.5t |Brilliance, V5 | 112
@@ -20,9 +26,11 @@ changan, cs35 |Changan, CS35 | 116
 сhangan, cs75fl |Changan, CS75FL | 118
 сhangan, alsvin |Changan, Alsvin | 119
 сhangan, uni-k |Changan, UNI-K | 120
+changan, unik |Changan, UNI-K | 120
 сhangan, cs55plus |Changan, CS55 Plus | 121
 сhangan, cs35plusnew |Changan, CS35 Plus New | 122
 сhangan, uni-v |Changan, UNI-V | 123
+changan, univ |Changan, UNI-V | 123
 сhangan, cs85coupe |Changan, CS85 Coupe | 124
 сhangan, cs95 |Changan, CS95 | 125
 сhangan, uni-t |Changan, UNI-T | 126
@@ -33,6 +41,7 @@ changan, uni-s |Changan, UNI-S | 127
 changan, alsvin |Changan, Alsvin | 119
 changan, cs35plus |Changan, CS35 Plus | 115
 changan, cs35plusnew |Changan, CS35 Plus New | 122
+changan, новыйcs35plus |Changan, CS35 Plus New | 122
 changan, cs35plusрестайлинг |Changan, CS35 Plus Restyling | 131
 changan, cs55 |Changan, CS55 | 117
 changan, cs55plus |Changan, CS55 Plus | 121
@@ -61,6 +70,7 @@ changan, uni-k |Changan, UNI-K | 120
 changan, uni-t |Changan, UNI-T | 126
 changan, uni-v |Changan, UNI-V | 123
 chery, arrizo8 |Chery, Arrizo 8 | 143
+chery, arrizo8седан |Chery, Arrizo 8 | 143
 chery, explore06 |Chery, Explore 06 | 144
 chery, explore06new |Chery, Explore 06 New | 145
 chery, tiggo2 |Chery, Tiggo 2 | 146
@@ -69,20 +79,27 @@ chery, tiggo3xnew |Chery, Tiggo 3x New | 148
 chery, tiggo4 |Chery, Tiggo 4 | 149
 chery, tiggo4new |Chery, Tiggo 4 New | 150
 chery, tiggo4pro |Chery, Tiggo 4 Pro | 151
+chery, tiggo4proкроссовер |Chery, Tiggo 4 Pro | 151
 chery, tiggo4pronew |Chery, Tiggo 4 Pro New | 152
 chery, tiggo5 |Chery, Tiggo 5 | 153
 chery, tiggo7 |Chery, Tiggo 7 | 154
 chery, tiggo7pro |Chery, Tiggo 7 Pro | 155
 chery, tiggo7promax |Chery, Tiggo 7 Pro Max | 156
+chery, tiggo7promaxкроссовер |Chery, Tiggo 7 Pro Max | 156
+chery, tiggo7promaxiкроссовер |Chery, Tiggo 7 Pro Max | 156
+chery, tiggo7promaxiрестайлингкроссовер |Chery, Tiggo 7 Pro Max New | 157
 chery, newtiggo7promax |Chery, Tiggo 7 Pro Max New | 157
 chery, tiggo7promaxnew |Chery, Tiggo 7 Pro Max New | 157
 chery, tiggo7proplug-in-hybrid |Chery, Tiggo 7 Pro Plug-In-Hybrid | 679
+chery, tiggo7proplug-inhybridвнедорожник5дв. |Chery, Tiggo 7 Pro Plug-In-Hybrid | 679
 chery, tiggo8 |Chery, Tiggo 8 | 158
 chery, tiggo8pro |Chery, Tiggo 8 Pro | 159
 chery, tiggo8proe+ |Chery, Tiggo 8 Pro e+ | 160
 chery, tiggo8proe+hybrid |Chery, Tiggo 8 Pro e+ Hybrid | 677
 chery, tiggo8proplug-in-hybrid |Chery, Tiggo 8 Pro Plug-In-Hybrid | 678
+chery, tiggo8proplug-inhybridкроссовер |Chery, Tiggo 8 Pro Plug-In-Hybrid | 678
 chery, tiggo8promax |Chery, Tiggo 8 Pro Max | 161
+chery, tiggo8promaxкроссовер |Chery, Tiggo 8 Pro Max | 161
 chery, tiggo8promaxрестайлинг |Chery, Tiggo 8 Pro Max Restyling | 162
 chery, newtiggo8 |Chery, Tiggo 8 New | 163
 chery, tiggo8new |Chery, Tiggo 8 New | 163
@@ -109,7 +126,9 @@ citroen, jumpy |Citroen, Jumpy | 180
 citroёn, spacetourer |Citroen, Spacetourer | 181
 citroen, spacetourer |Citroen, Spacetourer | 181
 datsun, mi-do |Datsun, MI-DO | 182
+datsun, mido |Datsun, MI-DO | 182
 datsun, on-do |Datsun, ON-DO | 183
+datsun, ondo |Datsun, ON-DO | 183
 dfm, 580 |DFM, 580 | 184
 dfm, ax7 |DFM, AX7 | 185
 dongfeng, 580new |Dongfeng, 580 New | 186
@@ -118,7 +137,9 @@ dongfeng, dfskix5 |Dongfeng, DFSK IX5 | 188
 dongfeng, dfskix7 |Dongfeng, DFSK IX7 | 189
 dongfeng, shinemax |Dongfeng, Shine Max | 190
 dongfeng, ax7 | Dongfeng, AX7 | 191
+dong, fengdfmax7 |Dongfeng, DFM AX7 | 692
 dongfeng, 580 | Dongfeng, 580 | 192
+dong, feng580 | Dongfeng, 580 | 192
 dongfeng, sk580 | Dongfeng, SK 580 | 193
 dwhower, h3 |DWHover, H3 | 194
 dwhower, h5 |DWHover, H5 | 195
@@ -128,6 +149,7 @@ evolute, i-joy |Evolute, i-JOY | 198
 evolute, i-pro |Evolute, i-PRO | 199
 evolute, i-sky |Evolute, i-SKY | 200
 cheryexeed, txl |EXEED, TXL | 201
+chery, exeedtxl |EXEED, TXL | 201
 cheryexeed, txlnew |EXEED, TXL New | 202
 cheryexeed, lx |EXEED, LX | 203
 cheryexeed, rx |EXEED, RX | 204
@@ -148,7 +170,9 @@ exeed, vxрестайлинг |EXEED, VX Restyling | 211
 exeed, vxle |EXEED, VX LE | 212
 exeed, vxnew |EXEED, VX New | 206
 faw, bestuneb70 |FAW, Bestune B70 | 213
+faw, bestuneb70лифтбек |FAW, Bestune B70 | 213
 faw, bestunet55 |FAW, Bestune T55 | 214
+faw, bestunet55кроссовер |FAW, Bestune T55 | 214
 faw, bestunet77 |FAW, Bestune T77 | 215
 faw, bestunet99 |FAW, Bestune T99 | 216
 faw, bestuneт99 |FAW, Bestune T99 | 216
@@ -189,7 +213,9 @@ gac, gs8new |Gac, GS8 New | 248
 gac, gs8ii |Gac, GS8 II | 247
 gac, m8 |Gac, M8 | 249
 geely, atlas |Geely, Atlas | 250
+geely, atlas(fx11) |Geely, Atlas | 250
 geely, atlasnew |Geely, Atlas New | 251
+geely, новыйatlas |Geely, Atlas New | 251
 geely, atlaspro |Geely, Atlas Pro | 252
 geely, boyue |Geely, Boyue | 253
 geely, belgeex50 |Geely, Belgee X50 | 254
@@ -197,6 +223,8 @@ geely, belgeex70 |Geely, Belgee X70 | 680
 geely, coolray |Geely, Coolray | 255
 geely, coolrayрестайлинг |Geely, Coolray Restyling | 256
 geely, coolraynew |Geely, Coolray New | 257
+geely, новыйсoolray |Geely, Coolray New | 257
+geely, новыйcoolray |Geely, Coolray New | 257
 geely, emgrandnew |Geely, Emgrand New | 258
 geely, emgrandx7 |Geely, Emgrand X7 | 259
 geely, emgrandx7new |Geely, Emgrand X7 | 259
@@ -211,12 +239,14 @@ geely, okavango |Geely, Okavango | 267
 geely, okavangonew |Geely, Okavango New | 268
 geely, preface |Geely, Preface | 269
 geely, tugella |Geely, Tugella | 270
+geely, tugellaj1-fl |Geely, Tugella | 270
 geely, tugellaрестайлинг |Geely, Tugella Restyling | 271
 geely, tugellanew |Geely, Tugella New | 272
 great, wallpoer |Great Wall, POER | 273
 great wall, wingle5 |Great Wall, Wingle 5 | 274
 greatwall, wingle7 |Great Wall, Wingle 7 | 275
 great, wallwingle7 |Great Wall, Wingle 7 | 275
+great, wallgwmwingle7 |Great Wall, GWM Wingle 7 | 691
 great, wallgwmpoerkingkong |Great Wall, GWM POER King Kong | 276
 greatwall, poerkingkong |Great Wall, POER King Kong | 277
 great, wallpoerkingkong |Great Wall, POER King Kong | 277
@@ -249,13 +279,17 @@ haval, h9new |Haval, H9 New | 684
 haval, jolion |Haval, Jolion | 301
 haval, jolionрестайлинг |Haval, Jolion Restyling | 302
 haval, jolionnew |Haval, Jolion New | 303
+haval, новыйjolion |Haval, Jolion New | 303
 haval, newjolion |Haval, Jolion New | 303
 haval, f7 |Haval, F7 | 304
 haval, f7x |Haval, F7x | 305
 haval, newh5 |Haval, H5 New | 306
 haval, m6 |Haval, M6 | 307
+haval, новыйm6 |Haval, M6 New| 689
 haval, newf7 |Haval, F7 New | 288
+haval, новыйf7 |Haval, F7 New | 288
 haval, newf7x |Haval, F7x New | 290
+haval, новыйf7x |Haval, F7x New | 290
 hawtai, boliger |Hawtai, Boliger | 308
 hawtai, laville |Hawtai, Laville | 309
 honda, cr-vnew | Honda, CR-V New | 310
@@ -270,6 +304,7 @@ hyundai, i30n |Hyundai, i30 N | 318
 hyundai, elantra |Hyundai, Elantra | 319
 hyundai, elantranew |Hyundai, Elantra New | 320
 hyundai, newsolaris |Hyundai, Solaris New | 321
+hyundai, новыйsolaris |Hyundai, Solaris New | 321
 hyundai, solarisnew |Hyundai, Solaris New | 321
 hyundai, newsonata |Hyundai, Sonata New | 322
 hyundai, palisade |Hyundai, Palisade | 323
@@ -293,10 +328,13 @@ hyundai, новаяelantra |Hyundai, Elantra New | 320
 hyundai, новыйtucson |Hyundai, Tucson New | 335
 jac, iev7s |JAC, iEV7S | 336
 jac, j7 |JAC, J7 | 337
+jac, j7хэтчбек |JAC, J7 | 337
 jac, js3 |JAC, JS3 | 338
+jac, js3кроссовер |JAC, JS3 | 338
 jac, js3new |JAC, JS3 New | 683
 jac, js4 |JAC, JS4 | 339
 jac, js6 |JAC, JS6 | 340
+jac, js6кроссовер |JAC, JS6 | 340
 jac, s3 |JAC, S3 | 341
 jac, s5 |JAC, S5 | 342
 jac, s7 |JAC, S7 | 343
@@ -306,7 +344,9 @@ jac, t8pro |JAC, T8 Pro | 345
 jac, t9 |JAC, T9 | 682
 jac, t9new |JAC, T9 New | 346
 jaecoo, j7 |JAECOO, J7 | 347
+jaecoo, j7кроссовер |JAECOO, J7 | 347
 jaecoo, j8 |JAECOO, J8 | 348
+jaecoo, j8кроссовер |JAECOO, J8 | 348
 jetour, dashing |Jetour, Dashing | 349
 jetour, t2new |Jetour, T2 New | 350
 jetour, t2 |Jetour, T2 | 351
@@ -339,6 +379,7 @@ kia, rionew |KIA, Rio New | 377
 kia, riox |KIA, Rio X | 378
 kia, rioxnew |KIA, Rio X New | 379
 kia, riox-line |KIA, Rio X-Line | 380
+kia, rioxline |KIA, Rio X-Line | 380
 kia, seltos |KIA, Seltos | 381
 kia, seltosrest |KIA, Seltos Rest | 382
 kia, seltosnew |KIA, Seltos New | 383
@@ -354,6 +395,7 @@ kia, soulnew |KIA, Soul | 390
 kia, sportage |KIA, Sportage | 391
 kia, sportage5 |KIA, Sportage 5 | 392
 kia, stringerрестайлинг |KIA, Stinger Restyling | 393
+kia, stingerрестайлинг |KIA, Stinger Restyling | 393
 kia, stingernew |KIA, Stinger New | 394
 kia, xceed |KIA, XCeed | 395
 kia, xceednew |KIA, XCeed New | 396
@@ -367,8 +409,6 @@ kia, sorento |KIA, Sorento | 397
 kia, stinger |KIA, Stinger | 398
 kia, mohave |KIA, Mohave | 399
 kia, mohavenew |KIA, Mohave New | 400
-lada, 4x4bronto |Lada, 4x4 Bronto | 401
-lada, bronto |Lada, 4x4 Bronto | 401
 lada, grantacross |Lada, Granta Cross | 402
 lada, grantadriveactive |Lada, Granta Drive Active | 403
 lada, grantahatchback |Lada, Granta Hatchback | 404
@@ -390,10 +430,20 @@ lada, grantanewседан |Lada, Granta Sedan New | 413
 lada, grantaседанnew |Lada, Granta Sedan New | 413
 lada, grantasedannew |Lada, Granta Sedan New | 413
 lada, grantaуниверсал |Lada, Granta Universal | 414
+lada, grantauniversal |Lada, Granta Universal | 414
 lada, grantaхэтчбек |Lada, Granta Hatchback | 404
+lada, grantaхэтчбэк |Lada, Granta Hatchback | 404
 lada, новаяgrantacедан |Lada, Granta Sedan New | 413
 lada, новаяgrantaлифтбек |Lada, Granta Liftback New | 415
 lada, grantaлифтбекnew |Lada, Granta Liftback New | 415
+lada, (ваз)grantaiрестайлинглифтбек |Lada, Granta Liftback New | 415
+lada, (ваз)grantaiрестайлингседан |Lada, Granta Sedan New | 413
+lada, (ваз)largusiрестайлингуниверсал |Lada, Largus New | 449
+lada, (ваз)nivalegendкроссовер |Lada, Niva Legend 3 двери | 423
+lada, (ваз)nivaвнедорожник |Lada, Niva | 422
+lada, (ваз)vestaiрестайлинг(ng)седан |Lada, Vesta Sedan New NG| 693
+lada, (ваз)vestaiрестайлингседан |Lada, Vesta Sedan New | 439
+lada, (ваз)vestaiрестайлингуниверсал |Lada, Vesta SW New | 444
 lada, grantaliftbacknew |Lada, Granta Liftback New | 415
 lada, grantanewлифтбэк |Lada, Granta Liftback New | 415
 lada, новаяgrantaуниверcал |Lada, Granta Universal New | 416
@@ -408,12 +458,34 @@ lada, grantauniversalnew |Lada, Granta Universal New | 416
 lada, grantacrosscross |Lada, Granta Cross | 402
 lada, grantadriveactivedriveactive |Lada, Granta Drive Active | 403
 lada, largus |Lada, Largus | 418
+lada, largusуниверсалcng |Lada, Largus CNG| 686
 lada, larguscross |Lada, Largus Cross | 419
+lada, larguscrosscng |Lada, Largus Cross CNG| 687
 lada, largusуниверсал |Lada, Largus | 418
 lada, largusфургон |Lada, Largus Фургон | 420
+lada, largusfurgon |Lada, Largus Фургон | 420
+lada, largusфургонcng |Lada, Largus Фургон CNG| 688
 lada, larguscross5мест |Lada, Largus Cross | 419
 lada, larguscross7мест |Lada, Largus Cross 7 мест | 421
+lada, largusnew5мест |Lada, Largus New | 449
+lada, largusnew |Lada, Largus New | 449
+lada, новыйlargusуниверсал |Lada, Largus New | 449
+lada, новыйlargus7мест |Lada, Largus New 7 мест | 450
+lada, новыйlargus5мест |Lada, Largus New | 449
+lada, largusnew7мест |Lada, Largus New 7 мест | 450
+lada, larguscrossnew5мест |Lada, Largus Cross New | 451
+lada, larguscrossnew |Lada, Largus Cross New | 451
+lada, larguscrossnew7мест |Lada, Largus Cross New 7 мест | 452
+lada, largusуниверсал5мест |Lada, Largus | 418
+lada, largusуниверсал7мест |Lada, Largus 7 мест | 453
+lada, новыйlargus |Lada, Largus New | 449
+lada, largusуниверсалnew |Lada, Largus New | 449
+lada, новыйlarguscross |Lada, Largus Cross New | 451
+lada, новыйlargusфургон |Lada, Largus Фургон New | 454
+lada, largusfurgonnew |Lada, Largus Фургон New | 454
+lada, вис234900 |Lada, ВИС | 700
 lada, niva |Lada, Niva | 422
+lada, 21230 |Lada, Niva | 422
 lada, nivalegend |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3d |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3dv |Lada, Niva Legend 3 двери | 423
@@ -422,23 +494,33 @@ lada, nivalegend5дверная |Lada, Niva Legend 5 дверей | 424
 lada, nivalegend5d |Lada, Niva Legend 5 дверей | 424
 lada, nivalegend3д. |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3дв. |Lada, Niva Legend 3 двери | 423
+lada, nivalegend3двери |Lada, Niva Legend 3 двери | 423
 lada, nivalegend5д. |Lada, Niva Legend 5 дверей | 424
 lada, nivalegend5dv |Lada, Niva Legend 5 дверей | 424
 lada, nivalegend5дв. |Lada, Niva Legend 5 дверей | 424
+lada, nivalegend5дверей |Lada, Niva Legend 5 дверей | 424
 lada, nivalegendurban3д. |Lada, Niva Legend Urban 3 двери | 425
 lada, nivalegendurban5д. |Lada, Niva Legend Urban 5 дверей | 426
 lada, 4x4urban3дв. |Lada, Niva Urban 3 двери | 427
 lada, urban3dvnew |Lada, Niva Urban New 3 двери | 428
 lada, urban5dvnew |Lada, Niva Urban New 5 дверей | 429
 lada, 4x4urban5дв. |Lada, Niva Urban 5 дверей | 430
-lada, 4x43дв. |Lada, Niva | 422
-lada, 4x45дв. |Lada, Niva 5 дверей | 431
+lada, 4x43дв. |Lada, 4x4 3 двери | 701
+lada, 2121(4x4) |Lada, 4x4 3 двери | 701
+lada, 4x45дв. |Lada, 4x4 5 дверей | 431
 lada, nivalegendbronto |Lada, Niva Legend Bronto | 432
+lada, niva legend bronto |Lada, Niva Legend Bronto | 432
 lada, brontolegend |Lada, Niva Legend Bronto | 432
 lada, nivaoff-road |Lada, Niva Off-Road | 433
 lada, nivatravel |Lada, Niva Travel | 434
+lada, 4x4bronto |Lada, 4x4 Bronto | 401
+lada, bronto |Lada, 4x4 Bronto | 401
+lada, vesta1 |Lada, Vesta Sedan New | 439
+lada, vestacross1 |Lada, Vesta Cross New | 438
+lada, vestasw1 |Lada, Vesta SW New | 444
+lada, vestaswcross1 |Lada, Vesta SW Cross New | 446
 lada, vesta |Lada, Vesta Sedan | 435
-lada, vestacng |Lada, Vesta CNG | 436
+lada, vestacng |Lada, Vesta Sedan CNG | 436
 lada, vestacross |Lada, Vesta Cross | 437
 lada, vestacrossnew |Lada, Vesta Cross New | 438
 lada, vestanewседан |Lada, Vesta Sedan New | 439
@@ -458,21 +540,6 @@ lada, vestaседан |Lada, Vesta Sedan | 435
 lada, vestаcедан |Lada, Vesta Sedan | 435
 lada, xray |Lada, Xray | 447
 lada, xraycross |Lada, Xray Cross | 448
-lada, largusnew5мест |Lada, Largus New | 449
-lada, largusnew |Lada, Largus New | 449
-lada, новыйlargus7мест |Lada, Largus New 7 мест | 450
-lada, новыйlargus5мест |Lada, Largus New | 449
-lada, largusnew7мест |Lada, Largus New 7 мест | 450
-lada, larguscrossnew5мест |Lada, Largus Cross New | 451
-lada, larguscrossnew |Lada, Largus Cross New | 451
-lada, larguscrossnew7мест |Lada, Largus Cross New 7 мест | 452
-lada, largusуниверсал5мест |Lada, Largus | 418
-lada, largusуниверсал7мест |Lada, Largus 7 мест | 453
-lada, новыйlargus |Lada, Largus New | 449
-lada, largusуниверсалnew |Lada, Largus New | 449
-lada, новыйlarguscross |Lada, Largus Cross New | 451
-lada, новыйlargusфургон |Lada, Фургон New | 454
-lada, largusfurgonnew |Lada, Фургон New | 454
 lifan, murman |Lifan, Murman | 455
 lifan, murman(820) |Lifan, Murman (820) | 456
 lifan, myway |Lifan, MyWay | 457
@@ -480,6 +547,7 @@ lifan, solano |Lifan, Solano | 458
 lifan, solano2 |Lifan, Solano 2 | 459
 lifan, solanoii |Lifan, Solano 2 | 459
 lifan, x50 |Lifan, X50 | 460
+lifan, х50 |Lifan, X50 | 460
 lifan, x60 |Lifan, X60 | 461
 lifan, x60new |Lifan, X60 New | 462
 lifan, x70 |Lifan, X70 | 463
@@ -517,6 +585,7 @@ mg, 6 |MG, 6 | 493
 mg, hs |MG, HS | 494
 mg, zs |MG, ZS | 495
 mitsubishi, asxnew |Mitsubishi, ASX New | 496
+mitsubishi, asx |Mitsubishi, ASX | 685
 mitsubishi, asxрестайлинг3 |Mitsubishi, ASX Restyling 3 | 497
 mitsubishi, eclipsecross |Mitsubishi, Eclipse Cross | 498
 mitsubishi, eclipsecrossnew |Mitsubishi, Eclipse Cross New | 499
@@ -533,8 +602,10 @@ mitsubishi, pajerosport |Mitsubishi, Pajero Sport | 506
 mitsubishi, pajerosportnew |Mitsubishi, Pajero Sport New | 507
 mitsubishi, xpander |Mitsubishi, Xpander | 508
 moskvich, 3 |Moskvich, 3 | 509
+москвич, 3внедорожник5дв. |Moskvich, 3 | 509
 moskvich, 3e |Moskvich, 3e | 510
 moskvich, 6 |Moskvich, 6 | 511
+москвич, 6лифтбек5дв. |Moskvich, 6 | 511
 nissan, juke |Nissan, Juke | 512
 nissan, magnite |Nissan, Magnite | 513
 nissan, pathfinder |Nissan, Pathfinder | 514
@@ -548,14 +619,19 @@ nissan, qashqai |Nissan, Qashqai | 520
 nissan, qashqainew |Nissan, Qashqai New | 521
 nissan, terrano |Nissan, Terrano | 522
 nissan, qashqai2021 |Nissan, Qashqai | 520
+nissan, qashqai2020 |Nissan, Qashqai | 520
 nissan, x-trail2021 |Nissan, X-trail | 523
+nissan, x-trail2020 |Nissan, X-trail | 523
 nissan, x-trail |Nissan, X-trail | 523
+nissan, xtrail |Nissan, X-trail | 523
 nissan, x-trailnew |Nissan, X-trail New | 524
 nissan, newx-trailnew |Nissan, X-trail New | 524
 nissan, newx-trail |Nissan, X-trail New | 524
 omoda, c5 |OMODA, C5 | 525
+omoda, c5кроссовер |OMODA, C5 | 525
 omoda, s5 |OMODA, S5 | 526
 omoda, s5gt |OMODA, S5 GT | 527
+omoda, s5gtседан |OMODA, S5 GT | 527
 opel, combolife |Opel, Combo Life | 528
 opel, grandland |Opel, Grandland | 529
 opel, grandlandx |Opel, Grandland X | 530
@@ -615,6 +691,7 @@ skoda, octavia |Skoda, Octavia | 578
 skoda, octavianew |Skoda, Octavia New | 579
 skoda, octaviaa8 |Skoda, Octavia A8 | 580
 skoda, rapid |Skoda, Rapid | 581
+skoda, новыйrapid |Skoda, Rapid New | 584
 skoda, rapidsportedition |Skoda, Rapid Sport Edition | 582
 skoda, octaviacombi |Skoda, Octavia Combi | 583
 skoda, rapidnew |Skoda, Rapid New | 584
@@ -622,6 +699,7 @@ skoda, superb |Skoda, Superb | 585
 skoda, superbcombi |Skoda, Superb Combi | 586
 skoda, superbcombinew |Skoda, Superb Combi New | 587
 skoda, superbnew |Skoda, Superb New | 588
+skoda, новыйsuperb |Skoda, Superb New | 588
 skoda, новаяoctavia |Skoda, Octavia New | 579
 skoda, обновленныйkodiaq |Skoda, Kodiaq New | 576
 skoda, octaviahockeyedition |Skoda, Octavia Hockey Edition | 589
@@ -629,6 +707,7 @@ skoda, kodiaqhockeyedition |Skoda, Kodiaq Hockey Edition | 590
 skoda, kodiaqscout |Skoda, Kodiaq Scout | 591
 skoda, kodiaqsportline |Skoda, Kodiaq Sportline | 592
 skoda, kodiaqlaurin&klement |Skoda, Kodiaq Laurin & Klement | 593
+skoda, kodiaqlaurinklement |Skoda, Kodiaq Laurin & Klement | 593
 solaris, hc |Solaris, HC | 594
 solaris, hs |Solaris, HS | 595
 solaris, krs |Solaris, KRS | 596
@@ -641,6 +720,7 @@ ssangyong, actyonnew |SsangYong, Actyon New | 602
 ssangyong, stavic |SsangYong, Stavic | 603
 ssangyong, tivoli |SsangYong, Tivol | 604
 suzuki, baleno |Suzuki, Baleno | 605
+suzuki, jimny |Suzuki, Jimny | 690
 suzuki, newjimny |Suzuki, Jimny New | 606
 suzuki, sx4 |Suzuki, SX4 | 607
 suzuki, vitara |Suzuki, Vitara | 608
@@ -674,12 +754,23 @@ toyota, corollanew |Toyota, Corolla New | 631
 toyota, rav4new |Toyota, RAV4 New | 632
 uaz, hunter |UAZ, Hunter | 633
 уаз, hunter |UAZ, Hunter | 633
+уаз, хантер |UAZ, Hunter | 633
+уаз, hunterкроссовер |UAZ, Hunter | 633
 uaz, patriot |UAZ, Patriot | 634
 уаз, patriot |UAZ, Patriot | 634
+уаз, патриот |UAZ, Patriot | 634
 uaz, patriotnew |UAZ, Patriot New | 635
+уаз, patriotiрестайлинг3кроссовер |UAZ, Patriot New | 635
 uaz, patriotpickup |UAZ, Patriot Pickup | 636
 uaz, patriotpikap |UAZ, Patriot Pickup | 636
+уаз, 3909 |UAZ, 3909 | 694
+уаз, 3909бортовойгрузовик |UAZ, 3909 Бортовой грузовик| 695
+уаз, 3909микроавтобус |UAZ, 3909 Микроавтобус| 696
+уаз, 3909скораяпомощь |UAZ, 3909 Скорая помощь| 697
+уаз, 3909цельнометаллическийфургон |UAZ, 3909 Цельнометаллический фургон| 698
+уаз, профи |UAZ, Профи| 699
 уаз, pickup |UAZ, Pickup | 637
+уаз, пикап |UAZ, Pickup | 637
 uaz, pickupnew |UAZ, Pickup New | 638
 uaz, новыйпикап |UAZ, Pickup New | 638
 volkswagen, arteon |Volkswagen, Arteon | 639
@@ -693,6 +784,7 @@ volkswagen, jettanew |Volkswagen, Jetta New | 646
 volkswagen, lavidaqihang |Volkswagen, Lavida Qihang | 647
 volkswagen, newpolo |Volkswagen, Polo New | 648
 volkswagen, polonew |Volkswagen, Polo New | 648
+volkswagen, новыйpolo |Volkswagen, Polo New | 648
 volkswagen, passat |Volkswagen, Passat | 649
 volkswagen, passatnew |Volkswagen, Passat New | 650
 volkswagen, passatalltracknew |Volkswagen, Passat Alltrack New | 651
@@ -726,4 +818,5 @@ zotye, т600 |Zotye, T600 | 674
 москвич, 3e |Moskvich, 3e | 510
 москвич, 6 |Moskvich, 6 | 511
 xcite, x-cross7 |XCite, X-Cross 7 | 675
+xcite, x-cross7универсал |XCite, X-Cross 7 | 675
 xcite, x-cross7new |XCite, X-Cross 7 New | 676
