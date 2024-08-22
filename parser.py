@@ -10,6 +10,7 @@ from regions.krasnodar import *
 from regions.moscow import *
 from regions.chelyabinsk import *
 from regions.cheboksari import *
+from regions.ufa import *
 from pprint import pprint
 
 
@@ -835,5 +836,178 @@ async def parser_moscow(dct_up, browser):
             string.append(sheet.cell(row=i, column=y).value)
         data.append(string)
     with open('csv/moscow.csv', 'w', encoding='utf-8', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+
+
+async def parser_ufa(dct_up, browser):
+    try:
+        await bot.send_message(ADMIN_ID, 'begin https://avtolininiya-rb.ru/auto/')
+        res_1 = await avto_rb(dct_up)
+    except Exception as e:
+        res_1 = []
+        await bot.send_message(CHANEL_ID, 'https://avtolininiya-rb.ru/auto/ error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        await bot.send_message(ADMIN_ID, 'begin https://ufa.masmotors.ru/')
+        res_2 = await ufa_masmotors(dct_up, browser)
+    except Exception as e:
+        res_2 = []
+        await bot.send_message(CHANEL_ID, 'https://ufa.masmotors.ru/ error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        await bot.send_message(ADMIN_ID, 'begin https://avrora-motors.ru/catalog')
+        res_3 = await avrora(dct_up, browser)
+    except Exception as e:
+        res_3 = []
+        await bot.send_message(CHANEL_ID, 'https://avrora-motors.ru/catalog')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        await bot.send_message(ADMIN_ID, 'begin https://ufa.autospot.ru/')
+        res_4 = await ufa_autospot(dct_up)
+    except Exception as e:
+        res_4 = []
+        await bot.send_message(CHANEL_ID, 'https://ufa.autospot.ru/ error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        await bot.send_message(ADMIN_ID, 'begin https://alfa-tank.ru/')
+        res_5 = await alpha_tank(dct_up)
+    except Exception as e:
+        res_5 = []
+        await bot.send_message(CHANEL_ID, 'https://alfa-tank.ru/ error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        await bot.send_message(ADMIN_ID, 'begin https://autofort-ufa.ru/')
+        res_6 = await ufa_autofort(dct_up)
+    except Exception as e:
+        res_6 = []
+        await bot.send_message(CHANEL_ID, 'https://autofort-ufa.ru/ error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        await bot.send_message(ADMIN_ID, 'begin https://motors-ag.ru/')
+        res_7 = await motors_ag(dct_up, browser)
+    except Exception as e:
+        res_7 = []
+        await bot.send_message(CHANEL_ID, 'https://motors-ag.ru/ error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        await bot.send_message(ADMIN_ID, 'begin https://alga-auto.ru/auto/')
+        res_8 = await alga_auto(dct_up)
+    except Exception as e:
+        res_8 = []
+        await bot.send_message(CHANEL_ID, 'https://alga-auto.ru/auto/ error')
+        await bot.send_message(ADMIN_ID, str(e))
+    res = res_1 + res_2 + res_3 + res_4 + res_5 + res_6 + res_7 + res_8
+    res_1_name = [x[0] for x in res_1]
+    res_2_name = [x[0] for x in res_2]
+    res_3_name = [x[0] for x in res_3]
+    res_4_name = [x[0] for x in res_4]
+    res_5_name = [x[0] for x in res_5]
+    res_6_name = [x[0] for x in res_6]
+    res_7_name = [x[0] for x in res_7]
+    res_8_name = [x[0] for x in res_8]
+    res_name = []
+    for item in res:
+        if item[0] not in res_name:
+            res_name.append(item[0])
+    res_name.sort()
+    wb = openpyxl.Workbook()
+    sheet = wb['Sheet']
+    dct_id = {}
+    with open('autolist.txt', 'r', encoding='utf-8') as f:
+        lst = f.readlines()
+    for item in lst:
+        try:
+            dct_id[item.split('|')[1].strip()] = item.split('|')[2].strip()
+        except Exception:
+            pass
+    sheet.cell(row=1, column=1).value = 'id'
+    sheet.cell(row=1, column=2).value = 'brand'
+    sheet.cell(row=1, column=3).value = 'model'
+    sheet.cell(row=1, column=4).value = 'min_price'
+    sheet.cell(row=1, column=5).value = 'min_price_url'
+    sheet.cell(row=1, column=6).value = 'avtolininiya-rb.ru'
+    sheet.cell(row=1, column=7).value = 'avtolininiya-rb.ru_price'
+    sheet.cell(row=1, column=8).value = 'ufa.masmotors.ru'
+    sheet.cell(row=1, column=9).value = 'ufa.masmotors.ru_price'
+    sheet.cell(row=1, column=10).value = 'avrora-motors.ru'
+    sheet.cell(row=1, column=11).value = 'avrora-motors.ru_price'
+    sheet.cell(row=1, column=12).value = 'ufa.autospot.ru'
+    sheet.cell(row=1, column=13).value = 'ufa.autospot.ru_price'
+    sheet.cell(row=1, column=14).value = 'alfa-tank.ru'
+    sheet.cell(row=1, column=15).value = 'alfa-tank.ru_price'
+    sheet.cell(row=1, column=16).value = 'autofort-ufa.ru'
+    sheet.cell(row=1, column=17).value = 'autofort-ufa.ru_price'
+    sheet.cell(row=1, column=18).value = 'motors-ag.ru'
+    sheet.cell(row=1, column=19).value = 'motors-ag.ru_price'
+    sheet.cell(row=1, column=20).value = 'alga-auto.ru'
+    sheet.cell(row=1, column=21).value = 'alga-auto.ru_price'
+    for i in range(2, len(res_name) + 2):
+        try:
+            sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
+        except Exception:
+            sheet.cell(row=i, column=1).value = 'Новая машина, необходимо назначить id'
+        sheet.cell(row=i, column=2).value = res_name[i-2].split(', ')[0]
+        sheet.cell(row=i, column=3).value = res_name[i-2].split(', ')[1]
+        dct = {}
+        lst = []
+        if res_name[i-2] in res_1_name:
+            index = res_1_name.index(res_name[i - 2])
+            sheet.cell(row=i, column=6).value = res_1[index][1]
+            sheet.cell(row=i, column=7).value = res_1[index][2]
+            dct[str(res_1[index][1])] = res_1[index][2]
+            lst.append(int(res_1[index][1]))
+        if res_name[i-2] in res_2_name:
+            index = res_2_name.index(res_name[i - 2])
+            sheet.cell(row=i, column=8).value = res_2[index][1]
+            sheet.cell(row=i, column=9).value = res_2[index][2]
+            dct[str(res_2[index][1])] = res_2[index][2]
+            lst.append(int(res_2[index][1]))
+        if res_name[i-2] in res_3_name:
+            index = res_3_name.index(res_name[i - 2])
+            sheet.cell(row=i, column=10).value = res_3[index][1]
+            sheet.cell(row=i, column=11).value = res_3[index][2]
+            dct[str(res_3[index][1])] = res_3[index][2]
+            lst.append(int(res_3[index][1]))
+        if res_name[i-2] in res_4_name:
+            index = res_4_name.index(res_name[i - 2])
+            sheet.cell(row=i, column=12).value = res_4[index][1]
+            sheet.cell(row=i, column=13).value = res_4[index][2]
+            dct[str(res_4[index][1])] = res_4[index][2]
+            lst.append(int(res_4[index][1]))
+        if res_name[i-2] in res_5_name:
+            index = res_5_name.index(res_name[i - 2])
+            sheet.cell(row=i, column=14).value = res_5[index][1]
+            sheet.cell(row=i, column=15).value = res_5[index][2]
+            dct[str(res_5[index][1])] = res_5[index][2]
+            lst.append(int(res_5[index][1]))
+        if res_name[i-2] in res_6_name:
+            index = res_6_name.index(res_name[i - 2])
+            sheet.cell(row=i, column=16).value = res_6[index][1]
+            sheet.cell(row=i, column=17).value = res_6[index][2]
+            dct[str(res_6[index][1])] = res_6[index][2]
+            lst.append(int(res_6[index][1]))
+        if res_name[i-2] in res_7_name:
+            index = res_7_name.index(res_name[i - 2])
+            sheet.cell(row=i, column=18).value = res_7[index][1]
+            sheet.cell(row=i, column=19).value = res_7[index][2]
+            dct[str(res_7[index][1])] = res_7[index][2]
+            lst.append(int(res_7[index][1]))
+        if res_name[i-2] in res_8_name:
+            index = res_8_name.index(res_name[i - 2])
+            sheet.cell(row=i, column=20).value = res_8[index][1]
+            sheet.cell(row=i, column=21).value = res_8[index][2]
+            dct[str(res_8[index][1])] = res_8[index][2]
+            lst.append(int(res_8[index][1]))
+        sheet.cell(row=i, column=4).value = min(lst)
+        sheet.cell(row=i, column=5).value = dct[str(min(lst))]
+    wb.save('xlsx/ufa.xlsx')
+    data = []
+    for i in range(1, len(res_name) + 1):
+        string = []
+        for y in range(2, 5):
+            string.append(sheet.cell(row=i, column=y).value)
+        data.append(string)
+    with open('csv/ufa.csv', 'w', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
         writer.writerows(data)

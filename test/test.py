@@ -28,7 +28,7 @@ def rostov_avto(dct_up, browser):
             if "загрузить еще" in button.text.lower().strip():
                 button.click()
                 flag = True
-                time.sleep(3)
+                time.sleep(5)
                 break
     html = browser.page_source
     soup = bs4.BeautifulSoup(html, 'lxml')
@@ -57,11 +57,12 @@ def rostov_avto(dct_up, browser):
 chrome_driver_path = ChromeDriverManager().install()
 browser_service = Service(executable_path=chrome_driver_path)
 options = Options()
-options.add_argument('--headless')
-options.add_argument('--no-sandbox')
+# options.add_argument('--headless')
+# options.add_argument('--no-sandbox')
 options.add_argument("--window-size=1200,600")
 options.add_argument('--disable-dev-shm-usage')
 browser = Chrome(service=browser_service, options=options)
 
 res = rostov_avto({}, browser)
 print(res)
+

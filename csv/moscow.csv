@@ -294,6 +294,8 @@ KIA,Stinger New,2156900
 KIA,Stinger Restyling,2337000
 KIA,XCeed,1305000
 KIA,XCeed New,1518000
+Lada,4x4 3 двери,408000
+Lada,4x4 5 дверей,418000
 Lada,4x4 Bronto,473300
 Lada,Granta Cross,288800
 Lada,Granta Drive Active,377900
@@ -315,8 +317,8 @@ Lada,Largus Cross New 7 мест,715300
 Lada,Largus New,451300
 Lada,Largus New 7 мест,478300
 Lada,Largus Фургон,452300
-Lada,Niva,408000
-Lada,Niva 5 дверей,418000
+Lada,Largus Фургон New,452300
+Lada,Niva,537900
 Lada,Niva Legend 3 двери,347300
 Lada,Niva Legend 5 дверей,368300
 Lada,Niva Legend Bronto,649000
@@ -339,7 +341,6 @@ Lada,Vesta Sport,567300
 Lada,Vesta Sportline New,694000
 Lada,Xray,406300
 Lada,Xray Cross,392300
-Lada,Фургон New,452300
 Lifan,Murman,779900
 Lifan,Murman (820),618000
 Lifan,MyWay,655000

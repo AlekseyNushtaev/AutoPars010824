@@ -1,4 +1,3 @@
-
 # chrome_driver_path = ChromeDriverManager().install()
 # browser_service = Service(executable_path=chrome_driver_path)
 # options = Options()
@@ -8,14 +7,14 @@
 # options.add_argument('--disable-dev-shm-usage')
 # browser = Chrome(service=browser_service, options=options)
 
-# res = avto_alyans({})
-# pprint(res)
-# res_name = []
-# with open('../autolist.txt', 'r', encoding='utf-8') as f:
-#     lst = f.readlines()
-#     for item in lst:
-#         title = item.split('|')[0].strip()
-#         res_name.append(title)
-# for i in res:
-#     if i[0] not in res_name:
-#         print(i)
+res = alga_auto({})
+res_name = []
+with open('../autolist.txt', 'r', encoding='utf-8') as f:
+    lst = f.readlines()
+    for item in lst:
+        title = item.split('|')[0].strip()
+        res_name.append(title)
+for i in res:
+    print(i)
+    if i[0] not in res_name:
+        print(i)

@@ -139,7 +139,7 @@ async def rostov_avto(dct_up, browser):
             if "загрузить еще" in button.text.lower().strip():
                 button.click()
                 flag = True
-                time.sleep(3)
+                time.sleep(5)
                 break
     html = browser.page_source
     soup = bs4.BeautifulSoup(html, 'lxml')
