@@ -25,7 +25,7 @@ async def avto_rb(dct_up):
     for card in cards:
         data = card.get("data-model").replace('null', 'None').replace('\\', '')
         dct = eval(data)
-        link = 'https://avto-trend21.ru' + card.find("a").get("href")
+        link = 'https://avtolininiya-rb.ru' + card.find("a").get("href")
         name = dct["brand"].lower().strip() + ', ' + dct["model"].lower().replace(" ", "").strip()
         try:
             name = dct_up[name]
@@ -282,7 +282,7 @@ async def alga_auto(dct_up):
     for card in cards:
         data = card.get("data-model").replace('null', 'None').replace('\\', '')
         dct = eval(data)
-        link = 'https://autocenter-stav.ru' + card.find("a").get("href")
+        link = 'https://alga-auto.ru' + card.find("a").get("href")
         name = dct["brand"].lower() + ', ' + dct["model"].lower().replace(" ", "")
         try:
             name = dct_up[name]
