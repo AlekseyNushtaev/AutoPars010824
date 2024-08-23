@@ -75,6 +75,7 @@ changan, uni-kidd |Changan, UNI-K iDD Hybrid| 713
 changan, uni-t |Changan, UNI-T | 126
 changan, uni-v |Changan, UNI-V | 123
 chery, arrizo8 |Chery, Arrizo 8 | 143
+chery, tiggoarrizo8 |Chery, Arrizo 8 | 143
 chery, arrizo8седан |Chery, Arrizo 8 | 143
 chery, explore06 |Chery, Explore 06 | 144
 chery, explore06new |Chery, Explore 06 New | 145
@@ -93,6 +94,7 @@ chery, tiggo7promax |Chery, Tiggo 7 Pro Max | 156
 chery, tiggo7promaxкроссовер |Chery, Tiggo 7 Pro Max | 156
 chery, tiggo7promaxiкроссовер |Chery, Tiggo 7 Pro Max | 156
 chery, tiggo7promaxiрестайлингкроссовер |Chery, Tiggo 7 Pro Max New | 157
+chery, tiggo7promaxfl |Chery, Tiggo 7 Pro Max New | 157
 chery, newtiggo7promax |Chery, Tiggo 7 Pro Max New | 157
 chery, новыйtiggo7promax |Chery, Tiggo 7 Pro Max New | 157
 chery, tiggo7promaxnew |Chery, Tiggo 7 Pro Max New | 157
@@ -102,6 +104,7 @@ chery, tiggo7proplug-inhybridвнедорожник5дв. |Chery, Tiggo 7 Pro Pl
 chery, tiggo8 |Chery, Tiggo 8 | 158
 chery, tiggo8pro |Chery, Tiggo 8 Pro | 159
 chery, tiggo8proe+ |Chery, Tiggo 8 Pro e+ | 160
+chery, tiggo8proе+ |Chery, Tiggo 8 Pro e+ | 160
 chery, tiggo8proe+hybrid |Chery, Tiggo 8 Pro e+ Hybrid | 677
 chery, tiggo8proplug-in-hybrid |Chery, Tiggo 8 Pro Plug-In-Hybrid | 678
 chery, tiggo8proplug-inhybridкроссовер |Chery, Tiggo 8 Pro Plug-In-Hybrid | 678
@@ -199,6 +202,7 @@ faw, besturnx80new |FAW, Besturn X80 New | 218
 faw, bestunex80new |FAW, Besturn X80 New | 218
 faw, besturnb30 |FAW, Besturn B30 | 708
 faw, besturnx80 |FAW, Besturn X80 | 219
+faw, bestunex80 |FAW, Besturn X80 | 219
 faw, besturnx40 |FAW, Besturn X40 | 220
 faw, bestunex40 |FAW, Besturn X40 | 220
 faw, besturnt77 |FAW, Besturn T77 | 221
@@ -292,8 +296,10 @@ greatwall, poerkingkong |Great Wall, POER King Kong | 277
 great, wallpoerkingkong |Great Wall, POER King Kong | 277
 great wall, poerkingkong |Great Wall, POER King Kong | 277
 great wall, hoverh3 |Great Wall, Hover H3 | 278
+great, wallhoverh3 |Great Wall, Hover H3 | 278
 hower, h3 |Great Wall, Hover H3 | 278
 great wall, hoverh5 |Great Wall, Hover H5 | 279
+great, wallhoverh5 |Great Wall, Hover H5 | 279
 hower, h5 |Great Wall, Hover H5 | 279
 great wall, hoverh6 |Great Wall, Hover H6 | 280
 great wall, hoverm2 |Great Wall, Hover M2 | 281
@@ -316,9 +322,11 @@ haval, h2 |Haval, H2 | 295
 haval, h3 |Haval, H3 | 296
 haval, h5 |Haval, H5 | 297
 haval, h6 |Haval, H6 | 298
+haval, h6coupe |Haval, H6 | 298
 haval, h6new |Haval, H6 New | 299
 haval, h9 |Haval, H9 | 300
 haval, h9new |Haval, H9 New | 684
+haval, новыйh9 |Haval, H9 New | 684
 haval, jolion |Haval, Jolion | 301
 haval, jolionрестайлинг |Haval, Jolion Restyling | 302
 haval, jolionnew |Haval, Jolion New | 303
@@ -329,6 +337,7 @@ haval, newjolion |Haval, Jolion New | 303
 haval, f7 |Haval, F7 | 304
 haval, f7x |Haval, F7x | 305
 haval, newh5 |Haval, H5 New | 306
+haval, h5new |Haval, H5 New | 306
 haval, m6 |Haval, M6 | 307
 haval, новыйm6 |Haval, M6 New| 689
 haval, newf7 |Haval, F7 New | 288
@@ -412,6 +421,7 @@ jetta, va3 |Jetta, VA3 | 355
 jetta, vs5 |Jetta, VS5 | 356
 jetta, vs7 |Jetta, VS7 | 357
 kaiyi, e5 |KAIYI, E5 | 358
+kaiyi, е5 |KAIYI, E5 | 358
 kaiyi, x3 |KAIYI, X3 | 359
 kaiyi, x3pro |KAIYI, X3 Pro | 360
 kaiyi, x7kunlun |KAIYI, X7 Kunlun | 361
@@ -465,7 +475,8 @@ kia, stinger |KIA, Stinger | 398
 kia, mohave |KIA, Mohave | 399
 kia, mohavenew |KIA, Mohave New | 400
 lada, grantacross |Lada, Granta Cross | 402
-lada, grantadriveactive |Lada, Granta Drive Active | 403
+lada, grantadriveactive |Lada, Granta Sedan Drive Active | 403
+lada, grantaседанdriveactive |Lada, Granta Sedan Drive Active | 403
 lada, grantasportline |Lada, Granta Sportline | 723
 lada, grantasportlineлифтбэк |Lada, Granta Sportline Liftback| 732
 lada, grantahatchback |Lada, Granta Hatchback | 404
@@ -478,7 +489,9 @@ lada, grantaлифтбекdriveactive |Lada, Granta Drive Active Liftback | 408
 lada, grantasportлифтбек |Lada, Granta Sport Liftback | 409
 lada, grantasportnewliftback |Lada, Granta Sport Liftback New | 410
 lada, grantasportnewлифтбэк |Lada, Granta Sport Liftback New | 410
+lada, grantaлифтбекsport |Lada, Granta Sport Liftback New | 410
 lada, grantasportседан |Lada, Granta Sport Sedan | 411
+lada, grantaседанsport |Lada, Granta Sport Sedan | 411
 lada, grantasportnewседан |Lada, Granta Sport Sedan New | 412
 lada, grantasportnewsedan |Lada, Granta Sport Sedan New | 412
 lada, grantaлифтбек |Lada, Granta Liftback | 405

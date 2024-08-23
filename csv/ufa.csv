@@ -5,8 +5,8 @@ BAIC,X35,1274175
 BAIC,X55,1770000
 BAIC,X7,2325000
 BAIC,X75,2242500
-Belgee,X50,1755990
-Belgee,X70,2409990
+Belgee,X50,1805990
+Belgee,X70,2194990
 Changan,Alsvin,1098100
 Changan,CS35,659925
 Changan,CS35 Plus,935900
@@ -26,7 +26,7 @@ Changan,UNI-K,2729925
 Changan,UNI-K iDD Hybrid,3914925
 Changan,UNI-T,1721940
 Changan,UNI-V,2075000
-Chery,Arrizo 8,2046000
+Chery,Arrizo 8,2009000
 Chery,Tiggo 2,679900
 Chery,Tiggo 3,609900
 Chery,Tiggo 4,744900
@@ -168,7 +168,7 @@ JAC,T8 Pro,2319000
 JAC,T9,2549250
 JAC,iEV7S,2885700
 JAECOO,J7,2003940
-JAECOO,J8,3242801
+JAECOO,J8,3299250
 Jetour,Dashing,1463940
 Jetour,T2,2744250
 Jetour,X70 Plus,1649945
@@ -195,11 +195,11 @@ KIA,Sportage 5,1567445
 KIA,XCeed,1758000
 Lada,4x4 Bronto,882340
 Lada,Granta Cross,394900
-Lada,Granta Drive Active,411900
 Lada,Granta Drive Active Liftback,738940
 Lada,Granta Hatchback,271500
 Lada,Granta Liftback,271900
 Lada,Granta Sedan,254900
+Lada,Granta Sedan Drive Active,411900
 Lada,Granta Sport Drive Active Liftback,807300
 Lada,Granta Sport Liftback,977800
 Lada,Granta Sport Sedan,953800
@@ -324,7 +324,7 @@ Sollers,Argo грузопассажирский фургон,2544000
 Sollers,Argo фургон промтоварный,1998000
 Sollers,Argo фургон-рефрижератор,1906000
 Sollers,Argo цельнометаллический фургон,2659000
-Sollers,ST6,2075000
+Sollers,ST6,2230000
 SsangYong,Actyon,996300
 SsangYong,Tivol,849000
 Suzuki,Jimny,1992700
@@ -366,3 +366,4 @@ Volkswagen,Tiguan,1489900
 Volkswagen,Tiguan New,1479900
 Volkswagen,Touareg,8145100
 Zotye,Coupa,960000
+Zotye,T600,727000
