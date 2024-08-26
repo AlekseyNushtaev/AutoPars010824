@@ -65,3 +65,4 @@ browser = Chrome(service=browser_service, options=options)
 
 res = rostov_avto({}, browser)
 print(res)
+

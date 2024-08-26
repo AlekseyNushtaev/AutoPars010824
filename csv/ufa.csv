@@ -58,13 +58,13 @@ Dongfeng,580 New,1446750
 Dongfeng,AX7,771675
 Dongfeng,Aeolus Shine Max,1650000
 Dongfeng,Shine Max,2242500
-EXEED,LX,2163000
-EXEED,LX New,2320590
+EXEED,LX,1963000
+EXEED,LX New,2220590
 EXEED,RX,3270000
 EXEED,TXL,879960
 EXEED,TXL New,3091500
 EXEED,VX,3650000
-EXEED,VX New,4875000
+EXEED,VX New,4360000
 FAW,Bestune B70,1599600
 FAW,Bestune T55,1572300
 FAW,Bestune T77,1626750
@@ -112,8 +112,8 @@ Geely,Tugella,2771993
 Geely,Tugella New,2375994
 Great Wall,Hover H3,1307800
 Great Wall,Hover H5,1433700
-Great Wall,POER,2729000
-Great Wall,POER King Kong,2540100
+Great Wall,POER,2586800
+Great Wall,POER King Kong,2399300
 Great Wall,Wingle 7,2079000
 Haval,Dargo,1769000
 Haval,Dargo X,1961400
@@ -127,7 +127,8 @@ Haval,H2,953400
 Haval,H3,1744300
 Haval,H5,964000
 Haval,H6,1058000
-Haval,H9,3074250
+Haval,H9,3224250
+Haval,H9 New,4499000
 Haval,Jolion,919000
 Haval,Jolion New,1199400
 Haval,M6,1634250
@@ -366,4 +367,3 @@ Volkswagen,Tiguan,1489900
 Volkswagen,Tiguan New,1479900
 Volkswagen,Touareg,8145100
 Zotye,Coupa,960000
-Zotye,T600,727000

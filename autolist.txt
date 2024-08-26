@@ -20,6 +20,7 @@ brilliance, v5 |Brilliance, V5 | 112
 brilliance, v51.5t |Brilliance, V5 | 112
 brilliance, v51.5tnew |Brilliance, V5 New | 113
 byd, qin |BYD, Qin | 114
+byd, seagull |BYD, Seagull | 735
 сhangan, cs35plus |Changan, CS35 Plus | 115
 changan, cs35 |Changan, CS35 | 116
 сhangan, cs55 |Changan, CS55 | 117
@@ -34,6 +35,7 @@ changan, univ |Changan, UNI-V | 123
 сhangan, cs85coupe |Changan, CS85 Coupe | 124
 сhangan, cs95 |Changan, CS95 | 125
 сhangan, uni-t |Changan, UNI-T | 126
+changan, uni-tновый |Changan, UNI-T | 126
 changan, uni-s |Changan, UNI-S | 127
 сhangan, eadoplus |Changan, Eado Plus | 128
 сhangan, hunter |Changan, Hunter | 129
@@ -94,6 +96,7 @@ chery, tiggo7promax |Chery, Tiggo 7 Pro Max | 156
 chery, tiggo7promaxкроссовер |Chery, Tiggo 7 Pro Max | 156
 chery, tiggo7promaxiкроссовер |Chery, Tiggo 7 Pro Max | 156
 chery, tiggo7promaxiрестайлингкроссовер |Chery, Tiggo 7 Pro Max New | 157
+chery, tiggo7promaxрестайлинг |Chery, Tiggo 7 Pro Max New | 157
 chery, tiggo7promaxfl |Chery, Tiggo 7 Pro Max New | 157
 chery, newtiggo7promax |Chery, Tiggo 7 Pro Max New | 157
 chery, новыйtiggo7promax |Chery, Tiggo 7 Pro Max New | 157
@@ -174,6 +177,7 @@ exeed, vx2021 |EXEED, VX | 205
 cheryexeed, vxnew |EXEED, VX New | 206
 exeed, lx |EXEED, LX | 203
 exeed, lxnew |EXEED, LX New | 207
+exeed, lxрестайлинг2 |EXEED, LX New | 207
 exeed, новыйlx |EXEED, LX New | 207
 exeed, lx1.6awd |EXEED, LX AWD | 208
 exeed, lxawd |EXEED, LX AWD | 208
@@ -182,6 +186,7 @@ exeed, txl |EXEED, TXL | 201
 exeed, txlрестайлинг |EXEED, TXL Restyling | 209
 exeed, txl2.0 |EXEED, TXL | 201
 exeed, txlnew |EXEED, TXL New | 202
+exeed, txlрестайлинг2 |EXEED, TXL New | 202
 exeed, новыйtxl |EXEED, TXL New | 202
 exeed, txl2024new |EXEED, TXL New 2024 | 210
 exeed, vx |EXEED, VX | 205
@@ -310,6 +315,7 @@ haima, 8s |Haima, 8S | 285
 haval, dargo |Haval, Dargo | 286
 haval, dargox |Haval, Dargo X | 287
 haval, f7new |Haval, F7 New | 288
+haval, newf72024 |Haval, F7 New | 288
 haval, f7рестайлинг |Haval, F7 Restyling | 289
 haval, f7restyling |Haval, F7 Restyling | 289
 haval, f7xnew |Haval, F7x New | 290
@@ -357,6 +363,7 @@ hongqi, hs5 | Hongqi, HS5 | 719
 hongqi, hs5(i) | Hongqi, HS5 (I) | 720
 hyundai, bayon |Hyundai, Bayon | 312
 hyundai, creta |Hyundai, Creta | 313
+solaris, hc(hyundaicreta) |Hyundai, Creta | 313
 hyundai, cretanew |Hyundai, Creta New | 314
 hyundai, celesta |Hyundai, Celesta | 315
 hyundai, h-1 |Hyundai, H-1 | 316
@@ -379,6 +386,7 @@ hyundai, santafe |Hyundai, Santa Fe | 326
 hyundai, palisadenew |Hyundai, Palisade New | 327
 hyundai, mufasa |Hyundai, Mufasa | 328
 hyundai, solaris |Hyundai, Solaris | 329
+solaris, hs(hyundai) |Hyundai, Solaris | 329
 hyundai, sonata |Hyundai, Sonata | 330
 hyundai, staria |Hyundai, Staria | 331
 hyundai, stariavan |Hyundai, Staria | 331
@@ -424,6 +432,7 @@ kaiyi, e5 |KAIYI, E5 | 358
 kaiyi, е5 |KAIYI, E5 | 358
 kaiyi, x3 |KAIYI, X3 | 359
 kaiyi, x3pro |KAIYI, X3 Pro | 360
+kaiyi, x7 |KAIYI, X7 | 736
 kaiyi, x7kunlun |KAIYI, X7 Kunlun | 361
 kia, carnival |KIA, Carnival | 362
 kia, ceed |KIA, Ceed | 363
@@ -436,12 +445,15 @@ kia, ceratoрестайлинг |KIA, Cerato Restyling | 369
 kia, ceratonew |KIA, Cerato New | 370
 kia, k5 |KIA, K5 | 371
 kia, newsoul |KIA, Soul New | 372
+kia, pegas |KIA, Pegas | 737
 kia, picanto |KIA, Picanto | 373
 kia, picantonew |KIA, Picanto New | 374
 kia, proceed |KIA, ProCeed | 375
 kia, rio |KIA, Rio | 376
+solaris, krs(kiario) |KIA, Rio | 376
 kia, rionew |KIA, Rio New | 377
 kia, riox |KIA, Rio X | 378
+solaris, krx(kiariox) |KIA, Rio X | 378
 kia, rioxnew |KIA, Rio X New | 379
 kia, riox-line |KIA, Rio X-Line | 380
 kia, rioxline |KIA, Rio X-Line | 380
@@ -555,6 +567,7 @@ lada, новыйlarguscross |Lada, Largus Cross New | 451
 lada, новыйlargusфургон |Lada, Largus Фургон New | 454
 lada, largusfurgonnew |Lada, Largus Фургон New | 454
 lada, вис234900 |Lada, ВИС 2349 Фургон | 700
+lada, (ваз)вис |Lada, ВИС 2349 Фургон | 700
 lada, 4x4вис-2346бортоваяплатформа |Lada, ВИС 4x4 2346 Бортовая платформа | 722
 lada, grantaвис-2349фургон |Lada, ВИС 2349 Фургон | 700
 lada, grantaвис-2349бортоваяплатформа |Lada, ВИС 2349 Бортовая платформа | 721
@@ -565,6 +578,7 @@ lada, nivalegend3d |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3\xa0двери |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3d4x4 |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3dv |Lada, Niva Legend 3 двери | 423
+lada, (ваз)nivalegendуниверсал |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3дверная |Lada, Niva Legend 3 двери | 423
 lada, nivalegend5дверная |Lada, Niva Legend 5 дверей | 424
 lada, nivalegend5\xa0дверей |Lada, Niva Legend 5 дверей | 424
@@ -845,6 +859,7 @@ tank, 300 |TANK, 300 | 614
 tank, 500 |TANK, 500 | 615
 tank, 500urban |TANK, 500 Urban | 731
 toyota, alphard |Toyota, Alphard | 616
+toyota, bz4x |Toyota, BZ4X | 738
 toyota, corolla |Toyota, Corolla | 617
 toyota, fortuner |Toyota, Fortuner | 618
 toyota, fortunernew |Toyota, Fortuner New | 619
