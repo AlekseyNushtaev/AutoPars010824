@@ -65,10 +65,3 @@ browser = Chrome(service=browser_service, options=options)
 
 res = rostov_avto({}, browser)
 print(res)
-
-Здравствуйте!
-1. Добавил 1 сайт по саратову
-URL:
-http://95.183.8.237/storage/saratov.json
-http://95.183.8.237/storage/saratov.csv
-2. Убрал битые сайты (ставрополь и краснодар)

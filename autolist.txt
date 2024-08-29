@@ -315,6 +315,7 @@ haima, 8s |Haima, 8S | 285
 haval, dargo |Haval, Dargo | 286
 haval, dargox |Haval, Dargo X | 287
 haval, f7new |Haval, F7 New | 288
+haval, f7новый |Haval, F7 New | 288
 haval, newf72024 |Haval, F7 New | 288
 haval, f72024new |Haval, F7 New | 288
 haval, f7рестайлинг |Haval, F7 Restyling | 289
@@ -364,6 +365,7 @@ hongqi, hs5 | Hongqi, HS5 | 719
 hongqi, hs5(i) | Hongqi, HS5 (I) | 720
 hyundai, bayon |Hyundai, Bayon | 312
 hyundai, creta |Hyundai, Creta | 313
+hyundai, creta2020 |Hyundai, Creta | 313
 solaris, hc(hyundaicreta) |Hyundai, Creta | 313
 hyundai, cretanew |Hyundai, Creta New | 314
 hyundai, celesta |Hyundai, Celesta | 315
@@ -482,6 +484,7 @@ kia, новыйpicanto |KIA, Picanto New | 374
 kia, новыйrio |KIA, Rio New | 377
 kia, новыйsorento |KIA, Sorento New | 389
 kia, newseltos |KIA, Seltos New | 383
+kia, seltosрестайлинг |KIA, Seltos New | 383
 kia, sportagenew |KIA, Sportage New | 384
 kia, sorento |KIA, Sorento | 397
 kia, stinger |KIA, Stinger | 398
@@ -550,6 +553,7 @@ lada, largusфургон |Lada, Largus Фургон | 420
 lada, largusfurgon |Lada, Largus Фургон | 420
 lada, largusфургонcng |Lada, Largus Фургон CNG| 688
 lada, larguscross5мест |Lada, Largus Cross | 419
+lada, larguscrossуниверсал |Lada, Largus Cross | 419
 lada, larguscross7мест |Lada, Largus Cross 7 мест | 421
 lada, largusnew5мест |Lada, Largus New | 449
 lada, largusnew |Lada, Largus New | 449
