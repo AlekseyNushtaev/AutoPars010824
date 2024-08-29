@@ -316,6 +316,7 @@ haval, dargo |Haval, Dargo | 286
 haval, dargox |Haval, Dargo X | 287
 haval, f7new |Haval, F7 New | 288
 haval, newf72024 |Haval, F7 New | 288
+haval, f72024new |Haval, F7 New | 288
 haval, f7рестайлинг |Haval, F7 Restyling | 289
 haval, f7restyling |Haval, F7 Restyling | 289
 haval, f7xnew |Haval, F7x New | 290
@@ -566,6 +567,7 @@ lada, largusуниверсалnew |Lada, Largus New | 449
 lada, новыйlarguscross |Lada, Largus Cross New | 451
 lada, новыйlargusфургон |Lada, Largus Фургон New | 454
 lada, largusfurgonnew |Lada, Largus Фургон New | 454
+lada, (ваз)largusiрестайлингфургон |Lada, Largus Фургон New | 454
 lada, вис234900 |Lada, ВИС 2349 Фургон | 700
 lada, (ваз)вис |Lada, ВИС 2349 Фургон | 700
 lada, 4x4вис-2346бортоваяплатформа |Lada, ВИС 4x4 2346 Бортовая платформа | 722
