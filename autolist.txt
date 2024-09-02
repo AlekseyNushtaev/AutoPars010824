@@ -345,6 +345,7 @@ haval, newjolion |Haval, Jolion New | 303
 haval, f7 |Haval, F7 | 304
 haval, f7x |Haval, F7x | 305
 haval, newh5 |Haval, H5 New | 306
+haval, h52024 |Haval, H5 New | 306
 haval, h5new |Haval, H5 New | 306
 haval, m6 |Haval, M6 | 307
 haval, новыйm6 |Haval, M6 New| 689
@@ -912,6 +913,7 @@ uaz, patriotpikap |UAZ, Patriot Pickup | 636
 уаз, pickup |UAZ, Pickup | 637
 уаз, пикап |UAZ, Pickup | 637
 uaz, pickupnew |UAZ, Pickup New | 638
+уаз, pickupiрестайлинг2фургон |UAZ, Pickup New | 638
 uaz, новыйпикап |UAZ, Pickup New | 638
 volkswagen, arteon |Volkswagen, Arteon | 639
 volkswagen, amarok |Volkswagen, Amarok | 707
