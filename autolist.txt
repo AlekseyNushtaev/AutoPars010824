@@ -88,6 +88,7 @@ chery, tiggo4 |Chery, Tiggo 4 | 149
 chery, tiggo4new |Chery, Tiggo 4 New | 150
 chery, tiggo4pro |Chery, Tiggo 4 Pro | 151
 chery, tiggo4proкроссовер |Chery, Tiggo 4 Pro | 151
+chery, tiggo4proкроссовермп |Chery, Tiggo 4 Pro | 151
 chery, tiggo4pronew |Chery, Tiggo 4 Pro New | 152
 chery, tiggo5 |Chery, Tiggo 5 | 153
 chery, tiggo7 |Chery, Tiggo 7 | 154
@@ -525,6 +526,7 @@ lada, новаяgrantacедан |Lada, Granta Sedan New | 413
 lada, новаяgrantaлифтбек |Lada, Granta Liftback New | 415
 lada, grantaлифтбекnew |Lada, Granta Liftback New | 415
 lada, (ваз)grantaiрестайлинглифтбек |Lada, Granta Liftback New | 415
+lada, (ваз)grantaiрестайлингуниверсал |Lada, Granta Universal New | 416
 lada, (ваз)grantaiрестайлингседан |Lada, Granta Sedan New | 413
 lada, (ваз)largusiрестайлингуниверсал |Lada, Largus New | 449
 lada, (ваз)nivalegendкроссовер |Lada, Niva Legend 3 двери | 423
