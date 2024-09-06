@@ -531,6 +531,7 @@ lada, (ваз)grantaiрестайлингуниверсал |Lada, Granta Univer
 lada, (ваз)grantaiрестайлингседан |Lada, Granta Sedan New | 413
 lada, (ваз)largusiрестайлингуниверсал |Lada, Largus New | 449
 lada, (ваз)nivalegendкроссовер |Lada, Niva Legend 3 двери | 423
+lada, (ваз)nivalegend |Lada, Niva Legend 3 двери | 423
 lada, (ваз)nivaвнедорожник |Lada, Niva | 422
 lada, (ваз)vestaiрестайлинг(ng)седан |Lada, Vesta Sedan New | 439
 lada, (ваз)vestaiрестайлингседан |Lada, Vesta Sedan | 435

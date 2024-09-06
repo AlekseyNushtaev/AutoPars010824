@@ -24,7 +24,7 @@ async def saratov_avtohous(dct_up):
     res = []
     for tag in tags:
         link_1 = tag.get("href")
-        time.sleep(0.2)
+        time.sleep(1)
         response = requests.get(link_1, headers.generate())
         html = response.text
         soup = bs4.BeautifulSoup(html, 'lxml')

@@ -5,9 +5,9 @@ BAIC,X35,1274175
 BAIC,X55,1770000
 BAIC,X7,2325000
 BAIC,X75,2242500
-Belgee,X50,1900990
+Belgee,X50,1755990
 Belgee,X70,2194990
-Changan,Alsvin,1098100
+Changan,Alsvin,990000
 Changan,CS35,659925
 Changan,CS35 Plus,935900
 Changan,CS35 Plus New,1696900
@@ -26,7 +26,7 @@ Changan,UNI-K,2729925
 Changan,UNI-K iDD Hybrid,3914925
 Changan,UNI-T,1721940
 Changan,UNI-V,2075000
-Chery,Arrizo 8,2046000
+Chery,Arrizo 8,2009000
 Chery,Tiggo 2,679900
 Chery,Tiggo 3,609900
 Chery,Tiggo 4,744900
@@ -112,8 +112,8 @@ Geely,Tugella,2771993
 Geely,Tugella New,2375994
 Great Wall,Hover H3,1307800
 Great Wall,Hover H5,1433700
-Great Wall,POER,2586800
-Great Wall,POER King Kong,2399300
+Great Wall,POER,2729000
+Great Wall,POER King Kong,2540100
 Great Wall,Wingle 7,2079000
 Haval,Dargo,1769000
 Haval,Dargo X,1961400
@@ -238,8 +238,8 @@ Lada,Vesta Sportline New,1827800
 Lada,Xray,415900
 Lada,Xray Cross,561900
 Lada,ВИС 2349 Бортовая платформа,1381100
-Lada,ВИС 2349 Фургон,1392100
-Lada,ВИС 4x4 2346 Бортовая платформа,1382000
+Lada,ВИС 2349 Фургон,1418100
+Lada,ВИС 4x4 2346 Бортовая платформа,1473000
 Lifan,Murman,814900
 Lifan,MyWay,724900
 Lifan,Solano 2,504900
@@ -337,6 +337,7 @@ TANK,500 Urban,5399000
 Toyota,CH-R,1973250
 Toyota,Camry,1873500
 Toyota,Corolla,1466250
+Toyota,Fortuner,6570000
 Toyota,Highlander,6899000
 Toyota,Land Cruiser 300,14400000
 Toyota,Land Cruiser Prado,9000000

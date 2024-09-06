@@ -166,24 +166,27 @@ async def alpha_tank(dct_up):
     cards = soup.find_all(attrs={"class": "car-info col"})
     res = []
     for card in cards:
-        link = 'https://alfa-tank.ru' + card.find("a").get("href")
-        title = card.find(attrs={"class": "text-white h2"}).text.lower().strip().replace('•', '')
-        brand = title.split()[0]
-        model = title.replace(brand, '').strip().replace(" ", "")
-        cost__ = card.find(attrs={"class": "q-ml-sm"}).text.strip()
-        cost_ = ''
-        for y in cost__:
-            if y.isdigit():
-                cost_ += y
-        if cost_ == '':
-            continue
-        cost = int(cost_)
-        name = brand + ', ' + model
         try:
-            name = dct_up[name]
-        except KeyError:
-            await bot.send_message(CHANEL_ID, f'{name} {link}')
-        res.append([name, cost, link])
+            link = 'https://alfa-tank.ru' + card.find("a").get("href")
+            title = card.find(attrs={"class": "text-white h2"}).text.lower().strip().replace('•', '')
+            brand = title.split()[0]
+            model = title.replace(brand, '').strip().replace(" ", "")
+            cost__ = card.find(attrs={"class": "q-ml-sm"}).text.strip()
+            cost_ = ''
+            for y in cost__:
+                if y.isdigit():
+                    cost_ += y
+            if cost_ == '':
+                continue
+            cost = int(cost_)
+            name = brand + ', ' + model
+            try:
+                name = dct_up[name]
+            except KeyError:
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
+            res.append([name, cost, link])
+        except Exception:
+            pass
     return res
 
 
