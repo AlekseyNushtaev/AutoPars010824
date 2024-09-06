@@ -371,6 +371,7 @@ hyundai, creta2020 |Hyundai, Creta | 313
 solaris, hc(hyundaicreta) |Hyundai, Creta | 313
 hyundai, cretanew |Hyundai, Creta New | 314
 hyundai, celesta |Hyundai, Celesta | 315
+hyundai, custin |Hyundai, Custin | 739
 hyundai, h-1 |Hyundai, H-1 | 316
 hyundai, h1 |Hyundai, H-1 | 316
 hyundai, ix35new |Hyundai, ix35 New | 317
