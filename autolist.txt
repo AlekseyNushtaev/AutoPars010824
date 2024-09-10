@@ -178,6 +178,7 @@ exeed, vx2021 |EXEED, VX | 205
 cheryexeed, vxnew |EXEED, VX New | 206
 exeed, lx |EXEED, LX | 203
 exeed, lxnew |EXEED, LX New | 207
+exeed, lxновый |EXEED, LX New | 207
 exeed, lxрестайлинг2 |EXEED, LX New | 207
 exeed, новыйlx |EXEED, LX New | 207
 exeed, lx1.6awd |EXEED, LX AWD | 208
@@ -351,6 +352,7 @@ haval, h5new |Haval, H5 New | 306
 haval, m6 |Haval, M6 | 307
 haval, новыйm6 |Haval, M6 New| 689
 haval, newf7 |Haval, F7 New | 288
+haval, f7ii |Haval, F7 New | 288
 haval, новыйf7 |Haval, F7 New | 288
 haval, newf7x |Haval, F7x New | 290
 haval, новыйf7x |Haval, F7x New | 290
