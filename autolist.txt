@@ -600,6 +600,7 @@ lada, nivalegend5d |Lada, Niva Legend 5 дверей | 424
 lada, nivalegend3д. |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3дв. |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3двери |Lada, Niva Legend 3 двери | 423
+lada, legend3дв. |Lada, Niva Legend 3 двери | 423
 lada, nivalegend5д. |Lada, Niva Legend 5 дверей | 424
 lada, nivalegend5dv |Lada, Niva Legend 5 дверей | 424
 lada, nivalegend5дв. |Lada, Niva Legend 5 дверей | 424
@@ -618,6 +619,7 @@ lada, 4x43дв. |Lada, 4x4 3 двери | 701
 lada, 2121(4x4) |Lada, 4x4 3 двери | 701
 lada, 4x45дв. |Lada, 4x4 5 дверей | 431
 lada, nivalegendbronto |Lada, Niva Legend Bronto | 432
+lada, legendbronto |Lada, Niva Legend Bronto | 432
 lada, niva legend bronto |Lada, Niva Legend Bronto | 432
 lada, brontolegend |Lada, Niva Legend Bronto | 432
 lada, nivaoff-road |Lada, Niva Off-Road | 433
@@ -758,6 +760,7 @@ nissan, newx-trail |Nissan, X-trail New | 524
 omoda, c5 |OMODA, C5 | 525
 omoda, c5кроссовер |OMODA, C5 | 525
 omoda, s5 |OMODA, S5 | 526
+omoda, s5седан |OMODA, S5 | 526
 omoda, s5gt |OMODA, S5 GT | 527
 omoda, s5gtседан |OMODA, S5 GT | 527
 opel, combolife |Opel, Combo Life | 528
@@ -888,7 +891,9 @@ toyota, hilux |Toyota, Hilux | 627
 toyota, hiluxnew |Toyota, Hilux New | 628
 toyota, landcruiser |Toyota, Land Cruiser 300 | 629
 toyota, landcruiser300 |Toyota, Land Cruiser 300 | 629
+toyota, landcruiser300gr-sport |Toyota, Land Cruiser 300 GR-Sport | 740
 toyota, landcruiserprado |Toyota, Land Cruiser Prado | 630
+toyota, landcruiser250pradonew |Toyota, Land Cruiser Prado New | 741
 toyota, newcorolla |Toyota, Corolla New | 631
 toyota, corollanew |Toyota, Corolla New | 631
 toyota, rav4new |Toyota, RAV4 New | 632
