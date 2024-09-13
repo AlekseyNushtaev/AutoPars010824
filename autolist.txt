@@ -11,6 +11,7 @@ baic, x55 |BAIC, X55 | 105
 baic, x7 |BAIC, X7 | 106
 baic, x75 |BAIC, X75 | 107
 baic, u5plus |BAIC, U5 Plus | 108
+baic, u5pluscng |BAIC, U5 Plus CNG | 742
 belgee, x50 |Belgee, X50 | 109
 belgee, х50(sx11) |Belgee, X50 | 109
 belgee, x70 |Belgee, X70 | 110
@@ -36,6 +37,7 @@ changan, univ |Changan, UNI-V | 123
 сhangan, cs95 |Changan, CS95 | 125
 сhangan, uni-t |Changan, UNI-T | 126
 changan, uni-tновый |Changan, UNI-T | 126
+changan, uni-tрестайлинг |Changan, UNI-T | 126
 changan, uni-s |Changan, UNI-S | 127
 сhangan, eadoplus |Changan, Eado Plus | 128
 сhangan, hunter |Changan, Hunter | 129
@@ -202,9 +204,11 @@ faw, bestuneb70лифтбек |FAW, Bestune B70 | 213
 faw, bestunet55 |FAW, Bestune T55 | 214
 faw, bestunet55кроссовер |FAW, Bestune T55 | 214
 faw, bestunet77 |FAW, Bestune T77 | 215
+faw, bestunet77кроссовер |FAW, Bestune T77 | 215
 faw, bestunet99 |FAW, Bestune T99 | 216
 faw, bestuneт99 |FAW, Bestune T99 | 216
 faw, bestuneт99new |FAW, Bestune T99 New | 217
+faw, bestunet99рестайлинг |FAW, Bestune T99 New | 217
 faw, besturnx80new |FAW, Besturn X80 New | 218
 faw, bestunex80new |FAW, Besturn X80 New | 218
 faw, besturnb30 |FAW, Besturn B30 | 708
@@ -320,6 +324,7 @@ haval, f7new |Haval, F7 New | 288
 haval, f7новый |Haval, F7 New | 288
 haval, newf72024 |Haval, F7 New | 288
 haval, f72024new |Haval, F7 New | 288
+haval, f7new24 |Haval, F7 New | 288
 haval, f7рестайлинг |Haval, F7 Restyling | 289
 haval, f7restyling |Haval, F7 Restyling | 289
 haval, f7xnew |Haval, F7x New | 290
@@ -354,6 +359,7 @@ haval, новыйm6 |Haval, M6 New| 689
 haval, newf7 |Haval, F7 New | 288
 haval, f7ii |Haval, F7 New | 288
 haval, новыйf7 |Haval, F7 New | 288
+haval, f72024 |Haval, F7 New | 288
 haval, newf7x |Haval, F7x New | 290
 haval, новыйf7x |Haval, F7x New | 290
 hawtai, boliger |Hawtai, Boliger | 308
