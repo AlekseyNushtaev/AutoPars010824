@@ -90,6 +90,8 @@ async def avto_alyans(dct_up):
                     cost_ += y
             cost = int(cost_)
             name = brand + ', ' + model
+            if name == 'киа, lovol':
+                continue
             try:
                 name = dct_up[name]
             except KeyError:

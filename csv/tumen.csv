@@ -5,7 +5,7 @@ BAIC,X35,1470000
 BAIC,X55,2065000
 BAIC,X7,2150000
 Belgee,X50,1842000
-Belgee,X70,2164990
+Belgee,X70,2184990
 Brilliance,V3,429000
 Brilliance,V5,599000
 Changan,Alsvin,1129000
@@ -38,7 +38,7 @@ Chery,Tiggo 7,850300
 Chery,Tiggo 7 Pro,820300
 Chery,Tiggo 7 Pro Max,1169900
 Chery,Tiggo 7 Pro Max New,1247000
-Chery,Tiggo 7 Pro Plug-In-Hybrid,2859000
+Chery,Tiggo 7 Pro Plug-In-Hybrid,3200000
 Chery,Tiggo 8,1389900
 Chery,Tiggo 8 New,1549900
 Chery,Tiggo 8 Pro,1169900
@@ -97,7 +97,8 @@ Geely,GS,699890
 Geely,Monjaro,2159990
 Geely,Okavango,1854000
 Geely,Okavango New,1854000
-Geely,Preface,1959000
+Geely,Preface,1462000
+Geely,Preface New,1709990
 Geely,Tugella,1819990
 Geely,Tugella New,1983990
 Great Wall,Hover H3,719000
@@ -105,9 +106,9 @@ Great Wall,Hover H5,797000
 Great Wall,POER,2559000
 Great Wall,POER King Kong,2359300
 Great Wall,Wingle 7,2109000
-Haima,7X,3191900
-Haima,8S,2709000
-Haval,Dargo,1690000
+Haima,7X,3081900
+Haima,8S,2629000
+Haval,Dargo,1609000
 Haval,Dargo X,1780000
 Haval,F7,950000
 Haval,F7 New,1150000
@@ -119,6 +120,7 @@ Haval,H5 New,1757000
 Haval,H6,999900
 Haval,H6 New,1150000
 Haval,H9,2007000
+Haval,H9 New,2207000
 Haval,Jolion,589000
 Haval,Jolion New,689000
 Haval,M6,1509000
@@ -147,7 +149,7 @@ JAC,S3,809000
 JAC,S7,989000
 JAC,T6,1400000
 JAC,T8 Pro,1969000
-JAC,T9,3249000
+JAC,T9,3499000
 JAECOO,J7,2016000
 JAECOO,J8,3079000
 Jetour,Dashing,1849900
@@ -280,7 +282,7 @@ Solaris,KRS,1459000
 Solaris,KRX,1576000
 Soueast,DX8S,2040000
 TANK,300,2869300
-TANK,500,4409300
+TANK,500,3999000
 Toyota,CH-R,1789000
 Toyota,Camry,1712500
 Toyota,Camry New,3213000

@@ -291,6 +291,7 @@ geely, okavango(iрестайлинг) |Geely, Okavango New | 268
 geely, okavangonew |Geely, Okavango New | 268
 geely, preface |Geely, Preface | 269
 geely, prefacenew |Geely, Preface New | 743
+geely, prefaceрестайлинг |Geely, Preface New | 743
 geely, tugella |Geely, Tugella | 270
 джили, тугела |Geely, Tugella | 270
 geely, tugellaj1-fl |Geely, Tugella | 270
@@ -422,6 +423,7 @@ jac, js3new |JAC, JS3 New | 683
 jac, js4 |JAC, JS4 | 339
 jac, js6 |JAC, JS6 | 340
 jac, js6кроссовер |JAC, JS6 | 340
+jac, js7 |JAC, JS7 | 746
 jac, s3 |JAC, S3 | 341
 jac, s5 |JAC, S5 | 342
 jac, s6 |JAC, S6 | 733
@@ -855,10 +857,14 @@ solaris, hc |Solaris, HC | 594
 solaris, hs |Solaris, HS | 595
 solaris, krs |Solaris, KRS | 596
 solaris, krx |Solaris, KRX | 597
+sollers, argoбортовой |Sollers, Argo бортовой | 744
 sollers, argoфургонпромтоварный |Sollers, Argo фургон промтоварный | 726
 sollers, argoфургон-рефрижератор |Sollers, Argo фургон-рефрижератор | 727
-sollers, atlantгрузопассажирскийфургон |Sollers, Argo грузопассажирский фургон | 728
+sollers, atlantгрузопассажирскийфургон |Sollers, Atlant фургон грузопассажирский | 728
+sollers, atlantфургонгрузопассажирский |Sollers, Atlant фургон грузопассажирский | 728
+sollers, atlantавтобус |Sollers, Atlant автобус | 745
 sollers, atlantцельнометаллическийфургон |Sollers, Argo цельнометаллический фургон | 729
+sollers, atlantфургонцельнометаллический |Sollers, Argo цельнометаллический фургон | 729
 sollers, st6 |Sollers, ST6 | 730
 soueast, dx8s |Soueast, DX8S | 598
 soueast, dx5 |Soueast, DX5 | 599

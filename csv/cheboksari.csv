@@ -3,8 +3,7 @@ BAIC,BJ40,2610000
 BAIC,U5 Plus,1227000
 BAIC,X35,1320000
 BAIC,X55,1770000
-Belgee,X50,2415990
-Belgee,X70,3234990
+Belgee,X50,2305990
 Changan,Alsvin,1050000
 Changan,CS35,527940
 Changan,CS35 Plus,2399900
@@ -18,6 +17,7 @@ Changan,Eado Plus,1397940
 Changan,Hunter Plus,3529900
 Changan,Lamore,2589900
 Changan,UNI-K,2183940
+Changan,UNI-S,2749900
 Changan,UNI-T,2759900
 Changan,UNI-V,1715940
 Chery,Arrizo 8,1414000
@@ -57,7 +57,7 @@ Geely,Atlas Pro,1658394
 Geely,Belgee X50,1374594
 Geely,Coolray,1406994
 Geely,Coolray New,1565994
-Geely,Emgrand,2359990
+Geely,Emgrand,2119990
 Geely,Emgrand New,1205994
 Geely,Emgrand X7,725994
 Geely,GS,659994
@@ -68,7 +68,6 @@ Geely,Tugella New,2375994
 Great Wall,POER,3239000
 Haval,Dargo,1779000
 Haval,Dargo X,1959000
-Haval,F7,3499000
 Haval,F7 New,1219000
 Haval,F7x,3399000
 Haval,F7x New,1269000
@@ -90,10 +89,10 @@ JAC,JS6,2399000
 JAC,S3,439000
 JAC,S5,683400
 JAC,S7,1067400
-JAC,T6,2600000
+JAC,T6,2665500
 JAC,T8 Pro,3199000
-JAECOO,J7,3149900
-JAECOO,J8,4399000
+JAECOO,J7,2549900
+JAECOO,J8,4049000
 Jetour,Dashing,1399900
 Jetour,X70 Plus,1809900
 Jetour,X90 Plus,2149900
@@ -196,5 +195,5 @@ Volkswagen,Passat,1050000
 Volkswagen,Polo,730900
 Volkswagen,Taos,1399900
 Volkswagen,Tiguan New,1579900
-XCite,X-Cross 7,2495500
+XCite,X-Cross 7,2499000
 Zotye,Coupa,713760
