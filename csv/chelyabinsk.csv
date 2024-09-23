@@ -13,7 +13,7 @@ Changan,CS75FL,1089300
 Changan,UNI-K,2068900
 Changan,UNI-T,2029930
 Changan,UNI-V,1628900
-Chery,Arrizo 8,2817000
+Chery,Arrizo 8,2080000
 Chery,Tiggo 2,699900
 Chery,Tiggo 4,565900
 Chery,Tiggo 4 Pro,993900
@@ -24,7 +24,7 @@ Chery,Tiggo 7 Pro Max,1304000
 Chery,Tiggo 7 Pro Plug-In-Hybrid,2840000
 Chery,Tiggo 8,1219900
 Chery,Tiggo 8 Pro,1528900
-Chery,Tiggo 8 Pro Max,2586000
+Chery,Tiggo 8 Pro Max,3225600
 Chevrolet,Cobalt,542900
 Chevrolet,Nexia,492900
 Chevrolet,Spark,542900
@@ -41,9 +41,9 @@ FAW,Bestune T77,1616000
 FAW,Besturn T77,1552000
 FAW,Besturn X40,619300
 FAW,Besturn X80,761000
-Gac,GN8,3399000
-Gac,GS5,2099000
-Gac,GS8,2789000
+Gac,GN8,3059000
+Gac,GS5,1349000
+Gac,GS8,2389000
 Geely,Atlas,869900
 Geely,Atlas New,2236493
 Geely,Atlas Pro,1087596
@@ -54,7 +54,7 @@ Geely,GS,869990
 Geely,Monjaro,2694900
 Great Wall,GWM Wingle 7,1099000
 Great Wall,POER,2749000
-Great Wall,Wingle 7,2099000
+Great Wall,Wingle 7,1099000
 Haval,Dargo,1679000
 Haval,F7,1149000
 Haval,F7 New,1714300
@@ -84,9 +84,10 @@ JAC,S5,699000
 JAC,S7,1108000
 JAC,T6,1949000
 JAC,T8 Pro,3149000
-JAECOO,J7,2599900
+JAECOO,J7,2889900
 JAECOO,J8,3939000
 Jetour,Dashing,1138900
+Jetour,X70 Plus,1499900
 Jetour,X90 Plus,1898900
 Jetta,VA3,973000
 Jetta,VS5,1423000
@@ -100,7 +101,7 @@ Lada,Granta Sedan,257900
 Lada,Granta Sedan Drive Active,425900
 Lada,Granta Sedan New,892550
 Lada,Granta Universal,278900
-Lada,Granta Universal New,1025150
+Lada,Granta Universal New,1040150
 Lada,Largus,446300
 Lada,Largus CNG,764900
 Lada,Largus Cross,611900
@@ -128,7 +129,9 @@ Lifan,Solano 2,400900
 Lifan,X50,419900
 Lifan,X60,490900
 Lifan,X70,614000
+Livan,S6 Pro,1749900
 Livan,X3 Pro,1579900
+Livan,X6 Pro,1729900
 Moskvich,3,1366000
 Moskvich,3e,2439000
 Moskvich,6,1750000
@@ -155,10 +158,13 @@ Skoda,Karoq,954000
 Skoda,Kodiaq,1354000
 Skoda,Kodiaq Scout,2718000
 Skoda,Kodiaq Sportline,2750000
+Skoda,Octavia,1179000
 Skoda,Octavia Combi,1705000
 Skoda,Octavia Hockey Edition,543800
 Skoda,Octavia New,844800
+Skoda,Rapid,589000
 Skoda,Rapid New,425000
+Skoda,Superb,1713000
 Skoda,Superb Combi,1752000
 Skoda,Superb New,1211000
 Suzuki,Jimny,1379000
@@ -180,3 +186,4 @@ Volkswagen,Jetta,1013000
 Volkswagen,Polo,687900
 Volkswagen,Polo New,519300
 Volkswagen,Taos,1227900
+Volkswagen,Tiguan,1288900

@@ -23,22 +23,29 @@ brilliance, v51.5tnew |Brilliance, V5 New | 113
 byd, qin |BYD, Qin | 114
 byd, seagull |BYD, Seagull | 735
 сhangan, cs35plus |Changan, CS35 Plus | 115
+changan, sc7164bcs35plus |Changan, CS35 Plus | 115
 changan, cs35 |Changan, CS35 | 116
 сhangan, cs55 |Changan, CS55 | 117
 сhangan, cs75fl |Changan, CS75FL | 118
 сhangan, alsvin |Changan, Alsvin | 119
 сhangan, uni-k |Changan, UNI-K | 120
+changan, sc7164buni-k |Changan, UNI-K | 120
 changan, unik |Changan, UNI-K | 120
 сhangan, cs55plus |Changan, CS55 Plus | 121
+changan, sc7164bcs55plus |Changan, CS55 Plus | 121
 сhangan, cs35plusnew |Changan, CS35 Plus New | 122
 сhangan, uni-v |Changan, UNI-V | 123
+changan, sc7164buni-v |Changan, UNI-V | 123
 changan, univ |Changan, UNI-V | 123
 сhangan, cs85coupe |Changan, CS85 Coupe | 124
 сhangan, cs95 |Changan, CS95 | 125
+changan, sc7164bcs95 |Changan, CS95 | 125
 сhangan, uni-t |Changan, UNI-T | 126
+changan, sc7164buni-t |Changan, UNI-T | 126
 changan, uni-tновый |Changan, UNI-T | 126
 changan, uni-tрестайлинг |Changan, UNI-T | 126
 changan, uni-s |Changan, UNI-S | 127
+changan, sc7164buni-s |Changan, UNI-S | 127
 сhangan, eadoplus |Changan, Eado Plus | 128
 сhangan, hunter |Changan, Hunter | 129
 сhangan, lamore |Changan, Lamore | 130
@@ -70,6 +77,7 @@ changan, eadoplus |Changan, Eado Plus | 128
 changan, hunter |Changan, Hunter | 129
 changan, hunterplus |Changan, Hunter Plus | 141
 сhangan, hunterplus |Changan, Hunter Plus | 141
+changan, sc7164bhunterplus |Changan, Hunter Plus | 141
 changan, lamore |Changan, Lamore | 130
 changan, raetonplus |Changan, Raeton Plus | 142
 сhangan, raetonplus |Changan, Raeton Plus | 142
@@ -690,8 +698,10 @@ livan, x6pro |Livan, X6 Pro | 466
 livan, х6pro |Livan, X6 Pro | 466
 lixiang, l6 |Lixiang, L6 | 467
 lixiang, l7 |Lixiang, L7 | 468
+lixiang, l7рестайлинг |Lixiang, L7 Restyling| 747
 lixiang, l8 |Lixiang, L8 | 469
 lixiang, l9 |Lixiang, L9 | 470
+lixiang, l9рестайлинг |Lixiang, L9 Restyling| 748
 lynk-co, 08 |Lync&Co, 08 | 471
 lynk-co, 09 |Lync&Co, 09 | 472
 m-hero, i| M-HERO, I | 473
