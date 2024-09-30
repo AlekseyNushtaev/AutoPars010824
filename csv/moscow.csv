@@ -151,8 +151,8 @@ Geely,Emgrand X7,1098989
 Geely,GS,629900
 Geely,Monjaro,2249100
 Geely,Monjaro (KX11),2990000
-Geely,Okavango,1629990
-Geely,Okavango New,1749000
+Geely,Okavango,1854000
+Geely,Okavango New,1629990
 Geely,Preface,1670200
 Geely,Preface New,2599000
 Geely,Tugella,1458000
@@ -216,7 +216,7 @@ Hyundai,Tucson New,1349200
 Hyundai,ix35 New,2025200
 JAC,J7,541000
 JAC,JS3,749700
-JAC,JS4,1310100
+JAC,JS4,1194000
 JAC,JS6,1485000
 JAC,S3,620000
 JAC,S5,551960
@@ -323,6 +323,11 @@ Lada,Vesta Sedan New,603900
 Lada,Vesta Sport,567300
 Lada,Xray,406300
 Lada,Xray Cross,392300
+Lexus,ES,5387000
+Lexus,GX New,9592060
+Lexus,LX,14656000
+Lexus,NX,5356725
+Lexus,RX,8133000
 Lifan,Murman,810900
 Lifan,MyWay,655000
 Lifan,Solano 2,496900
@@ -440,6 +445,7 @@ Skoda,Octavia A8,831000
 Skoda,Octavia New,1152000
 Skoda,Rapid,468000
 Skoda,Rapid New,567300
+Skoda,Rapid Sport Edition,748000
 Skoda,Superb,1102500
 Skoda,Superb Combi New,2227100
 Skoda,Superb New,1933100

@@ -165,6 +165,7 @@ dongfeng, dfskix7 |Dongfeng, DFSK IX7 | 189
 dongfeng, shinemax |Dongfeng, Shine Max | 190
 dongfeng, ax7 | Dongfeng, AX7 | 191
 dong, fengdfmax7 |Dongfeng, DFM AX7 | 692
+dongfeng, dfsk500 |Dongfeng, DFSK 500 | 750
 dongfeng, 580 | Dongfeng, 580 | 192
 dong, feng580 | Dongfeng, 580 | 192
 dongfeng, sk580 | Dongfeng, SK 580 | 193
@@ -296,6 +297,7 @@ geely, monjarohi-phybrid |Geely, Monjaro Hi-P Hybrid | 714
 geely, okavango |Geely, Okavango | 267
 джили, окаванго |Geely, Okavango | 267
 geely, okavango(iрестайлинг) |Geely, Okavango New | 268
+geely, okavangoрестайлинг |Geely, Okavango New | 268
 geely, okavangonew |Geely, Okavango New | 268
 geely, preface |Geely, Preface | 269
 geely, prefacenew |Geely, Preface New | 743
@@ -383,6 +385,7 @@ hongqi, h5 | Hongqi, H5 | 716
 hongqi, h9 | Hongqi, H9 | 717
 hongqi, hq9 | Hongqi, HQ9 | 718
 hongqi, hs5 | Hongqi, HS5 | 719
+hongqi, hs3 | Hongqi, HS3 | 749
 hongqi, hs5(i) | Hongqi, HS5 (I) | 720
 hyundai, bayon |Hyundai, Bayon | 312
 hyundai, creta |Hyundai, Creta | 313
@@ -453,7 +456,9 @@ jetour, x70plus |Jetour, X70 Plus | 353
 jetour, x90plus |Jetour, X90 Plus | 354
 jetta, va3 |Jetta, VA3 | 355
 jetta, vs5 |Jetta, VS5 | 356
+jetta, vs5new |Jetta, VS5 New| 756
 jetta, vs7 |Jetta, VS7 | 357
+jetta, vs7new |Jetta, VS7 New| 757
 kaiyi, e5 |KAIYI, E5 | 358
 kaiyi, е5 |KAIYI, E5 | 358
 kaiyi, x3 |KAIYI, X3 | 359
@@ -678,6 +683,11 @@ lada, vestaседан |Lada, Vesta Sedan | 435
 lada, vestаcедан |Lada, Vesta Sedan | 435
 lada, xray |Lada, Xray | 447
 lada, xraycross |Lada, Xray Cross | 448
+lexus, es |Lexus, ES | 751
+lexus, nx |Lexus, NX | 752
+lexus, rx |Lexus, RX | 753
+lexus, gxnew |Lexus, GX New | 754
+lexus, lx |Lexus, LX | 755
 lifan, murman |Lifan, Murman | 455
 lifan, murman(820) |Lifan, Murman (820) | 456
 lifan, myway |Lifan, MyWay | 457
@@ -779,6 +789,7 @@ nissan, newx-trailnew |Nissan, X-trail New | 524
 nissan, newx-trail |Nissan, X-trail New | 524
 omoda, c5 |OMODA, C5 | 525
 omoda, c5кроссовер |OMODA, C5 | 525
+omoda, c5iкроссовер |OMODA, C5 | 525
 omoda, s5 |OMODA, S5 | 526
 omoda, s5седан |OMODA, S5 | 526
 omoda, s5gt |OMODA, S5 GT | 527
