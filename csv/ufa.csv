@@ -6,8 +6,8 @@ BAIC,X35,1274175
 BAIC,X55,1770000
 BAIC,X7,2325000
 BAIC,X75,2242500
-Belgee,X50,1605990
-Belgee,X70,1854990
+Belgee,X50,1643990
+Belgee,X70,1892990
 Changan,Alsvin,990000
 Changan,CS35,659925
 Changan,CS35 Plus,935900
@@ -123,14 +123,14 @@ Haval,F7,1144000
 Haval,F7 New,1149000
 Haval,F7x,1214000
 Haval,F7x New,1219000
-Haval,GWM POER,3189000
+Haval,GWM POER,3051110
 Haval,GWM POER King Kong,2899000
 Haval,H2,953400
 Haval,H3,1744300
 Haval,H5,959000
 Haval,H6,1058000
 Haval,H9,3224250
-Haval,H9 New,4999000
+Haval,H9 New,4299000
 Haval,Jolion,914000
 Haval,Jolion New,1199400
 Haval,M6,1593207
@@ -328,9 +328,9 @@ Sollers,Argo бортовой,2442000
 Sollers,Argo фургон промтоварный,2293000
 Sollers,Argo фургон-рефрижератор,2214000
 Sollers,Argo цельнометаллический фургон,2609000
-Sollers,Atlant автобус,4159000
+Sollers,Atlant автобус,4430000
 Sollers,Atlant фургон грузопассажирский,2659000
-Sollers,ST6,1925000
+Sollers,ST6,1825000
 SsangYong,Actyon,996300
 SsangYong,Tivol,849000
 Suzuki,Jimny,1992700
@@ -340,11 +340,10 @@ TANK,300,2869300
 TANK,500,4409300
 TANK,500 Urban,5399000
 Toyota,Camry,4249000
-Toyota,Fortuner,7469000
 Toyota,Highlander,6899000
 Toyota,Hilux,7299000
-Toyota,Land Cruiser 300,14400000
-Toyota,Land Cruiser Prado,10500000
+Toyota,Land Cruiser 300,14795000
+Toyota,Land Cruiser Prado,10499000
 Toyota,RAV4,4499000
 UAZ,3909,979000
 UAZ,Hunter,837000
@@ -368,3 +367,14 @@ Volkswagen,Tiguan,1474900
 Volkswagen,Tiguan New,1479900
 Volkswagen,Touareg,8145100
 Zotye,Coupa,955000
+Zotye,T600,722000
+bmw,3серия,4087000
+bmw,4серия,10703583
+bmw,5серия,10214733
+bmw,m4,18680000
+bmw,x1,6830000
+bmw,x2,7636887
+bmw,x3,4649000
+bmw,x5,14995926
+bmw,x6,16483500
+bmw,x7,18306000

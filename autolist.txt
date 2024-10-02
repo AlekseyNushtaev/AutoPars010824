@@ -16,6 +16,17 @@ belgee, x50 |Belgee, X50 | 109
 belgee, х50(sx11) |Belgee, X50 | 109
 belgee, x70 |Belgee, X70 | 110
 belgee, х70 |Belgee, X70 | 110
+bmw, 3серия |BMW, 3 | 759
+bmw, x3 |BMW, X3 | 760
+bmw, 4серия |BMW, 4 | 761
+bmw, 5серия |BMW, 5 | 762
+bmw, m4 |BMW, M4 | 763
+bmw, x1 |BMW, X1 | 764
+bmw, x2 |BMW, X2 | 765
+bmw, x3 |BMW, X3 | 766
+bmw, x5 |BMW, X5 | 767
+bmw, x6 |BMW, X6 | 768
+bmw, x7 |BMW, X7 | 769
 brilliance, v3 |Brilliance, V3 | 111
 brilliance, v5 |Brilliance, V5 | 112
 brilliance, v51.5t |Brilliance, V5 | 112
@@ -451,6 +462,7 @@ jaecoo, j8кроссовер |JAECOO, J8 | 348
 jetour, dashing |Jetour, Dashing | 349
 jetour, t2new |Jetour, T2 New | 350
 jetour, t2 |Jetour, T2 | 351
+jetour, x50 |Jetour, X50 | 758
 jetour, x70 |Jetour, X70 | 352
 jetour, x70plus |Jetour, X70 Plus | 353
 jetour, x90plus |Jetour, X90 Plus | 354
@@ -909,6 +921,7 @@ swm, g05pro |SWM, G05 Pro | 613
 tank, 300 |TANK, 300 | 614
 tank, 500 |TANK, 500 | 615
 tank, 500urban |TANK, 500 Urban | 731
+tank, 700 |TANK, 700 | 770
 toyota, alphard |Toyota, Alphard | 616
 toyota, bz4x |Toyota, BZ4X | 738
 toyota, corolla |Toyota, Corolla | 617

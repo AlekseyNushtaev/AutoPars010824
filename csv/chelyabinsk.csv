@@ -13,7 +13,7 @@ Changan,CS75FL,1089300
 Changan,UNI-K,2068900
 Changan,UNI-T,2029930
 Changan,UNI-V,1628900
-Chery,Arrizo 8,2080000
+Chery,Arrizo 8,2100000
 Chery,Tiggo 2,699900
 Chery,Tiggo 4,565900
 Chery,Tiggo 4 Pro,993900
@@ -84,7 +84,7 @@ JAC,S3,569000
 JAC,S5,699000
 JAC,S7,1108000
 JAC,T6,1949000
-JAECOO,J7,2889900
+JAECOO,J7,2944900
 JAECOO,J8,3939000
 Jetour,Dashing,1138900
 Jetour,X70 Plus,1499900
@@ -132,7 +132,7 @@ Lifan,X70,614000
 Livan,S6 Pro,1749900
 Livan,X3 Pro,1579900
 Livan,X6 Pro,1729900
-Moskvich,3,1366000
+Moskvich,3,1419000
 Moskvich,3e,2439000
 Moskvich,6,1750000
 Nissan,Qashqai,897000
@@ -140,6 +140,7 @@ Nissan,Terrano,638000
 Nissan,X-trail,1134000
 OMODA,C5,1268900
 OMODA,S5,1613000
+OMODA,S5 GT,2119900
 Ravon,Nexia R3,356000
 Ravon,R2,346000
 Ravon,R4,366000
@@ -178,8 +179,9 @@ UAZ,Hunter,538000
 UAZ,Patriot,429380
 UAZ,Patriot New,1547000
 UAZ,Pickup,621000
-UAZ,Pickup New,1555000
-UAZ,Профи,1655000
+UAZ,Pickup New,1572000
+UAZ,Профи,1585000
+UAZ,Профи Изотермический кузов,1630000
 VOYAH,Free,4790000
 Volkswagen,Jetta,1013000
 Volkswagen,Polo,687900

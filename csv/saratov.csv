@@ -75,7 +75,7 @@ Hyundai,Custin,2981000
 Hyundai,Palisade,4662000
 Hyundai,Santa Fe,5231000
 Hyundai,Solaris,1358000
-Hyundai,Tucson,2264000
+Hyundai,Tucson,2519000
 JAC,J7,1535000
 JAC,JS3,1237000
 JAC,JS4,1557000
@@ -92,7 +92,9 @@ Jetour,X70 Plus,2143000
 Jetour,X90 Plus,2470000
 Jetta,VA3,1292000
 Jetta,VS5,2112000
+Jetta,VS5 New,2141000
 Jetta,VS7,2324000
+Jetta,VS7 New,2349000
 KAIYI,E5,1616000
 KAIYI,X3,1652000
 KAIYI,X3 Pro,1762000
@@ -131,7 +133,7 @@ Lixiang,L7 Restyling,5479000
 Lixiang,L8,5211000
 Lixiang,L9,6680000
 Lixiang,L9 Restyling,6999000
-Mitsubishi,Outlander,2333000
+Mitsubishi,Outlander,2933000
 Moskvich,3,1271000
 Moskvich,6,1730000
 OMODA,C5,1645000
@@ -139,6 +141,7 @@ OMODA,S5,1449000
 Oting,Paladin,2789000
 SWM,G01,1493000
 SWM,G01F,1821000
+SWM,G05 Pro,1851000
 Skywell,ET5,3185000
 TANK,300,2899000
 TANK,500,4474000
@@ -152,8 +155,6 @@ Toyota,Hilux,4188000
 Toyota,Land Cruiser 300,9078000
 Toyota,Land Cruiser Prado,5248000
 Toyota,RAV4,3042000
-jetta,vs5new,2141000
-jetta,vs7new,2349000
 ,,
 ,,
 ,,
