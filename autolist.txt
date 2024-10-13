@@ -13,6 +13,7 @@ baic, x75 |BAIC, X75 | 107
 baic, u5plus |BAIC, U5 Plus | 108
 baic, u5pluscng |BAIC, U5 Plus CNG | 742
 belgee, x50 |Belgee, X50 | 109
+belgee, х50 |Belgee, X50 | 109
 belgee, х50(sx11) |Belgee, X50 | 109
 belgee, x70 |Belgee, X70 | 110
 belgee, х70 |Belgee, X70 | 110
@@ -263,6 +264,7 @@ ford, tourneo |Ford, Tourneo | 710
 gac, emkoo |Gac, Emkoo | 239
 gac, trumpchiemkoo |Gac, Emkoo Trumpchi | 240
 gac, trumpchigs3 |Gac, GS3 Trumpchi | 241
+gac, ga6 |Gac, GA6 | 771
 gac, gn8 |Gac, GN8 | 242
 gac, gs3gac, gs3new |Gac, GS3 | 243
 gac, gs3new |Gac, GS3 New | 244
@@ -300,6 +302,7 @@ geely, emgrand |Geely, Emgrand | 260
 geely, emgrand7 |Geely, Emgrand 7 | 261
 geely, emgrandgt |Geely, Emgrand GT | 262
 geely, emgrand72023 |Geely, Emgrand 7 2023 | 263
+geely, cityray |Geely, Cityray | 772
 geely, gs |Geely, GS | 264
 geely, monjaro |Geely, Monjaro | 265
 джили, монжаро |Geely, Monjaro | 265
@@ -311,6 +314,7 @@ geely, okavango(iрестайлинг) |Geely, Okavango New | 268
 geely, okavangoрестайлинг |Geely, Okavango New | 268
 geely, okavangonew |Geely, Okavango New | 268
 geely, preface |Geely, Preface | 269
+geely, preface(fs11) |Geely, Preface FS11 | 773
 geely, prefacenew |Geely, Preface New | 743
 geely, prefaceрестайлинг |Geely, Preface New | 743
 geely, tugella |Geely, Tugella | 270
@@ -534,7 +538,9 @@ lada, grantacross |Lada, Granta Cross | 402
 lada, grantadriveactive |Lada, Granta Sedan Drive Active | 403
 lada, grantaседанdriveactive |Lada, Granta Sedan Drive Active | 403
 lada, grantasportline |Lada, Granta Sportline | 723
+lada, grantasportlineседан |Lada, Granta Sportline | 723
 lada, grantasportlineлифтбэк |Lada, Granta Sportline Liftback| 732
+lada, grantasportlineлифтбек |Lada, Granta Sportline Liftback| 732
 lada, grantahatchback |Lada, Granta Hatchback | 404
 lada, grantaliftback |Lada, Granta Liftback | 405
 lada, grantasedan |Lada, Granta Sedan | 406
@@ -968,6 +974,7 @@ uaz, patriotpikap |UAZ, Patriot Pickup | 636
 уаз, 3909цельнометаллическийфургон |UAZ, 3909 Цельнометаллический фургон| 698
 уаз, сгрфургон |UAZ, 3909 Цельнометаллический фургон| 698
 уаз, профи |UAZ, Профи| 699
+уаз, профифургон |UAZ, Профи Фургон| 774
 уаз, профиизотермическийкузов |UAZ, Профи Изотермический кузов | 702
 уаз, pickup |UAZ, Pickup | 637
 уаз, пикап |UAZ, Pickup | 637
