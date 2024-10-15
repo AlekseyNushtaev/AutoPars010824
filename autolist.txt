@@ -303,6 +303,7 @@ geely, emgrand7 |Geely, Emgrand 7 | 261
 geely, emgrandgt |Geely, Emgrand GT | 262
 geely, emgrand72023 |Geely, Emgrand 7 2023 | 263
 geely, cityray |Geely, Cityray | 772
+geely, citiray |Geely, Cityray | 772
 geely, gs |Geely, GS | 264
 geely, monjaro |Geely, Monjaro | 265
 джили, монжаро |Geely, Monjaro | 265
@@ -534,6 +535,7 @@ kia, sorento |KIA, Sorento | 397
 kia, stinger |KIA, Stinger | 398
 kia, mohave |KIA, Mohave | 399
 kia, mohavenew |KIA, Mohave New | 400
+knewstar, 001 |Knewstar, 001 | 775
 lada, grantacross |Lada, Granta Cross | 402
 lada, grantadriveactive |Lada, Granta Sedan Drive Active | 403
 lada, grantaседанdriveactive |Lada, Granta Sedan Drive Active | 403
@@ -753,6 +755,7 @@ mercedes-benz, gleкупе |Mercedes-Benz, GLE coupe | 724
 mercedes-benz, gls |Mercedes-Benz, GLS | 725
 mg, 4ev |MG, 4 EV | 488
 mg, 7 |MG, 7 | 489
+mg, cyberster |MG, Cyberstar | 776
 mg, maxus9 |MG, Maxus 9 | 490
 mg, vshev |MG, VS HEV | 491
 mg, 5 |MG, 5 | 492
