@@ -4,7 +4,7 @@ BAIC,U5 Plus,1227000
 BAIC,X35,1320000
 BAIC,X55,1770000
 Belgee,X50,2343990
-Belgee,X70,3237990
+Belgee,X70,2672990
 Changan,Alsvin,1050000
 Changan,CS35,527940
 Changan,CS35 Plus,2399900
@@ -59,7 +59,7 @@ Geely,Belgee X50,1374594
 Geely,Cityray,2699990
 Geely,Coolray,1406994
 Geely,Coolray New,1565994
-Geely,Emgrand,2217990
+Geely,Emgrand,2367990
 Geely,Emgrand New,1205994
 Geely,Emgrand X7,725994
 Geely,GS,659994
@@ -68,10 +68,10 @@ Geely,Okavango,2069994
 Geely,Okavango New,2999990
 Geely,Preface FS11,3338990
 Geely,Tugella New,2375994
-Great Wall,POER,3239000
+Great Wall,POER,3399000
 Haval,Dargo,1779000
 Haval,Dargo X,1959000
-Haval,F7,2699000
+Haval,F7,2899000
 Haval,F7 New,1219000
 Haval,F7x,3399000
 Haval,F7x New,1269000
@@ -94,10 +94,9 @@ JAC,S3,439000
 JAC,S5,683400
 JAC,S7,1067400
 JAC,T6,2665500
-JAC,T8 Pro,3199000
 JAC,T9,3399000
-JAECOO,J7,2649900
-JAECOO,J8,4499000
+JAECOO,J7,2429900
+JAECOO,J8,4199000
 Jetour,Dashing,1399900
 Jetour,T2,2631300
 Jetour,X70 Plus,1809900
@@ -122,7 +121,7 @@ KIA,Seltos,790000
 KIA,Soul,638000
 KIA,Sportage 5,1046000
 KIA,XCeed,964900
-Lada,4x4 3 двери,981000
+Lada,4x4 3 двери,1015500
 Lada,Granta Cross,426900
 Lada,Granta Hatchback,378810
 Lada,Granta Liftback,375610
@@ -201,5 +200,5 @@ Volkswagen,Passat,1050000
 Volkswagen,Polo,730900
 Volkswagen,Taos,1399900
 Volkswagen,Tiguan New,1579900
-XCite,X-Cross 7,2499000
+XCite,X-Cross 7,2495500
 Zotye,Coupa,713760

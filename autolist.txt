@@ -176,6 +176,7 @@ dongfeng, dfskix5 |Dongfeng, DFSK IX5 | 188
 dongfeng, dfskix7 |Dongfeng, DFSK IX7 | 189
 dongfeng, shinemax |Dongfeng, Shine Max | 190
 dongfeng, ax7 | Dongfeng, AX7 | 191
+dong, fengax7 | Dongfeng, AX7 | 191
 dong, fengdfmax7 |Dongfeng, DFM AX7 | 692
 dongfeng, dfsk500 |Dongfeng, DFSK 500 | 750
 dongfeng, 580 | Dongfeng, 580 | 192
@@ -325,6 +326,7 @@ geely, tugellaрестайлинг |Geely, Tugella Restyling | 271
 geely, tugellanew |Geely, Tugella New | 272
 great, wallpoer |Great Wall, POER | 273
 great wall, poer |Great Wall, POER | 273
+greatwall, poer |Great Wall, POER | 273
 great wall, wingle5 |Great Wall, Wingle 5 | 274
 greatwall, wingle7 |Great Wall, Wingle 7 | 275
 great wall, wingle7 |Great Wall, Wingle 7 | 275
@@ -907,6 +909,7 @@ sollers, atlantфургонгрузопассажирский |Sollers, Atlant �
 sollers, atlantавтобус |Sollers, Atlant автобус | 745
 sollers, atlantцельнометаллическийфургон |Sollers, Argo цельнометаллический фургон | 729
 sollers, atlantфургонцельнометаллический |Sollers, Argo цельнометаллический фургон | 729
+sollers, atlantфургонпромтоварный |Sollers, Argo фургон промтоварный | 726
 sollers, st6 |Sollers, ST6 | 730
 soueast, dx8s |Soueast, DX8S | 598
 soueast, dx5 |Soueast, DX5 | 599

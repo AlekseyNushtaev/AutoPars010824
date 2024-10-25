@@ -14,54 +14,53 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver import Chrome
 
 
-def rostov_avto(dct_up, browser):
-    link = 'https://rostov-avto-1.ru/'
-    browser.get(link)
-    time.sleep(5)
-    flag = True
-    while flag:
-        flag = False
-        buttons = browser.find_elements(
-            By.TAG_NAME,
-            'tr')
-        for button in buttons:
-            if "загрузить еще" in button.text.lower().strip():
-                button.click()
-                flag = True
-                time.sleep(5)
-                break
-    html = browser.page_source
+def ufa_autofort(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://autofort-ufa.ru/'
+    response = requests.get(link, headers.generate())
+    html = response.text
     soup = bs4.BeautifulSoup(html, 'lxml')
-    cards = soup.find_all(attrs={"class": "js-product t-store__card t-store__stretch-col t-store__stretch-col_33 t-align_left t-item"})
+    tags = soup.find_all(attrs={"class": "brands__card"})
     res = []
-    for card in cards:
-        link = card.find("a").get("href")
-        title = card.find(attrs={"class": "js-store-prod-name js-product-name t-store__card__title t-typography__title t-name t-name_md"}).text.lower().strip()
-        brand = title.split()[0]
-        model = title.replace(brand, '').strip().replace(" ", "")
-        cost__ = card.find(attrs={"class": "js-product-price js-store-prod-price-val t-store__card__price-value"}).text
-        cost_ = ''
-        for y in cost__:
-            if y.isdigit():
-                cost_ += y
-        cost = int(cost_)
-        name = brand + ', ' + model
-        try:
-            name = dct_up[name]
-        except KeyError:
-            pass
-            #await bot.send_message(CHANEL_ID, f'{name} {link}')
-        res.append([name, cost, link])
+    for tag in tags:
+        link_1 = 'https://autofort-ufa.ru' + tag.get("href")
+        print(link_1)
+        response = requests.get(link_1, headers.generate())
+        time.sleep(0.25)
+        html = response.text
+        soup = bs4.BeautifulSoup(html, 'lxml')
+        cards = soup.find_all(attrs={"class": "mini-card"})
+        for card in cards:
+            link = 'https://autofort-ufa.ru' + card.find("a").get("href")
+            print(link)
+            title = card.find(attrs={"class": "mini-card__title mb-1"}).text.lower().strip()
+            brand = title.split()[0]
+            model = title.replace(brand, '').strip().replace(" ", "")
+            cost__ = card.find(attrs={"class": "new text-primary"}).text.strip()
+            cost_ = ''
+            for y in cost__:
+                if y.isdigit():
+                    cost_ += y
+            if cost_ == '':
+                continue
+            cost = int(cost_)
+            name = brand + ', ' + model
+            try:
+                name = dct_up[name]
+            except KeyError:
+                # await bot.send_message(CHANEL_ID, f'{name} {link}')
+                pass
+            res.append([name, cost, link])
     return res
 
-chrome_driver_path = ChromeDriverManager().install()
-browser_service = Service(executable_path=chrome_driver_path)
-options = Options()
-# options.add_argument('--headless')
-# options.add_argument('--no-sandbox')
-options.add_argument("--window-size=1200,600")
-options.add_argument('--disable-dev-shm-usage')
-browser = Chrome(service=browser_service, options=options)
+# chrome_driver_path = ChromeDriverManager().install()
+# browser_service = Service(executable_path=chrome_driver_path)
+# options = Options()
+# # options.add_argument('--headless')
+# # options.add_argument('--no-sandbox')
+# options.add_argument("--window-size=1200,600")
+# options.add_argument('--disable-dev-shm-usage')
+# browser = Chrome(service=browser_service, options=options)
 
-res = rostov_avto({}, browser)
+res = ufa_autofort({})
 print(res)
