@@ -196,14 +196,14 @@ async def alpha_tank(dct_up):
 async def ufa_autofort(dct_up):
     headers = fake_headers.Headers(browser='firefox', os='win')
     link = 'https://autofort-ufa.ru/'
-    response = requests.get(link, headers.generate())
+    response = requests.get(link, headers.generate(), verify=False)
     html = response.text
     soup = bs4.BeautifulSoup(html, 'lxml')
     tags = soup.find_all(attrs={"class": "brands__card"})
     res = []
     for tag in tags:
         link_1 = 'https://autofort-ufa.ru' + tag.get("href")
-        response = requests.get(link_1, headers.generate())
+        response = requests.get(link_1, headers.generate(), verify=False)
         time.sleep(0.25)
         html = response.text
         soup = bs4.BeautifulSoup(html, 'lxml')
