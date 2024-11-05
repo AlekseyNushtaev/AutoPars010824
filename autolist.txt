@@ -904,8 +904,12 @@ solaris, krx |Solaris, KRX | 597
 sollers, argoбортовой |Sollers, Argo бортовой | 744
 sollers, argoфургонпромтоварный |Sollers, Argo фургон промтоварный | 726
 sollers, argoфургон-рефрижератор |Sollers, Argo фургон-рефрижератор | 727
+sollers, argoфургонизотермический |Sollers, Argo фургон изотермический | 777
 sollers, atlantгрузопассажирскийфургон |Sollers, Atlant фургон грузопассажирский | 728
 sollers, atlantфургонгрузопассажирский |Sollers, Atlant фургон грузопассажирский | 728
+sollers, atlantбортовой |Sollers, Atlant бортовой | 778
+sollers, atlantфургонизотермический |Sollers, Atlant фургон изотермический | 779
+sollers, atlantфургон-рефрижератор |Sollers, Atlant фургон-рефрижератор | 780
 sollers, atlantавтобус |Sollers, Atlant автобус | 745
 sollers, atlantцельнометаллическийфургон |Sollers, Argo цельнометаллический фургон | 729
 sollers, atlantфургонцельнометаллический |Sollers, Argo цельнометаллический фургон | 729
@@ -941,6 +945,8 @@ toyota, fortuner |Toyota, Fortuner | 618
 toyota, fortunernew |Toyota, Fortuner New | 619
 toyota, rav4 |Toyota, RAV4 | 620
 toyota, camry |Toyota, Camry | 621
+toyota, izoa |Toyota, Izoa | 781
+toyota, crownkluger |Toyota, Crown Kluger | 782
 toyota, newcamry |Toyota, Camry New | 622
 toyota, c-hr |Toyota, CH-R | 623
 toyota, c-hrnew |Toyota, CH-R New | 624
