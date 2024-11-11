@@ -161,6 +161,7 @@ citroen, c3aircrossnew |Citroen, C5 Aircross New | 178
 citroёn, c5aircross |Citroen, C5 Aircross | 179
 citroen, c5aircrossnew |Citroen, C5 Aircross New | 178
 citroen, c5aircross |Citroen, C5 Aircross | 179
+citroen, c5x |Citroen, C5 X | 783
 citroen, jumpy |Citroen, Jumpy | 180
 citroёn, spacetourer |Citroen, Spacetourer | 181
 citroen, spacetourer |Citroen, Spacetourer | 181
@@ -244,6 +245,7 @@ faw, x40 |FAW, X40 | 223
 faw, x40new |FAW, X40 New | 222
 faw, x80 |FAW, X80 | 224
 faw, d60 |FAW, D60 | 709
+forthing, t5 |Forthing, T5 | 785
 forthing, t5evo |Forthing, T5 Evo | 225
 forthing, yacht |Forthing, Yacht | 226
 foton, sauvana |Foton, Sauvana | 227
@@ -625,6 +627,7 @@ lada, новыйlargusфургон |Lada, Largus Фургон New | 454
 lada, largusfurgonnew |Lada, Largus Фургон New | 454
 lada, (ваз)largusiрестайлингфургон |Lada, Largus Фургон New | 454
 lada, вис234900 |Lada, ВИС 2349 Фургон | 700
+lada, вис234600 |Lada, ВИС 2346 | 784
 lada, (ваз)вис |Lada, ВИС 2349 Фургон | 700
 lada, 4x4вис-2346бортоваяплатформа |Lada, ВИС 4x4 2346 Бортовая платформа | 722
 lada, grantaвис-2349фургон |Lada, ВИС 2349 Фургон | 700
@@ -958,6 +961,7 @@ toyota, hiluxnew |Toyota, Hilux New | 628
 toyota, landcruiser |Toyota, Land Cruiser 300 | 629
 toyota, landcruiser300 |Toyota, Land Cruiser 300 | 629
 toyota, landcruiser300gr-sport |Toyota, Land Cruiser 300 GR-Sport | 740
+toyota, landcruiserprado150series |Toyota, Land Cruiser Prado | 630
 toyota, landcruiserprado |Toyota, Land Cruiser Prado | 630
 toyota, landcruiser250pradonew |Toyota, Land Cruiser Prado New | 741
 toyota, newcorolla |Toyota, Corolla New | 631
