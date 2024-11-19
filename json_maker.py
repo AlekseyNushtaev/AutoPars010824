@@ -16,6 +16,25 @@ async def json_maker(dct):
     dct_id = {}
     for item in data:
         name = item['brand'].lower() + ', ' + item['model'].lower().replace(" ", "")
+        if name == 'haval, jolion':
+            name = 'haval, jolion1'
+        elif name == 'haval, jolion1':
+            name = 'haval, jolion'
+
+        if name == 'geely, atlas':
+            name = 'geely, atlas1'
+        elif name == 'geely, atlas1':
+            name = 'geely, atlas'
+
+        if name == 'geely, coolray':
+            name = 'geely, coolray1'
+        elif name == 'geely, coolray1':
+            name = 'geely, coolray'
+
+        if name == 'lada, vestacross':
+            name = 'lada, vestacross1'
+        elif name == 'lada, vestacross1':
+            name = 'lada, vestacross'
         try:
             dct_id[dct[name]] = item['id']
         except Exception:
