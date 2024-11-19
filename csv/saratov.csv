@@ -24,6 +24,7 @@ Changan,UNI-S,1709000
 Changan,UNI-T,1930000
 Changan,UNI-V,1878000
 Chery,Arrizo 8,1820000
+Chery,Tiggo 4,1515000
 Chery,Tiggo 4 Pro,1378000
 Chery,Tiggo 7 Pro Max,1768000
 Chery,Tiggo 7 Pro Max New,1801000
@@ -80,9 +81,12 @@ Hongqi,H5,3114000
 Hongqi,HS5,3504000
 Hyundai,Creta,1618000
 Hyundai,Custin,2625000
+Hyundai,Elantra,1741000
 Hyundai,Palisade,4257000
 Hyundai,Santa Fe,4453000
 Hyundai,Solaris,1268000
+Hyundai,Sonata,2135000
+Hyundai,Staria,4590000
 Hyundai,Tucson,1923000
 JAC,J7,1365000
 JAC,JS3,1137000
@@ -147,6 +151,9 @@ MG,5,1481000
 MG,6,1884000
 MG,Cyberstar,3984000
 MG,ZS,1754000
+Mazda,6,1186000
+Mazda,CX-30,2333000
+Mazda,CX-5,2183000
 Mitsubishi,Outlander,2489000
 Moskvich,3,1099000
 Moskvich,6,1430000
@@ -169,6 +176,7 @@ Toyota,Hilux,3394000
 Toyota,Land Cruiser 300,6942000
 Toyota,Land Cruiser Prado,4204000
 Toyota,RAV4,2517000
+,,
 ,,
 ,,
 ,,

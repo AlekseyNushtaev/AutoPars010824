@@ -3,11 +3,11 @@ BAIC,BJ40,2906250
 BAIC,U5 Plus,1278750
 BAIC,U5 Plus CNG,1567892
 BAIC,X35,1274175
-BAIC,X55,1770000
+BAIC,X55,2227500
 BAIC,X7,2325000
 BAIC,X75,1942500
-Belgee,X50,1683094
-Belgee,X70,2029388
+Belgee,X50,1680693
+Belgee,X70,2026493
 Changan,Alsvin,990000
 Changan,CS35,659925
 Changan,CS35 Plus,935900
@@ -17,11 +17,11 @@ Changan,CS55 Plus,1829910
 Changan,CS75,787425
 Changan,CS75 Plus,2137425
 Changan,CS75FL,1154900
-Changan,CS85 Coupe,2225940
-Changan,CS95,2549940
+Changan,CS85 Coupe,2782425
+Changan,CS95,3262425
 Changan,CS95 New,3134925
 Changan,Eado Plus,1392940
-Changan,Hunter Plus,2057940
+Changan,Hunter Plus,2949900
 Changan,Lamore,1668940
 Changan,UNI-K,2549925
 Changan,UNI-K iDD Hybrid,3914925
@@ -37,13 +37,13 @@ Chery,Tiggo 5,801900
 Chery,Tiggo 7,891900
 Chery,Tiggo 7 Pro,1259900
 Chery,Tiggo 7 Pro Max,1449900
-Chery,Tiggo 7 Pro Max New,1988000
-Chery,Tiggo 7 Pro Plug-In-Hybrid,2665000
+Chery,Tiggo 7 Pro Max New,1925000
+Chery,Tiggo 7 Pro Plug-In-Hybrid,2753280
 Chery,Tiggo 8,1199900
 Chery,Tiggo 8 Pro,1599900
-Chery,Tiggo 8 Pro Max,2496000
+Chery,Tiggo 8 Pro Max,2670940
 Chery,Tiggo 8 Pro Max New,2263000
-Chery,Tiggo 8 Pro Plug-In-Hybrid,3430000
+Chery,Tiggo 8 Pro Plug-In-Hybrid,3637500
 Chery,Tiggo 8 Pro e+,3697500
 Chery,Tiggo 8 Pro e+ Hybrid,3300000
 Chevrolet,Cobalt,599900
@@ -66,19 +66,20 @@ EXEED,LX,2274900
 EXEED,LX New,2169590
 EXEED,RX,3265000
 EXEED,TXL,809960
-EXEED,TXL New,3091500
-EXEED,VX,3650000
-EXEED,VX New,4160000
+EXEED,TXL New,3037500
+EXEED,VX,3142500
+EXEED,VX New,4200000
+Evolute,i-SPACE,3460000
 FAW,Bestune B70,1594600
 FAW,Bestune T55,1567300
 FAW,Bestune T77,1626750
-FAW,Bestune T99,1770000
+FAW,Bestune T99,2212500
 FAW,Besturn T77,1784000
 FAW,Besturn X40,719000
 FAW,Besturn X80,844000
 FAW,Besturn X80 New,1131000
-FAW,X40,724000
-FAW,X80,849000
+FAW,X40,1392000
+FAW,X80,1508000
 Ford,Ecosport,1141400
 Ford,Explorer,3530100
 Ford,Fiesta Hatchback,837100
@@ -97,23 +98,23 @@ Gac,GS5,1549800
 Gac,GS8,1952300
 Gac,GS8 II,3050100
 Gac,M8,4399999
-Geely,Atlas,909990
-Geely,Atlas New,1916994
+Geely,Atlas,1671743
+Geely,Atlas New,2470493
 Geely,Atlas Pro,1028596
 Geely,Belgee X50,1369594
 Geely,Cityray,2024993
 Geely,Coolray,959990
 Geely,Coolray New,1560994
-Geely,Emgrand,1562990
-Geely,Emgrand New,1205994
+Geely,Emgrand,1584743
+Geely,Emgrand New,2009990
 Geely,Emgrand X7,839990
 Geely,GS,969990
-Geely,Monjaro,3149993
-Geely,Okavango,2613472
-Geely,Okavango New,2069994
+Geely,Monjaro,3245243
+Geely,Okavango,2540873
+Geely,Okavango New,3449990
 Geely,Preface,1725000
 Geely,Tugella,2370994
-Geely,Tugella New,2375994
+Geely,Tugella New,2969993
 Great Wall,Hover H3,1307800
 Great Wall,Hover H5,1433700
 Great Wall,POER,2729000
@@ -122,11 +123,11 @@ Great Wall,Wingle 7,2079000
 Haval,Dargo,1764000
 Haval,Dargo X,1956400
 Haval,F7,1144000
-Haval,F7 New,1149000
+Haval,F7 New,1870407
 Haval,F7x,1214000
-Haval,F7x New,1219000
-Haval,GWM POER,3051110
-Haval,GWM POER King Kong,2699000
+Haval,F7x New,2449000
+Haval,GWM POER,3169000
+Haval,GWM POER King Kong,2899000
 Haval,H2,953400
 Haval,H3,1744300
 Haval,H5,959000
@@ -134,31 +135,31 @@ Haval,H6,1058000
 Haval,H9,3224250
 Haval,H9 New,3589300
 Haval,Jolion,914000
-Haval,Jolion New,1199400
+Haval,Jolion New,1385307
 Haval,M6,1510047
 Haval,M6 New,1669000
 Honda,CR-V New,3617400
 Honda,Pilot,3667500
-Hongqi,E-HS9,9690000
+Hongqi,E-HS9,8200000
 Hongqi,H5,3590000
-Hongqi,H9,6450000
-Hongqi,HQ9,7440000
+Hongqi,H9,6190000
+Hongqi,HQ9,7022100
 Hongqi,HS3,3340000
-Hongqi,HS5,4990000
+Hongqi,HS5,4689300
 Hongqi,HS5 (I),2790000
 Hyundai,Creta,645000
 Hyundai,Creta New,659000
 Hyundai,Elantra,859000
-Hyundai,Elantra New,864000
+Hyundai,Elantra New,2149000
 Hyundai,H-1,2206500
 Hyundai,Palisade,4581000
 Hyundai,Santa Fe,3385000
-Hyundai,Solaris,451000
+Hyundai,Solaris,1028900
 Hyundai,Solaris New,446000
 Hyundai,Sonata,1651223
 Hyundai,Staria,3602100
 Hyundai,Tucson,1464000
-Hyundai,Tucson New,1469000
+Hyundai,Tucson New,2749000
 Hyundai,i30,2110500
 JAC,J7,713000
 JAC,JS3,1311750
@@ -177,9 +178,9 @@ JAC,iEV7S,2885700
 JAECOO,J7,1998940
 JAECOO,J8,3336750
 Jetour,Dashing,1458940
-Jetour,T2,2744250
+Jetour,T2,2969250
 Jetour,X50,1492500
-Jetour,X70 Plus,1649945
+Jetour,X70 Plus,2249925
 Jetour,X90 Plus,2004940
 Jetta,VA3,1197400
 Jetta,VS5,1442200
@@ -187,21 +188,21 @@ Jetta,VS7,1724800
 KAIYI,E5,1336300
 KAIYI,X3,1337800
 KAIYI,X3 Pro,1544900
-KAIYI,X7 Kunlun,1798740
-KIA,Ceed,1566000
-KIA,Ceed SW,1644000
-KIA,Cerato New,1668000
-KIA,K5,2064000
-KIA,Picanto New,1152000
-KIA,ProCeed,1103940
-KIA,Rio New,860940
-KIA,Rio X,944940
-KIA,Rio X-Line,516945
-KIA,Seltos,1908223
-KIA,Soul,1924138
-KIA,Sportage 5,1567445
-KIA,XCeed,1758000
-Knewstar,001,3465990
+KAIYI,X7 Kunlun,2248425
+KIA,Ceed,2244900
+KIA,Ceed SW,2314900
+KIA,Cerato New,2054900
+KIA,K5,2734900
+KIA,Picanto New,1334900
+KIA,ProCeed,1869900
+KIA,Rio New,1434900
+KIA,Rio X,1574900
+KIA,Rio X-Line,939900
+KIA,Seltos,1959900
+KIA,Soul,1934900
+KIA,Sportage 5,2849900
+KIA,XCeed,2634900
+Knewstar,001,3292792
 Lada,4x4 Bronto,882340
 Lada,Granta Cross,389900
 Lada,Granta Drive Active Liftback,738940
@@ -215,18 +216,18 @@ Lada,Granta Sport Sedan,978800
 Lada,Granta Sportline,1145800
 Lada,Granta Sportline Liftback,1177800
 Lada,Granta Universal,276900
-Lada,Largus,1141900
+Lada,Largus,990000
 Lada,Largus Cross,1280500
 Lada,Largus Cross 7 мест,1313600
 Lada,Largus Cross New,501900
 Lada,Largus New,379900
 Lada,Largus Фургон,1142800
 Lada,Largus Фургон New,395900
-Lada,Niva,575640
+Lada,Niva,675640
 Lada,Niva Legend 3 двери,295900
 Lada,Niva Legend 5 дверей,363900
 Lada,Niva Legend Bronto,948900
-Lada,Niva Off-Road,642720
+Lada,Niva Off-Road,742720
 Lada,Niva Travel,414900
 Lada,Niva Urban 3 двери,611700
 Lada,Niva Urban 5 дверей,651400
@@ -246,8 +247,8 @@ Lada,Vesta Sportline New,1827800
 Lada,Xray,410900
 Lada,Xray Cross,556900
 Lada,ВИС 2349 Бортовая платформа,1406100
-Lada,ВИС 2349 Фургон,1392100
-Lada,ВИС 4x4 2346 Бортовая платформа,1506000
+Lada,ВИС 2349 Фургон,1390100
+Lada,ВИС 4x4 2346 Бортовая платформа,1586000
 Lifan,Murman,809900
 Lifan,MyWay,719900
 Lifan,Solano 2,499900
@@ -258,8 +259,8 @@ Lifan,X70,589000
 Livan,S6 Pro,1524940
 Livan,X3 Pro,1026940
 Livan,X6 Pro,1572940
-MG,5,1488750
-MG,6,1927500
+MG,5,1761750
+MG,6,2174250
 MG,7,3700000
 MG,ZS,1649250
 Mazda,3,1449900
@@ -279,14 +280,14 @@ Mitsubishi,Pajero Sport,3986500
 Moskvich,3,1192500
 Moskvich,3e,2415000
 Moskvich,6,1540000
-Nissan,Murano,2645400
+Nissan,Murano,4011200
 Nissan,Pathfinder,4893400
 Nissan,Qashqai,917000
 Nissan,Terrano,667000
 Nissan,X-trail,1472000
-OMODA,C5,1599900
-OMODA,S5,1339503
-OMODA,S5 GT,2009900
+OMODA,C5,1629900
+OMODA,S5,1459000
+OMODA,S5 GT,1750000
 Opel,Combo Life,1862200
 Opel,Crossland,1830300
 Opel,Grandland X,2419000
@@ -311,32 +312,39 @@ Renault,Logan Stepway City,668990
 Renault,Sandero,404000
 Renault,Sandero Stepway,492000
 Renault,Stepway City,631993
+SWM,G01,1709600
+SWM,G01F,1950200
+SWM,G05 Pro,1964000
 Skoda,Karoq,1670000
 Skoda,Kodiaq,2327900
-Skoda,Kodiaq New,2018400
+Skoda,Kodiaq New,3640000
 Skoda,Kodiaq Sportline,3695900
 Skoda,Octavia A8,1823300
 Skoda,Octavia Combi,1879500
 Skoda,Octavia Hockey Edition,523800
 Skoda,Octavia New,1204000
-Skoda,Rapid,406000
+Skoda,Rapid,1058800
 Skoda,Rapid New,401000
-Skoda,Superb,1285000
-Skoda,Superb Combi,2099350
+Skoda,Superb,3386000
+Skoda,Superb Combi,3817000
 Skoda,Superb Combi New,2334700
 Skoda,Superb New,1280000
 Skoda,Superb Sportline,2907400
-Solaris,HC,1530000
-Solaris,HS,1260000
-Solaris,KRS,1426600
-Solaris,KRX,1444800
-Sollers,Argo бортовой,2442000
-Sollers,Argo фургон промтоварный,2603700
-Sollers,Argo фургон-рефрижератор,2601900
-Sollers,Argo цельнометаллический фургон,2959317
-Sollers,Atlant автобус,4440000
-Sollers,Atlant фургон грузопассажирский,2888100
-Sollers,ST6,2202500
+Solaris,HC,1763000
+Solaris,HS,1390000
+Solaris,KRS,1448000
+Solaris,KRX,1464000
+Sollers,Argo бортовой,2467000
+Sollers,Argo фургон изотермический,2724000
+Sollers,Argo фургон промтоварный,2431000
+Sollers,Argo фургон-рефрижератор,2498310
+Sollers,Argo цельнометаллический фургон,3004317
+Sollers,Atlant автобус,4113000
+Sollers,Atlant бортовой,3429000
+Sollers,Atlant фургон грузопассажирский,2920500
+Sollers,Atlant фургон изотермический,4076000
+Sollers,Atlant фургон-рефрижератор,4079700
+Sollers,ST6,2206800
 SsangYong,Actyon,996300
 SsangYong,Tivol,849000
 Suzuki,Jimny,1992700
@@ -344,29 +352,36 @@ Suzuki,SX4,1740800
 Suzuki,Vitara,1884600
 TANK,300,2869300
 TANK,500,4209300
-TANK,500 Urban,5399000
-TANK,700,8499000
-Toyota,Land Cruiser 300,14359485
+TANK,500 Urban,5498000
+TANK,700,8599000
+Toyota,Camry,4449000
+Toyota,Crown Kluger,6150000
+Toyota,Highlander,6999000
+Toyota,Hilux,6960000
+Toyota,Izoa,2900000
+Toyota,Land Cruiser 300,14840000
+Toyota,Land Cruiser Prado,10299000
+Toyota,RAV4,4449000
 UAZ,3909,979000
-UAZ,Hunter,837000
-UAZ,Patriot,927000
-UAZ,Patriot Pickup,942000
+UAZ,Hunter,994700
+UAZ,Patriot,1135200
+UAZ,Patriot Pickup,1158200
 UAZ,Patriot АКПП,1451250
-UAZ,Pickup,1341200
+UAZ,Pickup,1346000
 VOYAH,Free,4790000
 Volkswagen,Amarok,2422300
 Volkswagen,Arteon,2556500
 Volkswagen,Caddy,2002800
 Volkswagen,Golf,3896900
 Volkswagen,Jetta,1030000
-Volkswagen,Passat,2131740
+Volkswagen,Passat,2278700
 Volkswagen,Passat Alltrack New,4212400
-Volkswagen,Polo,672900
+Volkswagen,Polo,1306100
 Volkswagen,Polo New,667900
 Volkswagen,Taos,1290900
 Volkswagen,Teramont,5697000
 Volkswagen,Tiguan,1474900
-Volkswagen,Tiguan New,1479900
+Volkswagen,Tiguan New,3375900
 Volkswagen,Touareg,8145100
-XCite,X-Cross 7,2499000
+XCite,X-Cross 7,2205500
 Zotye,Coupa,955000
