@@ -109,6 +109,7 @@ chery, tiggo3xnew |Chery, Tiggo 3x New | 148
 chery, tiggo4 |Chery, Tiggo 4 | 149
 chery, tiggo4new |Chery, Tiggo 4 New | 150
 chery, tiggo4new24 |Chery, Tiggo 4 New | 150
+chery, tiggo4new2024 |Chery, Tiggo 4 New | 150
 chery, tiggo4pro |Chery, Tiggo 4 Pro | 151
 chery, tiggo4proкроссовер |Chery, Tiggo 4 Pro | 151
 chery, tiggo4proкроссовермп |Chery, Tiggo 4 Pro | 151
@@ -479,6 +480,7 @@ jetour, x90plus |Jetour, X90 Plus | 354
 jetta, va3 |Jetta, VA3 | 355
 jetta, vs5 |Jetta, VS5 | 356
 jetta, vs5new |Jetta, VS5 New| 756
+jetta, новыйvs5 |Jetta, VS5 New| 756
 jetta, vs7 |Jetta, VS7 | 357
 jetta, vs7new |Jetta, VS7 New| 757
 kaiyi, e5 |KAIYI, E5 | 358
@@ -956,6 +958,7 @@ toyota, newcamry |Toyota, Camry New | 622
 toyota, c-hr |Toyota, CH-R | 623
 toyota, c-hrnew |Toyota, CH-R New | 624
 toyota, camrynew |Toyota, Camry New | 622
+toyota, camryxv80 |Toyota, Camry New | 622
 toyota, highlander |Toyota, Highlander | 625
 toyota, highlandernew |Toyota, Highlander New | 626
 toyota, hilux |Toyota, Hilux | 627
