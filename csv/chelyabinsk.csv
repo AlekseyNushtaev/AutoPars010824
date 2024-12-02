@@ -3,7 +3,7 @@ BAIC,BJ40,3118000
 BAIC,U5 Plus,1138000
 BAIC,X35,1018000
 Changan,Alsvin,579000
-Changan,CS35,619900
+Changan,CS35,728900
 Changan,CS35 Plus,878900
 Changan,CS35 Plus New,878900
 Changan,CS55,999000
@@ -16,20 +16,19 @@ Changan,UNI-V,1628900
 Chery,Tiggo 2,699900
 Chery,Tiggo 4,565900
 Chery,Tiggo 4 Pro,993900
-Chery,Tiggo 5,739900
-Chery,Tiggo 7,679900
+Chery,Tiggo 5,826900
+Chery,Tiggo 7,926900
 Chery,Tiggo 7 Pro,1108900
 Chery,Tiggo 7 Pro Max,1304000
-Chery,Tiggo 8,1219900
+Chery,Tiggo 8,1234900
 Chery,Tiggo 8 Pro,1528900
 Chevrolet,Cobalt,542900
 Chevrolet,Nexia,492900
 Chevrolet,Spark,542900
-Datsun,MI-DO,319900
+Datsun,MI-DO,344000
 Datsun,ON-DO,244000
 Dongfeng,580,759000
 Dongfeng,AX7,1229000
-Dongfeng,DFM AX7,808000
 EXEED,LX,2299900
 EXEED,TXL,1832900
 EXEED,VX,4109900
@@ -43,25 +42,24 @@ Gac,GN8,3399000
 Gac,GS5,2099000
 Gac,GS8,2789000
 Geely,Atlas,869900
-Geely,Atlas New,2236493
+Geely,Atlas New,2536493
 Geely,Atlas Pro,1087596
 Geely,Coolray,647990
 Geely,Coolray New,1826993
 Geely,Emgrand X7,864990
-Geely,GS,869990
+Geely,GS,994990
 Geely,Monjaro,2694900
-Great Wall,GWM Wingle 7,1099000
 Great Wall,POER,2749000
 Great Wall,Wingle 7,2099000
 Haval,Dargo,1679000
-Haval,F7,1149000
+Haval,F7,1179000
 Haval,F7 New,1714300
-Haval,F7x,1199000
+Haval,F7x,1279000
 Haval,F7x New,1749300
-Haval,H2,869000
+Haval,H2,973400
 Haval,H3,1819300
 Haval,H5,958000
-Haval,H6,919000
+Haval,H6,1078000
 Haval,H9,1909300
 Haval,Jolion,818000
 Haval,Jolion New,1399300
@@ -76,8 +74,8 @@ Hyundai,Sonata,1937300
 Hyundai,Tucson,1478000
 JAC,J7,718000
 JAC,JS6,1819300
-JAC,S3,569000
-JAC,S5,699000
+JAC,S3,698000
+JAC,S5,839000
 JAC,S7,1108000
 JAC,T6,1949000
 JAECOO,J7,2944900
@@ -104,7 +102,7 @@ Lada,Largus Фургон CNG,525900
 Lada,Largus Фургон New,329000
 Lada,Niva,515900
 Lada,Niva Legend 3 двери,579900
-Lada,Niva Legend 5 дверей,371300
+Lada,Niva Legend 5 дверей,398900
 Lada,Niva Off-Road,569900
 Lada,Niva Travel,360200
 Lada,Vesta Cross,444500
@@ -115,10 +113,10 @@ Lada,Vesta Sedan CNG,465900
 Lada,Vesta Sport,579900
 Lada,Xray,385900
 Lada,Xray Cross,384300
-Lifan,Murman,649900
-Lifan,Solano 2,400900
-Lifan,X50,419900
-Lifan,X60,490900
+Lifan,Murman,844900
+Lifan,Solano 2,534900
+Lifan,X50,464900
+Lifan,X60,594900
 Lifan,X70,614000
 Livan,X3 Pro,1579900
 Moskvich,3,1419000

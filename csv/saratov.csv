@@ -3,6 +3,7 @@ BAIC,BJ40,2828000
 BAIC,U5 Plus,1352000
 BAIC,X35,1446000
 BAIC,X55,1931000
+BAIC,X7,2015000
 BAIC,X75,1944000
 BYD,Seagull,1417000
 Belgee,X50,1489000
@@ -25,8 +26,8 @@ Changan,UNI-T,1930000
 Changan,UNI-V,1878000
 Chery,Arrizo 8,1820000
 Chery,Tiggo 4,1515000
-Chery,Tiggo 4 Pro,1378000
-Chery,Tiggo 7 Pro Max,1768000
+Chery,Tiggo 4 Pro,1313000
+Chery,Tiggo 7 Pro Max,1703000
 Chery,Tiggo 7 Pro Max New,1801000
 Chery,Tiggo 8 Pro Max,2399000
 Dongfeng,580,1624000
@@ -60,8 +61,9 @@ Geely,Cityray,1755000
 Geely,Coolray,1479000
 Geely,Coolray Restyling,1696000
 Geely,Emgrand,1345000
-Geely,Monjaro,2954000
-Geely,Okavango,2242000
+Geely,Monjaro,2599000
+Geely,Monjaro Restyling,2658000
+Geely,Okavango,2177000
 Geely,Preface,1888000
 Geely,Preface New,1950000
 Geely,Tugella New,2574000
@@ -82,12 +84,14 @@ Hongqi,HS5,3504000
 Hyundai,Creta,1618000
 Hyundai,Custin,2625000
 Hyundai,Elantra,1741000
+Hyundai,Mufasa,2138000
 Hyundai,Palisade,4257000
 Hyundai,Santa Fe,4453000
 Hyundai,Solaris,1268000
 Hyundai,Sonata,2135000
 Hyundai,Staria,4590000
-Hyundai,Tucson,1923000
+Hyundai,Tucson,2197000
+Hyundai,Tucson New,2435000
 JAC,J7,1365000
 JAC,JS3,1137000
 JAC,JS4,1425000
@@ -107,7 +111,7 @@ Jetta,VS5,1919000
 Jetta,VS5 New,1943000
 Jetta,VS7,2091000
 Jetta,VS7 New,2112000
-KAIYI,E5,1427000
+KAIYI,E5,1169000
 KAIYI,X3,1455000
 KAIYI,X3 Pro,1635000
 KAIYI,X7,1949000
@@ -127,26 +131,27 @@ KIA,Sorento,2971000
 KIA,Sorento New,3162000
 KIA,Soul,1663000
 KIA,Sportage,2227000
-Lada,Granta Cross,741000
-Lada,Granta Liftback,677000
-Lada,Granta Sedan,455000
-Lada,Largus,1079000
-Lada,Largus Фургон,1086000
-Lada,Niva Legend 3 двери,638000
-Lada,Niva Legend Bronto,887000
-Lada,Niva Travel,854000
-Lada,Vesta Cross,1127000
-Lada,Vesta SW,1135000
-Lada,Vesta SW Cross,1213000
-Lada,Vesta Sedan,981000
+Knewstar,001,2583000
+Lada,Granta Cross,812000
+Lada,Granta Liftback,734000
+Lada,Granta Sedan,645000
+Lada,Largus,1228000
+Lada,Largus Фургон,1236000
+Lada,Niva Legend 3 двери,685000
+Lada,Niva Legend Bronto,1048000
+Lada,Niva Travel,951000
+Lada,Vesta Cross,1297000
+Lada,Vesta SW,1215000
+Lada,Vesta SW Cross,1393000
+Lada,Vesta Sedan,1108000
 Livan,S6 Pro,1657000
 Livan,X3 Pro,1087000
-Lixiang,L6,3938000
-Lixiang,L7,4224000
-Lixiang,L7 Restyling,4452000
-Lixiang,L8,4234000
-Lixiang,L9,5428000
-Lixiang,L9 Restyling,5687000
+Lixiang,L6,4949000
+Lixiang,L7,4949000
+Lixiang,L7 Restyling,5229000
+Lixiang,L8,4961000
+Lixiang,L9,6430000
+Lixiang,L9 Restyling,6749000
 MG,5,1481000
 MG,6,1884000
 MG,Cyberstar,3984000
@@ -155,27 +160,30 @@ Mazda,6,2088000
 Mazda,CX-30,2333000
 Mazda,CX-5,2183000
 Mitsubishi,Outlander,2489000
+Mitsubishi,Outlander New,2593000
 Moskvich,3,1099000
 Moskvich,6,1430000
 OMODA,C5,1449000
 OMODA,S5,1299000
 Oting,Paladin,2469000
 SWM,G01,1416000
-SWM,G01F,1682000
-SWM,G05 Pro,1707000
+SWM,G01F,1559000
+SWM,G05 Pro,1559000
 Skywell,ET5,2977000
 TANK,300,2729000
 TANK,500,4094000
 Toyota,BZ4X,2854000
 Toyota,CH-R,2274000
 Toyota,Camry,2919000
+Toyota,Camry New,3054000
 Toyota,Corolla,1806000
 Toyota,Fortuner,3623000
 Toyota,Highlander,4786000
 Toyota,Hilux,3394000
 Toyota,Land Cruiser 300,6942000
 Toyota,Land Cruiser Prado,4204000
-Toyota,RAV4,2517000
+Toyota,RAV4,3184000
+,,
 ,,
 ,,
 ,,

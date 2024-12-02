@@ -108,7 +108,9 @@ chery, tiggo3 |Chery, Tiggo 3 | 147
 chery, tiggo3xnew |Chery, Tiggo 3x New | 148
 chery, tiggo4 |Chery, Tiggo 4 | 149
 chery, tiggo4new |Chery, Tiggo 4 New | 150
+chery, newtiggo4 |Chery, Tiggo 4 New | 150
 chery, tiggo4new24 |Chery, Tiggo 4 New | 150
+chery, новыйtiggo4 |Chery, Tiggo 4 New | 150
 chery, tiggo4new2024 |Chery, Tiggo 4 New | 150
 chery, tiggo4pro |Chery, Tiggo 4 Pro | 151
 chery, tiggo4proкроссовер |Chery, Tiggo 4 Pro | 151
@@ -312,6 +314,7 @@ geely, citiray |Geely, Cityray | 772
 geely, gs |Geely, GS | 264
 geely, monjaro |Geely, Monjaro | 265
 джили, монжаро |Geely, Monjaro | 265
+geely, monjaroрестайлинг |Geely, Monjaro Restyling | 788
 geely, monjaro(kx11) |Geely, Monjaro (KX11) | 266
 geely, monjarohi-phybrid |Geely, Monjaro Hi-P Hybrid | 714
 geely, okavango |Geely, Okavango | 267
@@ -483,6 +486,7 @@ jetta, vs5new |Jetta, VS5 New| 756
 jetta, новыйvs5 |Jetta, VS5 New| 756
 jetta, vs7 |Jetta, VS7 | 357
 jetta, vs7new |Jetta, VS7 New| 757
+jetta, новыйvs7 |Jetta, VS7 New| 757
 kaiyi, e5 |KAIYI, E5 | 358
 kaiyi, е5 |KAIYI, E5 | 358
 kaiyi, x3 |KAIYI, X3 | 359
@@ -874,6 +878,7 @@ renault, sanderostepwaycity |Renault, Stepway City | 567
 renault, новыйduster |Renault, Duster New | 555
 rising, f7 | Rising, F7 | 568
 rising, r7 | Rising, R7 | 569
+rox, 01 | Rox, 01 | 789
 skywell, et5 |Skywell, ET5 | 570
 skoda, karoq |Skoda, Karoq | 571
 skoda, karoqnew |Skoda, Karoq New | 572
@@ -958,6 +963,7 @@ toyota, newcamry |Toyota, Camry New | 622
 toyota, c-hr |Toyota, CH-R | 623
 toyota, c-hrnew |Toyota, CH-R New | 624
 toyota, camrynew |Toyota, Camry New | 622
+toyota, camryновая |Toyota, Camry New | 622
 toyota, camryxv80 |Toyota, Camry New | 622
 toyota, highlander |Toyota, Highlander | 625
 toyota, highlandernew |Toyota, Highlander New | 626
