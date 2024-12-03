@@ -502,6 +502,7 @@ kia, ceedswnew |KIA, Ceed SW New | 367
 kia, cerato |KIA, Cerato | 368
 kia, ceratoрестайлинг |KIA, Cerato Restyling | 369
 kia, ceratonew |KIA, Cerato New | 370
+kia, k3 |KIA, K3 | 790
 kia, k5 |KIA, K5 | 371
 kia, newsoul |KIA, Soul New | 372
 kia, pegas |KIA, Pegas | 737
@@ -643,6 +644,7 @@ lada, niva |Lada, Niva | 422
 lada, 21230 |Lada, Niva | 422
 lada, nivalegend |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3d |Lada, Niva Legend 3 двери | 423
+lada, nivalegend3д |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3\xa0двери |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3d4x4 |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3dv |Lada, Niva Legend 3 двери | 423
@@ -657,11 +659,14 @@ lada, nivalegend3дв. |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3двери |Lada, Niva Legend 3 двери | 423
 lada, legend3дв. |Lada, Niva Legend 3 двери | 423
 lada, nivalegend5д. |Lada, Niva Legend 5 дверей | 424
+lada, nivalegend5д |Lada, Niva Legend 5 дверей | 424
 lada, nivalegend5dv |Lada, Niva Legend 5 дверей | 424
 lada, nivalegend5дв. |Lada, Niva Legend 5 дверей | 424
 lada, nivalegend5дверей |Lada, Niva Legend 5 дверей | 424
 lada, nivalegendurban3д. |Lada, Niva Legend Urban 3 двери | 425
+lada, nivalegendurban3д |Lada, Niva Legend Urban 3 двери | 425
 lada, nivalegendurban5д. |Lada, Niva Legend Urban 5 дверей | 426
+lada, nivalegendurban5д |Lada, Niva Legend Urban 5 дверей | 426
 lada, 4x4urban3дв. |Lada, Niva Urban 3 двери | 427
 lada, 4x4urban3d |Lada, Niva Urban 3 двери | 427
 lada, nivaurban3d4x4 |Lada, Niva Urban 3 двери | 427
@@ -744,6 +749,7 @@ lixiang, l7рестайлинг |Lixiang, L7 Restyling| 747
 lixiang, l8 |Lixiang, L8 | 469
 lixiang, l9 |Lixiang, L9 | 470
 lixiang, l9рестайлинг |Lixiang, L9 Restyling| 748
+lixiang, mega |Lixiang, Mega | 792
 lynk-co, 08 |Lync&Co, 08 | 471
 lynk-co, 09 |Lync&Co, 09 | 472
 m-hero, i| M-HERO, I | 473
@@ -763,6 +769,7 @@ mazda, cx-5new |Mazda, CX-5 New | 484
 mazda, cx-4 |Mazda, CX-4 | 485
 mazda, cx-50 |Mazda, CX-50 | 486
 mazda, cx-60 |Mazda, CX-60 | 487
+maxus, territory |Maxus, Territory | 791
 mercedes-benz, gleкупе |Mercedes-Benz, GLE coupe | 724
 mercedes-benz, gls |Mercedes-Benz, GLS | 725
 mg, 4ev |MG, 4 EV | 488
@@ -1004,6 +1011,7 @@ uaz, patriotpikap |UAZ, Patriot Pickup | 636
 уаз, профифургон |UAZ, Профи Фургон| 774
 уаз, профиизотермическийкузов |UAZ, Профи Изотермический кузов | 702
 уаз, pickup |UAZ, Pickup | 637
+uaz, pickup |UAZ, Pickup | 637
 уаз, пикап |UAZ, Pickup | 637
 uaz, pickupnew |UAZ, Pickup New | 638
 уаз, pickupiрестайлинг2 |UAZ, Pickup New | 638

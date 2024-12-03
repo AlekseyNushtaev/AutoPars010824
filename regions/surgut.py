@@ -103,3 +103,37 @@ async def sibir(dct_up):
             await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, dct["cost"], link])
     return res
+
+
+async def avtosalon_profsouz(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    cnt = 1
+    res = []
+    while True:
+        time.sleep(0.5)
+        link = f'https://avtosalon-profsouz.ru/new_auto/page/{cnt}/'
+        response = requests.get(link, headers.generate())
+        html = response.text
+        soup = bs4.BeautifulSoup(html, 'lxml')
+        cards = soup.find_all(attrs={"class": "auto-card new_auto"})
+        if len(cards) == 0:
+            break
+        for card in cards:
+            link = card.get("href")
+            title = card.find(attrs={"class": "auto-card__title"}).text.lower().strip()
+            brand = title.split()[0]
+            model = title.replace(brand, '').strip().replace(" ", "")
+            cost__ = card.find(attrs={"class": "auto-card__price"}).text
+            cost_ = ''
+            for y in cost__:
+                if y.isdigit():
+                    cost_ += y
+            cost = int(cost_)
+            name = brand + ', ' + model
+            try:
+                name = dct_up[name]
+            except KeyError:
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
+            res.append([name, cost, link])
+        cnt += 1
+    return res

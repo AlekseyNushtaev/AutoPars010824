@@ -326,3 +326,101 @@ async def az_cars(dct_up):
             await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, price, link])
     return res
+
+
+async def autodrive_777(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://autodrive-777.ru/auto/'
+    response = requests.get(link, headers.generate())
+    html = response.text
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "catalog--brands-list--brand--model"})
+    res = []
+    for card in cards:
+        data = card.get("data-model").replace('null', 'None').replace('\\', '')
+        dct = eval(data)
+        link = 'https://autodrive-777.ru' + card.find("a").get("href")
+        name = dct["brand"].lower() + ', ' + dct["model"].lower().replace(" ", "")
+        try:
+            name = dct_up[name]
+        except KeyError:
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
+        res.append([name, dct["cost"], link])
+    return res
+
+
+async def you_auto_credit(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://you-auto-credit.ru/cars-new/?page=50'
+    response = requests.get(link, headers.generate())
+    html = response.text
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "car-card car-card--type-display"})
+    res = []
+    for card in cards:
+        link = 'https://you-auto-credit.ru' + card.find(attrs={"class": "card-title__link"}).get("href")
+        title = card.find(attrs={"class": "card-title__title"}).text.lower().strip().replace("(ваз)", "")
+        brand = title.split()[0]
+        model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i")
+        cost__ = card.find(attrs={"class": "price-box__current"}).text
+        cost_ = ''
+        for y in cost__:
+            if y.isdigit():
+                cost_ += y
+        cost = int(cost_)
+        name = brand + ', ' + model
+        try:
+            name = dct_up[name]
+        except KeyError:
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
+        res.append([name, cost, link])
+    return res
+
+
+async def autohous_group(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://avtohous-group.ru/katalog'
+    response = requests.get(link, headers.generate())
+    html = response.text
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "car__item"})
+    res = []
+    for card in cards:
+        link = card.find("a").get("href")
+        title = card.find(attrs={"class": "car__item__name"}).text.lower().strip()
+        brand = title.split()[0]
+        model = title.replace(brand, '').strip().replace(" ", "")
+        cost__ = card.find(attrs={"class": "price"}).text
+        cost_ = ''
+        for y in cost__:
+            if y.isdigit():
+                cost_ += y
+        cost = int(cost_)
+        name = brand + ', ' + model
+        try:
+            name = dct_up[name]
+        except KeyError:
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
+        res.append([name, cost, link])
+    return res
+
+
+async def msk_carshop777(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://msk-carshop777.ru/auto/'
+    response = requests.get(link, headers.generate())
+    html = response.text
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "catalog--brands-list--brand--model"})
+    res = []
+    for card in cards:
+        data = card.get("data-model").replace('null', 'None').replace('\\', '')
+        dct = eval(data)
+        link = 'https://msk-carshop777.ru' + card.find("a").get("href")
+        name = dct["brand"].lower() + ', ' + dct["model"].lower().replace(" ", "")
+        try:
+            name = dct_up[name]
+        except KeyError:
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
+        res.append([name, dct["cost"], link])
+    return res
