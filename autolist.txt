@@ -108,12 +108,14 @@ chery, tiggo3 |Chery, Tiggo 3 | 147
 chery, tiggo3xnew |Chery, Tiggo 3x New | 148
 chery, tiggo4 |Chery, Tiggo 4 | 149
 chery, tiggo4new |Chery, Tiggo 4 New | 150
+chery, нoвыйtiggo4 |Chery, Tiggo 4 New | 150
 chery, newtiggo4 |Chery, Tiggo 4 New | 150
 chery, tiggo4new24 |Chery, Tiggo 4 New | 150
 chery, новыйtiggo4 |Chery, Tiggo 4 New | 150
 chery, tiggo4new2024 |Chery, Tiggo 4 New | 150
 chery, tiggo4pro |Chery, Tiggo 4 Pro | 151
 chery, tiggo4proкроссовер |Chery, Tiggo 4 Pro | 151
+chery, tiggo4pro18yearsedition |Chery, Tiggo 4 Pro | 151
 chery, tiggo4proкроссовермп |Chery, Tiggo 4 Pro | 151
 chery, tiggo4pronew |Chery, Tiggo 4 Pro New | 152
 chery, tiggo5 |Chery, Tiggo 5 | 153
@@ -136,6 +138,7 @@ chery, tiggo8pro |Chery, Tiggo 8 Pro | 159
 chery, tiggo8proe+ |Chery, Tiggo 8 Pro e+ | 160
 chery, tiggo8proе+ |Chery, Tiggo 8 Pro e+ | 160
 chery, tiggo8proe+hybrid |Chery, Tiggo 8 Pro e+ Hybrid | 677
+chery, tiggo8proе+hybrid |Chery, Tiggo 8 Pro e+ Hybrid | 677
 chery, tiggo8proplug-in-hybrid |Chery, Tiggo 8 Pro Plug-In-Hybrid | 678
 chery, tiggo8proplug-inhybridкроссовер |Chery, Tiggo 8 Pro Plug-In-Hybrid | 678
 chery, tiggo8proplug-inhybrid |Chery, Tiggo 8 Pro Plug-In-Hybrid | 678
@@ -222,6 +225,7 @@ exeed, новыйtxl |EXEED, TXL New | 202
 exeed, txl2024new |EXEED, TXL New 2024 | 210
 exeed, vx |EXEED, VX | 205
 exeed, vxрестайлинг |EXEED, VX Restyling | 211
+exeed, vx(iрестайлинг) |EXEED, VX Restyling | 211
 exeed, vxle |EXEED, VX LE | 212
 exeed, vxnew |EXEED, VX New | 206
 exeed, новыйvx |EXEED, VX New | 206
@@ -244,6 +248,7 @@ faw, bestunex80 |FAW, Besturn X80 | 219
 faw, besturnx40 |FAW, Besturn X40 | 220
 faw, bestunex40 |FAW, Besturn X40 | 220
 faw, besturnt77 |FAW, Besturn T77 | 221
+faw, besturnт99 |FAW, Besturn T99 | 794
 faw, newx40 |FAW, X40 New | 222
 faw, x40 |FAW, X40 | 223
 faw, x40new |FAW, X40 New | 222
@@ -273,11 +278,14 @@ gac, trumpchiemkoo |Gac, Emkoo Trumpchi | 240
 gac, trumpchigs3 |Gac, GS3 Trumpchi | 241
 gac, ga6 |Gac, GA6 | 771
 gac, gn8 |Gac, GN8 | 242
+gac, motorgn8 |Gac, GN8 | 242
 gac, gs3gac, gs3new |Gac, GS3 | 243
 gac, gs3new |Gac, GS3 New | 244
 gac, gs3 |Gac, GS3 | 243
 gac, gs5 |Gac, GS5 | 245
+gac, motorgs5 |Gac, GS5 | 245
 gac, gs8 |Gac, GS8 | 246
+gac, motorgs8 |Gac, GS8 | 246
 gac, gs8ii |Gac, GS8 II | 247
 gac, gs8new |Gac, GS8 New | 248
 gac, gs8ii |Gac, GS8 II | 247
@@ -441,10 +449,12 @@ hyundai, mufasa |Hyundai, Mufasa | 328
 hyundai, solaris |Hyundai, Solaris | 329
 solaris, hs(hyundai) |Hyundai, Solaris | 329
 hyundai, sonata |Hyundai, Sonata | 330
+hyundai, sonataседан |Hyundai, Sonata | 330
 hyundai, staria |Hyundai, Staria | 331
 hyundai, stariavan |Hyundai, Staria | 331
 hyundai, stariapremium |Hyundai, Staria Premium | 332
 hyundai, tucson |Hyundai, Tucson | 333
+hyundai, tucsonnline |Hyundai, Tucson N Line| 793
 hyundai, tucson2021new |Hyundai, Tucson 2021 New | 334
 hyundai, tucsonnew |Hyundai, Tucson New | 335
 hyundai, новаяcreta |Hyundai, Creta New | 314
@@ -548,6 +558,7 @@ kia, stinger |KIA, Stinger | 398
 kia, mohave |KIA, Mohave | 399
 kia, mohavenew |KIA, Mohave New | 400
 knewstar, 001 |Knewstar, 001 | 775
+lada, aura |Lada, Aura | 795
 lada, grantacross |Lada, Granta Cross | 402
 lada, grantadriveactive |Lada, Granta Sedan Drive Active | 403
 lada, grantaседанdriveactive |Lada, Granta Sedan Drive Active | 403
@@ -577,6 +588,7 @@ lada, grantaседанnew |Lada, Granta Sedan New | 413
 lada, grantasedannew |Lada, Granta Sedan New | 413
 lada, grantaуниверсал |Lada, Granta Universal | 414
 lada, grantauniversal |Lada, Granta Universal | 414
+lada, grantaунивеpcал |Lada, Granta Universal | 414
 lada, grantaхэтчбек |Lada, Granta Hatchback | 404
 lada, grantaхэтчбэк |Lada, Granta Hatchback | 404
 lada, grantaхетчбек |Lada, Granta Hatchback | 404
@@ -607,6 +619,7 @@ lada, grantauniversalnew |Lada, Granta Universal New | 416
 lada, grantacrosscross |Lada, Granta Cross | 402
 lada, grantadriveactivedriveactive |Lada, Granta Drive Active | 403
 lada, largus |Lada, Largus | 418
+lada, largus5м. |Lada, Largus | 418
 lada, largusуниверсалcng |Lada, Largus CNG| 686
 lada, larguscross |Lada, Largus Cross | 419
 lada, larguscrosscng |Lada, Largus Cross CNG| 687
@@ -617,10 +630,13 @@ lada, largusфургонcng |Lada, Largus Фургон CNG| 688
 lada, larguscross5мест |Lada, Largus Cross | 419
 lada, larguscrossуниверсал |Lada, Largus Cross | 419
 lada, larguscross7мест |Lada, Largus Cross 7 мест | 421
+lada, larguscross7м. |Lada, Largus Cross 7 мест | 421
 lada, largusnew5мест |Lada, Largus New | 449
+lada, larguscross5м. |Lada, Largus New | 449
 lada, largusnew |Lada, Largus New | 449
 lada, новыйlargusуниверсал |Lada, Largus New | 449
 lada, новыйlargus7мест |Lada, Largus New 7 мест | 450
+lada, largus7м. |Lada, Largus New 7 мест | 450
 lada, новыйlargus5мест |Lada, Largus New | 449
 lada, largusnew7мест |Lada, Largus New 7 мест | 450
 lada, larguscrossnew5мест |Lada, Largus Cross New | 451
@@ -802,8 +818,11 @@ mitsubishi, pajerosport |Mitsubishi, Pajero Sport | 506
 mitsubishi, pajerosportnew |Mitsubishi, Pajero Sport New | 507
 mitsubishi, xpander |Mitsubishi, Xpander | 508
 moskvich, 3 |Moskvich, 3 | 509
+mocквич, 3 |Moskvich, 3 | 509
 москвич, 3внедорожник5дв. |Moskvich, 3 | 509
 moskvich, 3e |Moskvich, 3e | 510
+mocквич, 3e |Moskvich, 3e | 510
+москвич, 3е |Moskvich, 3e | 510
 moskvich, 6 |Moskvich, 6 | 511
 москвич, 6лифтбек5дв. |Moskvich, 6 | 511
 nissan, juke |Nissan, Juke | 512
@@ -910,6 +929,8 @@ skoda, superbsportline |Skoda, Superb Sportline | 705
 skoda, новыйsuperb |Skoda, Superb New | 588
 skoda, новаяoctavia |Skoda, Octavia New | 579
 skoda, обновленныйkodiaq |Skoda, Kodiaq New | 576
+skoda, обнoвленныйkodiaq |Skoda, Kodiaq New | 576
+skoda, kodiaqобновленный |Skoda, Kodiaq New | 576
 skoda, octaviahockeyedition |Skoda, Octavia Hockey Edition | 589
 skoda, kodiaqhockeyedition |Skoda, Kodiaq Hockey Edition | 590
 skoda, kodiaqscout |Skoda, Kodiaq Scout | 591
@@ -997,6 +1018,7 @@ uaz, патриотсакпп |UAZ, Patriot АКПП| 734
 uaz, patriotnew |UAZ, Patriot New | 635
 уаз, patriotiрестайлинг3кроссовер |UAZ, Patriot New | 635
 uaz, patriotpickup |UAZ, Patriot Pickup | 636
+уаз, patriotpickup |UAZ, Patriot Pickup | 636
 uaz, patriotпикап |UAZ, Patriot Pickup | 636
 uaz, patriotpikap |UAZ, Patriot Pickup | 636
 уаз, 3909 |UAZ, 3909 | 694

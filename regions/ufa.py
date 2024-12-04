@@ -296,3 +296,115 @@ async def alga_auto(dct_up):
             await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, dct["cost"], link])
     return res
+
+
+async def ufabm(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    cnt = 1
+    flag = ''
+    res = []
+    while True:
+        time.sleep(0.5)
+        link = f'https://ufabm.ru/cars/?page={cnt}/'
+        response = requests.get(link, headers.generate())
+        html = response.text
+        soup = bs4.BeautifulSoup(html, 'lxml')
+        cards = soup.find_all(attrs={"class": "fclr_column shadowed"})
+        if len(cards) == 0:
+            break
+        if flag == cards[0].get("href"):
+            break
+        else:
+            flag = cards[0].get("href")
+        for card in cards:
+            link = 'https://ufabm.ru' + card.get("href")
+            title = card.find(attrs={"class": "fclrc_title"}).text.lower().strip()
+            brand = title.split()[0]
+            model = title.replace(brand, '').strip().replace(" ", "")
+            cost__ = card.find(attrs={"class": "fclrc_price"}).text
+            cost_ = ''
+            for y in cost__:
+                if y.isdigit():
+                    cost_ += y
+            cost = int(cost_)
+            name = brand + ', ' + model
+            try:
+                name = dct_up[name]
+            except KeyError:
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
+            res.append([name, cost, link])
+        cnt += 1
+    return res
+
+
+async def ufa_automarket(dct_up, browser):
+    link = 'https://ufa-automarket.ru/'
+    browser.get(link)
+    time.sleep(2)
+    SCROLL_PAUSE_TIME = 2
+
+    # Get scroll height
+    last_height = browser.execute_script("return document.body.scrollHeight")
+
+    while True:
+        # Scroll down to bottom
+        browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+
+        # Wait to load page
+        time.sleep(SCROLL_PAUSE_TIME)
+
+        # Calculate new scroll height and compare with last scroll height
+        new_height = browser.execute_script("return document.body.scrollHeight")
+        if new_height == last_height:
+            break
+        last_height = new_height
+    html = browser.page_source
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "ui-link brand-section__item-wrap"})
+    res = []
+    for card in cards:
+        link = 'https://ufa-automarket.ru' + card.get("href")
+        title = card.find(attrs={"class": "catalog-item__name"}).text.lower().strip().replace('\xa0', '').replace("š", "s")
+        brand = title.split()[0]
+        model = title.replace(brand, '').strip().replace(" ", "")
+        cost__ = card.find(attrs={"class": "catalog-item__price"}).text
+        cost_ = ''
+        for y in cost__:
+            if y.isdigit():
+                cost_ += y
+        cost = int(cost_)
+        name = brand + ', ' + model
+        try:
+            name = dct_up[name]
+        except KeyError:
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
+        res.append([name, cost, link])
+    return res
+
+
+async def bashautomarket(dct_up, browser):
+    link = 'https://bashautomarket.ru/auto'
+    browser.get(link)
+    time.sleep(2)
+    html = browser.page_source
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "hit__item"})
+    res = []
+    for card in cards:
+        link = card.find("a").get("href")
+        title = card.find("h3").text.lower().strip()
+        brand = title.split()[0]
+        model = title.replace(brand, '').strip().replace(" ", "")
+        cost__ = card.find(attrs={"class": "hit__price-new"}).text
+        cost_ = ''
+        for y in cost__:
+            if y.isdigit():
+                cost_ += y
+        cost = int(cost_)
+        name = brand + ', ' + model
+        try:
+            name = dct_up[name]
+        except KeyError:
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
+        res.append([name, cost, link])
+    return res

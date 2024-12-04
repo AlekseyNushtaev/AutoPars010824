@@ -14,40 +14,27 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver import Chrome
 
 
-def avtosurgut_profsouz(dct_up):
+def mnogo_auto_174(dct_up):
     headers = fake_headers.Headers(browser='firefox', os='win')
-    cnt = 1
+    link = 'https://mnogo-auto174.ru/auto/'
+    response = requests.get(link, headers.generate())
+    html = response.text
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "catalog--brands-list--brand--model pa-3"})
     res = []
-    while True:
-        print(cnt)
-        time.sleep(0.5)
-        link = f'https://avtosalon-profsouz.ru/new_auto/page/{cnt}/'
-        response = requests.get(link, headers.generate())
-        html = response.text
-        soup = bs4.BeautifulSoup(html, 'lxml')
-        cards = soup.find_all(attrs={"class": "auto-card new_auto"})
-        if len(cards) == 0:
-            break
-        for card in cards:
-            link = card.get("href")
-            title = card.find(attrs={"class": "auto-card__title"}).text.lower().strip()
-            brand = title.split()[0]
-            model = title.replace(brand, '').strip().replace(" ", "")
-            cost__ = card.find(attrs={"class": "auto-card__price"}).text
-            cost_ = ''
-            for y in cost__:
-                if y.isdigit():
-                    cost_ += y
-            cost = int(cost_)
-            name = brand + ', ' + model
-            try:
-                name = dct_up[name]
-            except KeyError:
-                print(name)
-                # await bot.send_message(CHANEL_ID, f'{name} {link}')
-            res.append([name, cost, link])
-            print([name, cost, link])
-        cnt += 1
+    for card in cards:
+        data = card.get("data-model").replace('null', 'None').replace('\\', '')
+        dct = eval(data)
+        link = 'https://kc-klassavto.ru' + card.find("a").get("href")
+        name = dct["brand"].lower().strip() + ', ' + dct["model"].lower().replace(" ", "")
+        try:
+            name = dct_up[name]
+        except KeyError:
+            print(name, link)
+            # await bot.send_message(CHANEL_ID, f'{name} {link}')
+        res.append([name, dct["cost"], link])
+        print([name, dct["cost"], link])
+
     return res
 
 # chrome_driver_path = ChromeDriverManager().install()
@@ -63,5 +50,5 @@ with open('../autolist.txt', 'r', encoding='utf-8') as f:
     lst = f.readlines()
     for item in lst:
         dct[item.split('|')[0].strip()] = item.split('|')[1].strip()
-res = avtosurgut_profsouz(dct)
+res = mnogo_auto_174(dct)
 print(len(res))

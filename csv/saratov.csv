@@ -8,28 +8,28 @@ BAIC,X75,1944000
 BYD,Seagull,1417000
 Belgee,X50,1489000
 Belgee,X70,1737000
-Changan,Alsvin,1138000
+Changan,Alsvin,1130000
 Changan,CS35 Plus,1255000
-Changan,CS35 Plus New,1521000
+Changan,CS35 Plus New,1568000
 Changan,CS55,1423000
-Changan,CS55 Plus,1709000
-Changan,CS75 Plus,1667000
+Changan,CS55 Plus,1723000
+Changan,CS75 Plus,1760000
 Changan,CS75FL,1605000
-Changan,CS85 Coupe,2444000
-Changan,CS95,2762000
-Changan,Eado Plus,1514000
-Changan,Hunter Plus,2262000
-Changan,Lamore,1813000
-Changan,UNI-K,2398000
-Changan,UNI-S,1709000
-Changan,UNI-T,1930000
-Changan,UNI-V,1878000
+Changan,CS85 Coupe,2291000
+Changan,CS95,2624000
+Changan,Eado Plus,1494000
+Changan,Hunter Plus,1673000
+Changan,Lamore,1772000
+Changan,UNI-K,2390000
+Changan,UNI-S,1624000
+Changan,UNI-T,1834000
+Changan,UNI-V,1883000
 Chery,Arrizo 8,1820000
-Chery,Tiggo 4,1515000
-Chery,Tiggo 4 Pro,1313000
-Chery,Tiggo 7 Pro Max,1703000
-Chery,Tiggo 7 Pro Max New,1801000
-Chery,Tiggo 8 Pro Max,2399000
+Chery,Tiggo 4,1439000
+Chery,Tiggo 4 Pro,1186000
+Chery,Tiggo 7 Pro Max,1556000
+Chery,Tiggo 7 Pro Max New,1686000
+Chery,Tiggo 8 Pro Max,2093000
 Dongfeng,580,1624000
 Dongfeng,DF6,2144000
 Dongfeng,DFSK IX5,1944000
@@ -44,7 +44,7 @@ Evolute,i-JET,4173000
 Evolute,i-JOY,2597000
 Evolute,i-PRO,1944000
 Evolute,i-SKY,3198000
-Evolute,i-SPACE,2184000
+Evolute,i-SPACE,1999000
 FAW,Bestune B70,1593000
 FAW,Bestune T55,1567000
 FAW,Bestune T77,1862000
@@ -159,16 +159,22 @@ MG,ZS,1754000
 Mazda,6,2088000
 Mazda,CX-30,2333000
 Mazda,CX-5,2183000
+Mitsubishi,ASX,2274000
 Mitsubishi,Outlander,2489000
 Mitsubishi,Outlander New,2593000
+Mitsubishi,Pajero Sport,2723000
 Moskvich,3,1099000
 Moskvich,6,1430000
 OMODA,C5,1449000
 OMODA,S5,1299000
+OMODA,S5 GT,1579000
 Oting,Paladin,2469000
 SWM,G01,1416000
 SWM,G01F,1559000
 SWM,G05 Pro,1559000
+Skoda,Karoq,2529000
+Skoda,Kodiaq New,2853000
+Skoda,Octavia,2372000
 Skywell,ET5,2977000
 TANK,300,2729000
 TANK,500,4094000
