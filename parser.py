@@ -138,21 +138,14 @@ async def parser_saratov(dct_up):
 
 
 async def parser_volgograd(dct_up, browser):
-    # try:
-    #     res_1 = await vlg_autotrade(dct_up)
-    # except Exception as e:
-    #     res_1 = []
-    #     await bot.send_message(CHANEL_ID, 'https://vlg-autotrade.ru/auto error')
-    #     await bot.send_message(ADMIN_ID, str(e))
     try:
-        res_2 = await vlg_autostore(dct_up, browser)
+        res_1 = await vlg_auto34(dct_up)
     except Exception as e:
-        res_2 = []
-        await bot.send_message(CHANEL_ID, 'https://volgograd-autostore.ru/catalog error')
+        res_1 = []
+        await bot.send_message(CHANEL_ID, 'https://vlg-auto34.ru error')
         await bot.send_message(ADMIN_ID, str(e))
-    res = res_2
-    # res_1_name = [x[0] for x in res_1]
-    res_2_name = [x[0] for x in res_2]
+    res = res_1
+    res_1_name = [x[0] for x in res_1]
     res_name = []
     for item in res:
         if item[0] not in res_name:
@@ -173,10 +166,8 @@ async def parser_volgograd(dct_up, browser):
     sheet.cell(row=1, column=3).value = 'model'
     sheet.cell(row=1, column=4).value = 'min_price'
     sheet.cell(row=1, column=5).value = 'min_price_url'
-    # sheet.cell(row=1, column=6).value = 'vlg-autotrade.ru_price'
-    # sheet.cell(row=1, column=7).value = 'vlg-autotrade.ru'
-    sheet.cell(row=1, column=6).value = 'volgograd-autostore.ru_price'
-    sheet.cell(row=1, column=7).value = 'volgograd-autostore.ru'
+    sheet.cell(row=1, column=6).value = 'https://vlg-auto34.ru_price'
+    sheet.cell(row=1, column=7).value = 'https://vlg-auto34.ru'
     for i in range(2, len(res_name) + 2):
         try:
             sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
@@ -186,18 +177,12 @@ async def parser_volgograd(dct_up, browser):
         sheet.cell(row=i, column=3).value = res_name[i - 2].split(', ')[1]
         dct = {}
         lst = []
-        # if res_name[i - 2] in res_1_name:
-        #     index = res_1_name.index(res_name[i - 2])
-        #     sheet.cell(row=i, column=6).value = res_1[index][1]
-        #     sheet.cell(row=i, column=7).value = res_1[index][2]
-        #     dct[str(res_1[index][1])] = res_1[index][2]
-        #     lst.append(int(res_1[index][1]))
-        if res_name[i - 2] in res_2_name:
-            index = res_2_name.index(res_name[i - 2])
-            sheet.cell(row=i, column=8).value = res_2[index][1]
-            sheet.cell(row=i, column=9).value = res_2[index][2]
-            dct[str(res_2[index][1])] = res_2[index][2]
-            lst.append(int(res_2[index][1]))
+        if res_name[i - 2] in res_1_name:
+            index = res_1_name.index(res_name[i - 2])
+            sheet.cell(row=i, column=6).value = res_1[index][1]
+            sheet.cell(row=i, column=7).value = res_1[index][2]
+            dct[str(res_1[index][1])] = res_1[index][2]
+            lst.append(int(res_1[index][1]))
         sheet.cell(row=i, column=4).value = min(lst)
         sheet.cell(row=i, column=5).value = dct[str(min(lst))]
     wb.save('xlsx/volgograd.xlsx')
@@ -500,10 +485,10 @@ async def parser_surgut(dct_up, browser):
         await bot.send_message(CHANEL_ID, 'https://auto-centre-profsouz.ru/auto error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-        res_3 = await aspect(dct_up, browser)
+        res_3 = await sibir(dct_up)
     except Exception as e:
         res_3 = []
-        await bot.send_message(CHANEL_ID, 'https://aspect-motors.ru/auto error')
+        await bot.send_message(CHANEL_ID, 'https://sibir-morots.ru error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
         res_4 = await avtosalon_profsouz(dct_up)
@@ -540,8 +525,8 @@ async def parser_surgut(dct_up, browser):
     sheet.cell(row=1, column=7).value = 'autosurgut186.ru'
     sheet.cell(row=1, column=8).value = 'auto-centre-profsouz.ru_price'
     sheet.cell(row=1, column=9).value = 'auto-centre-profsouz.ru'
-    sheet.cell(row=1, column=10).value = 'aspect-motors.ru_price'
-    sheet.cell(row=1, column=11).value = 'aspect-motors.ru'
+    sheet.cell(row=1, column=10).value = 'sibir-morots.ru_price'
+    sheet.cell(row=1, column=11).value = 'sibir-morots.ru'
     sheet.cell(row=1, column=12).value = 'avtosalon-profsouz.ru_price'
     sheet.cell(row=1, column=13).value = 'avtosalon-profsouz.ru'
 

@@ -14,19 +14,19 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver import Chrome
 
 
-def mnogo_auto_174(dct_up):
+def vlg_auto34(dct_up):
     headers = fake_headers.Headers(browser='firefox', os='win')
-    link = 'https://mnogo-auto174.ru/auto/'
+    link = 'https://vlg-auto34.ru/auto/'
     response = requests.get(link, headers.generate())
     html = response.text
     soup = bs4.BeautifulSoup(html, 'lxml')
-    cards = soup.find_all(attrs={"class": "catalog--brands-list--brand--model pa-3"})
+    cards = soup.find_all(attrs={"class": "catalog--brands-list--brand--model"})
     res = []
     for card in cards:
         data = card.get("data-model").replace('null', 'None').replace('\\', '')
         dct = eval(data)
-        link = 'https://kc-klassavto.ru' + card.find("a").get("href")
-        name = dct["brand"].lower().strip() + ', ' + dct["model"].lower().replace(" ", "")
+        link = 'https://vlg-auto34.ru' + card.find("a").get("href")
+        name = dct["brand"].lower() + ', ' + dct["model"].lower().replace(" ", "")
         try:
             name = dct_up[name]
         except KeyError:
@@ -34,7 +34,6 @@ def mnogo_auto_174(dct_up):
             # await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, dct["cost"], link])
         print([name, dct["cost"], link])
-
     return res
 
 # chrome_driver_path = ChromeDriverManager().install()
@@ -50,5 +49,5 @@ with open('../autolist.txt', 'r', encoding='utf-8') as f:
     lst = f.readlines()
     for item in lst:
         dct[item.split('|')[0].strip()] = item.split('|')[1].strip()
-res = mnogo_auto_174(dct)
+res = vlg_auto34(dct)
 print(len(res))

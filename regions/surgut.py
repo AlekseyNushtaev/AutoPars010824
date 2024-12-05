@@ -56,32 +56,32 @@ async def profsouz(dct_up, browser):
     return res
 
 
-async def aspect(dct_up, browser):
-    link = 'https://aspect-motors.ru/auto'
-    browser.get(link)
-    time.sleep(2)
-    html = browser.page_source
-    soup = bs4.BeautifulSoup(html, 'lxml')
-    cards = soup.find_all(attrs={"class": "main_catalog_item__baselink"})
-    res = []
-    for card in cards:
-        link = card.get("href")
-        title = card.find(attrs={"class": "main_catalog_item__title"}).text.lower().strip()
-        brand = title.split()[0]
-        model = title.replace(brand, '').strip().replace(" ", "")
-        cost__ = card.find(attrs={"class": "main_catalog_item__creditprice"}).text
-        cost_ = ''
-        for y in cost__:
-            if y.isdigit():
-                cost_ += y
-        cost = int(cost_)
-        name = brand + ', ' + model
-        try:
-            name = dct_up[name]
-        except KeyError:
-            await bot.send_message(CHANEL_ID, f'{name} {link}')
-        res.append([name, cost, link])
-    return res
+# async def aspect(dct_up, browser):
+#     link = 'https://aspect-motors.ru/auto'
+#     browser.get(link)
+#     time.sleep(2)
+#     html = browser.page_source
+#     soup = bs4.BeautifulSoup(html, 'lxml')
+#     cards = soup.find_all(attrs={"class": "main_catalog_item__baselink"})
+#     res = []
+#     for card in cards:
+#         link = card.get("href")
+#         title = card.find(attrs={"class": "main_catalog_item__title"}).text.lower().strip()
+#         brand = title.split()[0]
+#         model = title.replace(brand, '').strip().replace(" ", "")
+#         cost__ = card.find(attrs={"class": "main_catalog_item__creditprice"}).text
+#         cost_ = ''
+#         for y in cost__:
+#             if y.isdigit():
+#                 cost_ += y
+#         cost = int(cost_)
+#         name = brand + ', ' + model
+#         try:
+#             name = dct_up[name]
+#         except KeyError:
+#             await bot.send_message(CHANEL_ID, f'{name} {link}')
+#         res.append([name, cost, link])
+#     return res
 
 
 async def sibir(dct_up):
