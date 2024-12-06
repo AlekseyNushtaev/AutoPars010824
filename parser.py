@@ -17,15 +17,50 @@ from regions.saratov import *
 from pprint import pprint
 
 
-async def parser_ekaterinburg(dct_up):
+async def parser_ekaterinburg(dct_up, browser):
     try:
         res_1 = await new_auto_96(dct_up)
     except Exception as e:
         res_1 = []
-        await bot.send_message(CHANEL_ID, 'https://new-auto96.ru/auto/')
+        await bot.send_message(CHANEL_ID, 'https://new-auto96.ru error')
         await bot.send_message(ADMIN_ID, str(e))
-    res = res_1
+    try:
+        res_2 = await auto_196(dct_up)
+    except Exception as e:
+        res_2 = []
+        await bot.send_message(CHANEL_ID, 'https://auto-196.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_3 = await autosalon_kit(dct_up, browser)
+    except Exception as e:
+        res_3 = []
+        await bot.send_message(CHANEL_ID, 'https://autosalon-kit.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_4 = await kit_autoshop(dct_up)
+    except Exception as e:
+        res_4 = []
+        await bot.send_message(CHANEL_ID, 'https://kit-autoshop.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_5 = await primeauto_ekb(dct_up, browser)
+    except Exception as e:
+        res_5 = []
+        await bot.send_message(CHANEL_ID, 'https://primeauto-ekb.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_6 = await atc_gagarin(dct_up)
+    except Exception as e:
+        res_6 = []
+        await bot.send_message(CHANEL_ID, 'https://atc-gagarin.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    res = res_1 + res_2 + res_3 + res_4 + res_5 + res_6
     res_1_name = [x[0] for x in res_1]
+    res_2_name = [x[0] for x in res_2]
+    res_3_name = [x[0] for x in res_3]
+    res_4_name = [x[0] for x in res_4]
+    res_5_name = [x[0] for x in res_5]
+    res_6_name = [x[0] for x in res_6]
     res_name = []
     for item in res:
         if item[0] not in res_name:
@@ -48,6 +83,16 @@ async def parser_ekaterinburg(dct_up):
     sheet.cell(row=1, column=5).value = 'min_price_url'
     sheet.cell(row=1, column=6).value = 'new-auto96.ru_price'
     sheet.cell(row=1, column=7).value = 'new-auto96.ru'
+    sheet.cell(row=1, column=8).value = 'auto-196.ru_price'
+    sheet.cell(row=1, column=9).value = 'auto-196.ru'
+    sheet.cell(row=1, column=10).value = 'autosalon-kit.ru_price'
+    sheet.cell(row=1, column=11).value = 'autosalon-kit.ru'
+    sheet.cell(row=1, column=12).value = 'kit-autoshop.ru_price'
+    sheet.cell(row=1, column=13).value = 'kit-autoshop.ru'
+    sheet.cell(row=1, column=14).value = 'primeauto-ekb.ru_price'
+    sheet.cell(row=1, column=15).value = 'primeauto-ekb.ru'
+    sheet.cell(row=1, column=16).value = 'atc-gagarin.ru_price'
+    sheet.cell(row=1, column=17).value = 'atc-gagarin.ru'
     for i in range(2, len(res_name) + 2):
         try:
             sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
@@ -63,6 +108,36 @@ async def parser_ekaterinburg(dct_up):
             sheet.cell(row=i, column=7).value = res_1[index][2]
             dct[str(res_1[index][1])] = res_1[index][2]
             lst.append(int(res_1[index][1]))
+        if res_name[i-2] in res_2_name:
+            index = res_2_name.index(res_name[i - 2])
+            sheet.cell(row=i, column=8).value = res_2[index][1]
+            sheet.cell(row=i, column=9).value = res_2[index][2]
+            dct[str(res_2[index][1])] = res_2[index][2]
+            lst.append(int(res_2[index][1]))
+        if res_name[i-2] in res_3_name:
+            index = res_3_name.index(res_name[i - 2])
+            sheet.cell(row=i, column=10).value = res_3[index][1]
+            sheet.cell(row=i, column=11).value = res_3[index][2]
+            dct[str(res_3[index][1])] = res_3[index][2]
+            lst.append(int(res_3[index][1]))
+        if res_name[i-2] in res_4_name:
+            index = res_4_name.index(res_name[i - 2])
+            sheet.cell(row=i, column=12).value = res_4[index][1]
+            sheet.cell(row=i, column=13).value = res_4[index][2]
+            dct[str(res_4[index][1])] = res_4[index][2]
+            lst.append(int(res_4[index][1]))
+        if res_name[i-2] in res_5_name:
+            index = res_5_name.index(res_name[i - 2])
+            sheet.cell(row=i, column=14).value = res_5[index][1]
+            sheet.cell(row=i, column=15).value = res_5[index][2]
+            dct[str(res_5[index][1])] = res_5[index][2]
+            lst.append(int(res_5[index][1]))
+        if res_name[i-2] in res_6_name:
+            index = res_6_name.index(res_name[i - 2])
+            sheet.cell(row=i, column=16).value = res_6[index][1]
+            sheet.cell(row=i, column=17).value = res_6[index][2]
+            dct[str(res_6[index][1])] = res_6[index][2]
+            lst.append(int(res_6[index][1]))
         sheet.cell(row=i, column=4).value = min(lst)
         sheet.cell(row=i, column=5).value = dct[str(min(lst))]
     wb.save('xlsx/ekaterinburg.xlsx')
@@ -379,7 +454,7 @@ async def parser_krasnodar(dct_up, browser):
 
 
 
-async def parser_cheboksari(dct_up):
+async def parser_cheboksari(dct_up, browser):
     try:
         res_1 = await avto_trend(dct_up)
     except Exception as e:
@@ -398,10 +473,17 @@ async def parser_cheboksari(dct_up):
         res_3 = []
         await bot.send_message(CHANEL_ID, 'https://alyans-auto.ru/auto/auto.html error')
         await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_4 = await zd_auto(dct_up, browser)
+    except Exception as e:
+        res_4 = []
+        await bot.send_message(CHANEL_ID, 'https://zd-auto.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
     res = res_1 + res_2 + res_3
     res_1_name = [x[0] for x in res_1]
     res_2_name = [x[0] for x in res_2]
     res_3_name = [x[0] for x in res_3]
+    res_4_name = [x[0] for x in res_4]
     res_name = []
     for item in res:
         if item[0] not in res_name:
@@ -428,6 +510,8 @@ async def parser_cheboksari(dct_up):
     sheet.cell(row=1, column=9).value = 'auto-shop-21.ru'
     sheet.cell(row=1, column=10).value = 'alyans-auto.ru_price'
     sheet.cell(row=1, column=11).value = 'alyans-auto.ru'
+    sheet.cell(row=1, column=12).value = 'https://zd-auto.ru_price'
+    sheet.cell(row=1, column=13).value = 'https://zd-auto.ru'
 
 
     for i in range(2, len(res_name) + 2):
@@ -457,6 +541,12 @@ async def parser_cheboksari(dct_up):
             sheet.cell(row=i, column=11).value = res_3[index][2]
             dct[str(res_3[index][1])] = res_3[index][2]
             lst.append(int(res_3[index][1]))
+        if res_name[i-2] in res_4_name:
+            index = res_4_name.index(res_name[i - 2])
+            sheet.cell(row=i, column=12).value = res_4[index][1]
+            sheet.cell(row=i, column=13).value = res_4[index][2]
+            dct[str(res_4[index][1])] = res_4[index][2]
+            lst.append(int(res_4[index][1]))
         sheet.cell(row=i, column=4).value = min(lst)
         sheet.cell(row=i, column=5).value = dct[str(min(lst))]
     wb.save('xlsx/cheboksari.xlsx')

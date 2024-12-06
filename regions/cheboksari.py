@@ -111,3 +111,50 @@ async def avto_alyans(dct_up):
         res.append([item, res_dct[item][0], res_dct[item][1]])
     res.sort()
     return res
+
+
+async def zd_auto(dct_up, browser):
+    link = 'https://zd-auto.ru/catalog'
+    time.sleep(2)
+    browser.get(link)
+    SCROLL_PAUSE_TIME = 2
+
+    # Get scroll height
+    last_height = browser.execute_script("return document.body.scrollHeight")
+
+    while True:
+        # Scroll down to bottom
+        browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+
+        # Wait to load page
+        time.sleep(SCROLL_PAUSE_TIME)
+
+        # Calculate new scroll height and compare with last scroll height
+        new_height = browser.execute_script("return document.body.scrollHeight")
+        if new_height == last_height:
+            break
+        last_height = new_height
+    html = browser.page_source
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "car-card"})
+    res = []
+    for card in cards:
+        link = 'https://zd-auto.ru' + card.get("href")
+        title = card.find(attrs={"class": "car-card__title"}).text.lower().strip().replace('š', 's').replace('\xa0', '')
+        brand = title.split()[0]
+        model = title.replace(brand, '').strip().replace(" ", "")
+        cost__ = card.find(attrs={"class": "car-card__price"}).text.strip()
+        cost_ = ''
+        for y in cost__:
+            if y.isdigit():
+                cost_ += y
+        if cost_ == '':
+            continue
+        cost = int(cost_)
+        name = brand + ', ' + model
+        try:
+            name = dct_up[name]
+        except KeyError:
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
+        res.append([name, cost, link])
+    return res
