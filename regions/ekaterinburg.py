@@ -128,7 +128,10 @@ async def primeauto_ekb(dct_up, browser):
     link = 'https://primeauto-ekb.ru/new'
     browser.get(link)
     time.sleep(2)
-    browser.find_element(By.XPATH, '/html/body/div/main/section[2]/div/div/button').click()
+    try:
+        browser.find_element(By.XPATH, '/html/body/div/main/section[2]/div/div/button').click()
+    except Exception:
+        pass
     time.sleep(1)
     html = browser.page_source
     soup = bs4.BeautifulSoup(html, 'lxml')
