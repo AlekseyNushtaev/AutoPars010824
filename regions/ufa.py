@@ -160,11 +160,11 @@ async def ufa_autospot(dct_up):
     return res
 
 
-async def alpha_tank(dct_up):
-    headers = fake_headers.Headers(browser='firefox', os='win')
+async def alpha_tank(dct_up, browser):
     link = 'https://alfa-tank.ru/'
-    response = requests.get(link, headers.generate())
-    html = response.text
+    browser.get(link)
+    time.sleep(10)
+    html = browser.page_source
     soup = bs4.BeautifulSoup(html, 'lxml')
     cards = soup.find_all(attrs={"class": "car-info col"})
     res = []

@@ -128,7 +128,7 @@ async def ac_pegas(dct_up, browser):
 async def rostov_avto(dct_up, browser):
     link = 'https://rostov-avto-1.ru/'
     browser.get(link)
-    time.sleep(5)
+    time.sleep(10)
     flag = True
     while flag:
         flag = False
@@ -216,4 +216,32 @@ async def krd_93_car(dct_up):
         except KeyError:
             await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, dct["cost"], link])
+    return res
+
+
+async def maximum_auto_credit(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://maximum-auto-credit.ru/cars-new/?page=100'
+    response = requests.get(link, headers.generate())
+    html = response.text
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "car-card car-card--type-display"})
+    res = []
+    for card in cards:
+        link = 'https://maximum-auto-credit.ru' + card.find(attrs={"class": "card-title__link"}).get("href")
+        title = card.find(attrs={"class": "card-title__title"}).text.lower().strip().replace("(ваз)", "")
+        brand = title.split()[0]
+        model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i")
+        cost__ = card.find(attrs={"class": "price-box__current"}).text
+        cost_ = ''
+        for y in cost__:
+            if y.isdigit():
+                cost_ += y
+        cost = int(cost_)
+        name = brand + ', ' + model
+        try:
+            name = dct_up[name]
+        except KeyError:
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
+        res.append([name, cost, link])
     return res

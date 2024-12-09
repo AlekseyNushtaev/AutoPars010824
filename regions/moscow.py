@@ -424,3 +424,108 @@ async def msk_carshop777(dct_up):
             await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, dct["cost"], link])
     return res
+
+
+async def moscowautos777(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    cnt = 1
+    res = []
+    while True:
+        time.sleep(0.5)
+        link = f'https://moscowautos777.ru/auto?page={cnt}'
+        response = requests.get(link, headers.generate())
+        html = response.text
+        soup = bs4.BeautifulSoup(html, 'lxml')
+        try:
+            cards = soup.find(attrs={"class": "catalog__grid"}).find_all(attrs={"class": "car-card"})
+        except Exception:
+            break
+        if len(cards) == 0:
+            break
+        for card in cards:
+            link = card.find("a").get("href")
+            title = card.find(attrs={"class": "car-card__title"}).text.lower().strip()
+            brand = title.split()[0]
+            model = title.replace(brand, '').strip().replace(" ", "")
+            cost__ = card.find(attrs={"class": "car-card__price"}).text
+            cost_ = ''
+            for y in cost__:
+                if y.isdigit():
+                    cost_ += y
+            cost = int(cost_)
+            name = brand + ', ' + model
+            try:
+                name = dct_up[name]
+            except KeyError:
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
+            res.append([name, cost, link])
+        cnt += 1
+    return res
+
+
+async def fair_cars(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://fair-cars.ru/catalog'
+    response = requests.get(link, headers.generate())
+    html = response.text
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "popular_car car"})
+    res = []
+    for card in cards:
+        try:
+            link = card.find(attrs={"class": "car_link"}).get("href")
+            title = card.find(attrs={"class": "car_title"}).text.lower().strip()
+            brand = title.split()[0]
+            model = title.replace(brand, '').strip().replace(" ", "")
+            cost__ = card.find(attrs={"class": "car_type_kpp"}).text.strip()
+            cost_ = ''
+            for y in cost__:
+                if y.isdigit():
+                    cost_ += y
+            if cost_ == '':
+                continue
+            cost = int(cost_)
+            name = brand + ', ' + model
+            try:
+                name = dct_up[name]
+            except KeyError:
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
+            res.append([name, cost, link])
+        except Exception:
+            pass
+    return res
+
+
+async def avanta_avto_credit(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://avanta-avto-credit.ru/cars/'
+    response = requests.get(link, headers.generate())
+    html = response.text
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    brands = soup.find(attrs={"class": "search-brand"}).find_all("a")
+    res = []
+    for brand_ in brands:
+        link_1 = 'https://avanta-avto-credit.ru' + brand_.get("href")
+        response = requests.get(link_1, headers.generate())
+        time.sleep(0.2)
+        html = response.text
+        soup = bs4.BeautifulSoup(html, 'lxml')
+        cards = soup.find(attrs={"class": "hit other-hit hit-brand-page"}).find_all(attrs={"class": "hit-card"})
+        for card in cards:
+            link = 'https://avanta-avto-credit.ru' + card.find("a").get("href")
+            title = card.find("a").text.lower().strip()
+            brand = title.split()[0]
+            model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i")
+            cost__ = card.find(attrs={"class": "hit-card__price"}).text
+            cost_ = ''
+            for y in cost__:
+                if y.isdigit():
+                    cost_ += y
+            cost = int(cost_)
+            name = brand + ', ' + model
+            try:
+                name = dct_up[name]
+            except KeyError:
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
+            res.append([name, cost, link])
+    return res

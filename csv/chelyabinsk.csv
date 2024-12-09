@@ -40,6 +40,7 @@ Chery,Tiggo 8,1189900
 Chery,Tiggo 8 Pro,1179900
 Chery,Tiggo 8 Pro Max,1549900
 Chery,Tiggo 8 Pro Max New,1549900
+Chery,Tiggo 8 Pro Max Restyling,2425000
 Chery,Tiggo 8 Pro Plug-In-Hybrid,2910000
 Chery,Tiggo 8 Pro e+ Hybrid,2958000
 Chevrolet,Cobalt,537900
@@ -159,13 +160,16 @@ KIA,XCeed,962900
 Lada,Granta Cross,304400
 Lada,Granta Hatchback,263500
 Lada,Granta Liftback,267300
+Lada,Granta Liftback New,804550
 Lada,Granta Sedan,252900
 Lada,Granta Sedan Drive Active,412500
+Lada,Granta Sedan New,801050
 Lada,Granta Sport Liftback,892800
 Lada,Granta Sport Sedan,868800
 Lada,Granta Sportline,780600
 Lada,Granta Sportline Liftback,804600
 Lada,Granta Universal,273900
+Lada,Granta Universal New,902550
 Lada,Largus,343900
 Lada,Largus Cross,379300
 Lada,Largus Cross New,629000
@@ -206,12 +210,14 @@ Mitsubishi,Eclipse Cross,1788000
 Mitsubishi,Outlander,1303100
 Moskvich,3,1014000
 Moskvich,3e,2434000
+Moskvich,6,1750000
 Nissan,Murano,2039000
 Nissan,Qashqai,880000
 Nissan,Terrano,619000
 Nissan,X-trail,1129000
 OMODA,C5,1263900
 OMODA,S5,1247400
+OMODA,S5 GT,2109900
 Ravon,Nexia R3,356000
 Ravon,R2,346000
 Ravon,R4,366000
@@ -251,10 +257,17 @@ TANK,500,3893000
 Toyota,CH-R,1832000
 Toyota,Corolla,1142000
 Toyota,RAV4,1800000
+UAZ,3909,1370000
+UAZ,3909 Цельнометаллический фургон,1350000
 UAZ,Hunter,533000
 UAZ,Patriot,424380
+UAZ,Patriot New,1597000
 UAZ,Patriot Pickup,616000
 UAZ,Pickup,621000
+UAZ,Pickup New,1867000
+UAZ,Профи,1645000
+UAZ,Профи Изотермический кузов,1690000
+UAZ,Профи Фургон,1710000
 Volkswagen,Golf,2574600
 Volkswagen,Jetta,910800
 Volkswagen,Passat,1050000
@@ -264,4 +277,5 @@ Volkswagen,Teramont,3687900
 Volkswagen,Tiguan,1283900
 Volkswagen,Tiguan New,1579900
 Volkswagen,Touareg,5201700
+XCite,X-Cross 7,2199000
 Zotye,Coupa,989600

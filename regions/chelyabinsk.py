@@ -136,7 +136,7 @@ async def saturn2(dct_up, browser):
     for brand in brands:
         link = 'https://saturn2.ru' + brand.find("a").get("href")
         browser.get(link)
-        time.sleep(3)
+        time.sleep(10)
         html = browser.page_source
         soup = bs4.BeautifulSoup(html, 'lxml')
         cards = soup.find(attrs={"class": "post-wrapper__grid"}).find_all(attrs={"class": "post-preview"})
@@ -156,7 +156,6 @@ async def saturn2(dct_up, browser):
                 try:
                     name = dct_up[name]
                 except KeyError:
-                    pass
                     await bot.send_message(CHANEL_ID, f'{name} {link}')
                 res.append([name, cost, link])
             except Exception:

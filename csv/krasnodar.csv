@@ -11,6 +11,7 @@ Changan,Alsvin,890000
 Changan,CS35,732900
 Changan,CS35 Plus,810000
 Changan,CS35 Plus New,1390000
+Changan,CS35 Plus Restyling,1499900
 Changan,CS55,759900
 Changan,CS55 Plus,1350000
 Changan,CS75 Plus,1799900
@@ -18,6 +19,7 @@ Changan,CS75FL,1439900
 Changan,CS85 Coupe,2369900
 Changan,CS95,3309900
 Changan,CS95 New,3019900
+Changan,CS95 Restyling,3019900
 Changan,Eado Plus,1400000
 Changan,Hunter,2809900
 Changan,Lamore,1889900
@@ -39,6 +41,7 @@ Chery,Tiggo 8,1189900
 Chery,Tiggo 8 Pro,1229900
 Chery,Tiggo 8 Pro Max,1549900
 Chery,Tiggo 8 Pro Max New,2388000
+Chery,Tiggo 8 Pro Max Restyling,2388000
 Chery,Tiggo 8 Pro e+,4630000
 Chevrolet,Captiva New,1949000
 Chevrolet,Cobalt,627900
@@ -51,6 +54,7 @@ DFM,AX7,899900
 Datsun,MI-DO,387000
 Datsun,ON-DO,364000
 Dongfeng,580,919900
+Dongfeng,580 New,1599000
 Dongfeng,AX7,899900
 Dongfeng,Shine Max,1479000
 EXEED,LX,1449900
@@ -58,12 +62,15 @@ EXEED,LX AWD,2840000
 EXEED,RX,3239900
 EXEED,TXL,1439900
 EXEED,TXL New,2599000
+EXEED,TXL Restyling,2599000
 EXEED,VX,2519900
 EXEED,VX New,5500000
-FAW,Bestune B70,1838000
-FAW,Bestune T55,1849000
+EXEED,VX Restyling,5500000
+FAW,Bestune B70,1759000
+FAW,Bestune T55,1699000
 FAW,Bestune T77,1565000
-FAW,Bestune T99,2650000
+FAW,Bestune T99,2173000
+FAW,Bestune T99 New,2273000
 FAW,Besturn T77,1969000
 FAW,Besturn X80,938000
 FAW,X40,889000
@@ -75,6 +82,7 @@ Gac,GS3,1549000
 Gac,GS3 New,1549000
 Gac,GS5,949000
 Gac,GS8,1455000
+Gac,GS8 II,2669000
 Gac,GS8 New,2669000
 Geely,Atlas,990000
 Geely,Atlas New,1529000
@@ -83,6 +91,7 @@ Geely,Belgee X50,1349000
 Geely,Cityray,1699990
 Geely,Coolray,619990
 Geely,Coolray New,1219990
+Geely,Coolray Restyling,1639990
 Geely,Emgrand,1279990
 Geely,Emgrand New,1279990
 Geely,Emgrand X7,877990
@@ -92,14 +101,17 @@ Geely,Okavango New,1629990
 Geely,Preface,1749990
 Geely,Tugella,2199990
 Geely,Tugella New,1849900
+Geely,Tugella Restyling,2769990
 Great Wall,GWM POER King Kong,2399000
 Great Wall,POER,2649000
 Haval,Dargo,1779000
 Haval,Dargo X,1959000
 Haval,F7,1302000
 Haval,F7 New,1219000
+Haval,F7 Restyling,1539000
 Haval,F7x,1299000
 Haval,F7x New,1269000
+Haval,F7x Restyling,1589000
 Haval,H2,878000
 Haval,H3,1739000
 Haval,H5,1147000
@@ -109,6 +121,7 @@ Haval,H9,1873000
 Haval,H9 New,3039000
 Haval,Jolion,689900
 Haval,Jolion New,1199000
+Haval,Jolion Restyling,1319000
 Haval,M6,1059900
 Hyundai,Bayon,1759000
 Hyundai,Creta,962000
@@ -124,6 +137,7 @@ Hyundai,Staria,3759000
 Hyundai,Staria Premium,4709000
 Hyundai,Tucson New,1479000
 JAC,J7,779000
+JAC,JS3,1249000
 JAC,JS3 New,1249000
 JAC,JS4,1429000
 JAC,JS6,1509000
@@ -173,7 +187,7 @@ KIA,XCeed,964900
 Lada,4x4 Bronto,636900
 Lada,Granta Cross,354400
 Lada,Granta Drive Active,422500
-Lada,Granta Drive Active Liftback,780900
+Lada,Granta Drive Active Liftback,617900
 Lada,Granta Hatchback,378810
 Lada,Granta Hatchback New,584000
 Lada,Granta Liftback,375610
@@ -181,6 +195,10 @@ Lada,Granta Liftback New,425900
 Lada,Granta Sedan,358510
 Lada,Granta Sedan Drive Active,419000
 Lada,Granta Sedan New,372500
+Lada,Granta Sport Sedan,949900
+Lada,Granta Sportline,949900
+Lada,Granta Sportline Drive Active Liftback,780900
+Lada,Granta Sportline Liftback,989900
 Lada,Granta Universal,376800
 Lada,Granta Universal New,384300
 Lada,Largus,504000
@@ -210,6 +228,7 @@ Lada,Vesta Sedan CNG,639900
 Lada,Vesta Sedan New,569000
 Lada,Vesta Sport,855810
 Lada,Vesta Sportline,1375900
+Lada,Vesta Sportline New,1375900
 Lada,Xray,499000
 Lada,Xray Cross,591900
 Lifan,Murman,430000
@@ -280,6 +299,8 @@ Soueast,DX8S,2699900
 Suzuki,Jimny New,1587000
 Suzuki,SX4,1619000
 Suzuki,Vitara,1469000
+TANK,300,2719000
+TANK,500,4399000
 Toyota,CH-R New,1842000
 Toyota,Camry New,1712500
 Toyota,Corolla,1562000
@@ -297,5 +318,6 @@ Volkswagen,Polo New,760900
 Volkswagen,Taos,1399900
 Volkswagen,Tiguan,1597000
 Volkswagen,Tiguan New,1579900
+XCite,X-Cross 7,1699000
 XCite,X-Cross 7 New,1699000
 Zotye,Coupa,989600

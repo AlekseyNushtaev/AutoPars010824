@@ -99,7 +99,10 @@ async def kit_autoshop(dct_up):
         response = requests.get(link, headers.generate())
         html = response.text
         soup = bs4.BeautifulSoup(html, 'lxml')
-        cards = soup.find(attrs={"class": "catalog__grid"}).find_all(attrs={"class": "car-card"})
+        try:
+            cards = soup.find(attrs={"class": "catalog__grid"}).find_all(attrs={"class": "car-card"})
+        except Exception:
+            break
         if len(cards) == 0:
             break
         for card in cards:
