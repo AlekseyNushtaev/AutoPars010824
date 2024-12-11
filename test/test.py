@@ -14,46 +14,36 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver import Chrome
 
 
-def saturn2(dct_up):
-    headers = fake_headers.Headers(browser='firefox', os='win')
-    link = 'https://tumencars.ru/'
-    response = requests.get(link, headers.generate())
-    html = response.text
-    soup = bs4.BeautifulSoup(html, 'lxml')
-    print(soup.prettify())
-#     brands = soup.find(attrs={"class": "nav__item"}).find_all(attrs={"class": "nav__item-drop"})
-#     print(len(brands))
-#     res = []
-#     for brand in brands:
-#         link = 'https://saturn2.ru' + brand.find("a").get("href")
-#         browser.get(link)
-#         time.sleep(10)
-#         html = browser.page_source
-#         soup = bs4.BeautifulSoup(html, 'lxml')
-#         cards = soup.find(attrs={"class": "post-wrapper__grid"}).find_all(attrs={"class": "post-preview"})
-#         print(len(cards))
-#         for card in cards:
-#             try:
-#                 link = 'https://saturn2.ru' + card.find("a").get("href")
-#                 title = card.find(attrs={"class": "post-preview__row"}).find(attrs={"class": "post-preview__name"}).text.lower().strip().replace(",", "")
-#                 marka = title.split()[0]
-#                 model = title.replace(marka, '').strip().replace(" ", "")
-#                 cost__ = card.find(attrs={"class": "post-preview__price"}).text
-#                 cost_ = ''
-#                 for y in cost__:
-#                     if y.isdigit():
-#                         cost_ += y
-#                 cost = int(cost_)
-#                 name = marka + ', ' + model
-#                 try:
-#                     name = dct_up[name]
-#                 except KeyError:
-#                     pass
-#                     # await bot.send_message(CHANEL_ID, f'{name} {link}')
-#                 res.append([name, cost, link])
-#             except Exception:
-#                 continue
-#     return res
+def park_auto_sm(dct_up):
+        link = 'https://avtosrf5-11.ru/'
+        response = requests.get(link)
+        time.sleep(0.5)
+        html = response.text
+        soup = bs4.BeautifulSoup(html, 'lxml')
+        cards = soup.find_all(attrs={"class": "models__item"})
+        res = []
+        for card in cards:
+            link = 'https://avtosrf5-11.ru'
+            model = card.find(attrs={"class": "models-item__name h2"}).text.lower().replace(' ', '').strip()
+            brand = 'lada'
+            cost__ = card.find(attrs={"class": "models-item-info__price"}).text.strip()
+            cost_ = ''
+            for y in cost__:
+                if y.isdigit():
+                    cost_ += y
+            if cost_ == '':
+                continue
+            cost = int(cost_)
+            name = brand + ', ' + model
+            try:
+                name = dct_up[name]
+            except KeyError:
+                pass
+                # await bot.send_message(CHANEL_ID, f'{name} {link}')
+            res.append([name, cost, link])
+        return res
+
+
 #
 #
 # chrome_driver_path = ChromeDriverManager().install()
@@ -71,5 +61,5 @@ with open('../autolist.txt', 'r', encoding='utf-8') as f:
     lst = f.readlines()
     for item in lst:
         dct[item.split('|')[0].strip()] = item.split('|')[1].strip()
-res = saturn2(dct)
-# print(len(res))
+res = park_auto_sm(dct)
+print(len(res))

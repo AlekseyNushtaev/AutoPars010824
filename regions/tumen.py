@@ -179,3 +179,32 @@ async def autotumen(dct_up):
                 await bot.send_message(CHANEL_ID, f'{name} {link}')
             res.append([name, cost, link])
     return res
+
+
+async def avtosrf(dct_up):
+    link = 'https://avtosrf5-11.ru/'
+    response = requests.get(link)
+    time.sleep(0.5)
+    html = response.text
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "models__item"})
+    res = []
+    for card in cards:
+        link = 'https://avtosrf5-11.ru'
+        model = card.find(attrs={"class": "models-item__name h2"}).text.lower().replace(' ', '').strip()
+        brand = 'lada'
+        cost__ = card.find(attrs={"class": "models-item-info__price"}).text.strip()
+        cost_ = ''
+        for y in cost__:
+            if y.isdigit():
+                cost_ += y
+        if cost_ == '':
+            continue
+        cost = int(cost_)
+        name = brand + ', ' + model
+        try:
+            name = dct_up[name]
+        except KeyError:
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
+        res.append([name, cost, link])
+    return res

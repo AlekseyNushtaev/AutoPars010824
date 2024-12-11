@@ -451,6 +451,7 @@ hyundai, creta |Hyundai, Creta | 313
 hyundai, creta2020 |Hyundai, Creta | 313
 solaris, hc(hyundaicreta) |Hyundai, Creta | 313
 hyundai, cretanew |Hyundai, Creta New | 314
+hyundai, нoвaяcreta |Hyundai, Creta New | 314
 hyundai, celesta |Hyundai, Celesta | 315
 hyundai, custin |Hyundai, Custin | 739
 hyundai, custo |Hyundai, Custo | 805
@@ -462,6 +463,7 @@ hyundai, i30n |Hyundai, i30 N | 318
 hyundai, i30 |Hyundai, i30 |
 hyundai, elantra |Hyundai, Elantra | 319
 hyundai, elantranew |Hyundai, Elantra New | 320
+hyundai, нoвaяelantra |Hyundai, Elantra New | 320
 hyundai, newsolaris |Hyundai, Solaris New | 321
 hyundai, новыйsolaris |Hyundai, Solaris New | 321
 hyundai, solarisnew |Hyundai, Solaris New | 321
@@ -485,8 +487,9 @@ hyundai, stariapremium |Hyundai, Staria Premium | 332
 hyundai, tucson |Hyundai, Tucson | 333
 hyundai, tucson2021 |Hyundai, Tucson | 333
 hyundai, tucsonnline |Hyundai, Tucson N Line| 793
-hyundai, tucson2021new |Hyundai, Tucson 2021 New | 334
+hyundai, tucson2021new |Hyundai, Tucson New | 335
 hyundai, tucsonnew |Hyundai, Tucson New | 335
+hyundai, нoвыйtucson |Hyundai, Tucson New | 335
 hyundai, новаяcreta |Hyundai, Creta New | 314
 hyundai, новаяelantra |Hyundai, Elantra New | 320
 hyundai, новыйtucson |Hyundai, Tucson New | 335
@@ -542,6 +545,7 @@ kia, ceedswnew |KIA, Ceed SW New | 367
 kia, cerato |KIA, Cerato | 368
 kia, ceratoрестайлинг |KIA, Cerato Restyling | 369
 kia, ceratonew |KIA, Cerato New | 370
+kia, нoвыйcerato |KIA, Cerato New | 370
 kia, k3 |KIA, K3 | 790
 kia, k5 |KIA, K5 | 371
 kia, newsoul |KIA, Soul New | 372
@@ -549,10 +553,12 @@ kia, optimarest |KIA, Optima Rest | 807
 kia, pegas |KIA, Pegas | 737
 kia, picanto |KIA, Picanto | 373
 kia, picantonew |KIA, Picanto New | 374
+kia, нoвыйpicanto |KIA, Picanto New | 374
 kia, proceed |KIA, ProCeed | 375
 kia, rio |KIA, Rio | 376
 solaris, krs(kiario) |KIA, Rio | 376
 kia, rionew |KIA, Rio New | 377
+kia, нoвыйrio |KIA, Rio New | 377
 kia, riox |KIA, Rio X | 378
 solaris, krx(kiariox) |KIA, Rio X | 378
 kia, rioxnew |KIA, Rio X New | 379
@@ -568,6 +574,7 @@ kia, k900 |KIA, K900 | 386
 kia, k5new |KIA, K5 New | 387
 kia, k9 |KIA, K9 | 388
 kia, sorentonew |KIA, Sorento New | 389
+kia, нoвыйsorento |KIA, Sorento New | 389
 kia, soul |KIA, Soul | 390
 kia, soulnew |KIA, Soul | 390
 kia, sportage |KIA, Sportage | 391
@@ -619,6 +626,7 @@ lada, grantanewседан |Lada, Granta Sedan New | 413
 lada, grantaседанnew |Lada, Granta Sedan New | 413
 lada, grantasedannew |Lada, Granta Sedan New | 413
 lada, grantaуниверсал |Lada, Granta Universal | 414
+lada, grantaунивеpсaл |Lada, Granta Universal | 414
 lada, grantauniversal |Lada, Granta Universal | 414
 lada, grantaунивеpcал |Lada, Granta Universal | 414
 lada, grantaхэтчбек |Lada, Granta Hatchback | 404
@@ -664,6 +672,7 @@ lada, larguscrossуниверсал |Lada, Largus Cross | 419
 lada, larguscross7мест |Lada, Largus Cross 7 мест | 421
 lada, larguscross7м. |Lada, Largus Cross 7 мест | 421
 lada, largusnew5мест |Lada, Largus New | 449
+lada, нoвыйlargus |Lada, Largus New | 449
 lada, larguscross5м. |Lada, Largus New | 449
 lada, largusnew |Lada, Largus New | 449
 lada, новыйlargusуниверсал |Lada, Largus New | 449
@@ -672,6 +681,7 @@ lada, largus7м. |Lada, Largus New 7 мест | 450
 lada, новыйlargus5мест |Lada, Largus New | 449
 lada, largusnew7мест |Lada, Largus New 7 мест | 450
 lada, larguscrossnew5мест |Lada, Largus Cross New | 451
+lada, нoвыйlarguscross |Lada, Largus Cross New | 451
 lada, larguscrossnew |Lada, Largus Cross New | 451
 lada, larguscrossnew7мест |Lada, Largus Cross New 7 мест | 452
 lada, largusуниверсал5мест |Lada, Largus | 418
@@ -680,6 +690,7 @@ lada, новыйlargus |Lada, Largus New | 449
 lada, largusуниверсалnew |Lada, Largus New | 449
 lada, новыйlarguscross |Lada, Largus Cross New | 451
 lada, новыйlargusфургон |Lada, Largus Фургон New | 454
+lada, нoвыйlargusфуpгoн |Lada, Largus Фургон New | 454
 lada, largusfurgonnew |Lada, Largus Фургон New | 454
 lada, (ваз)largusiрестайлингфургон |Lada, Largus Фургон New | 454
 lada, вис234900 |Lada, ВИС 2349 Фургон | 700
@@ -863,12 +874,15 @@ mitsubishi, pajerosport |Mitsubishi, Pajero Sport | 506
 mitsubishi, pajerosportnew |Mitsubishi, Pajero Sport New | 507
 mitsubishi, xpander |Mitsubishi, Xpander | 508
 moskvich, 3 |Moskvich, 3 | 509
+moсквич, 3 |Moskvich, 3 | 509
 mocквич, 3 |Moskvich, 3 | 509
 москвич, 3внедорожник5дв. |Moskvich, 3 | 509
 moskvich, 3e |Moskvich, 3e | 510
 mocквич, 3e |Moskvich, 3e | 510
+moсквич, 3e |Moskvich, 3e | 510
 москвич, 3е |Moskvich, 3e | 510
 moskvich, 6 |Moskvich, 6 | 511
+moсквич, 6 |Moskvich, 6 | 511
 москвич, 6лифтбек5дв. |Moskvich, 6 | 511
 nissan, almera |Nissan, Almera | 809
 nissan, juke |Nissan, Juke | 512
@@ -932,6 +946,7 @@ renault, koleos |Renault, Koleos | 552
 renault, duster |Renault, Duster | 553
 renault, duster2021 |Renault, Duster 2021 | 554
 renault, dusternew |Renault, Duster New | 555
+renault, нoвыйduster |Renault, Duster New | 555
 renault, kaptur |Renault, Kaptur | 556
 renault, kaptur2019 |Renault, Kaptur | 556
 renault, kapturnew |Renault, Kaptur New | 557
@@ -961,9 +976,11 @@ skoda, kodiaq |Skoda, Kodiaq | 574
 skoda, kodiaq2023 |Skoda, Kodiaq | 574
 skoda, kodiaqрестайлинг |Skoda, Kodiaq Restyling | 575
 skoda, kodiaqnew |Skoda, Kodiaq New | 576
+skoda, oбнoвленныйkodiaq |Skoda, Kodiaq New | 576
 skoda, kodiaqnew2021 |Skoda, Kodiaq 2021 New | 577
 skoda, octavia |Skoda, Octavia | 578
 skoda, octavianew |Skoda, Octavia New | 579
+skoda, нoвaяoctavia |Skoda, Octavia New | 579
 skoda, octaviaa7 |Skoda, Octavia A7 | 810
 skoda, octaviaa8 |Skoda, Octavia A8 | 580
 skoda, rapid |Skoda, Rapid | 581
@@ -1090,6 +1107,8 @@ uaz, patriotpikap |UAZ, Patriot Pickup | 636
 уаз, pickup |UAZ, Pickup | 637
 uaz, pickup |UAZ, Pickup | 637
 уаз, пикап |UAZ, Pickup | 637
+uaz, пикапмкпп |UAZ, Pickup | 637
+uaz, пикапсакпп |UAZ, Pickup АКПП| 828
 uaz, pickupnew |UAZ, Pickup New | 638
 уаз, pickupiрестайлинг2 |UAZ, Pickup New | 638
 уаз, pickupiрестайлинг2фургон |UAZ, Pickup New | 638
@@ -1122,6 +1141,7 @@ volkswagen, teramontnew |Volkswagen, Teramont New | 656
 volkswagen, tiguan |Volkswagen, Tiguan | 657
 volkswagen, tiguan2020 |Volkswagen, Tiguan | 657
 volkswagen, tiguannew |Volkswagen, Tiguan New | 658
+volkswagen, нoвыйtiguan |Volkswagen, Tiguan New | 658
 volkswagen, touareg |Volkswagen, Touareg | 659
 volkswagen, touaregnew |Volkswagen, Touareg New | 660
 volkswagen, новыйtiguan |Volkswagen, Tiguan New | 658

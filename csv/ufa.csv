@@ -1,11 +1,11 @@
 brand,model,min_price
-BAIC,BJ40,2906250
-BAIC,U5 Plus,1278750
-BAIC,U5 Plus CNG,1567892
+BAIC,BJ40,3084000
+BAIC,U5 Plus,1344000
+BAIC,U5 Plus CNG,1680392
 BAIC,X35,1274175
 BAIC,X55,2227500
 BAIC,X7,2325000
-BAIC,X75,1942500
+BAIC,X75,2242500
 Belgee,X50,1680693
 Belgee,X70,2026493
 Changan,Alsvin,1112000
@@ -25,7 +25,7 @@ Changan,Hunter Plus,2949900
 Changan,Lamore,1668940
 Changan,UNI-K,2549925
 Changan,UNI-K iDD Hybrid,3914925
-Changan,UNI-S,2439900
+Changan,UNI-S,2489900
 Changan,UNI-T,1716940
 Changan,UNI-V,2005000
 Chery,Arrizo 8,1990000
@@ -38,7 +38,7 @@ Chery,Tiggo 5,604400
 Chery,Tiggo 7,742940
 Chery,Tiggo 7 Pro,1008000
 Chery,Tiggo 7 Pro Max,1400000
-Chery,Tiggo 7 Pro Max New,1925000
+Chery,Tiggo 7 Pro Max New,1930000
 Chery,Tiggo 7 Pro Plug-In-Hybrid,2793280
 Chery,Tiggo 8,1199900
 Chery,Tiggo 8 Pro,1312000
@@ -70,7 +70,7 @@ EXEED,TXL,809960
 EXEED,TXL New,3037500
 EXEED,VX,3064000
 EXEED,VX New,4200000
-EXEED,VX Restyling,5130000
+EXEED,VX Restyling,5464000
 Evolute,i-SPACE,3460000
 FAW,Bestune B70,1594600
 FAW,Bestune T55,1567300
@@ -82,8 +82,6 @@ FAW,Besturn T99,1829000
 FAW,Besturn X40,719000
 FAW,Besturn X80,844000
 FAW,Besturn X80 New,1131000
-FAW,X40,1392000
-FAW,X80,1508000
 Ford,Ecosport,1141400
 Ford,Explorer,3530100
 Ford,Fiesta Hatchback,837100
@@ -112,7 +110,6 @@ Geely,Coolray,784800
 Geely,Coolray New,1560994
 Geely,Emgrand,1389990
 Geely,Emgrand GT,783740
-Geely,Emgrand New,2009990
 Geely,Emgrand X7,604994
 Geely,GS,796994
 Geely,Monjaro,3245243
@@ -157,7 +154,6 @@ Hongqi,HS5 (I),2790000
 Hyundai,Creta,645000
 Hyundai,Creta New,659000
 Hyundai,Elantra,859000
-Hyundai,Elantra New,2149000
 Hyundai,H-1,2206500
 Hyundai,Palisade,4581000
 Hyundai,Santa Fe,2008000
@@ -166,7 +162,6 @@ Hyundai,Solaris New,446000
 Hyundai,Sonata,1651223
 Hyundai,Staria,3602100
 Hyundai,Tucson,1464000
-Hyundai,Tucson New,2749000
 Hyundai,i30,2110500
 JAC,J7,713000
 JAC,JS3,1311750
@@ -200,22 +195,11 @@ KAIYI,E5,1232000
 KAIYI,X3,1337800
 KAIYI,X3 Pro,1544900
 KAIYI,X7 Kunlun,2248425
-KIA,Ceed,2244900
-KIA,Ceed SW,2314900
 KIA,Cerato,1209900
-KIA,Cerato New,2054900
 KIA,K5,595300
-KIA,Picanto New,1334900
-KIA,ProCeed,1869900
 KIA,Rio,515300
-KIA,Rio New,1434900
 KIA,Rio X,595300
-KIA,Rio X-Line,939900
-KIA,Seltos,1959900
-KIA,Soul,1934900
 KIA,Sportage,1999929
-KIA,Sportage 5,2849900
-KIA,XCeed,2634900
 Knewstar,001,3265990
 Lada,4x4 Bronto,882340
 Lada,Aura,1949250
@@ -284,7 +268,7 @@ MG,5,1761750
 MG,6,2174250
 MG,7,3700000
 MG,HS,2559000
-MG,ZS,1649250
+MG,ZS,1837500
 Mazda,3,1449900
 Mazda,3 New,1370400
 Mazda,6,2205600
@@ -339,7 +323,6 @@ SWM,G01F,1950200
 SWM,G05 Pro,1964000
 Skoda,Karoq,1670000
 Skoda,Kodiaq,2327900
-Skoda,Kodiaq New,3640000
 Skoda,Kodiaq Sportline,3695900
 Skoda,Octavia,1264800
 Skoda,Octavia A8,1823300
@@ -348,8 +331,6 @@ Skoda,Octavia Hockey Edition,523800
 Skoda,Octavia New,1204000
 Skoda,Rapid,500000
 Skoda,Rapid New,401000
-Skoda,Superb,3386000
-Skoda,Superb Combi,3817000
 Skoda,Superb Combi New,2334700
 Skoda,Superb New,1280000
 Skoda,Superb Sportline,2907400
@@ -361,13 +342,13 @@ Sollers,Argo бортовой,2467000
 Sollers,Argo фургон изотермический,2678130
 Sollers,Argo фургон промтоварный,2431000
 Sollers,Argo фургон-рефрижератор,2498310
-Sollers,Argo цельнометаллический фургон,2820600
-Sollers,Atlant автобус,4113000
-Sollers,Atlant бортовой,3247000
-Sollers,Atlant фургон грузопассажирский,2920500
-Sollers,Atlant фургон изотермический,3384000
-Sollers,Atlant фургон-рефрижератор,4079700
-Sollers,ST6,2184300
+Sollers,Argo цельнометаллический фургон,2679570
+Sollers,Atlant автобус,3907350
+Sollers,Atlant бортовой,3201975
+Sollers,Atlant фургон грузопассажирский,2774475
+Sollers,Atlant фургон изотермический,3319110
+Sollers,Atlant фургон-рефрижератор,3875715
+Sollers,ST6,2075085
 SsangYong,Actyon,996300
 SsangYong,Tivol,849000
 Suzuki,Jimny,1992700
@@ -375,7 +356,7 @@ Suzuki,SX4,1740800
 Suzuki,Vitara,1884600
 TANK,300,2869300
 TANK,500,4209300
-TANK,500 Urban,6299000
+TANK,500 Urban,5459000
 TANK,700,8599000
 Toyota,Camry,4449000
 Toyota,Crown Kluger,6150000
@@ -406,7 +387,6 @@ Volkswagen,Polo New,667900
 Volkswagen,Taos,1290900
 Volkswagen,Teramont,5697000
 Volkswagen,Tiguan,1474900
-Volkswagen,Tiguan New,3375900
 Volkswagen,Touareg,8145100
 XCite,X-Cross 7,2205500
 Zotye,Coupa,955000

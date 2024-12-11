@@ -14,6 +14,7 @@ from regions.ufa import *
 from regions.ekaterinburg import *
 from regions.tumen import *
 from regions.saratov import *
+from regions.samara import *
 from pprint import pprint
 
 
@@ -130,10 +131,24 @@ async def parser_saratov(dct_up):
         res_1 = await saratov_avtohous(dct_up)
     except Exception as e:
         res_1 = []
-        await bot.send_message(CHANEL_ID, 'https://saratov-avtohous.ru/')
+        await bot.send_message(CHANEL_ID, 'https://saratov-avtohous.ru error')
         await bot.send_message(ADMIN_ID, str(e))
-    res = res_1
+    try:
+        res_2 = await cartrade_saratov(dct_up)
+    except Exception as e:
+        res_2 = []
+        await bot.send_message(CHANEL_ID, 'https://cartrade-saratov.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_3 = await autodealer_saratov(dct_up)
+    except Exception as e:
+        res_3 = []
+        await bot.send_message(CHANEL_ID, 'https://autodealer-saratov.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    res = res_1 + res_2 + res_3
     res_1_name = [x[0] for x in res_1]
+    res_2_name = [x[0] for x in res_2]
+    res_3_name = [x[0] for x in res_3]
     res_name = []
     for item in res:
         if item[0] not in res_name:
@@ -156,8 +171,12 @@ async def parser_saratov(dct_up):
     sheet.cell(row=1, column=5).value = 'min_price_url'
     sheet.cell(row=1, column=6).value = 'saratov-avtohous.ru_price'
     sheet.cell(row=1, column=7).value = 'saratov-avtohous.ru'
-    lst_res = [res_1]
-    lst_res_name = [res_1_name]
+    sheet.cell(row=1, column=8).value = 'cartrade-saratov.ru_price'
+    sheet.cell(row=1, column=9).value = 'cartrade-saratov.ru'
+    sheet.cell(row=1, column=10).value = 'autodealer-saratov.ru_price'
+    sheet.cell(row=1, column=11).value = 'autodealer-saratov.ru'
+    lst_res = [res_1, res_2, res_3]
+    lst_res_name = [res_1_name, res_2_name, res_3_name]
     for i in range(2, len(res_name) + 2):
         try:
             sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
@@ -184,6 +203,69 @@ async def parser_saratov(dct_up):
             string.append(sheet.cell(row=i, column=y).value)
         data.append(string)
     with open('csv/saratov.csv', 'w', encoding='utf-8', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+
+
+async def parser_samara(dct_up, browser):
+    try:
+        res_1 = await park_auto_sm(dct_up)
+    except Exception as e:
+        res_1 = []
+        await bot.send_message(CHANEL_ID, 'https://park-auto-sm.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    res = res_1
+    res_1_name = [x[0] for x in res_1]
+    res_name = []
+    for item in res:
+        if item[0] not in res_name:
+            res_name.append(item[0])
+    res_name.sort()
+    wb = openpyxl.Workbook()
+    sheet = wb['Sheet']
+    dct_id = {}
+    with open('autolist.txt', 'r', encoding='utf-8') as f:
+        lst = f.readlines()
+    for item in lst:
+        try:
+            dct_id[item.split('|')[1].strip()] = item.split('|')[2].strip()
+        except Exception:
+            pass
+    sheet.cell(row=1, column=1).value = 'id'
+    sheet.cell(row=1, column=2).value = 'brand'
+    sheet.cell(row=1, column=3).value = 'model'
+    sheet.cell(row=1, column=4).value = 'min_price'
+    sheet.cell(row=1, column=5).value = 'min_price_url'
+    sheet.cell(row=1, column=6).value = 'park-auto-sm.ru_price'
+    sheet.cell(row=1, column=7).value = 'park-auto-sm.ru'
+    lst_res = [res_1]
+    lst_res_name = [res_1_name]
+    for i in range(2, len(res_name) + 2):
+        try:
+            sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
+        except Exception:
+            sheet.cell(row=i, column=1).value = 'Новая машина, необходимо назначить id'
+        sheet.cell(row=i, column=2).value = res_name[i - 2].split(', ')[0]
+        sheet.cell(row=i, column=3).value = res_name[i - 2].split(', ')[1]
+        dct = {}
+        lst = []
+        for y in range(len(lst_res_name)):
+            if res_name[i - 2] in lst_res_name[y]:
+                index = lst_res_name[y].index(res_name[i - 2])
+                sheet.cell(row=i, column=6 + y * 2).value = lst_res[y][index][1]
+                sheet.cell(row=i, column=7 + y * 2).value = lst_res[y][index][2]
+                dct[str(lst_res[y][index][1])] = lst_res[y][index][2]
+                lst.append(int(lst_res[y][index][1]))
+        sheet.cell(row=i, column=4).value = min(lst)
+        sheet.cell(row=i, column=5).value = dct[str(min(lst))]
+    wb.save('xlsx/samara.xlsx')
+    data = []
+    for i in range(1, len(res) + 1):
+        string = []
+        for y in range(2, 5):
+            string.append(sheet.cell(row=i, column=y).value)
+        data.append(string)
+    with open('csv/samara.csv', 'w', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
         writer.writerows(data)
 
@@ -646,12 +728,19 @@ async def parser_tumen(dct_up, browser):
         res_5 = []
         await bot.send_message(CHANEL_ID, 'https://autotumen.ru/ error')
         await bot.send_message(ADMIN_ID, str(e))
-    res = res_1 + res_2 + res_3 + res_4 + res_5
+    try:
+        res_6 = await avtosrf(dct_up)
+    except Exception as e:
+        res_6 = []
+        await bot.send_message(CHANEL_ID, 'https://avtosrf5-11.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    res = res_1 + res_2 + res_3 + res_4 + res_5 + res_6
     res_1_name = [x[0] for x in res_1]
     res_2_name = [x[0] for x in res_2]
     res_3_name = [x[0] for x in res_3]
     res_4_name = [x[0] for x in res_4]
     res_5_name = [x[0] for x in res_5]
+    res_6_name = [x[0] for x in res_6]
     res_name = []
     for item in res:
         if item[0] not in res_name:
@@ -682,9 +771,11 @@ async def parser_tumen(dct_up, browser):
     sheet.cell(row=1, column=13).value = 'china-avto-tumen.ru'
     sheet.cell(row=1, column=14).value = 'autotumen.ru_price'
     sheet.cell(row=1, column=15).value = 'autotumen.ru'
+    sheet.cell(row=1, column=16).value = 'avtosrf5-11.ru_price'
+    sheet.cell(row=1, column=17).value = 'avtosrf5-11.ru'
 
-    lst_res = [res_1, res_2, res_3, res_4, res_5]
-    lst_res_name = [res_1_name, res_2_name, res_3_name, res_4_name, res_5_name]
+    lst_res = [res_1, res_2, res_3, res_4, res_5, res_6]
+    lst_res_name = [res_1_name, res_2_name, res_3_name, res_4_name, res_5_name, res_6_name]
     for i in range(2, len(res_name) + 2):
         try:
             sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
