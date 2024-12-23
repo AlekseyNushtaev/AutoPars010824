@@ -30,6 +30,7 @@ Chery,Tiggo 3,533200
 Chery,Tiggo 4,560900
 Chery,Tiggo 4 New,1631000
 Chery,Tiggo 4 Pro,988900
+Chery,Tiggo 4 Pro New,1640000
 Chery,Tiggo 5,640900
 Chery,Tiggo 7,894900
 Chery,Tiggo 7 Pro,1087900
@@ -40,7 +41,7 @@ Chery,Tiggo 8,1189900
 Chery,Tiggo 8 Pro,1179900
 Chery,Tiggo 8 Pro Max,1549900
 Chery,Tiggo 8 Pro Max New,1549900
-Chery,Tiggo 8 Pro Max Restyling,2425000
+Chery,Tiggo 8 Pro Max Restyling,2335000
 Chery,Tiggo 8 Pro Plug-In-Hybrid,2910000
 Chery,Tiggo 8 Pro e+ Hybrid,2958000
 Chevrolet,Cobalt,537900
@@ -53,7 +54,7 @@ Datsun,ON-DO,244000
 Dongfeng,580,754000
 Dongfeng,AX7,737400
 EXEED,LX,1399900
-EXEED,RX,2976000
+EXEED,RX,2850000
 EXEED,TXL,1399900
 EXEED,VX,2455900
 FAW,Bestune B70,1424400
@@ -264,7 +265,6 @@ UAZ,Patriot,424380
 UAZ,Patriot New,1597000
 UAZ,Patriot Pickup,616000
 UAZ,Pickup,621000
-UAZ,Pickup New,1867000
 UAZ,Профи,1645000
 UAZ,Профи Изотермический кузов,1690000
 UAZ,Профи Фургон,1710000
@@ -277,5 +277,7 @@ Volkswagen,Teramont,3687900
 Volkswagen,Tiguan,1283900
 Volkswagen,Tiguan New,1579900
 Volkswagen,Touareg,5201700
-XCite,X-Cross 7,2199000
+XCite,X-Cross 7,1993560
+XCite,X-Cross 8,2913040
 Zotye,Coupa,989600
+Zotye,T600,771600

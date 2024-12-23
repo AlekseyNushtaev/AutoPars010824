@@ -122,6 +122,7 @@ chery, новыйtiggo4 |Chery, Tiggo 4 New | 150
 chery, tiggo4new2024 |Chery, Tiggo 4 New | 150
 chery, tiggo4pro |Chery, Tiggo 4 Pro | 151
 chery, tiggo4proкроссовер |Chery, Tiggo 4 Pro | 151
+chery, tiggo4proiрестайлингкроссовер |Chery, Tiggo 4 Pro New | 152
 chery, tiggo4pro18yearsedition |Chery, Tiggo 4 Pro | 151
 chery, tiggo4proкроссовермп |Chery, Tiggo 4 Pro | 151
 chery, tiggo4pronew |Chery, Tiggo 4 Pro New | 152
@@ -160,6 +161,7 @@ chery, newtiggo8promax |Chery, Tiggo 8 Pro Max New | 164
 chery, tiggo8promaxnew |Chery, Tiggo 8 Pro Max New | 164
 chery, новыйtiggo8promax |Chery, Tiggo 8 Pro Max New | 164
 chery, tiggo9 |Chery, Tiggo 9 | 165
+chery, tiggo9iрестайлингвнедорожник5дв. |Chery, Tiggo 9 | 165
 chevrolet, equinox |Chevrolet, Equinox | 801
 chevrolet, captiva |Chevrolet, Captiva | 166
 chevrolet, сaptiva |Chevrolet, Captiva | 166
@@ -247,11 +249,14 @@ exeed, vxnew |EXEED, VX New | 206
 exeed, новыйvx |EXEED, VX New | 206
 exeed, vxновый |EXEED, VX New | 206
 faw, bestuneb70 |FAW, Bestune B70 | 213
+faw, bestuneb70new |FAW, Bestune B70 New| 829
 faw, bestuneb70лифтбек |FAW, Bestune B70 | 213
 faw, bestunet55 |FAW, Bestune T55 | 214
 faw, bestunet55кроссовер |FAW, Bestune T55 | 214
 faw, bestunet77 |FAW, Bestune T77 | 215
 faw, bestunet77кроссовер |FAW, Bestune T77 | 215
+faw, bestunet77iкроссовер |FAW, Bestune T77 | 215
+faw, bestunet90 |FAW, Bestune T90 | 830
 faw, bestunet99 |FAW, Bestune T99 | 216
 faw, bestuneт99 |FAW, Bestune T99 | 216
 faw, bestuneт99new |FAW, Bestune T99 New | 217
@@ -423,6 +428,7 @@ haval, newjolion |Haval, Jolion New | 303
 haval, f7 |Haval, F7 | 304
 haval, f7x |Haval, F7x | 305
 haval, newh5 |Haval, H5 New | 306
+новый, havalh5 |Haval, H5 New | 306
 haval, h52024 |Haval, H5 New | 306
 haval, h5new |Haval, H5 New | 306
 haval, m6 |Haval, M6 | 307
@@ -574,6 +580,7 @@ kia, k900 |KIA, K900 | 386
 kia, k5new |KIA, K5 New | 387
 kia, k9 |KIA, K9 | 388
 kia, sorentonew |KIA, Sorento New | 389
+kia, sorentonew24 |KIA, Sorento New | 389
 kia, нoвыйsorento |KIA, Sorento New | 389
 kia, soul |KIA, Soul | 390
 kia, soulnew |KIA, Soul | 390
@@ -908,6 +915,7 @@ nissan, newx-trailnew |Nissan, X-trail New | 524
 nissan, newx-trail |Nissan, X-trail New | 524
 omoda, c5 |OMODA, C5 | 525
 omoda, c5new |OMODA, C5 New| 820
+omoda, c5(iрестайлинг) |OMODA, C5 New| 820
 omoda, c5кроссовер |OMODA, C5 | 525
 omoda, c5iкроссовер |OMODA, C5 | 525
 omoda, s5 |OMODA, S5 | 526
@@ -1103,6 +1111,7 @@ uaz, patriotpikap |UAZ, Patriot Pickup | 636
 уаз, сгрфургон |UAZ, 3909 Цельнометаллический фургон| 698
 уаз, профи |UAZ, Профи| 699
 уаз, профифургон |UAZ, Профи Фургон| 774
+уаз, профигрузовой(бортовой) |UAZ, Профи| 699
 уаз, профиизотермическийкузов |UAZ, Профи Изотермический кузов | 702
 уаз, pickup |UAZ, Pickup | 637
 uaz, pickup |UAZ, Pickup | 637
@@ -1172,3 +1181,4 @@ xcite, x-cross7 |XCite, X-Cross 7 | 675
 xcite, x-cross7универсал |XCite, X-Cross 7 | 675
 xcite, x-cross7new |XCite, X-Cross 7 New | 676
 xcite, x-cross8 |XCite, X-Cross 8 | 787
+xcite, x-cross8универсал |XCite, X-Cross 8 | 787

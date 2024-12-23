@@ -16,7 +16,7 @@ Belgee,X70,1054000
 Brilliance,V3,429000
 Brilliance,V5,598400
 Brilliance,V5 New,694100
-Changan,Alsvin,490100
+Changan,Alsvin,480099
 Changan,CS35 Plus,798200
 Changan,CS35 Plus New,788299
 Changan,CS35 Plus Restyling,898100
@@ -33,8 +33,8 @@ Changan,CS85 Coupe,2225940
 Changan,CS95,1809000
 Changan,CS95 New,2869900
 Changan,CS95 Restyling,3142900
-Changan,Eado Plus,980000
-Changan,Hunter Plus,1673000
+Changan,Eado Plus,969999
+Changan,Hunter Plus,1662999
 Changan,Lamore,1639900
 Changan,UNI-K,1676699
 Changan,UNI-S,1379900
@@ -52,7 +52,7 @@ Chery,Tiggo 4 Pro New,617799
 Chery,Tiggo 5,630710
 Chery,Tiggo 7,577799
 Chery,Tiggo 7 Pro,696699
-Chery,Tiggo 7 Pro Max,1040000
+Chery,Tiggo 7 Pro Max,1029999
 Chery,Tiggo 7 Pro Max New,1179000
 Chery,Tiggo 7 Pro Plug-In-Hybrid,2499000
 Chery,Tiggo 8,797799
@@ -75,7 +75,7 @@ Citroen,C3 Aircross New,1765999
 Citroen,C4,1016100
 Citroen,C5 Aircross,1890000
 Citroen,C5 Aircross New,1169100
-Citroen,C5 X,3009000
+Citroen,C5 X,3949000
 Citroen,Jumpy,1713810
 Citroen,Spacetourer,2140000
 DFM,580,770000
@@ -97,7 +97,7 @@ Dongfeng,Shine Max,1199000
 EXEED,LX,1624899
 EXEED,LX AWD,1679999
 EXEED,LX New,1890000
-EXEED,RX,1478900
+EXEED,RX,1468899
 EXEED,TXL,1324899
 EXEED,TXL New,1540000
 EXEED,TXL New 2024,2990100
@@ -111,8 +111,10 @@ Evolute,i-PRO,1944000
 Evolute,i-SKY,3198000
 Evolute,i-SPACE,1999000
 FAW,Bestune B70,1328000
+FAW,Bestune B70 New,1699990
 FAW,Bestune T55,1189000
 FAW,Bestune T77,1269000
+FAW,Bestune T90,1779990
 FAW,Bestune T99,1689900
 FAW,Bestune T99 New,2237800
 FAW,Besturn X40,1252000
@@ -157,20 +159,20 @@ Geely,Coolray New,1037799
 Geely,Coolray Restyling,1113900
 Geely,Emgrand,1039000
 Geely,Emgrand 7,779989
-Geely,Emgrand 7 2023,970899
+Geely,Emgrand 7 2023,559999
 Geely,Emgrand GT,1387999
 Geely,Emgrand New,980900
 Geely,Emgrand X7,719990
 Geely,GS,699200
 Geely,Monjaro,2496500
 Geely,Monjaro (KX11),2486499
-Geely,Monjaro Restyling,2658000
+Geely,Monjaro Restyling,3533000
 Geely,Okavango,1550000
 Geely,Okavango New,1527799
 Geely,Preface,1550000
 Geely,Preface New,1699990
 Geely,Tugella,1533994
-Geely,Tugella New,1738999
+Geely,Tugella New,1523993
 Geely,Tugella Restyling,1948100
 Great Wall,Hover H3,715010
 Great Wall,Hover H5,797000
@@ -188,7 +190,7 @@ Haval,Dargo,1377799
 Haval,Dargo X,1879999
 Haval,F7,869000
 Haval,F7 New,1219000
-Haval,F7 Restyling,897299
+Haval,F7 Restyling,858999
 Haval,F7x,849000
 Haval,F7x New,1249000
 Haval,F7x Restyling,947299
@@ -213,7 +215,7 @@ Hongqi,HS5,3504000
 Hyundai,Bayon,1619500
 Hyundai,Celesta,700000
 Hyundai,Creta,446899
-Hyundai,Creta New,704000
+Hyundai,Creta New,436898
 Hyundai,Custin,2625000
 Hyundai,Elantra,1029900
 Hyundai,Elantra New,836300
@@ -230,7 +232,7 @@ Hyundai,Sonata,1130200
 Hyundai,Sonata New,1268100
 Hyundai,Staria,2599000
 Hyundai,Tucson,964999
-Hyundai,Tucson New,1248999
+Hyundai,Tucson New,954998
 Hyundai,ix35 New,2025200
 JAC,J7,527799
 JAC,JS3,832200
@@ -244,10 +246,10 @@ JAC,T8,1722000
 JAC,T8 Pro,1840200
 JAC,T9,2459200
 JAC,iEV7S,2049000
-JAECOO,J7,1699900
-JAECOO,J8,2499000
+JAECOO,J7,1689899
+JAECOO,J8,2488999
 Jetour,Dashing,1064899
-Jetour,T2,2069000
+Jetour,T2,2058999
 Jetour,X50,1140000
 Jetour,X70,1531200
 Jetour,X70 Plus,1521199
@@ -273,7 +275,7 @@ KIA,Cerato New,723942
 KIA,Cerato Restyling,849200
 KIA,K3,1749000
 KIA,K5,1060299
-KIA,K5 New,1417900
+KIA,K5 New,2138000
 KIA,K9,6224900
 KIA,K900,4025000
 KIA,Mohave,2860700
@@ -283,7 +285,7 @@ KIA,Picanto New,438900
 KIA,ProCeed,1204900
 KIA,Rio,834900
 KIA,Rio New,500299
-KIA,Rio X,543900
+KIA,Rio X,533899
 KIA,Rio X New,852100
 KIA,Rio X-Line,556400
 KIA,Seltos,695299
@@ -293,7 +295,7 @@ KIA,Sorento,1619400
 KIA,Sorento New,1519000
 KIA,Soul,561199
 KIA,Sportage,1141900
-KIA,Sportage 5,1339899
+KIA,Sportage 5,1131899
 KIA,Sportage New,955175
 KIA,Sportage New 2022,1865000
 KIA,Stinger,2159900
@@ -365,8 +367,8 @@ Livan,S6 Pro,990000
 Livan,X3 Pro,899000
 Livan,X6 Pro,1119000
 Lixiang,L6,4293799
-Lixiang,L7,4999999
-Lixiang,L8,5890000
+Lixiang,L7,4829999
+Lixiang,L8,5789999
 Lixiang,L9,6279999
 Lync&Co,08,4240000
 Lync&Co,09,6427000
@@ -374,7 +376,7 @@ M-HERO,I,14041000
 MG,4 EV,1949999
 MG,5,888999
 MG,6,920000
-MG,7,1650000
+MG,7,1639999
 MG,Cyberstar,3984000
 MG,HS,2007000
 MG,Maxus 9,4290000
@@ -434,7 +436,7 @@ Ora,03 GT,3249100
 Oting,Paladin,2469000
 Peugeot,2008 New,1329000
 Peugeot,3008 New,1699000
-Peugeot,4008,2729000
+Peugeot,4008,3549000
 Peugeot,408,964000
 Peugeot,5008 New,1979000
 Peugeot,Expert,1187410
@@ -507,7 +509,7 @@ Suzuki,SX4,869000
 Suzuki,Vitara,919000
 Suzuki,Vitara New,1199100
 TANK,300,2239999
-TANK,500,3799000
+TANK,500,2729998
 TANK,700,6399000
 Toyota,Alphard,6683200
 Toyota,CH-R,1863100
