@@ -84,6 +84,7 @@ changan, cs75plus2023 |Changan, CS75 Plus 2023 | 137
 changan, cs85coupe |Changan, CS85 Coupe | 124
 changan, cs85 |Changan, CS85 | 138
 changan, cs95 |Changan, CS95 | 125
+changan, cs952023 |Changan, CS95 | 125
 changan, cs95рестайлинг |Changan, CS95 Restyling | 139
 changan, cs95new |Changan, CS95 New | 140
 changan, новыйcs95 |Changan, CS95 New | 140
@@ -130,6 +131,7 @@ chery, tiggo5 |Chery, Tiggo 5 | 153
 chery, tiggo7 |Chery, Tiggo 7 | 154
 chery, tiggo7pro |Chery, Tiggo 7 Pro | 155
 chery, tiggo7promax |Chery, Tiggo 7 Pro Max | 156
+chery, tiggo7promax2023 |Chery, Tiggo 7 Pro Max | 156
 chery, tiggo7promaxкроссовер |Chery, Tiggo 7 Pro Max | 156
 chery, tiggo7promaxiкроссовер |Chery, Tiggo 7 Pro Max | 156
 chery, tiggo7promaxiрестайлингкроссовер |Chery, Tiggo 7 Pro Max New | 157
@@ -162,6 +164,7 @@ chery, tiggo8promaxnew |Chery, Tiggo 8 Pro Max New | 164
 chery, новыйtiggo8promax |Chery, Tiggo 8 Pro Max New | 164
 chery, tiggo9 |Chery, Tiggo 9 | 165
 chery, tiggo9iрестайлингвнедорожник5дв. |Chery, Tiggo 9 | 165
+chery, tiggo9new |Chery, Tiggo 9 New | 832
 chevrolet, equinox |Chevrolet, Equinox | 801
 chevrolet, captiva |Chevrolet, Captiva | 166
 chevrolet, сaptiva |Chevrolet, Captiva | 166
@@ -227,6 +230,7 @@ cheryexeed, vx |EXEED, VX | 205
 exeed, vx2021 |EXEED, VX | 205
 cheryexeed, vxnew |EXEED, VX New | 206
 exeed, lx |EXEED, LX | 203
+exeed, lx2023 |EXEED, LX | 203
 exeed, lxnew |EXEED, LX New | 207
 exeed, lxновый |EXEED, LX New | 207
 exeed, lxрестайлинг2 |EXEED, LX New | 207
@@ -333,6 +337,7 @@ geely, coolray |Geely, Coolray | 255
 geely, coolrayрестайлинг |Geely, Coolray Restyling | 256
 geely, coolraynew |Geely, Coolray New | 257
 джили, кулрей |Geely, Coolray New | 257
+geely, coolray2019 |Geely, Coolray | 255
 geely, новыйсoolray |Geely, Coolray New | 257
 geely, coolrayновый |Geely, Coolray New | 257
 geely, новыйcoolray |Geely, Coolray New | 257
@@ -415,6 +420,7 @@ haval, h6 |Haval, H6 | 298
 haval, h6coupe |Haval, H6 | 298
 haval, h6new |Haval, H6 New | 299
 haval, h9 |Haval, H9 | 300
+haval, h92023 |Haval, H9 | 300
 haval, h9new |Haval, H9 New | 684
 haval, newh9 |Haval, H9 New | 684
 haval, новыйh9 |Haval, H9 New | 684
@@ -426,6 +432,7 @@ haval, jolion2023 |Haval, Jolion New | 303
 haval, новыйjolion |Haval, Jolion New | 303
 haval, newjolion |Haval, Jolion New | 303
 haval, f7 |Haval, F7 | 304
+haval, f72023 |Haval, F7 | 304
 haval, f7x |Haval, F7x | 305
 haval, newh5 |Haval, H5 New | 306
 новый, havalh5 |Haval, H5 New | 306
@@ -977,6 +984,7 @@ rising, f7 | Rising, F7 | 568
 rising, r7 | Rising, R7 | 569
 rox, 01 | Rox, 01 | 789
 skywell, et5 |Skywell, ET5 | 570
+skoda, kamiq |Skoda, Kamiq | 831
 skoda, karoq |Skoda, Karoq | 571
 skoda, karoqnew |Skoda, Karoq New | 572
 skoda, karoqрестайлинг |Skoda, Karoq Restyling | 573
