@@ -124,6 +124,7 @@ chery, tiggo4new2024 |Chery, Tiggo 4 New | 150
 chery, tiggo4pro |Chery, Tiggo 4 Pro | 151
 chery, tiggo4proкроссовер |Chery, Tiggo 4 Pro | 151
 chery, tiggo4proiрестайлингкроссовер |Chery, Tiggo 4 Pro New | 152
+chery, tiggo4proiрестайлингкроссовермп |Chery, Tiggo 4 Pro New | 152
 chery, tiggo4pro18yearsedition |Chery, Tiggo 4 Pro | 151
 chery, tiggo4proкроссовермп |Chery, Tiggo 4 Pro | 151
 chery, tiggo4pronew |Chery, Tiggo 4 Pro New | 152
@@ -261,6 +262,7 @@ faw, bestunet77 |FAW, Bestune T77 | 215
 faw, bestunet77кроссовер |FAW, Bestune T77 | 215
 faw, bestunet77iкроссовер |FAW, Bestune T77 | 215
 faw, bestunet90 |FAW, Bestune T90 | 830
+faw, bestunet90new |FAW, Bestune T90 New| 833
 faw, bestunet99 |FAW, Bestune T99 | 216
 faw, bestuneт99 |FAW, Bestune T99 | 216
 faw, bestuneт99new |FAW, Bestune T99 New | 217
@@ -355,6 +357,7 @@ geely, citiray |Geely, Cityray | 772
 geely, gs |Geely, GS | 264
 geely, monjaro |Geely, Monjaro | 265
 geely, monjaro2024 |Geely, Monjaro | 265
+geely, monjaronew |Geely, Monjaro New| 835
 джили, монжаро |Geely, Monjaro | 265
 geely, monjaroрестайлинг |Geely, Monjaro Restyling | 788
 geely, monjaro(kx11) |Geely, Monjaro (KX11) | 266
@@ -473,7 +476,8 @@ hyundai, h1 |Hyundai, H-1 | 316
 hyundai, ioniq5 |Hyundai, IONIQ 5 | 806
 hyundai, ix35new |Hyundai, ix35 New | 317
 hyundai, i30n |Hyundai, i30 N | 318
-hyundai, i30 |Hyundai, i30 |
+hyundai, i20 |Hyundai, i20 | 836
+hyundai, i30 |Hyundai, i30 | 704
 hyundai, elantra |Hyundai, Elantra | 319
 hyundai, elantranew |Hyundai, Elantra New | 320
 hyundai, нoвaяelantra |Hyundai, Elantra New | 320
@@ -550,6 +554,7 @@ kaiyi, x3pro |KAIYI, X3 Pro | 360
 kaiyi, x7 |KAIYI, X7 | 736
 kaiyi, x7kunlun |KAIYI, X7 Kunlun | 361
 kia, carnival |KIA, Carnival | 362
+kia, carnivalnew |KIA, Carnival New| 837
 kia, ceed |KIA, Ceed | 363
 kia, ceednew |KIA, Ceed New | 364
 kia, ceedsw |KIA, Ceed SW | 365
@@ -611,6 +616,7 @@ kia, mohave |KIA, Mohave | 399
 kia, mohavenew |KIA, Mohave New | 400
 knewstar, 001 |Knewstar, 001 | 775
 lada, aura |Lada, Aura | 795
+lada, (ваз)auraседан |Lada, Aura | 795
 lada, grantacross |Lada, Granta Cross | 402
 lada, grantadriveactive |Lada, Granta Sedan Drive Active | 403
 lada, grantaседанdriveactive |Lada, Granta Sedan Drive Active | 403
@@ -682,8 +688,10 @@ lada, largusфургон |Lada, Largus Фургон | 420
 lada, largusfurgon |Lada, Largus Фургон | 420
 lada, largusфургонcng |Lada, Largus Фургон CNG| 688
 lada, larguscross5мест |Lada, Largus Cross | 419
+lada, largusсross5мест |Lada, Largus Cross | 419
 lada, larguscrossуниверсал |Lada, Largus Cross | 419
 lada, larguscross7мест |Lada, Largus Cross 7 мест | 421
+lada, largusсross7мест |Lada, Largus Cross 7 мест | 421
 lada, larguscross7м. |Lada, Largus Cross 7 мест | 421
 lada, largusnew5мест |Lada, Largus New | 449
 lada, нoвыйlargus |Lada, Largus New | 449
@@ -866,6 +874,7 @@ mg, 5new |MG, 5 New| 808
 mg, 6 |MG, 6 | 493
 mg, hs |MG, HS | 494
 mg, zs |MG, ZS | 495
+mg, rx5 |MG, RX 5 | 834
 mitsubishi, asxnew |Mitsubishi, ASX New | 496
 mitsubishi, asx |Mitsubishi, ASX | 685
 mitsubishi, asxрестайлинг3 |Mitsubishi, ASX Restyling 3 | 497

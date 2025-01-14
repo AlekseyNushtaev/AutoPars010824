@@ -15,24 +15,31 @@ from selenium.webdriver import Chrome
 
 
 def park_auto_sm(dct_up):
-        link = 'https://avtosrf5-11.ru/'
-        response = requests.get(link)
-        time.sleep(0.5)
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://park-auto-sm.ru/avto-new/'
+    response = requests.get(link, headers.generate())
+    html = response.text
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    tags = soup.find_all(attrs={"class": "brands__card"})
+    res = []
+    for tag in tags:
+        link_1 = 'https://park-auto-sm.ru' + tag.get("href")
+        time.sleep(1)
+        response = requests.get(link_1, headers.generate())
         html = response.text
         soup = bs4.BeautifulSoup(html, 'lxml')
-        cards = soup.find_all(attrs={"class": "models__item"})
-        res = []
+        cards = soup.find_all(attrs={"class": "mini-card"})
         for card in cards:
-            link = 'https://avtosrf5-11.ru'
-            model = card.find(attrs={"class": "models-item__name h2"}).text.lower().replace(' ', '').strip()
-            brand = 'lada'
-            cost__ = card.find(attrs={"class": "models-item-info__price"}).text.strip()
+            link = 'https://park-auto-sm.ru' + card.find("a").get("href")
+            print(link)
+            title = card.find(attrs={"class": "mini-card__title"}).text.lower().strip()
+            brand = title.split()[0]
+            model = title.replace(brand, '').strip().replace(" ", "")
+            cost__ = card.find(attrs={"class": "new text-primary"}).text
             cost_ = ''
             for y in cost__:
                 if y.isdigit():
                     cost_ += y
-            if cost_ == '':
-                continue
             cost = int(cost_)
             name = brand + ', ' + model
             try:
@@ -41,7 +48,7 @@ def park_auto_sm(dct_up):
                 pass
                 # await bot.send_message(CHANEL_ID, f'{name} {link}')
             res.append([name, cost, link])
-        return res
+    return res
 
 
 #
