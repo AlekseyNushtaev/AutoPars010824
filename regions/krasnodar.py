@@ -245,3 +245,39 @@ async def maximum_auto_credit(dct_up):
             await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, cost, link])
     return res
+
+
+async def haval_max(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://haval-max123.ru'
+    response = requests.get(link, headers.generate())
+    html = response.text
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "desktop-nav__item"})
+    res = []
+    for card in cards:
+        try:
+            link = 'https://haval-max123.ru' + card.find("a").get("href")
+            response = requests.get(link, headers.generate())
+            html = response.text
+            soup = bs4.BeautifulSoup(html, 'lxml')
+            title = soup.find("h1").text.lower().replace('автомобиль', '').strip()
+            brand = title.split()[0]
+            model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i")
+            cost__ = soup.find(attrs={"class": "buy__price"}).text.strip()
+            cost_ = ''
+            for y in cost__:
+                if y.isdigit():
+                    cost_ += y
+            if cost_ == '':
+                continue
+            cost = int(cost_)
+            name = brand + ', ' + model
+            try:
+                name = dct_up[name]
+            except KeyError:
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
+            res.append([name, cost, link])
+        except Exception as e:
+            print(e)
+    return res

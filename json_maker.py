@@ -41,7 +41,7 @@ async def json_maker(dct):
             print(name)
             await bot.send_message(CHANEL_ID, f"id {item['id']} - error\nhttp://37.143.15.242/api/v1/models")
     for region in ['krasnodar', 'moscow', 'stavropol', 'surgut', 'volgograd', 'samara',
-                   'chelyabinsk', 'cheboksari', 'ufa', 'tumen', 'ekaterinburg', 'saratov']:
+                   'chelyabinsk', 'cheboksari', 'ufa', 'tumen', 'ekaterinburg', 'saratov', 'yaroslavl']:
         res_lst = []
         res = {}
         with open(f'csv/{region}.csv', 'r', encoding='utf-8') as csvfile:
@@ -56,8 +56,3 @@ async def json_maker(dct):
         json_object = json.dumps(res, indent=4)
         with open(f'json/{region}.json', 'w') as f:
             f.write(json_object)
-
-
-
-
-

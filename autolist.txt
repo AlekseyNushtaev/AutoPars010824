@@ -79,6 +79,7 @@ changan, cs75 |Changan, CS75 | 133
 changan, cs75рестайлинг |Changan, CS75 Restyling | 134
 changan, cs75fl |Changan, CS75FL | 118
 changan, cs75plus |Changan, CS75 Plus | 135
+сhangan, cs75plus |Changan, CS75 Plus | 135
 changan, cs75plusnew |Changan, CS75 Plus New | 136
 changan, cs75plus2023 |Changan, CS75 Plus 2023 | 137
 changan, cs85coupe |Changan, CS85 Coupe | 124
@@ -93,9 +94,11 @@ changan, cs95-new |Changan, CS95 New | 140
 changan, eadoplus |Changan, Eado Plus | 128
 changan, hunter |Changan, Hunter | 129
 changan, hunterplus |Changan, Hunter Plus | 141
+сhangan, hunterplusplus |Changan, Hunter Plus | 141
 сhangan, hunterplus |Changan, Hunter Plus | 141
 changan, sc7164bhunterplus |Changan, Hunter Plus | 141
 changan, lamore |Changan, Lamore | 130
+сhangan, raeton |Changan, Raeton | 839
 changan, raetonplus |Changan, Raeton Plus | 142
 сhangan, raetonplus |Changan, Raeton Plus | 142
 changan, uni-k |Changan, UNI-K | 120
@@ -124,6 +127,7 @@ chery, tiggo4new2024 |Chery, Tiggo 4 New | 150
 chery, tiggo4pro |Chery, Tiggo 4 Pro | 151
 chery, tiggo4proкроссовер |Chery, Tiggo 4 Pro | 151
 chery, tiggo4proiрестайлингкроссовер |Chery, Tiggo 4 Pro New | 152
+chery, tiggo4iрестайлинг2кроссовер |Chery, Tiggo 4 Pro New | 152
 chery, tiggo4proiрестайлингкроссовермп |Chery, Tiggo 4 Pro New | 152
 chery, tiggo4pro18yearsedition |Chery, Tiggo 4 Pro | 151
 chery, tiggo4proкроссовермп |Chery, Tiggo 4 Pro | 151
@@ -271,6 +275,7 @@ faw, besturnx80new |FAW, Besturn X80 New | 218
 faw, bestunex80new |FAW, Besturn X80 New | 218
 faw, besturnt55 |FAW, Besturn T55 | 826
 faw, besturnb30 |FAW, Besturn B30 | 708
+faw, besturnb70 |FAW, Besturn B70 | 840
 faw, besturnx80 |FAW, Besturn X80 | 219
 faw, bestunex80 |FAW, Besturn X80 | 219
 faw, besturnx40 |FAW, Besturn X40 | 220
@@ -712,6 +717,7 @@ lada, новыйlargus |Lada, Largus New | 449
 lada, largusуниверсалnew |Lada, Largus New | 449
 lada, новыйlarguscross |Lada, Largus Cross New | 451
 lada, новыйlargusфургон |Lada, Largus Фургон New | 454
+lada, largusфургонnew |Lada, Largus Фургон New | 454
 lada, нoвыйlargusфуpгoн |Lada, Largus Фургон New | 454
 lada, largusfurgonnew |Lada, Largus Фургон New | 454
 lada, (ваз)largusiрестайлингфургон |Lada, Largus Фургон New | 454
@@ -875,6 +881,7 @@ mg, 6 |MG, 6 | 493
 mg, hs |MG, HS | 494
 mg, zs |MG, ZS | 495
 mg, rx5 |MG, RX 5 | 834
+mg, rx9 |MG, RX 9 | 841
 mitsubishi, asxnew |Mitsubishi, ASX New | 496
 mitsubishi, asx |Mitsubishi, ASX | 685
 mitsubishi, asxрестайлинг3 |Mitsubishi, ASX Restyling 3 | 497
@@ -909,6 +916,7 @@ moсквич, 6 |Moskvich, 6 | 511
 москвич, 6лифтбек5дв. |Moskvich, 6 | 511
 nissan, almera |Nissan, Almera | 809
 nissan, juke |Nissan, Juke | 512
+nissan, newjuke |Nissan, Juke New| 838
 nissan, magnite |Nissan, Magnite | 513
 nissan, pathfinder |Nissan, Pathfinder | 514
 nissan, nissanpathfinder2022 |Nissan, Pathfinder 2022 | 515

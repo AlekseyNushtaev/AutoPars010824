@@ -529,3 +529,35 @@ async def avanta_avto_credit(dct_up):
                 await bot.send_message(CHANEL_ID, f'{name} {link}')
             res.append([name, cost, link])
     return res
+
+
+async def ca_geely(dct_up, browser):
+    link = 'https://ca-geely.ru/'
+    browser.get(link)
+    time.sleep(2)
+    html = browser.page_source
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "catalog-item"})
+    res = []
+    for card in cards:
+        try:
+            link = card.find("a").get("href")
+            model = card.find("a").text.lower().replace(' ', '').strip()
+            brand = 'geely'
+            cost__ = card.find(attrs={"class": "catalog-item-price__new"}).text.strip()
+            cost_ = ''
+            for y in cost__:
+                if y.isdigit():
+                    cost_ += y
+            if cost_ == '':
+                continue
+            cost = int(cost_)
+            name = brand + ', ' + model
+            try:
+                name = dct_up[name]
+            except KeyError:
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
+            res.append([name, cost, link])
+        except Exception:
+            pass
+    return res

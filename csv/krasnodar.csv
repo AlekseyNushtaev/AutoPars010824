@@ -30,7 +30,7 @@ Chery,Arrizo 8,1714000
 Chery,Tiggo 2,487000
 Chery,Tiggo 3,533200
 Chery,Tiggo 4,869900
-Chery,Tiggo 4 New,1631000
+Chery,Tiggo 4 New,1389000
 Chery,Tiggo 4 Pro,1040000
 Chery,Tiggo 5,650900
 Chery,Tiggo 7,894900
@@ -72,6 +72,7 @@ FAW,Bestune T55,1699000
 FAW,Bestune T77,1565000
 FAW,Bestune T99,2173000
 FAW,Bestune T99 New,2273000
+FAW,Besturn T77,1969000
 FAW,Besturn X80,938000
 FAW,X40,889000
 FAW,X40 New,898000
@@ -127,6 +128,7 @@ Hyundai,Creta,962000
 Hyundai,Creta New,959000
 Hyundai,Elantra,1006000
 Hyundai,Elantra New,1069000
+Hyundai,Santa Fe,2167000
 Hyundai,Solaris,619000
 Hyundai,Solaris New,1309000
 Hyundai,Sonata,1481000
@@ -142,7 +144,7 @@ JAC,JS6,1509000
 JAC,S3,439000
 JAC,S5,687000
 JAC,S7,1219000
-JAC,T6,1409000
+JAC,T6,1327000
 JAC,T8,2199000
 JAC,T8 Pro,2899000
 JAECOO,J7,2289900
@@ -211,8 +213,8 @@ Lada,Largus New,501000
 Lada,Largus Фургон,790000
 Lada,Largus Фургон New,541610
 Lada,Niva,587000
-Lada,Niva Legend 3 двери,618900
-Lada,Niva Legend 5 дверей,688900
+Lada,Niva Legend 3 двери,454710
+Lada,Niva Legend 5 дверей,490410
 Lada,Niva Legend Bronto,917900
 Lada,Niva Off-Road,669000
 Lada,Niva Travel,549000
@@ -228,7 +230,7 @@ Lada,Vesta SW Sportline New,2093000
 Lada,Vesta Sedan,519000
 Lada,Vesta Sedan CNG,639900
 Lada,Vesta Sedan New,569000
-Lada,Vesta Sport,1297900
+Lada,Vesta Sport,855810
 Lada,Vesta Sportline,1375900
 Lada,Vesta Sportline New,1375900
 Lada,Xray,499000
@@ -249,6 +251,7 @@ MG,ZS,1980000
 Moskvich,3,1159000
 Moskvich,3e,3147000
 Moskvich,6,1590000
+Nissan,Murano,2327000
 Nissan,Qashqai,880000
 Nissan,Terrano,619000
 Nissan,Terrano New,1098000
@@ -262,7 +265,7 @@ Ravon,R2,400000
 Ravon,R4,485000
 Renault,Arkana,938000
 Renault,Arkana New,1399000
-Renault,Duster,1199000
+Renault,Duster,770000
 Renault,Duster New,749000
 Renault,Kaptur,659000
 Renault,Kaptur New,1249000
@@ -285,8 +288,8 @@ Skoda,Kodiaq Scout,3375000
 Skoda,Kodiaq Sportline,2989000
 Skoda,Octavia A8,1257000
 Skoda,Octavia Hockey Edition,989000
-Skoda,Octavia New,1140000
-Skoda,Rapid,679000
+Skoda,Octavia New,1055000
+Skoda,Rapid,676000
 Skoda,Rapid New,695000
 Skoda,Superb,1230000
 Skoda,Superb Combi,2089000
@@ -302,9 +305,10 @@ Suzuki,SX4,1619000
 Suzuki,Vitara,1469000
 TANK,300,2719000
 Toyota,CH-R New,1842000
-Toyota,Camry New,1978000
+Toyota,Camry New,1712500
+Toyota,Corolla,1562000
 Toyota,Corolla New,1152000
-Toyota,RAV4 New,2061000
+Toyota,RAV4 New,1859000
 UAZ,Hunter,645000
 UAZ,Patriot New,719000
 UAZ,Pickup New,737000

@@ -26,11 +26,14 @@ Changan,UNI-T,1834000
 Changan,UNI-V,1829940
 Chery,Arrizo 8,1638000
 Chery,Tiggo 4,1019940
+Chery,Tiggo 4 New,2330000
 Chery,Tiggo 4 Pro,1182000
+Chery,Tiggo 7,1229900
 Chery,Tiggo 7 Pro,1542000
 Chery,Tiggo 7 Pro Max,1556000
 Chery,Tiggo 7 Pro Max New,1686000
 Chery,Tiggo 7 Pro Plug-In-Hybrid,2400000
+Chery,Tiggo 8,2730000
 Chery,Tiggo 8 Pro,2058000
 Chery,Tiggo 8 Pro Max,1950000
 Chery,Tiggo 8 Pro Max New,1950000
@@ -41,6 +44,8 @@ Chery,Tiggo 9,2933000
 Chevrolet,Cobalt,572340
 Chevrolet,Nexia,528540
 Chevrolet,Spark,570540
+DFM,580,1629000
+DFM,AX7,1229000
 Dongfeng,580,1499400
 Dongfeng,AX7,737400
 Dongfeng,DF6,2144000
@@ -75,14 +80,18 @@ Gac,M8,3575000
 Geely,Atlas,1185594
 Geely,Atlas New,2054514
 Geely,Atlas Pro,1702194
+Geely,Belgee X50,2290990
 Geely,Cityray,1755000
 Geely,Coolray,1196994
 Geely,Coolray New,1627914
 Geely,Coolray Restyling,1566000
 Geely,Emgrand,1294794
+Geely,Emgrand New,2009990
+Geely,GS,1099990
 Geely,Monjaro,2599000
 Geely,Monjaro Restyling,3533000
 Geely,Okavango,2177000
+Geely,Okavango New,3449990
 Geely,Preface,1888000
 Geely,Preface New,1950000
 Geely,Tugella,2375994
@@ -97,6 +106,7 @@ Haval,F7x,1499400
 Haval,F7x New,1624000
 Haval,H3,1679400
 Haval,H5,857400
+Haval,H5 New,3699000
 Haval,H9,2459400
 Haval,Jolion,1169400
 Haval,Jolion New,1199400
@@ -105,6 +115,7 @@ Haval,M6,1367400
 Hongqi,H5,3114000
 Hongqi,HS5,3504000
 Hyundai,Creta,1115400
+Hyundai,Creta New,1859000
 Hyundai,Custin,2625000
 Hyundai,Elantra,1289400
 Hyundai,Elantra New,1819000
@@ -121,6 +132,7 @@ JAC,J7,1260000
 JAC,JS3,1137000
 JAC,JS4,1425000
 JAC,JS6,1559000
+JAC,S3,1399000
 JAC,S7,1067400
 JAC,T6,1614000
 JAC,T8,1722000
@@ -146,19 +158,25 @@ KIA,Carnival,2486940
 KIA,Ceed,1346940
 KIA,Ceed SW,1388940
 KIA,Cerato,1295940
+KIA,Cerato New,2054900
 KIA,K5,1640940
 KIA,K5 New,2138000
 KIA,K9,4424940
 KIA,Mohave,3497940
 KIA,Pegas,1157000
 KIA,Picanto,800940
+KIA,Picanto New,1334900
+KIA,ProCeed,1869900
 KIA,Rio,860940
+KIA,Rio New,1434900
 KIA,Rio X,944940
 KIA,Seltos,1238940
 KIA,Sorento,2273940
-KIA,Sorento New,3162000
+KIA,Sorento New,2499900
 KIA,Soul,1160940
 KIA,Sportage,1709940
+KIA,Sportage 5,2849900
+KIA,XCeed,2634900
 Knewstar,001,2583000
 Lada,Granta Cross,684000
 Lada,Granta Hatchback,467100
@@ -172,17 +190,26 @@ Lada,Granta Sportline Liftback,804600
 Lada,Granta Universal,431580
 Lada,Largus,996000
 Lada,Largus Cross,866340
+Lada,Largus Cross New,1443900
+Lada,Largus New,1300900
 Lada,Largus Фургон,1002000
+Lada,Largus Фургон New,1301900
 Lada,Niva Legend 3 двери,588600
 Lada,Niva Legend 5 дверей,551340
 Lada,Niva Legend Bronto,861000
+Lada,Niva Off-Road,824000
 Lada,Niva Travel,788400
 Lada,Vesta Cross,1055400
+Lada,Vesta Cross New,1733900
 Lada,Vesta SW,993000
 Lada,Vesta SW Cross,1127400
+Lada,Vesta SW Cross New,1511900
+Lada,Vesta SW New,1329900
 Lada,Vesta SW Sportline New,1465800
 Lada,Vesta Sedan,743940
 Lada,Vesta Sedan CNG,790140
+Lada,Vesta Sedan New,1239900
+Lada,Vesta Sport,1597900
 Lada,Vesta Sportline,1363800
 Lada,Xray,664140
 Lada,Xray Cross,749940
@@ -219,6 +246,7 @@ OMODA,S5 GT,1579000
 Oting,Paladin,2469000
 Renault,Arkana,1124400
 Renault,Duster,970800
+Renault,Duster New,1618000
 Renault,Kaptur,1034400
 Renault,Logan,674400
 Renault,Logan Stepway,780600
@@ -231,13 +259,19 @@ Skoda,Karoq,1023000
 Skoda,Kodiaq,1234200
 Skoda,Kodiaq Hockey Edition,1271340
 Skoda,Kodiaq Laurin & Klement,3483600
+Skoda,Kodiaq New,3640000
 Skoda,Kodiaq Scout,1948800
 Skoda,Kodiaq Sportline,3226800
 Skoda,Octavia,994200
+Skoda,Octavia New,2613000
 Skoda,Rapid,630600
 Skoda,Superb,1432800
 Skoda,Superb Combi,1608600
 Skywell,ET5,2977000
+Solaris,HC,2499000
+Solaris,HS,2010000
+Solaris,KRS,2038000
+Solaris,KRX,2064000
 TANK,300,2579400
 TANK,500,3959400
 Toyota,BZ4X,2854000
@@ -255,9 +289,143 @@ UAZ,Hunter,906000
 UAZ,Patriot,1008000
 UAZ,Patriot Pickup,1023000
 Volkswagen,Jetta,910800
+Volkswagen,Passat,2656000
 Volkswagen,Polo,831540
 Volkswagen,Taos,1697340
 Volkswagen,Tiguan,2025540
+Volkswagen,Tiguan New,3375900
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
 ,,
 ,,
 ,,
