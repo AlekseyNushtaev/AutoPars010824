@@ -370,6 +370,7 @@ geely, monjarohi-phybrid |Geely, Monjaro Hi-P Hybrid | 714
 geely, okavango |Geely, Okavango | 267
 джили, окаванго |Geely, Okavango | 267
 geely, okavango(iрестайлинг) |Geely, Okavango New | 268
+geely, новыйokavango |Geely, Okavango New | 268
 geely, okavangoрестайлинг |Geely, Okavango New | 268
 geely, okavangonew |Geely, Okavango New | 268
 geely, preface |Geely, Preface | 269
@@ -423,6 +424,7 @@ haval, gwmpoerkingkong |Haval, GWM POER King Kong | 294
 haval, h2 |Haval, H2 | 295
 haval, h3 |Haval, H3 | 296
 haval, h3new |Haval, H3 New | 804
+новый, havalh3 |Haval, H3 New | 804
 haval, h5 |Haval, H5 | 297
 haval, h6 |Haval, H6 | 298
 haval, h6coupe |Haval, H6 | 298
@@ -465,6 +467,7 @@ hongqi, h5 | Hongqi, H5 | 716
 hongqi, h9 | Hongqi, H9 | 717
 hongqi, hq9 | Hongqi, HQ9 | 718
 hongqi, hs5 | Hongqi, HS5 | 719
+hongqi, новыйhs5 | Hongqi, HS5 New | 843
 hongqi, hs3 | Hongqi, HS3 | 749
 hongqi, hs5(i) | Hongqi, HS5 (I) | 720
 hyundai, bayon |Hyundai, Bayon | 312
@@ -881,6 +884,7 @@ mg, 6 |MG, 6 | 493
 mg, hs |MG, HS | 494
 mg, zs |MG, ZS | 495
 mg, rx5 |MG, RX 5 | 834
+mg, rx8 |MG, RX 8 | 842
 mg, rx9 |MG, RX 9 | 841
 mitsubishi, asxnew |Mitsubishi, ASX New | 496
 mitsubishi, asx |Mitsubishi, ASX | 685
