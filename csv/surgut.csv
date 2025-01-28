@@ -5,6 +5,7 @@ BAIC,X35,1395000
 BAIC,X55,2050000
 BAIC,X7,2300000
 Belgee,X50,1235990
+Belgee,X70,1695714
 Changan,Alsvin,835000
 Changan,CS35 Plus,1179900
 Changan,CS35 Plus New,1289900
@@ -66,7 +67,6 @@ Gac,GS8,2289000
 Geely,Atlas,1033990
 Geely,Atlas New,1957990
 Geely,Atlas Pro,1618990
-Geely,Belgee X50,1235990
 Geely,Coolray,772300
 Geely,Coolray New,1014990
 Geely,Emgrand,954990
@@ -86,6 +86,7 @@ Haval,F7x,1639000
 Haval,F7x New,1310000
 Haval,H2,528000
 Haval,H3,1999000
+Haval,H3 New,2549000
 Haval,H5,879000
 Haval,H5 New,2219400
 Haval,H6,548000

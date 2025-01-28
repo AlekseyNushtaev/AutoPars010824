@@ -884,6 +884,10 @@ async def parser_tumen(dct_up, browser):
                 dct[str(lst_res[y][index][1])] = lst_res[y][index][2]
                 lst.append(int(lst_res[y][index][1]))
         sheet.cell(row=i, column=4).value = min(lst)
+        if res_name[i - 2].split(', ')[1] == 'Jolion':
+            sheet.cell(row=i, column=4).value = 935520
+        if res_name[i - 2].split(', ')[1] == 'Jolion New':
+            sheet.cell(row=i, column=4).value = 959520
         sheet.cell(row=i, column=5).value = dct[str(min(lst))]
     wb.save('xlsx/tumen.xlsx')
     data = []

@@ -3,11 +3,10 @@ BAIC,BJ40,2610000
 BAIC,U5 Plus,1227000
 BAIC,X35,1320000
 BAIC,X55,1770000
-Belgee,X50,2480190
+Belgee,X50,1970990
 Belgee,X70,2826190
 Changan,Alsvin,1050000
 Changan,CS35,527940
-Changan,CS35 Plus,1057900
 Changan,CS35 Plus New,1403940
 Changan,CS55,759900
 Changan,CS55 Plus,1577940
@@ -15,10 +14,8 @@ Changan,CS75FL,1439900
 Changan,CS85 Coupe,2225940
 Changan,CS95,2549940
 Changan,Eado Plus,1397940
-Changan,Hunter Plus,3739900
 Changan,Lamore,1952930
 Changan,UNI-K,2183940
-Changan,UNI-S,2959900
 Changan,UNI-T,2759900
 Changan,UNI-V,1715940
 Chery,Arrizo 8,1414000
@@ -58,22 +55,17 @@ Geely,Atlas,690000
 Geely,Atlas New,1916994
 Geely,Atlas Pro,1658394
 Geely,Belgee X50,1374594
-Geely,Cityray,3214190
 Geely,Coolray,983999
 Geely,Coolray New,1565994
-Geely,Emgrand,2243990
 Geely,Emgrand New,1205994
 Geely,Emgrand X7,725994
 Geely,GS,659994
 Geely,Monjaro,2816994
 Geely,Okavango,2069994
 Geely,Okavango New,2999990
-Geely,Preface FS11,3359190
 Geely,Tugella New,1425596
-Great Wall,POER,2414300
 Haval,Dargo,1779000
 Haval,Dargo X,1959000
-Haval,F7,1141000
 Haval,F7 New,881640
 Haval,F7x New,1269000
 Haval,H2,676800
@@ -91,15 +83,9 @@ Hyundai,Solaris,619000
 Hyundai,Sonata,1273000
 Hyundai,Tucson New,989640
 JAC,J7,959000
-JAC,JS3,1889000
-JAC,JS6,1819300
 JAC,S3,439000
 JAC,S5,683400
 JAC,S7,1067400
-JAC,T6,2270000
-JAC,T8 Pro,3279000
-JAC,T9,3499000
-JAECOO,J7,2389900
 JAECOO,J8,4099000
 Jetour,Dashing,1399900
 Jetour,T2,2631300
@@ -125,7 +111,6 @@ KIA,Seltos,790000
 KIA,Soul,638000
 KIA,Sportage 5,1025964
 KIA,XCeed,964900
-Knewstar,001,4393190
 Lada,4x4 3 двери,1015000
 Lada,Granta Cross,426900
 Lada,Granta Hatchback,318500
@@ -133,7 +118,6 @@ Lada,Granta Liftback,318900
 Lada,Granta Sedan,301900
 Lada,Granta Sedan Drive Active,419000
 Lada,Granta Universal,327900
-Lada,Largus,1670000
 Lada,Largus Cross New,519804
 Lada,Largus New,487900
 Lada,Largus Фургон New,457900
@@ -153,8 +137,6 @@ Lada,Vesta Sedan New,569000
 Lada,Vesta Sport,839000
 Lada,Xray,457900
 Lada,Xray Cross,591900
-Lada,ВИС 2346,1507500
-Lada,ВИС 2349 Фургон,1364100
 Lifan,Murman,430000
 Lifan,MyWay,539940
 Lifan,Solano 2,425940
@@ -206,6 +188,4 @@ Volkswagen,Passat,1050000
 Volkswagen,Polo,730900
 Volkswagen,Taos,1326900
 Volkswagen,Tiguan New,1215324
-XCite,X-Cross 7,2495500
-XCite,X-Cross 8,2999000
 Zotye,Coupa,713760

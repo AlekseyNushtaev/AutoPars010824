@@ -169,6 +169,7 @@ chery, tiggo8promaxnew |Chery, Tiggo 8 Pro Max New | 164
 chery, новыйtiggo8promax |Chery, Tiggo 8 Pro Max New | 164
 chery, tiggo9 |Chery, Tiggo 9 | 165
 chery, tiggo9iрестайлингвнедорожник5дв. |Chery, Tiggo 9 | 165
+chery, tiggo9iвнедорожник5дв. |Chery, Tiggo 9 | 165
 chery, tiggo9new |Chery, Tiggo 9 New | 832
 chevrolet, equinox |Chevrolet, Equinox | 801
 chevrolet, captiva |Chevrolet, Captiva | 166
@@ -944,6 +945,7 @@ nissan, newx-trail |Nissan, X-trail New | 524
 omoda, c5 |OMODA, C5 | 525
 omoda, c5new |OMODA, C5 New| 820
 omoda, c5(iрестайлинг) |OMODA, C5 New| 820
+omoda, c5iрестайлингкроссовер |OMODA, C5 New| 820
 omoda, c5кроссовер |OMODA, C5 | 525
 omoda, c5iкроссовер |OMODA, C5 | 525
 omoda, s5 |OMODA, S5 | 526
@@ -1109,6 +1111,7 @@ toyota, hiluxnew |Toyota, Hilux New | 628
 toyota, landcruiser |Toyota, Land Cruiser 300 | 629
 toyota, landcruiser300 |Toyota, Land Cruiser 300 | 629
 toyota, landcruiser300gr-sport |Toyota, Land Cruiser 300 GR-Sport | 740
+toyota, landcruiser300grsport |Toyota, Land Cruiser 300 GR-Sport | 740
 toyota, landcruiserprado150series |Toyota, Land Cruiser Prado | 630
 toyota, landcruiserprado |Toyota, Land Cruiser Prado | 630
 toyota, landcruiser250pradonew |Toyota, Land Cruiser Prado New | 741
