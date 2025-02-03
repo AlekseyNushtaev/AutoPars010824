@@ -7,15 +7,19 @@ Belgee,X50,1970990
 Belgee,X70,2826190
 Changan,Alsvin,1050000
 Changan,CS35,527940
+Changan,CS35 Plus,2629900
 Changan,CS35 Plus New,1403940
 Changan,CS55,759900
 Changan,CS55 Plus,1577940
+Changan,CS75 Plus,3949900
 Changan,CS75FL,1439900
 Changan,CS85 Coupe,2225940
 Changan,CS95,2549940
 Changan,Eado Plus,1397940
-Changan,Lamore,1952930
+Changan,Hunter Plus,3739900
+Changan,Lamore,2589900
 Changan,UNI-K,2183940
+Changan,UNI-S,2959900
 Changan,UNI-T,2759900
 Changan,UNI-V,1715940
 Chery,Arrizo 8,1414000
@@ -33,7 +37,7 @@ Chery,Tiggo 8 Pro Max,1549900
 Chery,Tiggo 8 Pro Max New,2189900
 Chevrolet,Cobalt,572340
 Chevrolet,Nexia,528540
-Chevrolet,Spark,567900
+Chevrolet,Spark,570540
 DFM,580,809000
 DFM,AX7,710000
 Datsun,MI-DO,332400
@@ -55,17 +59,22 @@ Geely,Atlas,690000
 Geely,Atlas New,1916994
 Geely,Atlas Pro,1658394
 Geely,Belgee X50,1374594
-Geely,Coolray,983999
+Geely,Cityray,3094190
+Geely,Coolray,1406994
 Geely,Coolray New,1565994
+Geely,Emgrand,2243990
 Geely,Emgrand New,1205994
 Geely,Emgrand X7,725994
 Geely,GS,659994
 Geely,Monjaro,2816994
 Geely,Okavango,2069994
 Geely,Okavango New,2999990
+Geely,Preface FS11,3359190
 Geely,Tugella New,1425596
+Great Wall,POER,3499000
 Haval,Dargo,1779000
 Haval,Dargo X,1959000
+Haval,F7,2849000
 Haval,F7 New,881640
 Haval,F7x New,1269000
 Haval,H2,676800
@@ -80,17 +89,23 @@ Haval,M6,736000
 Hyundai,Creta New,669240
 Hyundai,Elantra New,773640
 Hyundai,Solaris,619000
-Hyundai,Sonata,1273000
+Hyundai,Sonata,1370000
 Hyundai,Tucson New,989640
-JAC,J7,959000
+JAC,J7,1277400
+JAC,JS3,1889000
+JAC,JS6,2399000
 JAC,S3,439000
 JAC,S5,683400
 JAC,S7,1067400
+JAC,T6,2665500
+JAC,T8 Pro,3279000
+JAC,T9,3499000
+JAECOO,J7,2389900
 JAECOO,J8,4099000
 Jetour,Dashing,1399900
 Jetour,T2,2631300
 Jetour,X70 Plus,1809900
-Jetour,X90 Plus,2039940
+Jetour,X90 Plus,2149900
 Jetta,VA3,890000
 Jetta,VS5,1190000
 Jetta,VS7,1349000
@@ -111,32 +126,36 @@ KIA,Seltos,790000
 KIA,Soul,638000
 KIA,Sportage 5,1025964
 KIA,XCeed,964900
+Knewstar,001,4393190
 Lada,4x4 3 двери,1015000
 Lada,Granta Cross,426900
-Lada,Granta Hatchback,318500
-Lada,Granta Liftback,318900
-Lada,Granta Sedan,301900
+Lada,Granta Hatchback,378810
+Lada,Granta Liftback,375610
+Lada,Granta Sedan,358510
 Lada,Granta Sedan Drive Active,419000
-Lada,Granta Universal,327900
+Lada,Granta Universal,376800
+Lada,Largus,1670000
 Lada,Largus Cross New,519804
-Lada,Largus New,487900
-Lada,Largus Фургон New,457900
+Lada,Largus New,501000
+Lada,Largus Фургон New,468684
 Lada,Niva,582200
-Lada,Niva Legend 3 двери,362900
-Lada,Niva Legend 5 дверей,422900
-Lada,Niva Travel,449900
+Lada,Niva Legend 3 двери,451710
+Lada,Niva Legend 5 дверей,490410
+Lada,Niva Travel,549000
 Lada,Vesta Cross,569000
 Lada,Vesta Cross New,619000
-Lada,Vesta SW,551900
+Lada,Vesta SW,559000
 Lada,Vesta SW Cross,619000
 Lada,Vesta SW Cross New,669000
 Lada,Vesta SW New,609000
-Lada,Vesta Sedan,477900
-Lada,Vesta Sedan CNG,611900
+Lada,Vesta Sedan,519000
+Lada,Vesta Sedan CNG,639900
 Lada,Vesta Sedan New,569000
 Lada,Vesta Sport,839000
-Lada,Xray,457900
+Lada,Xray,499000
 Lada,Xray Cross,591900
+Lada,ВИС 2346,1511000
+Lada,ВИС 2349 Фургон,1364100
 Lifan,Murman,430000
 Lifan,MyWay,539940
 Lifan,Solano 2,425940
@@ -155,17 +174,17 @@ OMODA,C5,1607940
 OMODA,S5,1349940
 Ravon,Nexia R3,339000
 Ravon,R2,339000
-Ravon,R4,381000
+Ravon,R4,389000
 Renault,Arkana,690000
 Renault,Duster New,582480
 Renault,Kaptur,659000
 Renault,Koleos,1019400
-Renault,Logan,471000
+Renault,Logan,490000
 Renault,Logan Stepway,530000
 Renault,Logan Stepway City,715000
-Renault,Sandero,471000
+Renault,Sandero,520000
 Renault,Sandero Stepway,550000
-Renault,Stepway City,822000
+Renault,Stepway City,835800
 Skoda,Karoq,740000
 Skoda,Kodiaq Hockey Edition,1421340
 Skoda,Kodiaq Laurin & Klement,3058000
@@ -178,7 +197,7 @@ Skoda,Rapid,520000
 Skoda,Superb,1222000
 Skoda,Superb Combi,2089000
 Solaris,HC,1749300
-Solaris,HS,1390000
+Solaris,HS,1407000
 Solaris,KRS,1426600
 Solaris,KRX,1444800
 TANK,300,2459400
@@ -186,6 +205,8 @@ TANK,500,3779400
 Volkswagen,Jetta,975000
 Volkswagen,Passat,1050000
 Volkswagen,Polo,730900
-Volkswagen,Taos,1326900
+Volkswagen,Taos,1399900
 Volkswagen,Tiguan New,1215324
+XCite,X-Cross 7,2495500
+XCite,X-Cross 8,2999000
 Zotye,Coupa,713760

@@ -24,7 +24,6 @@ Changan,CS75FL,1481940
 Changan,CS85,2722100
 Changan,CS85 Coupe,2225940
 Changan,CS95,2280000
-Changan,CS95 New,2720000
 Changan,CS95 Restyling,3099900
 Changan,Eado,1541930
 Changan,Eado Plus,1403940
@@ -42,12 +41,12 @@ Chery,Tiggo 2 Pro,799900
 Chery,Tiggo 3x,840000
 Chery,Tiggo 3x New,1000000
 Chery,Tiggo 4,860000
-Chery,Tiggo 4 New,1260000
+Chery,Tiggo 4 New,1389000
 Chery,Tiggo 4 Pro,1190000
 Chery,Tiggo 7,980000
 Chery,Tiggo 7 Pro,1260000
 Chery,Tiggo 7 Pro Max,1469000
-Chery,Tiggo 7 Pro Max New,1570000
+Chery,Tiggo 7 Pro Max New,1662000
 Chery,Tiggo 8,1099900
 Chery,Tiggo 8 New,1530000
 Chery,Tiggo 8 Pro,1570000
@@ -84,14 +83,13 @@ Dongfeng,IX7,1540000
 Dongfeng,SK 580,1160000
 Dongfeng,Shine Max,1540000
 EXEED,LX,1854000
-EXEED,LX New,2028000
 EXEED,RX,2700000
 EXEED,TXL,1920000
 EXEED,TXL New,2220000
 EXEED,TXL Restyling,2229900
 EXEED,VX,2830000
 EXEED,VX LE,5440000
-EXEED,VX New,3630000
+EXEED,VX New,4350000
 EXEED,VX Restyling,4349000
 Evolute,i-JOY,2620000
 Evolute,i-PRO,2170000
@@ -145,7 +143,7 @@ Geely,Monjaro,2596194
 Geely,Okavango,2117394
 Geely,Okavango New,2069994
 Geely,Preface,1500000
-Geely,Preface New,1833594
+Geely,Preface New,2699000
 Geely,Tugella,1919500
 Geely,Tugella New,1999000
 Geely,Tugella Restyling,1999000
@@ -165,11 +163,11 @@ Haval,F7x Restyling,989000
 Haval,H3,1589400
 Haval,H3 New,1650000
 Haval,H5,829000
-Haval,H5 New,2219400
+Haval,H5 New,2599000
 Haval,H6,880000
 Haval,H6 New,1600000
 Haval,H9,2360000
-Haval,H9 New,2639400
+Haval,H9 New,3099000
 Haval,Jolion,869400
 Haval,Jolion New,1289000
 Haval,Jolion Restyling,1289000
@@ -454,6 +452,8 @@ XCite,X-Cross 7,1499400
 Zotye,Coupa,750300
 Zotye,T600,570300
 Zotye,Z300,309990
+,,
+,,
 ,,
 ,,
 ,,
