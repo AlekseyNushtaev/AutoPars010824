@@ -1,3 +1,4 @@
+import asyncio
 import time
 import requests
 import bs4
@@ -45,6 +46,7 @@ async def saratov_avtohous(dct_up):
                 name = dct_up[name]
             except KeyError:
                 await bot.send_message(CHANEL_ID, f'{name} {link}')
+                await asyncio.sleep(0.1)
             res.append([name, cost, link])
     return res
 
@@ -66,6 +68,7 @@ async def autocenter_saratov(dct_up):
             name = dct_up[name]
         except KeyError:
             await bot.send_message(CHANEL_ID, f'{name} {link}')
+            await asyncio.sleep(0.1)
         res.append([name, dct["cost"], link])
     return res
 
@@ -94,6 +97,7 @@ async def cartrade_saratov(dct_up):
             name = dct_up[name]
         except KeyError:
             await bot.send_message(CHANEL_ID, f'{name} {link}')
+            await asyncio.sleep(0.1)
         res.append([name, cost, link])
     return res
 
@@ -130,6 +134,7 @@ async def autodealer_saratov(dct_up):
                 name = dct_up[name]
             except KeyError:
                 await bot.send_message(CHANEL_ID, f'{name} {link}')
+                await asyncio.sleep(0.1)
             res.append([name, cost, link])
         cnt += 1
     return res
@@ -152,5 +157,6 @@ async def automarket_saratov(dct_up):
             name = dct_up[name]
         except KeyError:
             await bot.send_message(CHANEL_ID, f'{name} {link}')
+            await asyncio.sleep(0.1)
         res.append([name, dct["cost"], link])
     return res

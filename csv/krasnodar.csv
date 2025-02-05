@@ -1,10 +1,10 @@
 brand,model,min_price
-BAIC,BJ40,3590000
-BAIC,U5 Plus,1379000
-BAIC,X35,1379000
-BAIC,X55,2040000
-BAIC,X7,2200000
-BAIC,X75,2019000
+BAIC,BJ40,3013000
+BAIC,U5 Plus,1245000
+BAIC,X35,1330000
+BAIC,X55,1775000
+BAIC,X7,1850000
+BAIC,X75,1785000
 Belgee,X50,1349000
 Belgee,X70,1564990
 Changan,Alsvin,890000
@@ -14,19 +14,19 @@ Changan,CS35 Plus New,1390000
 Changan,CS35 Plus Restyling,1499900
 Changan,CS55,759900
 Changan,CS55 Plus,1350000
-Changan,CS75 Plus,1799900
+Changan,CS75 Plus,1709900
 Changan,CS75 Plus New,3540000
 Changan,CS75FL,1439900
 Changan,CS85 Coupe,2369900
 Changan,CS95,3309900
-Changan,CS95 New,3019900
+Changan,CS95 New,2768900
 Changan,CS95 Restyling,2768900
-Changan,Eado Plus,1400000
+Changan,Eado Plus,1299000
 Changan,Hunter,2809900
-Changan,Lamore,1889900
+Changan,Lamore,1790000
 Changan,UNI-K,2039900
 Changan,UNI-T,1692000
-Changan,UNI-V,1729900
+Changan,UNI-V,1726900
 Chery,Arrizo 8,1714000
 Chery,Tiggo 2,487000
 Chery,Tiggo 3,533200
@@ -45,7 +45,7 @@ Chery,Tiggo 8 Pro Max New,2388000
 Chery,Tiggo 8 Pro Max Restyling,2049000
 Chery,Tiggo 8 Pro e+,4630000
 Chery,Tiggo 9,3100000
-Chevrolet,Captiva New,1949000
+Chevrolet,Captiva New,1619000
 Chevrolet,Cobalt,627900
 Chevrolet,Nexia,577900
 Chevrolet,Niva,436000
@@ -57,17 +57,17 @@ Datsun,MI-DO,387000
 Datsun,ON-DO,364000
 Dongfeng,580,919900
 Dongfeng,AX7,899900
-Dongfeng,Shine Max,1479000
+Dongfeng,Shine Max,2099000
 EXEED,LX,1449900
 EXEED,LX AWD,2840000
 EXEED,RX,3239900
 EXEED,TXL,1439900
 EXEED,TXL New,2599000
 EXEED,VX,2519900
-EXEED,VX New,5500000
+EXEED,VX New,4608000
 FAW,Bestune B70,1838000
 FAW,Bestune T55,1849000
-FAW,Bestune T77,1565000
+FAW,Bestune T77,1539000
 FAW,Bestune T99,2650000
 FAW,Besturn T77,1969000
 FAW,Besturn X80,938000
@@ -77,22 +77,22 @@ FAW,X80,929000
 Forthing,T5 Evo,2280000
 Forthing,Yacht,3290000
 Gac,GS3,1549000
-Gac,GS3 New,1549000
+Gac,GS3 New,1299000
 Gac,GS5,949000
 Gac,GS8,1455000
 Gac,GS8 New,2669000
 Geely,Atlas,990000
 Geely,Atlas New,1529000
 Geely,Atlas Pro,1090000
-Geely,Cityray,1699990
-Geely,Coolray,619990
+Geely,Cityray,1539990
+Geely,Coolray,619900
 Geely,Coolray New,1219990
 Geely,Coolray Restyling,1499990
-Geely,Emgrand,1279990
+Geely,Emgrand,1199990
 Geely,Emgrand New,1279990
 Geely,Emgrand X7,877990
 Geely,GS,717990
-Geely,Monjaro,2762494
+Geely,Monjaro,2739990
 Geely,Okavango New,1629990
 Geely,Preface,1749990
 Geely,Preface New,2938190
@@ -127,79 +127,79 @@ Hyundai,Elantra,1006000
 Hyundai,Elantra New,1069000
 Hyundai,Santa Fe,2167000
 Hyundai,Solaris,619000
-Hyundai,Solaris New,1309000
+Hyundai,Solaris New,1099000
 Hyundai,Sonata,1481000
 Hyundai,Sonata New,1492000
 Hyundai,Staria,3759000
 Hyundai,Staria Premium,4709000
 Hyundai,Tucson New,1479000
 JAC,J7,779000
-JAC,JS3 New,1249000
-JAC,JS4,1429000
-JAC,JS6,1509000
+JAC,JS3 New,1049000
+JAC,JS4,1369000
+JAC,JS6,1499000
 JAC,S3,439000
 JAC,S5,687000
 JAC,S7,1219000
 JAC,T6,1327000
 JAC,T8,2199000
-JAC,T8 Pro,2899000
+JAC,T8 Pro,2399000
 JAECOO,J7,2099000
-JAECOO,J8,3099000
+JAECOO,J8,2990000
 Jetour,Dashing,1399900
 Jetour,T2,2479000
-Jetour,T2 New,2579000
-Jetour,X50,1340000
-Jetour,X70,1749000
+Jetour,T2 New,2479000
+Jetour,X50,1299000
+Jetour,X70,1599000
 Jetour,X70 Plus,1899900
-Jetour,X90 Plus,2239900
+Jetour,X90 Plus,2199000
 Jetta,VA3,890000
 Jetta,VS5,1190000
 Jetta,VS7,1349000
-KAIYI,E5,1299000
-KAIYI,X3,1417650
+KAIYI,E5,1039000
+KAIYI,X3,1399000
 KAIYI,X3 Pro,1599000
-KAIYI,X7 Kunlun,2029000
+KAIYI,X7 Kunlun,1899000
 KIA,Carnival,2999900
 KIA,Ceed,1013000
-KIA,Ceed New,1179900
+KIA,Ceed New,1449000
 KIA,Ceed SW,1023000
-KIA,Ceed SW New,1289900
+KIA,Ceed SW New,1599000
 KIA,Cerato,989900
-KIA,Cerato New,1244900
+KIA,Cerato New,1499000
 KIA,K5,1379900
 KIA,Picanto,619900
-KIA,Picanto New,749900
+KIA,Picanto New,1049000
 KIA,ProCeed,1134700
 KIA,Rio,623900
-KIA,Rio New,1349900
+KIA,Rio New,1199000
 KIA,Rio X,759900
 KIA,Rio X-Line,857000
 KIA,Seltos,989900
-KIA,Sorento New,2489900
+KIA,Sorento New,2999000
 KIA,Soul,879900
-KIA,Soul New,1059900
+KIA,Soul New,1399000
 KIA,Sportage 5,1046000
 KIA,Stinger New,3219900
 KIA,XCeed,964900
 Lada,4x4 Bronto,636900
 Lada,Aura,2249000
-Lada,Granta Cross,354400
-Lada,Granta Drive Active,422500
+Lada,Granta Cross,426900
+Lada,Granta Drive Active,617900
 Lada,Granta Drive Active Liftback,617900
 Lada,Granta Hatchback,378810
-Lada,Granta Hatchback New,584000
+Lada,Granta Hatchback New,534200
 Lada,Granta Liftback,375610
-Lada,Granta Liftback New,425900
+Lada,Granta Liftback New,559040
 Lada,Granta Sedan,358510
 Lada,Granta Sedan Drive Active,419000
-Lada,Granta Sedan New,372500
+Lada,Granta Sedan New,506640
 Lada,Granta Sport Drive Active Liftback,780900
 Lada,Granta Sport Liftback,989900
 Lada,Granta Sport Sedan,949900
 Lada,Granta Sportline,951000
 Lada,Granta Sportline Liftback,991000
 Lada,Granta Universal,376800
-Lada,Granta Universal New,384300
+Lada,Granta Universal New,516040
 Lada,Largus,504000
 Lada,Largus 7 мест,580000
 Lada,Largus Cross,727000
@@ -237,23 +237,23 @@ Lifan,Solano 2,439900
 Lifan,X50,368000
 Lifan,X60,479900
 Lifan,X70,737000
-Livan,S6 Pro,1649900
-Livan,X3 Pro,1129900
-Livan,X6 Pro,1779900
+Livan,S6 Pro,1539000
+Livan,X3 Pro,999000
+Livan,X6 Pro,1619000
 MG,5,1930000
 MG,6,1070000
 MG,HS,2850000
 MG,ZS,1980000
-Moskvich,3,1159000
+Moskvich,3,999000
 Moskvich,3e,3147000
-Moskvich,6,1590000
+Moskvich,6,1249000
 Nissan,Murano,2327000
 Nissan,Qashqai,880000
 Nissan,Terrano,619000
 Nissan,Terrano New,1098000
 Nissan,X-trail,1155000
 Nissan,X-trail New,1501000
-OMODA,C5,1319900
+OMODA,C5,1319000
 OMODA,C5 New,1519000
 OMODA,S5,1199000
 OMODA,S5 GT,1799000
@@ -308,10 +308,10 @@ Toyota,Camry New,1712500
 Toyota,Corolla,1562000
 Toyota,Corolla New,1152000
 Toyota,RAV4 New,1859000
-UAZ,Hunter,645000
-UAZ,Patriot New,719000
-UAZ,Pickup New,737000
-Volkswagen,Arteon,2339000
+UAZ,Hunter,745000
+UAZ,Patriot New,919000
+UAZ,Pickup New,1009000
+Volkswagen,Arteon,1249000
 Volkswagen,Jetta,975000
 Volkswagen,Jetta New,1465000
 Volkswagen,Passat,1050000
@@ -320,5 +320,5 @@ Volkswagen,Polo New,760900
 Volkswagen,Taos,1399900
 Volkswagen,Tiguan,1597000
 Volkswagen,Tiguan New,1579900
-XCite,X-Cross 7 New,1699000
+XCite,X-Cross 7 New,1599000
 Zotye,Coupa,989600

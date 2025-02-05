@@ -7,7 +7,7 @@ BAIC,X55,1782000
 BAIC,X7,1860000
 BAIC,X75,1794000
 BYD,Seagull,1417000
-Belgee,X50,1383594
+Belgee,X50,1488114
 Belgee,X70,1737000
 Changan,Alsvin,1098000
 Changan,CS35 Plus,1255000
@@ -69,6 +69,7 @@ FAW,Bestune B70,1424400
 FAW,Bestune B70 New,1499994
 FAW,Bestune T55,1446600
 FAW,Bestune T77,1718400
+FAW,Bestune T90,1807000
 FAW,Bestune T99,1997000
 FAW,X40,961200
 FAW,X80,904800
@@ -117,7 +118,7 @@ Hongqi,HS5,3504000
 Hyundai,Creta,1115400
 Hyundai,Creta New,1859000
 Hyundai,Custin,2625000
-Hyundai,Elantra,1741000
+Hyundai,Elantra,1289400
 Hyundai,Elantra New,1819000
 Hyundai,Mufasa,2138000
 Hyundai,Palisade,4257000
@@ -137,6 +138,7 @@ JAC,S7,1067400
 JAC,T6,1614000
 JAC,T8,1722000
 JAC,T8 Pro,1884000
+JAC,T9,2307000
 JAECOO,J7,1775940
 JAECOO,J8,2859000
 Jetour,Dashing,1493940
@@ -180,10 +182,11 @@ KIA,XCeed,2634900
 Knewstar,001,2583000
 Lada,Aura,1559400
 Lada,Granta Cross,684000
+Lada,Granta Drive Active,570540
 Lada,Granta Hatchback,467100
 Lada,Granta Liftback,625200
 Lada,Granta Sedan,419940
-Lada,Granta Sedan Drive Active,570540
+Lada,Granta Sedan Drive Active,1034900
 Lada,Granta Sport Liftback,919800
 Lada,Granta Sport Sedan,895800
 Lada,Granta Sportline,804600
@@ -272,6 +275,7 @@ Solaris,KRS,1236000
 Solaris,KRX,1344600
 TANK,300,2579400
 TANK,500,4192000
+TANK,700,6174000
 Toyota,BZ4X,2854000
 Toyota,CH-R,2274000
 Toyota,Camry,2919000
@@ -295,6 +299,7 @@ Volkswagen,Tiguan,2025540
 Volkswagen,Tiguan New,3375900
 XCite,X-Cross 7,1499400
 XCite,X-Cross 8,1799400
+,,
 ,,
 ,,
 ,,

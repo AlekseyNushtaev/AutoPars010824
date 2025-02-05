@@ -12,11 +12,13 @@ baic, x7 |BAIC, X7 | 106
 baic, x75 |BAIC, X75 | 107
 baic, u5plus |BAIC, U5 Plus | 108
 baic, u5pluscng |BAIC, U5 Plus CNG | 742
+baic, u5pluscngcng |BAIC, U5 Plus CNG | 742
 belgee, x50 |Belgee, X50 | 109
 belgee, х50 |Belgee, X50 | 109
 belgee, х50(sx11) |Belgee, X50 | 109
 belgee, x70 |Belgee, X70 | 110
 belgee, х70 |Belgee, X70 | 110
+belgee, x70x70 |Belgee, X70 | 110
 bmw, 3серия |BMW, 3 | 759
 bmw, 7серия |BMW, 7 | 844
 bmw, x3 |BMW, X3 | 760
@@ -84,11 +86,13 @@ changan, cs75 |Changan, CS75 | 133
 сhangan, cs75 |Changan, CS75 | 133
 changan, cs75рестайлинг |Changan, CS75 Restyling | 134
 changan, cs75fl |Changan, CS75FL | 118
+changan, cs75flfl |Changan, CS75FL | 118
 changan, cs75plus |Changan, CS75 Plus | 135
 сhangan, cs75plus |Changan, CS75 Plus | 135
 changan, cs75plusnew |Changan, CS75 Plus New | 136
 changan, cs75plus2023 |Changan, CS75 Plus 2023 | 137
 changan, cs85coupe |Changan, CS85 Coupe | 124
+changan, cs85coupecoupe |Changan, CS85 Coupe | 124
 changan, cs85 |Changan, CS85 | 138
 changan, cs95 |Changan, CS95 | 125
 changan, cs952023 |Changan, CS95 | 125
@@ -110,6 +114,7 @@ changan, raetonplus |Changan, Raeton Plus | 142
 changan, uni-k |Changan, UNI-K | 120
 changan, uni-kiddhybrid |Changan, UNI-K iDD Hybrid| 713
 changan, uni-kidd |Changan, UNI-K iDD Hybrid| 713
+changan, uni-kiddidd |Changan, UNI-K iDD Hybrid| 713
 changan, uni-t |Changan, UNI-T | 126
 changan, uni-v |Changan, UNI-V | 123
 chery, arrizo8 |Chery, Arrizo 8 | 143
@@ -137,6 +142,7 @@ chery, tiggo4proiрестайлингкроссовер |Chery, Tiggo 4 Pro New 
 chery, tiggo4iрестайлинг2кроссовер |Chery, Tiggo 4 Pro New | 152
 chery, tiggo4proiрестайлингкроссовермп |Chery, Tiggo 4 Pro New | 152
 chery, tiggo4pro18yearsedition |Chery, Tiggo 4 Pro | 151
+chery, tiggo4pro18yearsedition18yearsedition |Chery, Tiggo 4 Pro | 151
 chery, tiggo4proкроссовермп |Chery, Tiggo 4 Pro | 151
 chery, tiggo4pronew |Chery, Tiggo 4 Pro New | 152
 chery, tiggo5 |Chery, Tiggo 5 | 153
@@ -417,6 +423,7 @@ haima, 7x |Haima, 7X | 284
 haima, 8s |Haima, 8S | 285
 haval, dargo |Haval, Dargo | 286
 haval, dargox |Haval, Dargo X | 287
+haval, dargoxx |Haval, Dargo X | 287
 haval, f7new |Haval, F7 New | 288
 haval, f7новый |Haval, F7 New | 288
 haval, newf72024 |Haval, F7 New | 288
@@ -517,12 +524,14 @@ hyundai, solaris |Hyundai, Solaris | 329
 solaris, hs(hyundai) |Hyundai, Solaris | 329
 hyundai, sonata |Hyundai, Sonata | 330
 hyundai, sonataседан |Hyundai, Sonata | 330
+hyundai, sonataседанседан |Hyundai, Sonata | 330
 hyundai, staria |Hyundai, Staria | 331
 hyundai, stariavan |Hyundai, Staria | 331
 hyundai, stariapremium |Hyundai, Staria Premium | 332
 hyundai, tucson |Hyundai, Tucson | 333
 hyundai, tucson2021 |Hyundai, Tucson | 333
 hyundai, tucsonnline |Hyundai, Tucson N Line| 793
+hyundai, tucsonnlinenline |Hyundai, Tucson N Line| 793
 hyundai, tucson2021new |Hyundai, Tucson New | 335
 hyundai, tucsonnew |Hyundai, Tucson New | 335
 hyundai, нoвыйtucson |Hyundai, Tucson New | 335
@@ -577,6 +586,7 @@ kia, carnivalnew |KIA, Carnival New| 837
 kia, ceed |KIA, Ceed | 363
 kia, ceednew |KIA, Ceed New | 364
 kia, ceedsw |KIA, Ceed SW | 365
+kia, ceedswsw |KIA, Ceed SW | 365
 kia, ceedуниверсал |KIA, Ceed SW Universal | 366
 kia, ceedswnew |KIA, Ceed SW New | 367
 kia, cerato |KIA, Cerato | 368
@@ -597,6 +607,7 @@ solaris, krs(kiario) |KIA, Rio | 376
 kia, rionew |KIA, Rio New | 377
 kia, нoвыйrio |KIA, Rio New | 377
 kia, riox |KIA, Rio X | 378
+kia, rioxx |KIA, Rio X | 378
 solaris, krx(kiariox) |KIA, Rio X | 378
 kia, rioxnew |KIA, Rio X New | 379
 kia, riox-line |KIA, Rio X-Line | 380
@@ -641,25 +652,31 @@ lada, grantadriveactive |Lada, Granta Sedan Drive Active | 403
 lada, grantaседанdriveactive |Lada, Granta Sedan Drive Active | 403
 lada, grantasportline |Lada, Granta Sportline | 723
 lada, grantasportlineседан |Lada, Granta Sportline | 723
+lada, grantasportlinesportline |Lada, Granta Sportline | 723
 lada, grantasportlineлифтбэк |Lada, Granta Sportline Liftback| 732
+lada, grantasportlineлифтбекsportlineлифтбек |Lada, Granta Sportline Liftback| 732
 lada, grantasportlineлифтбек |Lada, Granta Sportline Liftback| 732
 lada, grantahatchback |Lada, Granta Hatchback | 404
 lada, grantaliftback |Lada, Granta Liftback | 405
 lada, grantasedan |Lada, Granta Sedan | 406
+lada, grantaседанседан |Lada, Granta Sedan | 406
 lada, granta |Lada, Granta Sedan | 406
 lada, grantasportdriveactiveлифтбек |Lada, Granta Sport Drive Active Liftback | 407
 lada, grantasportlinedriveactiveлифтбек |Lada, Granta Sportline Drive Active Liftback | 827
 lada, grantadriveactiveлифтбек |Lada, Granta Drive Active Liftback | 408
 lada, grantaлифтбекdriveactive |Lada, Granta Drive Active Liftback | 408
 lada, grantasportлифтбек |Lada, Granta Sport Liftback | 409
+lada, grantasportлифтбекsportлифтбек |Lada, Granta Sport Liftback | 409
 lada, grantasportnewliftback |Lada, Granta Sport Liftback New | 410
 lada, grantasportnewлифтбэк |Lada, Granta Sport Liftback New | 410
 lada, grantaлифтбекsport |Lada, Granta Sport Liftback New | 410
 lada, grantasportседан |Lada, Granta Sport Sedan | 411
 lada, grantaседанsport |Lada, Granta Sport Sedan | 411
+lada, grantasportседанsportседан |Lada, Granta Sport Sedan | 411
 lada, grantasportnewседан |Lada, Granta Sport Sedan New | 412
 lada, grantasportnewsedan |Lada, Granta Sport Sedan New | 412
 lada, grantaлифтбек |Lada, Granta Liftback | 405
+lada, grantaлифтбеклифтбек |Lada, Granta Liftback | 405
 lada, grantaседан |Lada, Granta Sedan | 406
 lada, grantanewседан |Lada, Granta Sedan New | 413
 lada, grantaседанnew |Lada, Granta Sedan New | 413
@@ -668,9 +685,11 @@ lada, grantaуниверсал |Lada, Granta Universal | 414
 lada, grantaунивеpсaл |Lada, Granta Universal | 414
 lada, grantauniversal |Lada, Granta Universal | 414
 lada, grantaунивеpcал |Lada, Granta Universal | 414
+lada, grantaуниверсалуниверсал |Lada, Granta Universal | 414
 lada, grantaхэтчбек |Lada, Granta Hatchback | 404
 lada, grantaхэтчбэк |Lada, Granta Hatchback | 404
 lada, grantaхетчбек |Lada, Granta Hatchback | 404
+lada, grantaхэтчбекхэтчбек |Lada, Granta Hatchback | 404
 lada, новаяgrantacедан |Lada, Granta Sedan New | 413
 lada, новаяgrantaлифтбек |Lada, Granta Liftback New | 415
 lada, grantaлифтбекnew |Lada, Granta Liftback New | 415
@@ -701,6 +720,7 @@ lada, largus |Lada, Largus | 418
 lada, largus5м. |Lada, Largus | 418
 lada, largusуниверсалcng |Lada, Largus CNG| 686
 lada, larguscross |Lada, Largus Cross | 419
+lada, larguscrosscross |Lada, Largus Cross | 419
 lada, larguscrosscng |Lada, Largus Cross CNG| 687
 lada, largusуниверсал |Lada, Largus | 418
 lada, largusфургон |Lada, Largus Фургон | 420
@@ -749,9 +769,11 @@ lada, nivalegend3д |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3\xa0двери |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3d4x4 |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3dv |Lada, Niva Legend 3 двери | 423
+lada, nivalegend3д3д |Lada, Niva Legend 3 двери | 423
 lada, (ваз)nivalegendуниверсал |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3дверная |Lada, Niva Legend 3 двери | 423
 lada, nivalegend5дверная |Lada, Niva Legend 5 дверей | 424
+lada, nivalegend5д5д |Lada, Niva Legend 5 дверей | 424
 lada, nivalegend5\xa0дверей |Lada, Niva Legend 5 дверей | 424
 lada, nivalegend5d4x4 |Lada, Niva Legend 5 дверей | 424
 lada, nivalegend5d |Lada, Niva Legend 5 дверей | 424
@@ -784,6 +806,7 @@ lada, 4x43дв. |Lada, 4x4 3 двери | 701
 lada, 2121(4x4) |Lada, 4x4 3 двери | 701
 lada, 4x45дв. |Lada, 4x4 5 дверей | 431
 lada, nivalegendbronto |Lada, Niva Legend Bronto | 432
+lada, nivalegendbrontobronto |Lada, Niva Legend Bronto | 432
 lada, legendbronto |Lada, Niva Legend Bronto | 432
 lada, niva legend bronto |Lada, Niva Legend Bronto | 432
 lada, brontolegend |Lada, Niva Legend Bronto | 432
@@ -803,7 +826,9 @@ lada, vestaswcross1 |Lada, Vesta SW Cross New | 446
 lada, vestaswcrossng |Lada, Vesta SW Cross New | 446
 lada, vesta |Lada, Vesta Sedan | 435
 lada, vestacng |Lada, Vesta Sedan CNG | 436
+lada, vestacngcng |Lada, Vesta Sedan CNG | 436
 lada, vestacross |Lada, Vesta Cross | 437
+lada, vestacrosscross |Lada, Vesta Cross | 437
 lada, vestacrossnew |Lada, Vesta Cross New | 438
 lada, vestanewседан |Lada, Vesta Sedan New | 439
 lada, vestanewcross |Lada, Vesta Cross New | 438
@@ -814,19 +839,24 @@ lada, vestangsportline |Lada, Vesta Sportline New | 441
 lada, vestasportline |Lada, Vesta Sportline | 442
 lada, vestasportlinesportline |Lada, Vesta Sportline | 442
 lada, vestasw |Lada, Vesta SW | 443
+lada, vestaswsw |Lada, Vesta SW | 443
 lada, vestaswnewsw |Lada, Vesta SW New | 444
 lada, vestaswcross |Lada, Vesta SW Cross | 445
+lada, vestaswcrossswcross |Lada, Vesta SW Cross | 445
 lada, vestaswcrossnew |Lada, Vesta SW Cross New | 446
 lada, vestacrossswnew |Lada, Vesta SW Cross New | 446
 lada, vestaswcrossnewswcross |Lada, Vesta SW Cross New | 446
 lada, vestaswngsportline |Lada, Vesta SW Sportline New | 703
 lada, vestaswsportline |Lada, Vesta SW Sportline New | 703
+lada, vestaswsportlineswsportline |Lada, Vesta SW Sportline New | 703
 lada, vestaswnew |Lada, Vesta SW New | 444
 lada, vestaседан |Lada, Vesta Sedan | 435
+lada, vestaседанседан |Lada, Vesta Sedan | 435
 lada, vestаcедан |Lada, Vesta Sedan | 435
 lada, xray |Lada, Xray | 447
 lada, xrayкроссовер |Lada, Xray | 447
 lada, xraycross |Lada, Xray Cross | 448
+lada, xraycrosscross |Lada, Xray Cross | 448
 lexus, es |Lexus, ES | 751
 lexus, nx |Lexus, NX | 752
 lexus, rx |Lexus, RX | 753
@@ -1002,6 +1032,7 @@ renault, kaptur2019 |Renault, Kaptur | 556
 renault, kapturnew |Renault, Kaptur New | 557
 renault, logan |Renault, Logan | 558
 renault, loganstepway |Renault, Logan Stepway | 559
+renault, loganstepwaystepway |Renault, Logan Stepway | 559
 renault, loganstepwaycity |Renault, Logan Stepway City | 560
 renault, loganstepwaynew |Renault, Logan Stepway New | 561
 renault, newarkana |Renault, Arkana New | 550
@@ -1013,6 +1044,7 @@ renault, newsanderostepway |Renault, Sandero Stepway New | 564
 renault, sanderostepwaynew |Renault, Sandero Stepway New | 564
 renault, sandero |Renault, Sandero | 565
 renault, sanderostepway |Renault, Sandero Stepway | 566
+renault, sanderostepwaystepway |Renault, Sandero Stepway | 566
 renault, sanderostepwaycity |Renault, Stepway City | 567
 renault, новыйduster |Renault, Duster New | 555
 rising, f7 | Rising, F7 | 568
