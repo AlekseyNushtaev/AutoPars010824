@@ -281,3 +281,73 @@ async def haval_max(dct_up):
         except Exception as e:
             print(e)
     return res
+
+
+async def avtosvoboda_krd(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://avtosvoboda-krd.ru/'
+    response = requests.get(link, headers.generate())
+    html = response.text
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    brands = soup.find_all(attrs={"class": "mark_icon__item"})
+    res = []
+    for br in brands:
+        link_1 = br.get("href")
+        response = requests.get(link_1, headers.generate())
+        html = response.text
+        soup = bs4.BeautifulSoup(html, 'lxml')
+        cards = soup.find_all(attrs={"class": "car__item"})
+        for card in cards:
+            link = 'https://avtosvoboda-krd.ru' + card.find("a").get("href")
+            title = card.find(attrs={"class": "car__item__name"}).text.lower().strip().replace("(ваз)", "")
+            brand = title.split()[0]
+            model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i")
+            cost__ = card.find(attrs={"class": "price"}).text
+            cost_ = ''
+            for y in cost__:
+                if y.isdigit():
+                    cost_ += y
+            cost = int(cost_)
+            name = brand + ', ' + model
+            try:
+                name = dct_up[name]
+            except KeyError:
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
+            res.append([name, cost, link])
+    return res
+
+
+# def ac_krd(dct_up):
+#     headers = fake_headers.Headers(browser='firefox', os='win')
+#     link = 'https://ac-krd.ru/katalog-avto15'
+#     response = requests.get(link, headers.generate(), verify=False)
+#     html = response.text
+#     soup = bs4.BeautifulSoup(html, 'lxml')
+#     brands = soup.find_all(attrs={"class": "col-lg-1 col-md-2 col-3"})
+#     res = []
+#     for br in brands:
+#         link_1 = 'https://ac-krd.ru' + br.find("a").get("href")
+#         response = requests.get(link_1, headers.generate(), verify=False)
+#         html = response.text
+#         soup = bs4.BeautifulSoup(html, 'lxml')
+#         cards = soup.find_all(attrs={"class": "col-lg-4 col-md-6"})
+#         for card in cards:
+#             link = 'https://ac-krd.ru' + card.find(attrs={"class": "color2 w-100"}).get("onclick").replace("location.href='", "")[:-2]
+#             title = card.find(attrs={"class": "name mb-3"}).text.lower().strip().replace("(ваз)", "")
+#             brand = title.split()[0]
+#             model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i")
+#             cost__ = card.find(attrs={"class": "new mr-2"}).text
+#             cost_ = ''
+#             for y in cost__:
+#                 if y.isdigit():
+#                     cost_ += y
+#             cost = int(cost_)
+#             name = brand + ', ' + model
+#             try:
+#                 name = dct_up[name]
+#             except KeyError:
+#                 pass
+#                 # print(name)
+#             res.append([name, cost, link])
+#             print([name, cost, link])
+#     return res

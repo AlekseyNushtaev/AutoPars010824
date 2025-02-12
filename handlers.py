@@ -14,7 +14,7 @@ from config import ADMIN_ID, CHANEL_ID
 from json_maker import json_maker
 from parser import parser_stavropol, parser_surgut, parser_krasnodar, parser_moscow, parser_volgograd, \
     parser_chelyabinsk, parser_cheboksari, parser_ufa, parser_ekaterinburg, parser_tumen, parser_saratov, parser_samara, \
-    parser_yaroslavl
+    parser_yaroslavl, parser_novokuzneck
 
 router =Router()
 
@@ -39,8 +39,10 @@ async def pars():
         await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/stavropol.xlsx"))
         await parser_samara(dct, browser)
         await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/samara.xlsx"))
-        await parser_yaroslavl(dct, browser)
-        await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/yaroslavl.xlsx"))
+        # await parser_yaroslavl(dct, browser)
+        # await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/yaroslavl.xlsx"))
+        await parser_novokuzneck(dct, browser)
+        await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/novokuzneck.xlsx"))
         await parser_saratov(dct)
         await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/saratov.xlsx"))
         await parser_ekaterinburg(dct, browser)
@@ -66,7 +68,7 @@ async def pars():
         except Exception as e:
             await bot.send_message(ADMIN_ID, f'JSONify error - {str(e)}')
         for region in ['krasnodar', 'moscow', 'stavropol', 'surgut', 'volgograd', 'chelyabinsk',
-                       'cheboksari', 'ufa', 'tumen', 'ekaterinburg', 'saratov', 'samara', 'yaroslavl']:
+                       'cheboksari', 'ufa', 'tumen', 'ekaterinburg', 'saratov', 'samara', 'yaroslavl', 'novokuzneck']:
             shutil.copy(f'csv/{region}.csv', f'/var/www/html/storage/{region}.csv')
             shutil.copy(f'json/{region}.json', f'/var/www/html/storage/{region}.json')
         browser.quit()

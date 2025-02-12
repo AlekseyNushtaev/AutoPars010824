@@ -24,6 +24,7 @@ bmw, 7серия |BMW, 7 | 844
 bmw, x3 |BMW, X3 | 760
 bmw, 4серия |BMW, 4 | 761
 bmw, 5серия |BMW, 5 | 762
+bmw, m3 |BMW, M3 | 853
 bmw, m4 |BMW, M4 | 763
 bmw, m5 |BMW, M5 | 845
 bmw, x1 |BMW, X1 | 764
@@ -67,6 +68,7 @@ changan, sc7164buni-t |Changan, UNI-T | 126
 changan, uni-tновый |Changan, UNI-T | 126
 changan, uni-tрестайлинг |Changan, UNI-T | 126
 changan, uni-s |Changan, UNI-S | 127
+changan, uni-s/cs55plus |Changan, UNI-S/CS55 Plus | 852
 changan, uni-z |Changan, UNI-Z | 815
 changan, sc7164buni-s |Changan, UNI-S | 127
 сhangan, eadoplus |Changan, Eado Plus | 128
@@ -647,6 +649,9 @@ kia, mohavenew |KIA, Mohave New | 400
 knewstar, 001 |Knewstar, 001 | 775
 lada, aura |Lada, Aura | 795
 lada, (ваз)auraседан |Lada, Aura | 795
+lada, grantaбортовая |Lada, Granta Бортовая | 854
+lada, grantaфургон |Lada, Granta Фургон | 855
+lada, nivalegendбортовая |Lada, Niva Legend Бортовая | 856
 lada, grantacross |Lada, Granta Cross | 402
 lada, grantadriveactive |Lada, Granta Sedan Drive Active | 403
 lada, grantaседанdriveactive |Lada, Granta Sedan Drive Active | 403

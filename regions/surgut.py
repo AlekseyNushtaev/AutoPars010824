@@ -112,7 +112,7 @@ async def avtosalon_profsouz(dct_up):
     while True:
         time.sleep(0.5)
         link = f'https://avtosalon-profsouz.ru/new_auto/page/{cnt}/'
-        response = requests.get(link, headers.generate())
+        response = requests.get(link, headers.generate(), verify=False)
         html = response.text
         soup = bs4.BeautifulSoup(html, 'lxml')
         cards = soup.find_all(attrs={"class": "auto-card new_auto"})
