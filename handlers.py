@@ -14,7 +14,7 @@ from config import ADMIN_ID, CHANEL_ID
 from json_maker import json_maker
 from parser import parser_stavropol, parser_surgut, parser_krasnodar, parser_moscow, parser_volgograd, \
     parser_chelyabinsk, parser_cheboksari, parser_ufa, parser_ekaterinburg, parser_tumen, parser_saratov, parser_samara, \
-    parser_yaroslavl, parser_novokuzneck
+    parser_yaroslavl, parser_novokuzneck, parser_kazan
 
 router =Router()
 
@@ -35,6 +35,8 @@ async def pars():
         options.add_argument('--disable-dev-shm-usage')
         browser = Chrome(service=browser_service, options=options)
         browser.maximize_window()
+        await parser_kazan(dct, browser)
+        await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/kazan.xlsx"))
         await parser_stavropol(dct)
         await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/stavropol.xlsx"))
         await parser_samara(dct, browser)
@@ -67,7 +69,7 @@ async def pars():
             await json_maker(dct)
         except Exception as e:
             await bot.send_message(ADMIN_ID, f'JSONify error - {str(e)}')
-        for region in ['krasnodar', 'moscow', 'stavropol', 'surgut', 'volgograd', 'chelyabinsk',
+        for region in ['krasnodar', 'moscow', 'stavropol', 'surgut', 'volgograd', 'chelyabinsk', 'kazan',
                        'cheboksari', 'ufa', 'tumen', 'ekaterinburg', 'saratov', 'samara', 'yaroslavl', 'novokuzneck']:
             shutil.copy(f'csv/{region}.csv', f'/var/www/html/storage/{region}.csv')
             shutil.copy(f'json/{region}.json', f'/var/www/html/storage/{region}.json')

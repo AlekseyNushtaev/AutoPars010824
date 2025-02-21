@@ -286,7 +286,7 @@ async def haval_max(dct_up):
 async def avtosvoboda_krd(dct_up):
     headers = fake_headers.Headers(browser='firefox', os='win')
     link = 'https://avtosvoboda-krd.ru/'
-    response = requests.get(link, headers.generate())
+    response = requests.get(link, headers.generate(), verify=False)
     html = response.text
     soup = bs4.BeautifulSoup(html, 'lxml')
     brands = soup.find_all(attrs={"class": "mark_icon__item"})

@@ -3,8 +3,8 @@ BAIC,BJ40,2835000
 BAIC,U5 Plus,1210000
 BAIC,X35,1220000
 BAIC,X55,1780000
-BAIC,X7,1860000
-BAIC,X75,1794000
+BAIC,X7,1900000
+BAIC,X75,2090000
 BYD,Qin,1599900
 Belgee,X50,1389000
 Belgee,X70,1695714
@@ -15,9 +15,9 @@ Changan,CS15,1250000
 Changan,CS35 Plus,1160000
 Changan,CS35 Plus New,1099900
 Changan,CS35 Plus Restyling,1099900
-Changan,CS55,1299100
+Changan,CS55,1139900
 Changan,CS55 Plus,1139900
-Changan,CS75 Plus,1709940
+Changan,CS75 Plus,1970000
 Changan,CS75 Plus New,1419900
 Changan,CS75 Restyling,1110300
 Changan,CS75FL,1481940
@@ -32,10 +32,9 @@ Changan,Lamore,1560000
 Changan,Raeton,1039000
 Changan,Raeton Plus,1839000
 Changan,UNI-K,2183940
-Changan,UNI-S/CS55 Plus,1637940
-Changan,UNI-T,1721940
+Changan,UNI-T,1829200
 Changan,UNI-V,1715940
-Chery,Arrizo 8,1622000
+Chery,Arrizo 8,1762000
 Chery,Explore 06,1340000
 Chery,Explore 06 New,2260000
 Chery,Tiggo 2 Pro,799900
@@ -78,11 +77,11 @@ Dongfeng,580 New,1499000
 Dongfeng,AX7,737400
 Dongfeng,DF6,1790000
 Dongfeng,DFSK IX5,2990000
-Dongfeng,DFSK IX7,2394000
+Dongfeng,DFSK IX7,3990000
 Dongfeng,IX7,1540000
 Dongfeng,SK 580,1160000
-Dongfeng,Shine Max,1319400
-EXEED,LX,1854000
+Dongfeng,Shine Max,1540000
+EXEED,LX,1930000
 EXEED,RX,2700000
 EXEED,TXL,1920000
 EXEED,TXL New,2220000
@@ -106,7 +105,6 @@ FAW,Besturn X40,640300
 FAW,Besturn X80,782000
 FAW,X40,782000
 FAW,X40 New,961200
-FAW,X80,904800
 Ford,Ecosport,770000
 Ford,Focus Hatchback,680000
 Ford,Focus Sedan,680000
@@ -118,12 +116,12 @@ Forthing,Yacht,2950000
 Foton,Sauvana,1270000
 Foton,Tunland,1340000
 Gac,GN8,2039400
-Gac,GS3,1379400
+Gac,GS3,1439400
 Gac,GS3 New,2049000
 Gac,GS3 Trumpchi,2299000
 Gac,GS5,1259400
 Gac,GS8,1793400
-Gac,M8,3299999
+Gac,M8,5249999
 Geely,Atlas,903394
 Geely,Atlas New,1929900
 Geely,Atlas Pro,1331394
@@ -137,7 +135,7 @@ Geely,Emgrand New,1240000
 Geely,Emgrand X7,871200
 Geely,GS,791994
 Geely,Monjaro,2596194
-Geely,Okavango,2117394
+Geely,Okavango,2200000
 Geely,Okavango New,2015514
 Geely,Preface,1500000
 Geely,Preface New,2699000
@@ -156,7 +154,7 @@ Haval,F7 New,949000
 Haval,F7 Restyling,949000
 Haval,F7x,990000
 Haval,F7x New,989000
-Haval,H3,1589400
+Haval,H3,1599000
 Haval,H3 New,1650000
 Haval,H5,1349000
 Haval,H5 New,2599000
@@ -178,7 +176,7 @@ Hyundai,Elantra,1100000
 Hyundai,Elantra New,1100000
 Hyundai,H-1,2090000
 Hyundai,IONIQ 5,3660000
-Hyundai,Palisade,3161400
+Hyundai,Palisade,3401300
 Hyundai,Santa Fe,1900000
 Hyundai,Santa Fe New,2186400
 Hyundai,Santa Fe Restyling,2186400
@@ -203,13 +201,13 @@ JAC,T8 Pro,2949000
 JAC,T9 New,3149000
 JAC,iEV7S,2040000
 JAECOO,J7,1775940
-JAECOO,J8,2669400
+JAECOO,J8,2759400
 Jetour,Dashing,1493940
 Jetour,T2,2375400
 Jetour,T2 New,3759000
-Jetour,X50,1194000
+Jetour,X50,1640000
 Jetour,X70 Plus,1799940
-Jetour,X90 Plus,2039940
+Jetour,X90 Plus,2087940
 Jetta,VA3,690000
 Jetta,VS5,990000
 Jetta,VS7,1149000
@@ -261,10 +259,7 @@ Lada,Granta Liftback New,433380
 Lada,Granta Sedan,410000
 Lada,Granta Sedan Drive Active,445380
 Lada,Granta Sedan New,410000
-Lada,Granta Sport Liftback,892800
 Lada,Granta Sport Sedan,749900
-Lada,Granta Sportline,780600
-Lada,Granta Sportline Liftback,804600
 Lada,Granta Universal,393000
 Lada,Granta Universal New,431580
 Lada,Largus,393000
@@ -291,27 +286,23 @@ Lada,Vesta SW,728340
 Lada,Vesta SW Cross,797340
 Lada,Vesta SW Cross New,907140
 Lada,Vesta SW New,797940
-Lada,Vesta SW Sportline New,1410540
 Lada,Vesta Sedan,839000
 Lada,Vesta Sedan CNG,790140
 Lada,Vesta Sedan New,630000
 Lada,Vesta Sport,958740
-Lada,Vesta Sportline,1305540
+Lada,Vesta Sportline,2175900
 Lada,Vesta Sportline New,999000
 Lada,Xray,551340
 Lada,Xray Cross,635400
-Lifan,Murman,650300
 Lifan,Murman (820),650300
 Lifan,MyWay,701300
 Lifan,Solano,401300
-Lifan,Solano 2,401300
-Lifan,X50,420300
 Lifan,X60,491300
 Lifan,X70,770300
 Livan,S6 Pro,1549900
 Livan,X3 Pro,1020000
 Livan,X6 Pro,1629900
-MG,5,1367400
+MG,5,2243000
 MG,5 New,1490000
 MG,6,1060000
 MG,HS,1580000
@@ -353,7 +344,7 @@ Nissan,Terrano New,899000
 Nissan,X-trail,1530000
 Nissan,X-trail New,1530100
 OMODA,C5,979900
-OMODA,S5,1260000
+OMODA,S5,979900
 OMODA,S5 GT,1750000
 Opel,Crossland X,1789000
 Opel,Grandland,1959000
@@ -364,43 +355,41 @@ Renault,Arkana,909000
 Renault,Arkana New,909000
 Renault,Duster,750000
 Renault,Duster 2021,640000
-Renault,Duster New,750000
+Renault,Duster New,751000
 Renault,Kaptur,780000
 Renault,Kaptur New,789900
 Renault,Koleos,1449000
 Renault,Logan,499000
 Renault,Logan New,499000
-Renault,Logan Stepway,650000
+Renault,Logan Stepway,565300
 Renault,Sandero,540000
 Renault,Sandero New,545000
-Renault,Sandero Stepway,565300
+Renault,Sandero Stepway,650000
 Renault,Sandero Stepway New,565300
 SWM,G01,1438220
 SWM,G01F,1588340
 SWM,G05 Pro,1625960
 Skoda,Karoq,1023000
 Skoda,Karoq Restyling,1650000
-Skoda,Kodiaq,1340000
+Skoda,Kodiaq,1740000
 Skoda,Kodiaq New,1234200
 Skoda,Kodiaq Restyling,1745000
-Skoda,Octavia,994200
+Skoda,Octavia,1171100
 Skoda,Octavia A7,770000
 Skoda,Octavia A8,994200
-Skoda,Octavia New,1170000
+Skoda,Octavia New,994200
 Skoda,Rapid,560000
 Skoda,Rapid New,630600
 Skoda,Superb,1240000
-Skoda,Superb Combi,1740000
 Skoda,Superb New,1282000
-Solaris,HC,1499400
+Solaris,HC,1590000
 Solaris,HS,1110000
-Solaris,KRS,1222800
-Solaris,KRX,1238400
+Solaris,KRS,1236000
+Solaris,KRX,1344600
 Soueast,DX5,1550000
 Soueast,DX8S,1630000
 Suzuki,SX4,1109000
-TANK,300,2729300
-TANK,400,5799000
+TANK,300,2699400
 TANK,500,3788000
 Toyota,CH-R New,2551000
 Toyota,Camry,1480000
@@ -433,180 +422,9 @@ Volkswagen,Taos,1464000
 Volkswagen,Teramont,2679400
 Volkswagen,Tiguan,1230000
 Volkswagen,Tiguan New,1280940
-XCite,X-Cross 7,1499400
 Zotye,Coupa,750300
 Zotye,T600,570300
 Zotye,Z300,309990
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
 ,,
 ,,
 ,,
