@@ -22,7 +22,7 @@ router =Router()
 async def pars():
     try:
         dct = {}
-        shutil.copy('id.xlsx', '/var/www/html/storage/id.xlsx')
+        # shutil.copy('id.xlsx', '/var/www/html/storage/id.xlsx')
         with open('autolist.txt', 'r', encoding='utf-8') as f:
             lst = f.readlines()
             for item in lst:
@@ -41,8 +41,8 @@ async def pars():
         await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/stavropol.xlsx"))
         await parser_samara(dct, browser)
         await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/samara.xlsx"))
-        # await parser_yaroslavl(dct, browser)
-        # await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/yaroslavl.xlsx"))
+        await parser_yaroslavl(dct, browser)
+        await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/yaroslavl.xlsx"))
         await parser_novokuzneck(dct, browser)
         await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/novokuzneck.xlsx"))
         await parser_saratov(dct)

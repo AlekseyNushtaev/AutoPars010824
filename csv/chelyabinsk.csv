@@ -26,7 +26,7 @@ Chery,Arrizo 8,1668000
 Chery,Tiggo 4,565900
 Chery,Tiggo 4 New,1087900
 Chery,Tiggo 4 Pro,993900
-Chery,Tiggo 4 Pro New,1720983
+Chery,Tiggo 4 Pro New,1620983
 Chery,Tiggo 5,996900
 Chery,Tiggo 7,926900
 Chery,Tiggo 7 Pro,1108900
@@ -37,7 +37,7 @@ Chery,Tiggo 8,1234900
 Chery,Tiggo 8 Pro,1778900
 Chery,Tiggo 8 Pro Max,1849900
 Chery,Tiggo 8 Pro Max New,1714000
-Chery,Tiggo 8 Pro Max Restyling,2338571
+Chery,Tiggo 8 Pro Max Restyling,2238571
 Chery,Tiggo 9,2850000
 Chevrolet,Cobalt,539900
 Chevrolet,Nexia,487900
@@ -49,10 +49,14 @@ Datsun,ON-DO,244000
 Dongfeng,580,759000
 Dongfeng,AX7,737400
 EXEED,LX,1854000
+EXEED,LX New,2028000
 EXEED,RX,2850000
 EXEED,TXL,1399900
+EXEED,TXL New,2448000
 EXEED,VX,2946000
+EXEED,VX New,3408000
 FAW,Bestune B70,1424400
+FAW,Bestune B70 New,1799994
 FAW,Bestune T55,1446600
 FAW,Bestune T77,1552000
 FAW,Besturn X40,619300
@@ -75,17 +79,19 @@ Geely,Emgrand X7,864990
 Geely,GS,994990
 Geely,Monjaro,2689900
 Geely,Okavango,2015514
-Geely,Preface,1529000
+Geely,Preface New,1529000
 Geely,Tugella,2193714
 Geely,Tugella New,2193714
 Great Wall,Wingle 7,2099000
 Haval,Dargo,1679000
-Haval,F7,1709400
+Haval,F7,1714300
+Haval,F7 New,1709400
 Haval,F7x,1299000
 Haval,H3,1679400
 Haval,H5,958000
 Haval,H6,1078000
 Haval,H9,1909300
+Haval,H9 New,2759400
 Haval,Jolion,989900
 Haval,Jolion New,1199000
 Haval,M6,1367400
@@ -107,6 +113,7 @@ JAC,S7,709000
 JAC,T6,2270000
 JAC,T8,2859000
 JAC,T8 Pro,3229000
+JAC,T9,3599000
 JAECOO,J7,1775940
 JAECOO,J8,2759400
 Jetour,Dashing,1493940
@@ -135,13 +142,12 @@ Lada,Granta Liftback,268500
 Lada,Granta Liftback New,953150
 Lada,Granta Sedan,257900
 Lada,Granta Sedan Drive Active,378810
-Lada,Granta Sedan New,954505
+Lada,Granta Sedan New,939505
 Lada,Granta Sport Liftback,735400
 Lada,Granta Sport Sedan,651340
 Lada,Granta Sportline,539500
 Lada,Granta Sportline Liftback,560900
 Lada,Granta Universal,278900
-Lada,Granta Universal New,1046250
 Lada,Largus,348900
 Lada,Largus Cross,384300
 Lada,Largus Cross New,895800
@@ -181,7 +187,7 @@ Nissan,Qashqai,880000
 Nissan,Terrano,619000
 Nissan,X-trail,1134000
 OMODA,C5,1263900
-OMODA,C5 New,2090901
+OMODA,C5 New,1541940
 OMODA,S5,1199000
 OMODA,S5 GT,2109900
 Ravon,Nexia R3,356000
@@ -212,17 +218,16 @@ Suzuki,SX4,1069000
 Suzuki,Vitara,969000
 TANK,300,2579400
 TANK,500,3893000
-UAZ,3909,1420000
+UAZ,3303 Бортовой грузовик,1420000
+UAZ,3909,1440000
 UAZ,3909 Бортовой грузовик,1470000
 UAZ,3909 Микроавтобус,1510000
 UAZ,3909 Скорая помощь,1475000
 UAZ,3909 Цельнометаллический фургон,1350000
 UAZ,Hunter,538000
 UAZ,Patriot,429380
-UAZ,Patriot New,1617000
 UAZ,Patriot Pickup,1223000
 UAZ,Pickup,621000
-UAZ,Pickup New,1776000
 UAZ,Профи Фургон,1445000
 Volkswagen,Jetta,910800
 Volkswagen,Polo,519300

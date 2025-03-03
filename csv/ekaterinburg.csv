@@ -3,13 +3,11 @@ BAIC,BJ40,2835000
 BAIC,U5 Plus,1210000
 BAIC,X35,1220000
 BAIC,X55,1780000
-BAIC,X7,1900000
-BAIC,X75,2090000
+BAIC,X7,1860000
+BAIC,X75,1794000
 BYD,Qin,1599900
 Belgee,X50,1389000
 Belgee,X70,1695714
-Brilliance,V3,670000
-Brilliance,V5,690000
 Changan,Alsvin,855000
 Changan,CS15,1250000
 Changan,CS35 Plus,1160000
@@ -32,6 +30,7 @@ Changan,Lamore,1560000
 Changan,Raeton,1039000
 Changan,Raeton Plus,1839000
 Changan,UNI-K,2183940
+Changan,UNI-S/CS55 Plus,2030000
 Changan,UNI-T,1829200
 Changan,UNI-V,1715940
 Chery,Arrizo 8,1762000
@@ -68,8 +67,6 @@ Chevrolet,Tracker,1290000
 Chevrolet,Trailblazer,1670000
 Chevrolet,Traverse,2940000
 DFM,580,1589000
-DWHover,H3,950000
-DWHover,H5,960000
 Datsun,MI-DO,289000
 Datsun,ON-DO,266000
 Dongfeng,580,989000
@@ -90,9 +87,6 @@ EXEED,VX,2830000
 EXEED,VX LE,5440000
 EXEED,VX New,4350000
 EXEED,VX Restyling,4349000
-Evolute,i-JOY,2620000
-Evolute,i-PRO,2170000
-Evolute,i-SKY,3140000
 FAW,Bestune B70,1328000
 FAW,Bestune T55,1446600
 FAW,Bestune T77,1302000
@@ -112,9 +106,7 @@ Ford,Kuga,1330000
 Ford,Mondeo,1280000
 Ford,S-MAX,1310000
 Forthing,T5 Evo,2080000
-Forthing,Yacht,2950000
-Foton,Sauvana,1270000
-Foton,Tunland,1340000
+Forthing,Yacht,3090000
 Gac,GN8,2039400
 Gac,GS3,1439400
 Gac,GS3 New,2049000
@@ -405,8 +397,6 @@ UAZ,Patriot New,930000
 UAZ,Pickup,780000
 UAZ,Pickup New,783500
 VOYAH,Dream,6790000
-VOYAH,Free,6060000
-VOYAH,Free New,4199000
 VOYAH,Passion,4790000
 Venucia,D60 Plus,1840000
 Venucia,V-Online,2080000
@@ -421,10 +411,11 @@ Volkswagen,Polo New,673440
 Volkswagen,Taos,1464000
 Volkswagen,Teramont,2679400
 Volkswagen,Tiguan,1230000
-Volkswagen,Tiguan New,1280940
+Volkswagen,Tiguan New,1529300
 Zotye,Coupa,750300
 Zotye,T600,570300
 Zotye,Z300,309990
+,,
 ,,
 ,,
 ,,

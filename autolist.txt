@@ -42,6 +42,7 @@ brilliance, v3 |Brilliance, V3 | 111
 brilliance, v5 |Brilliance, V5 | 112
 brilliance, v51.5t |Brilliance, V5 | 112
 brilliance, v51.5tnew |Brilliance, V5 New | 113
+brilliance, h530 |Brilliance, H530 | 876
 byd, qin |BYD, Qin | 114
 byd, han |BYD, Han | 814
 byd, seagull |BYD, Seagull | 735
@@ -656,6 +657,10 @@ kia, stinger |KIA, Stinger | 398
 kia, mohave |KIA, Mohave | 399
 kia, mohavenew |KIA, Mohave New | 400
 knewstar, 001 |Knewstar, 001 | 775
+kgm, korando |KGM, Korando | 877
+kgm, rexton |KGM, Rexton | 878
+kgm, tivoli |KGM, Tivoli | 879
+kgm, torres |KGM, Torres | 880
 lada, aura |Lada, Aura | 795
 lada, (ваз)auraседан |Lada, Aura | 795
 lada, grantaбортовая |Lada, Granta Бортовая | 854
@@ -732,9 +737,11 @@ lada, новаяgrantasedan |Lada, Granta Sedan New | 413
 lada, новаяgrantaуниверсал |Lada, Granta Universal New | 416
 lada, grantauniversalnew |Lada, Granta Universal New | 416
 lada, grantacrosscross |Lada, Granta Cross | 402
+lada, (ваз)grantacrossiрестайлингуниверсал |Lada, Granta Cross | 402
 lada, grantadriveactivedriveactive |Lada, Granta Drive Active | 403
 lada, largus |Lada, Largus | 418
 lada, largus5м. |Lada, Largus | 418
+lada, largus5мест |Lada, Largus | 418
 lada, largusуниверсалcng |Lada, Largus CNG| 686
 lada, larguscross |Lada, Largus Cross | 419
 lada, larguscrosscross |Lada, Largus Cross | 419
@@ -756,6 +763,7 @@ lada, largusnew |Lada, Largus New | 449
 lada, новыйlargusуниверсал |Lada, Largus New | 449
 lada, новыйlargus7мест |Lada, Largus New 7 мест | 450
 lada, largus7м. |Lada, Largus New 7 мест | 450
+lada, largus7мест |Lada, Largus New 7 мест | 450
 lada, новыйlargus5мест |Lada, Largus New | 449
 lada, largusnew7мест |Lada, Largus New 7 мест | 450
 lada, larguscrossnew5мест |Lada, Largus Cross New | 451
@@ -1220,6 +1228,7 @@ uaz, patriotpikap |UAZ, Patriot Pickup | 636
 уаз, сгркомби |UAZ, 3909 | 694
 уаз, 3909бортовойгрузовик |UAZ, 3909 Бортовой грузовик| 695
 уаз, 39094бортовойгрузовик |UAZ, 3909 Бортовой грузовик| 695
+уаз, 3303бортовойгрузовик |UAZ, 3303 Бортовой грузовик| 875
 уаз, 3909микроавтобус |UAZ, 3909 Микроавтобус| 696
 уаз, сгравтобус |UAZ, 3909 Микроавтобус| 696
 уаз, 3909скораяпомощь |UAZ, 3909 Скорая помощь| 697
@@ -1278,6 +1287,7 @@ vgv, u70 |VGV, U70 | 664
 vgv, u70pro |VGV, U70 Pro | 823
 vgv, u75plus |VGV, U75 Plus | 824
 voyah, free |VOYAH, Free | 665
+voyah, новыйfree |VOYAH, Free New | 811
 voyah, freenew |VOYAH, Free New | 811
 voyah, dream |VOYAH, Dream | 666
 voyah, m-hero |VOYAH, M-Hero | 825
