@@ -80,7 +80,6 @@ Citroen,C3 Aircross New,1765999
 Citroen,C4,1655200
 Citroen,C5 Aircross,2338999
 Citroen,C5 Aircross New,1242200
-Citroen,C5 X,3599000
 Citroen,Jumpy,1714010
 Citroen,Spacetourer,2140000
 DFM,580,770000
@@ -97,7 +96,6 @@ Dongfeng,DFSK 500,1199000
 Dongfeng,DFSK 600,1650000
 Dongfeng,DFSK IX5,1434000
 Dongfeng,DFSK IX7,2594000
-Dongfeng,SK 580,1399000
 Dongfeng,Shine Max,1199000
 EXEED,LX,1624899
 EXEED,LX AWD,1679999
@@ -218,7 +216,7 @@ Hyundai,H-1,1554998
 Hyundai,Mufasa,1471500
 Hyundai,Palisade,2068999
 Hyundai,Palisade New,3868100
-Hyundai,Santa Fe,2229000
+Hyundai,Santa Fe,2381400
 Hyundai,Santa Fe New,1587000
 Hyundai,Santa Fe Restyling,1981000
 Hyundai,Solaris,500300
@@ -249,7 +247,7 @@ JAECOO,J7,1689899
 JAECOO,J8,2488999
 Jetour,Dashing,1064899
 Jetour,T2,2058999
-Jetour,X50,1140000
+Jetour,X50,1194000
 Jetour,X70,1449000
 Jetour,X70 Plus,1521199
 Jetour,X90 Plus,1822799
@@ -282,7 +280,7 @@ KIA,K5,1060299
 KIA,K5 New,2138000
 KIA,K9,4424940
 KIA,K900,4025100
-KIA,Mohave,2860700
+KIA,Mohave,3497940
 KIA,Mohave New,2374928
 KIA,Pegas,1050000
 KIA,Picanto,569900
@@ -303,16 +301,15 @@ KIA,Sportage,1141900
 KIA,Sportage 5,1131899
 KIA,Sportage New,955175
 KIA,Sportage New 2022,1956100
-KIA,Stinger,2159900
+KIA,Stinger,3139900
 KIA,Stinger New,4037899
 KIA,Stinger Restyling,2457400
 KIA,XCeed,1320300
-KIA,XCeed New,1518100
+KIA,XCeed New,1975100
 Knewstar,001,2295990
 Lada,4x4 3 двери,408000
 Lada,4x4 5 дверей,418000
-Lada,4x4 Bronto,1290000
-Lada,Aura,0
+Lada,Aura,1559400
 Lada,Granta Cross,291800
 Lada,Granta Hatchback,372500
 Lada,Granta Hatchback New,395000
@@ -331,10 +328,8 @@ Lada,Granta Universal,300300
 Lada,Granta Universal New,410000
 Lada,Largus,996000
 Lada,Largus Cross,1212000
-Lada,Largus Cross 7 мест,1266000
 Lada,Largus Cross New,620000
 Lada,Largus New,451300
-Lada,Largus New 7 мест,1149000
 Lada,Largus Фургон,1002000
 Lada,Largus Фургон New,452300
 Lada,Niva,537900
@@ -374,7 +369,6 @@ Lixiang,L6,4293799
 Lixiang,L7,4829999
 Lixiang,L8,5400000
 Lixiang,L9,6279999
-Lixiang,Mega,10590000
 Lync&Co,08,4240000
 Lync&Co,09,6427000
 M-HERO,I,14041000
@@ -390,7 +384,7 @@ MG,VS HEV,2290000
 MG,ZS,1587400
 Mazda,3 Hatchback,2120000
 Mazda,3 New,2235000
-Mazda,6,1273000
+Mazda,6,1748000
 Mazda,6 New,1497000
 Mazda,CX-30,1871300
 Mazda,CX-4,1742200
@@ -440,9 +434,8 @@ Ora,03 GT,3249100
 Oting,Paladin,2469000
 Peugeot,2008 New,2430200
 Peugeot,3008 New,2686100
-Peugeot,4008,3299000
 Peugeot,408,1290200
-Peugeot,5008 New,3499000
+Peugeot,5008 New,3651200
 Peugeot,Partner Crossway,1631200
 Peugeot,Traveller,3223100
 Ravon,Gentra,746300
@@ -469,7 +462,6 @@ Renault,Sandero Stepway New,554000
 Renault,Stepway City,721000
 Rising,F7,6310000
 Rising,R7,6940000
-Rox,01,5890000
 SWM,G01,833000
 SWM,G01F,973000
 SWM,G05 Pro,1021000
@@ -517,21 +509,20 @@ TANK,500,2729998
 TANK,700,6399000
 Toyota,Alphard,9228200
 Toyota,CH-R,1863100
-Toyota,CH-R New,2253200
+Toyota,CH-R New,2353200
 Toyota,Camry,2398000
 Toyota,Camry New,1708299
 Toyota,Corolla,1248800
 Toyota,Corolla New,980300
 Toyota,Fortuner,3619000
 Toyota,Fortuner New,3433200
-Toyota,Highlander,4931000
+Toyota,Highlander,5164000
 Toyota,Highlander New,5050200
 Toyota,Hilux,3574000
-Toyota,Hilux New,5402200
-Toyota,Land Cruiser 300,8724000
-Toyota,Land Cruiser 300 GR-Sport,11456500
+Toyota,Hilux New,3576200
+Toyota,Land Cruiser 300,9755200
+Toyota,Land Cruiser 300 GR-Sport,13050000
 Toyota,Land Cruiser Prado,5044000
-Toyota,Land Cruiser Prado New,9211000
 Toyota,RAV4,1988000
 Toyota,RAV4 New,1471199
 UAZ,Hunter,360500
@@ -578,3 +569,8 @@ Zeekr,001,4960000
 Zeekr,009,8641000
 Zeekr,X,3150000
 Zotye,Coupa,839600
+Zotye,T600,676600
+hyundai,elantranewrest,1774600
+hyundai,santafe2024,3900200
+hyundai,sonatanewrest,2527000
+kia,soulnewrest,1655100
