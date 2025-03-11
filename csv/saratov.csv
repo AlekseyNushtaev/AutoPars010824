@@ -42,11 +42,6 @@ EXEED,RX,3348000
 EXEED,TXL New,2763000
 EXEED,VX,3445000
 EXEED,VX Restyling,4225000
-Evolute,i-JET,4173000
-Evolute,i-JOY,2597000
-Evolute,i-PRO,1944000
-Evolute,i-SKY,3198000
-Evolute,i-SPACE,1999000
 FAW,Bestune B70,1593000
 FAW,Bestune T55,1567000
 FAW,Bestune T77,1862000
@@ -144,7 +139,7 @@ Lada,Aura,1929000
 Lada,Granta Cross,812000
 Lada,Granta Liftback,734000
 Lada,Granta Sedan,645000
-Lada,Largus,1228000
+Lada,Largus,1394000
 Lada,Largus Фургон,1236000
 Lada,Niva Legend 3 двери,685000
 Lada,Niva Legend Bronto,1048000
@@ -155,12 +150,6 @@ Lada,Vesta SW Cross,1393000
 Lada,Vesta Sedan,1108000
 Livan,S6 Pro,1657000
 Livan,X3 Pro,1087000
-Lixiang,L6,4789000
-Lixiang,L7,4949000
-Lixiang,L7 Restyling,5229000
-Lixiang,L8,4961000
-Lixiang,L9,6430000
-Lixiang,L9 Restyling,6509000
 MG,4 EV,3445000
 MG,5,1481000
 MG,6,1884000
@@ -191,13 +180,12 @@ Renault,Logan,1030000
 Renault,Logan Stepway,1079000
 Renault,Sandero,1049000
 Renault,Sandero Stepway,1118000
-SWM,G01,1416000
-SWM,G01F,1559000
-SWM,G05 Pro,1559000
+SWM,G01,1548000
+SWM,G01F,1480000
+SWM,G05 Pro,1579000
 Skoda,Karoq,2529000
 Skoda,Kodiaq,2853000
 Skoda,Octavia,2372000
-Skywell,ET5,2977000
 TANK,300,2729000
 TANK,500,4192000
 TANK,700,6174000

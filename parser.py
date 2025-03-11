@@ -1253,63 +1253,63 @@ async def parser_moscow(dct_up, browser):
 
 async def parser_ufa(dct_up, browser):
     try:
-        # await bot.send_message(ADMIN_ID, 'begin https://bashautomarket.ru')
+        await bot.send_message(ADMIN_ID, 'begin https://bashautomarket.ru')
         res_1= await bashautomarket(dct_up, browser)
     except Exception as e:
         res_1 = []
         await bot.send_message(CHANEL_ID, 'https://bashautomarket.ru error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-        # await bot.send_message(ADMIN_ID, 'begin https://ufa.masmotors.ru/')
+        await bot.send_message(ADMIN_ID, 'begin https://ufa.masmotors.ru/')
         res_2 = await ufa_masmotors(dct_up, browser)
     except Exception as e:
         res_2 = []
         await bot.send_message(CHANEL_ID, 'https://ufa.masmotors.ru/ error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-        # await bot.send_message(ADMIN_ID, 'begin https://avrora-motors.ru/catalog')
+        await bot.send_message(ADMIN_ID, 'begin https://avrora-motors.ru/catalog')
         res_3 = await avrora(dct_up, browser)
     except Exception as e:
         res_3 = []
         await bot.send_message(CHANEL_ID, 'https://avrora-motors.ru/catalog error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-        # await bot.send_message(ADMIN_ID, 'begin https://ufa.autospot.ru/')
+        await bot.send_message(ADMIN_ID, 'begin https://ufa.autospot.ru/')
         res_4 = await ufa_autospot(dct_up)
     except Exception as e:
         res_4 = []
         await bot.send_message(CHANEL_ID, 'https://ufa.autospot.ru/ error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-        # await bot.send_message(ADMIN_ID, 'begin https://alfa-tank.ru/')
+        await bot.send_message(ADMIN_ID, 'begin https://alfa-tank.ru/')
         res_5 = await alpha_tank(dct_up, browser)
     except Exception as e:
         res_5 = []
         await bot.send_message(CHANEL_ID, 'https://alfa-tank.ru/ error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-        # await bot.send_message(ADMIN_ID, 'begin https://autofort-ufa.ru/')
+        await bot.send_message(ADMIN_ID, 'begin https://autofort-ufa.ru/')
         res_6 = await ufa_autofort(dct_up)
     except Exception as e:
         res_6 = []
         await bot.send_message(CHANEL_ID, 'https://autofort-ufa.ru/ error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-        # await bot.send_message(ADMIN_ID, 'begin https://motors-ag.ru/')
+        await bot.send_message(ADMIN_ID, 'begin https://motors-ag.ru/')
         res_7 = await motors_ag(dct_up, browser)
     except Exception as e:
         res_7 = []
         await bot.send_message(CHANEL_ID, 'https://motors-ag.ru/ error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-        # await bot.send_message(ADMIN_ID, 'begin https://ufabm.ru')
+        await bot.send_message(ADMIN_ID, 'begin https://ufabm.ru')
         res_8 = await ufabm(dct_up)
     except Exception as e:
         res_8 = []
         await bot.send_message(CHANEL_ID, 'https://ufabm.ru error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-    #     await bot.send_message(ADMIN_ID, 'begin https://ufa-automarket.ru')
+        await bot.send_message(ADMIN_ID, 'begin https://ufa-automarket.ru')
         res_9 = await ufa_automarket(dct_up, browser)
     except Exception as e:
         res_9 = []

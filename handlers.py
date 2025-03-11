@@ -22,7 +22,7 @@ router =Router()
 async def pars():
     try:
         dct = {}
-        # shutil.copy('id.xlsx', '/var/www/html/storage/id.xlsx')
+        shutil.copy('id.xlsx', '/var/www/html/storage/id.xlsx')
         with open('autolist.txt', 'r', encoding='utf-8') as f:
             lst = f.readlines()
             for item in lst:
@@ -30,6 +30,7 @@ async def pars():
         chrome_driver_path = ChromeDriverManager().install()
         browser_service = Service(executable_path=chrome_driver_path)
         options = Options()
+        options.page_load_strategy = 'none'
         options.add_argument('--headless')
         options.add_argument('--no-sandbox')
         options.add_argument('--disable-dev-shm-usage')

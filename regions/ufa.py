@@ -45,12 +45,14 @@ async def ufa_masmotors(dct_up, browser):
     res = []
     for tag in tags:
         link_1 = 'https://ufa.masmotors.ru' + tag.find("a").get("href")
+        print(link_1)
         browser.get(link_1)
-        time.sleep(1)
+        time.sleep(2)
         time.sleep(0.25)
         html = browser.page_source
         soup = bs4.BeautifulSoup(html, 'lxml')
         cards = soup.find_all(attrs={"class": "brnd_model js-save-storage"})
+        print(len(cards))
         for card in cards:
             link = 'https://ufa.masmotors.ru' + card.get("data-href")
             brand = card.get("data-brand").lower().strip()

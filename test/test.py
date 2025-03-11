@@ -14,40 +14,41 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver import Chrome
 
 
-def l_auto(dct_up, browser):
-    link = 'https://l-auto16.ru/catalog/'
+async def astella_cars(dct_up, browser):
+    link = 'https://astella-cars.ru/new'
     browser.get(link)
     time.sleep(2)
-    last_height = browser.execute_script("return document.body.scrollHeight")
-    while True:
-        # scroll_js = "window.scrollBy(0, 1000);"
-        browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        # browser.execute_script(scroll_js)
-        time.sleep(5)  # Adjust sleep duration as needed
-        new_height = browser.execute_script("return document.body.scrollHeight")
-        if new_height == last_height:
-            break
-        last_height = new_height
     html = browser.page_source
     soup = bs4.BeautifulSoup(html, 'lxml')
-    cards = soup.find_all(attrs={"class": "car-card"})
+    brands = soup.find(attrs={"class": "brands-menu"}).find_all("a")
     res = []
-    for card in cards:
-        link = 'https://l-auto16.ru' + card.get("href")
-        title = card.find(attrs={"class": "car-card__title"}).text.lower().strip()
-        brand = title.split()[0].replace('š', 's')
-        model = title.replace(brand, '').strip().replace(" ", "").replace(' ', '').replace('škoda', '')
-        price_ = card.find(attrs={"class": "car-card__price"}).text
-        price = ''
-        for i in price_:
-            if i.isdigit():
-                price += i
-        name = brand + ', ' + model
+    for brand_ in brands:
+        link_1 = brand_.get("href")
+        browser.get(link_1)
+        time.sleep(2)
+        html = browser.page_source
+        soup = bs4.BeautifulSoup(html, 'lxml')
         try:
-            name = dct_up[name]
-        except KeyError:
-            print(name, link)
-        res.append([name, price, link])
+            cards = soup.find(attrs={"class": "cars-block"}).find_all(attrs={"class": "cars-block__item-col cars-block__item-info"})
+        except AttributeError:
+            continue
+        for card in cards:
+            link = card.find(attrs={"class": "catalog-item__model link-black"}).get("href")
+            title = card.find(attrs={"class": "h3__brand"}).text.lower().strip()
+            brand = title.split()[0]
+            model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i")
+            cost__ = card.find(attrs={"class": "catalog-item__price-current js_model-i-price"}).text
+            cost_ = ''
+            for y in cost__:
+                if y.isdigit():
+                    cost_ += y
+            cost = int(cost_)
+            name = brand + ', ' + model
+            try:
+                name = dct_up[name]
+            except KeyError:
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
+            res.append([name, cost, link])
     return res
 
 
@@ -68,5 +69,5 @@ with open('../autolist.txt', 'r', encoding='utf-8') as f:
     lst = f.readlines()
     for item in lst:
         dct[item.split('|')[0].strip()] = item.split('|')[1].strip()
-res = l_auto(dct, browser)
+res = center_irtysh(dct, browser)
 print(len(res))

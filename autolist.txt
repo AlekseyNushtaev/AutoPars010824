@@ -208,6 +208,7 @@ chevrolet, niva |Chevrolet, Niva | 174
 citroen, berlingomultispace |Citroen, Berlingo Multispace | 175
 citroёn, c3aircrossnew |Citroen, C3 Aircross New | 176
 citroen, c4 |Citroen, C4 | 177
+citroen, c4sedan |Citroen, C4 | 177
 citroen, c3aircrossnew |Citroen, C5 Aircross New | 178
 citroёn, c5aircross |Citroen, C5 Aircross | 179
 citroen, c5aircrossnew |Citroen, C5 Aircross New | 178
@@ -319,13 +320,17 @@ foton, sauvana |Foton, Sauvana | 227
 foton, tunland |Foton, Tunland | 228
 ford, fiestaхэтчбек |Ford, Fiesta Hatchback | 229
 ford, fiesta:хэтчбек |Ford, Fiesta Hatchback | 229
+ford, fiestahatchback |Ford, Fiesta Hatchback | 229
 ford, fiestaседан |Ford, Fiesta Sedan | 230
+ford, fiestasedan |Ford, Fiesta Sedan | 230
 ford, fiesta |Ford, Fiesta Sedan | 230
 ford, focusхэтчбек |Ford, Focus Hatchback | 231
 ford, focushatchback |Ford, Focus Hatchback | 231
+ford, focussedan |Ford, Focus Sedan | 232
 ford, focusседан |Ford, Focus Sedan | 232
 ford, focus |Ford, Focus Sedan | 232
 ford, focusуниверсал |Ford, Focus Universal | 233
+ford, focuswagon |Ford, Focus Universal | 233
 ford, ecosport |Ford, Ecosport | 234
 ford, ecosportnew |Ford, Ecosport New | 235
 ford, kuga |Ford, Kuga | 236
@@ -358,6 +363,7 @@ geely, atlas |Geely, Atlas | 250
 джили, атлас |Geely, Atlas | 250
 geely, atlas(fx11) |Geely, Atlas | 250
 geely, atlasnew |Geely, Atlas New | 251
+geely, atlasnew(fx11) |Geely, Atlas New | 251
 geely, новыйatlas |Geely, Atlas New | 251
 geely, atlasновый |Geely, Atlas New | 251
 geely, atlaspro |Geely, Atlas Pro | 252
@@ -366,6 +372,7 @@ geely, boyue |Geely, Boyue | 253
 geely, belgeex50 |Geely, Belgee X50 | 254
 geely, belgeex70 |Geely, Belgee X70 | 680
 geely, coolray |Geely, Coolray | 255
+geely, coolray(sx11a3) |Geely, Coolray | 255
 джили, кулрей2019 |Geely, Coolray | 255
 geely, coolrayрестайлинг |Geely, Coolray Restyling | 256
 geely, coolraynew |Geely, Coolray New | 257
@@ -383,8 +390,10 @@ geely, emgrand2023 |Geely, Emgrand | 260
 geely, emgrand7 |Geely, Emgrand 7 | 261
 geely, emgrandgt |Geely, Emgrand GT | 262
 geely, emgrand72023 |Geely, Emgrand 7 2023 | 263
+geely, ex5 |Geely, EX5 | 881
 geely, cityray |Geely, Cityray | 772
 geely, citiray |Geely, Cityray | 772
+geely, cityray(g426) |Geely, Cityray | 772
 geely, gs |Geely, GS | 264
 geely, monjaro |Geely, Monjaro | 265
 geely, monjaro2024 |Geely, Monjaro | 265
@@ -624,6 +633,7 @@ solaris, krx(kiariox) |KIA, Rio X | 378
 kia, rioxnew |KIA, Rio X New | 379
 kia, riox-line |KIA, Rio X-Line | 380
 kia, rioxline |KIA, Rio X-Line | 380
+kia, riox(x-line) |KIA, Rio X-Line | 380
 kia, seltos |KIA, Seltos | 381
 kia, seltosrest |KIA, Seltos Rest | 382
 kia, seltosnew |KIA, Seltos New | 383
@@ -707,6 +717,7 @@ lada, grantaуниверсал |Lada, Granta Universal | 414
 lada, grantaунивеpсaл |Lada, Granta Universal | 414
 lada, grantauniversal |Lada, Granta Universal | 414
 lada, grantaунивеpcал |Lada, Granta Universal | 414
+lada, grantaунивеpсал |Lada, Granta Universal | 414
 lada, grantaуниверсалуниверсал |Lada, Granta Universal | 414
 lada, grantaхэтчбек |Lada, Granta Hatchback | 404
 lada, grantaхэтчбэк |Lada, Granta Hatchback | 404
@@ -749,6 +760,7 @@ lada, larguscrosscng |Lada, Largus Cross CNG| 687
 lada, largusуниверсал |Lada, Largus | 418
 lada, largusфургон |Lada, Largus Фургон | 420
 lada, largusfurgon |Lada, Largus Фургон | 420
+lada, largusфуpгoн |Lada, Largus Фургон | 420
 lada, largusфургонcng |Lada, Largus Фургон CNG| 688
 lada, larguscross5мест |Lada, Largus Cross | 419
 lada, largusсross5мест |Lada, Largus Cross | 419
@@ -1281,6 +1293,7 @@ volkswagen, touareg |Volkswagen, Touareg | 659
 volkswagen, touaregnew |Volkswagen, Touareg New | 660
 volkswagen, новыйtiguan |Volkswagen, Tiguan New | 658
 volkswagen, t-cross |Volkswagen, T-Cross | 661
+volkswagen, outlander7мест |Volkswagen, Outlander 7 мест | 882
 venucia, d60plus |Venucia, D60 Plus | 662
 venucia, v-online |Venucia, V-Online | 663
 vgv, u70 |VGV, U70 | 664

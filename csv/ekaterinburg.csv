@@ -98,7 +98,7 @@ FAW,Besturn T99,2790000
 FAW,Besturn X40,640300
 FAW,Besturn X80,782000
 FAW,X40,782000
-FAW,X40 New,961200
+FAW,X40 New,1522000
 Ford,Ecosport,770000
 Ford,Focus Hatchback,680000
 Ford,Focus Sedan,680000
@@ -240,7 +240,7 @@ KIA,Stinger New,3100000
 KIA,Stinger Restyling,3100000
 KIA,XCeed,1490000
 Lada,4x4 Bronto,476300
-Lada,Aura,1599000
+Lada,Aura,1559400
 Lada,Granta Cross,445380
 Lada,Granta Drive Active,496740
 Lada,Granta Drive Active Liftback,550100
@@ -251,7 +251,10 @@ Lada,Granta Liftback New,433380
 Lada,Granta Sedan,410000
 Lada,Granta Sedan Drive Active,445380
 Lada,Granta Sedan New,410000
+Lada,Granta Sport Liftback,797340
 Lada,Granta Sport Sedan,749900
+Lada,Granta Sportline,680000
+Lada,Granta Sportline Liftback,761940
 Lada,Granta Universal,393000
 Lada,Granta Universal New,431580
 Lada,Largus,393000
@@ -363,7 +366,7 @@ SWM,G01F,1588340
 SWM,G05 Pro,1625960
 Skoda,Karoq,1023000
 Skoda,Karoq Restyling,1650000
-Skoda,Kodiaq,1740000
+Skoda,Kodiaq,1234200
 Skoda,Kodiaq New,1234200
 Skoda,Kodiaq Restyling,1745000
 Skoda,Octavia,1171100
@@ -371,9 +374,9 @@ Skoda,Octavia A7,770000
 Skoda,Octavia A8,994200
 Skoda,Octavia New,994200
 Skoda,Rapid,560000
-Skoda,Rapid New,630600
+Skoda,Rapid New,727600
 Skoda,Superb,1240000
-Skoda,Superb New,1282000
+Skoda,Superb New,2308000
 Solaris,HC,1590000
 Solaris,HS,1110000
 Solaris,KRS,1236000
@@ -392,8 +395,8 @@ Toyota,Hilux,2460000
 Toyota,RAV4,1320000
 Toyota,RAV4 New,1721700
 UAZ,Hunter,562900
-UAZ,Patriot,1008000
-UAZ,Patriot New,930000
+UAZ,Patriot,930000
+UAZ,Patriot New,1009000
 UAZ,Pickup,780000
 UAZ,Pickup New,783500
 VOYAH,Dream,6790000
@@ -402,12 +405,12 @@ Venucia,D60 Plus,1840000
 Venucia,V-Online,2080000
 Volkswagen,Arteon,2639000
 Volkswagen,Bora,1750000
-Volkswagen,Jetta,1180000
-Volkswagen,Jetta New,910800
+Volkswagen,Jetta,910800
+Volkswagen,Jetta New,1186200
 Volkswagen,Passat,1120000
-Volkswagen,Passat New,1639800
+Volkswagen,Passat New,2200000
 Volkswagen,Polo,480000
-Volkswagen,Polo New,673440
+Volkswagen,Polo New,734000
 Volkswagen,Taos,1464000
 Volkswagen,Teramont,2679400
 Volkswagen,Tiguan,1230000
@@ -415,6 +418,8 @@ Volkswagen,Tiguan New,1529300
 Zotye,Coupa,750300
 Zotye,T600,570300
 Zotye,Z300,309990
+,,
+,,
 ,,
 ,,
 ,,
