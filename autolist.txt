@@ -527,6 +527,7 @@ hyundai, i30хэтчбек |Hyundai, i30 | 704
 hyundai, i30универсал |Hyundai, i30 универсал | 851
 hyundai, elantra |Hyundai, Elantra | 319
 hyundai, elantranew |Hyundai, Elantra New | 320
+hyundai, elantranewrest |Hyundai, Elantra New Rest| 883
 hyundai, нoвaяelantra |Hyundai, Elantra New | 320
 hyundai, newsolaris |Hyundai, Solaris New | 321
 hyundai, новыйsolaris |Hyundai, Solaris New | 321
@@ -535,8 +536,10 @@ hyundai, newsonata |Hyundai, Sonata New | 322
 hyundai, palisade |Hyundai, Palisade | 323
 hyundai, santafeрестайлинг |Hyundai, Santa Fe Restyling | 324
 hyundai, santafenew |Hyundai, Santa Fe New | 325
+hyundai, santafe2024 |Hyundai, Santa Fe New | 325
 hyundai, newcreta |Hyundai, Creta New | 314
 hyundai, sonatanew |Hyundai, Sonata New | 322
+hyundai, sonatanewrest |Hyundai, Sonata New Rest| 884
 hyundai, santafe |Hyundai, Santa Fe | 326
 hyundai, santafe2021 |Hyundai, Santa Fe | 326
 hyundai, palisadenew |Hyundai, Palisade New | 327
@@ -647,7 +650,8 @@ kia, sorentonew |KIA, Sorento New | 389
 kia, sorentonew24 |KIA, Sorento New | 389
 kia, нoвыйsorento |KIA, Sorento New | 389
 kia, soul |KIA, Soul | 390
-kia, soulnew |KIA, Soul | 390
+kia, soulnew |KIA, Soul New | 372
+kia, soulnewrest |KIA, Soul New Rest| 885
 kia, sportage |KIA, Sportage | 391
 kia, sportage5 |KIA, Sportage 5 | 392
 kia, stringerрестайлинг |KIA, Stinger Restyling | 393
@@ -1108,7 +1112,6 @@ rising, r7 | Rising, R7 | 569
 rox, 01 | Rox, 01 | 789
 seres, m7 | Seres, M7 | 862
 seres, m5 | Seres, M5 | 863
-skywell, et5 |Skywell, ET5 | 570
 skoda, kamiq |Skoda, Kamiq | 831
 skoda, karoq |Skoda, Karoq | 571
 skoda, karoqnew |Skoda, Karoq New | 572
@@ -1146,6 +1149,8 @@ skoda, kodiaqscout |Skoda, Kodiaq Scout | 591
 skoda, kodiaqsportline |Skoda, Kodiaq Sportline | 592
 skoda, kodiaqlaurin&klement |Skoda, Kodiaq Laurin & Klement | 593
 skoda, kodiaqlaurinklement |Skoda, Kodiaq Laurin & Klement | 593
+skywell, et5 |Skywell, ET5 | 570
+skywell, ht-i |Skywell, HT-i | 886
 solaris, hc |Solaris, HC | 594
 solaris, hs |Solaris, HS | 595
 solaris, krs |Solaris, KRS | 596
@@ -1254,6 +1259,7 @@ uaz, patriotpikap |UAZ, Patriot Pickup | 636
 уаз, pickup |UAZ, Pickup | 637
 uaz, pickup |UAZ, Pickup | 637
 уаз, пикап |UAZ, Pickup | 637
+uaz, пикап |UAZ, Pickup | 637
 uaz, пикапмкпп |UAZ, Pickup | 637
 uaz, пикапсакпп |UAZ, Pickup АКПП| 828
 uaz, pickupnew |UAZ, Pickup New | 638

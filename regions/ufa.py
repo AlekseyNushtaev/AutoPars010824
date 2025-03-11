@@ -170,7 +170,7 @@ async def alpha_tank(dct_up, browser):
     res = []
     for card in cards:
         try:
-            link = 'https://alfa-tank.ru' + card.find("a").get("href")
+            link = 'https://alfa-tank.ru'
             title = card.find(attrs={"class": "text-white h2"}).text.lower().strip().replace('•', '')
             brand = title.split()[0]
             model = title.replace(brand, '').strip().replace(" ", "")

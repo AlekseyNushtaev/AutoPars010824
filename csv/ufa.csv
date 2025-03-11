@@ -23,8 +23,8 @@ BMW,X5 M,23330000
 BMW,X6,18800000
 BMW,X6 M,23900000
 BMW,X7,16695000
-Belgee,X50,1813133
-Belgee,X70,2062333
+Belgee,X50,1735427
+Belgee,X70,1973947
 Changan,Alsvin,1112000
 Changan,CS35,659925
 Changan,CS35 Plus,935900
@@ -68,6 +68,9 @@ Chery,Tiggo 9,3112500
 Chevrolet,Cobalt,599900
 Chevrolet,Nexia,559900
 Chevrolet,Spark,579900
+Citroen,C4,1749000
+Citroen,C5 Aircross,1810000
+Citroen,Spacetourer,3489900
 DFM,580,2220000
 DFM,AX7,471600
 DWHover,H3,899250
@@ -100,9 +103,15 @@ FAW,Besturn T77,1784000
 FAW,Besturn X40,719000
 FAW,Besturn X80,844000
 FAW,Besturn X80 New,1131000
+Ford,Ecosport,1116000
+Ford,Explorer,3010000
+Ford,Fiesta Hatchback,875000
+Ford,Fiesta Sedan,885000
+Ford,Focus Hatchback,1033000
 Ford,Focus Sedan,959000
-Ford,Kuga,1805000
-Ford,Mondeo,1810000
+Ford,Focus Universal,1113000
+Ford,Kuga,1609000
+Ford,Mondeo,1612000
 Foton,Sauvana,1852000
 Gac,GN8,2699000
 Gac,GS3,1724250
@@ -142,7 +151,7 @@ Haval,H2,953400
 Haval,H3,1744300
 Haval,H5,959000
 Haval,H6,1058000
-Haval,H9,3224250
+Haval,H9,3249300
 Haval,Jolion,914000
 Haval,Jolion New,1349000
 Haval,M6,1448000
@@ -194,6 +203,14 @@ KAIYI,E5,1232000
 KAIYI,X3,1337800
 KAIYI,X3 Pro,1544900
 KAIYI,X7 Kunlun,2248425
+KIA,Ceed,1544900
+KIA,Ceed SW,1614900
+KIA,Cerato,1459900
+KIA,Rio,807900
+KIA,Rio X,874900
+KIA,Seltos,1364990
+KIA,Sorento,3089900
+KIA,Soul,1234900
 Knewstar,001,3062990
 Lada,4x4 Bronto,1065440
 Lada,Aura,1899000
@@ -262,13 +279,17 @@ MG,RX 8,3180000
 MG,RX 9,3712500
 MG,ZS,1837500
 Mazda,3 New,1114000
-Mazda,6,2230000
-Mazda,CX-5,2342000
+Mazda,6,1548000
+Mazda,CX-5,1645000
+Mazda,CX-9,3585000
 Mercedes-Benz,GLE coupe,18190000
 Mercedes-Benz,GLS,17890000
 Mercedes-Benz,V-класс,18203712
-Mitsubishi,ASX,2369000
-Mitsubishi,Pajero Sport,4194000
+Mitsubishi,ASX,1969000
+Mitsubishi,Eclipse Cross,2929000
+Mitsubishi,L200 New,3479000
+Mitsubishi,Outlander,1989000
+Mitsubishi,Pajero Sport,3739000
 Moskvich,3,1192500
 Moskvich,3e,2415000
 Moskvich,6,1540000
@@ -330,14 +351,17 @@ TANK,400,4949000
 TANK,500,5519200
 TANK,500 Urban,5850000
 TANK,700,8649000
-Toyota,Camry,4849000
+Toyota,CH-R,1931000
+Toyota,Camry,1798000
+Toyota,Corolla,1255000
 Toyota,Crown Kluger,7150000
-Toyota,Highlander,7437390
-Toyota,Hilux,7960000
+Toyota,Fortuner,3064000
+Toyota,Highlander,4559000
+Toyota,Hilux,2941000
 Toyota,Izoa,3888880
 Toyota,Land Cruiser 300,15392750
-Toyota,Land Cruiser Prado,10749000
-Toyota,RAV4,4980000
+Toyota,Land Cruiser Prado,3251000
+Toyota,RAV4,1971000
 UAZ,3909,979000
 UAZ,Hunter,890000
 UAZ,Patriot,930000
