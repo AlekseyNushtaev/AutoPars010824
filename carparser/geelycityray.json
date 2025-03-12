@@ -1,0 +1,1497 @@
+[{"body": "Внедорожник",
+  "body_alias": "vnedorozhnik",
+  "brand": "GEELY",
+  "brand_alias": "geely",
+  "brand_sort_order": 12,
+  "colors": [
+    {
+      "colorhex": "#FFFFFF",
+      "colorhex2": null,
+      "img_url": "https://ac-elitauto.ru/storage/auto/colors/st3PqVorKxt4DV24vfqLOI457XsdIb7YHcIz4VLM.png",
+      "name": "Crystal White / Белый"
+    },
+    {
+      "colorhex": "#444444",
+      "colorhex2": null,
+      "img_url": "https://ac-elitauto.ru/storage/auto/colors/rqKjl7CfH3Ljr3YCowpNTWlvameEcWC3uodeukhT.png",
+      "name": "Magnetic Grey / Серый металлик"
+    },
+    {
+      "colorhex": "#87CEFA",
+      "colorhex2": null,
+      "img_url": "https://ac-elitauto.ru/storage/auto/colors/i0m7xkEI3EP2YFzmU4B6F2uuBG9Igh9ECBatqZjt.png",
+      "name": "Light blue / Голубой"
+    }
+  ],
+  "galleries": [
+    {"sort_order": 0,
+                 "type": "exterior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/H8QQ1Zhgh5zfUhhfOjpQxtapHAI5TZBCoMdIULgE.webp"},
+                {"sort_order": 1,
+                 "type": "exterior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/fc1oBtDdaBS72Rz21mdgrXukaPSbO4GJk1SBd86m.webp"},
+                {"sort_order": 2,
+                 "type": "exterior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/89Lkgs6mUqPjvdnG8AMNfrCHMwam4eF6hsOQIbfC.webp"},
+                {"sort_order": 3,
+                 "type": "exterior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/VcR6HL9lwT0VSCEwnyp2TUHA9BWoaGqszOQXkn7b.webp"},
+                {"sort_order": 4,
+                 "type": "exterior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/ODi9DHM31qHecXJpD56mN9yXqgNKAHL5pYPOFUW5.webp"},
+                {"sort_order": 5,
+                 "type": "exterior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/YQTZOHzgOTAJ12HxvDOklLaRYpNUQniOSChJq7qG.webp"},
+                {"sort_order": 6,
+                 "type": "exterior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/DFj3P0k2yGIUlcNT61DWxYLtimC2fH0MhPhDHsLk.webp"},
+                {"sort_order": 7,
+                 "type": "exterior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/o4wpUGccIESRq2F0jAyzyPBzeEQGGjaBFghXC0BW.webp"},
+                {"sort_order": 8,
+                 "type": "exterior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/VwwvBGS9svGK6z2VjowmFyZwF8T5it8SwRCQ67rp.webp"},
+                {"sort_order": 9,
+                 "type": "exterior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/KPoAvAhb41H0cnA6Tz0vuWyytRQLXPuWPpQx9igJ.webp"},
+                {"sort_order": 10,
+                 "type": "exterior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/DDjFhlCHjeqSwZDYxi4Ajn8kRsG3SulQjYOg94Ge.webp"},
+                {"sort_order": 11,
+                 "type": "interior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/sENUQAgsT9qLiWRziRcm0k3TqjpX9G5mAPlbabC1.webp"},
+                {"sort_order": 12,
+                 "type": "interior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/Unc01UvYonCLsY4wRDecWF9S3s4MhWViRfDd2xSQ.webp"},
+                {"sort_order": 13,
+                 "type": "interior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/l1xr5ZcqqaTin0MVUG7zyxGOBSkPo8vfZlmwdmDX.webp"},
+                {"sort_order": 14,
+                 "type": "interior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/lzTgkoMDkyYWbKrQ5gNYYKUWD6nTsvuW80mrt7Rn.webp"},
+                {"sort_order": 15,
+                 "type": "interior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/FHv1ovp3QgFOqxWqUnc0X5oMKmqaQE13lVrHulYo.webp"},
+                {"sort_order": 16,
+                 "type": "interior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/eKCJ9tEFcGK1FRDI52nrexcuHODUYqRFSwAkIwOX.webp"},
+                {"sort_order": 17,
+                 "type": "interior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/C5L563GOUomKKZvCocm9iu1beic2go37BSVqXpYk.webp"},
+                {"sort_order": 18,
+                 "type": "interior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/Y19fnr3MhCnPcgz3u49lSY2bB3Ls6VoQXrij48qp.webp"},
+                {"sort_order": 19,
+                 "type": "interior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/Dro8VfvsAkJKcQYmT4rAHgw69ipALiLj2ETFXZJb.webp"},
+                {"sort_order": 20,
+                 "type": "interior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/GBNkZR6psiuJg8SQE179spRrhpf2ebceQ1A5pYlf.webp"},
+                {"sort_order": 21,
+                 "type": "interior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/bOQ4drjH4mVnJLmzjsThppGtuQqLHNlEb1I3kDGV.webp"},
+                {"sort_order": 22,
+                 "type": "interior",
+                 "url": "https://ac-elitauto.ru/storage/auto/cars/hXlBK4tQoyWjMVEothwwdZ6AHrwd0sY1Jfa7gFCT.webp"}],
+  "img_url": "https://ac-elitauto.ru/storage/auto/colors/st3PqVorKxt4DV24vfqLOI457XsdIb7YHcIz4VLM.png",
+  "model_alias": "cityray",
+  "model_full": "Cityray",
+  "prices": [
+    {
+      "acceleration": "не удалось заполнить с сайта",
+      "active": 1,
+      "body": "не удалось заполнить с сайта",
+      "clearence": "не удалось заполнить с сайта",
+      "complectation": "Comfort",
+      "complectation_alias": "comfort",
+      "consumption_city": "не удалось заполнить с сайта",
+      "consumption_highway": "не удалось заполнить с сайта",
+      "consumption_mixed": "не удалось заполнить с сайта",
+      "cost": 1712514,
+      "cost_discount": 2854190,
+      "dim_base": "не удалось заполнить с сайта",
+      "dim_height": "не удалось заполнить с сайта",
+      "dim_length": "не удалось заполнить с сайта",
+      "dim_width": "не удалось заполнить с сайта",
+      "doors": "не удалось заполнить с сайта",
+      "engine_power": 0,
+      "engine_torque": "не удалось заполнить с сайта",
+      "engine_type": "не указано",
+      "engine_volume": 0.0,
+      "equipments": [
+        {
+          "name": "Легкосплавные колесные диски 18\\\" (шины 225/55 R18)",
+          "price": null,
+          "sort_order": 0
+        },
+        {
+          "name": "Компактное запасное колесо",
+          "price": null,
+          "sort_order": 1
+        },
+        {
+          "name": "Молдинги на окнах серебристого цвета (полоса снизу)",
+          "price": null,
+          "sort_order": 2
+        },
+        {
+          "name": "Светодиодные фары ближнего и дальнего света",
+          "price": null,
+          "sort_order": 3
+        },
+        {
+          "name": "Светодиодные дневные ходовые огни и указатели поворотов",
+          "price": null,
+          "sort_order": 4
+        },
+        {
+          "name": "Светодиодные задние комбинированные фонари с контурной линией на багажной двери",
+          "price": null,
+          "sort_order": 5
+        },
+        {
+          "name": "Комбинированная обивка сидений (ткань и экокожа)",
+          "price": null,
+          "sort_order": 6
+        },
+        {
+          "name": "Обивка потолка черного цвета",
+          "price": null,
+          "sort_order": 7
+        },
+        {
+          "name": "Мультифункциональное рулевое колесо с отделкой из экокожи чёрного цвета",
+          "price": null,
+          "sort_order": 8
+        },
+        {
+          "name": "Багажное отделение с подсветкой",
+          "price": null,
+          "sort_order": 9
+        },
+        {
+          "name": "Салонное зеркало заднего вида с функцией автозатемнения",
+          "price": null,
+          "sort_order": 10
+        },
+        {
+          "name": "Передний подлокотник",
+          "price": null,
+          "sort_order": 11
+        },
+        {
+          "name": "Подстаканники в центральной консоли",
+          "price": null,
+          "sort_order": 12
+        },
+        {
+          "name": "Система вызова экстренных оперативных служб ЭРА-ГЛОНАСС",
+          "price": null,
+          "sort_order": 13
+        },
+        {
+          "name": "Электронная система курсовой устойчивости (ESС) и антипробуксовочная система (TCS)",
+          "price": null,
+          "sort_order": 14
+        },
+        {
+          "name": "Антиблокировочная система тормозов (ABS) с функцией электронного распределения тормозных усилий (EBD)",
+          "price": null,
+          "sort_order": 15
+        },
+        {
+          "name": "Система помощи при экстренном торможении (EBA)",
+          "price": null,
+          "sort_order": 16
+        },
+        {
+          "name": "Система помощи при старте на подъеме (HАC) и при движении под уклон (HDC)",
+          "price": null,
+          "sort_order": 17
+        },
+        {
+          "name": "Фронтальные подушки безопасности водителя и переднего пассажира",
+          "price": null,
+          "sort_order": 18
+        },
+        {
+          "name": "Противоугонная сигнализация, иммобилайзер",
+          "price": null,
+          "sort_order": 19
+        },
+        {
+          "name": "Камера заднего вида",
+          "price": null,
+          "sort_order": 20
+        },
+        {
+          "name": "Круиз-контроль",
+          "price": null,
+          "sort_order": 21
+        },
+        {
+          "name": "Электромеханический стояночный тормоз (EPB) и функция удержания автомобиля на месте Auto Hold",
+          "price": null,
+          "sort_order": 22
+        },
+        {
+          "name": "Механизм блокировки открывания задних боковых дверей изнутри «Детский замок»",
+          "price": null,
+          "sort_order": 23
+        },
+        {
+          "name": "Крепления для детских кресел стандарта ISOFIX на втором ряду сидений",
+          "price": null,
+          "sort_order": 24
+        },
+        {
+          "name": "4 режимa движения (Eco, Comfort, Sport, Smart)",
+          "price": null,
+          "sort_order": 25
+        },
+        {
+          "name": "Система старт/стоп",
+          "price": null,
+          "sort_order": 26
+        },
+        {
+          "name": "Электроусилитель рулевого управления (EPS)",
+          "price": null,
+          "sort_order": 27
+        },
+        {
+          "name": "Регулировка руля по высоте и по вылету",
+          "price": null,
+          "sort_order": 28
+        },
+        {
+          "name": "Однозонный климат-контроль с фильтром стандарта CN95",
+          "price": null,
+          "sort_order": 29
+        },
+        {
+          "name": "Подогрев передних сидений",
+          "price": null,
+          "sort_order": 30
+        },
+        {
+          "name": "Обогрев форсунок омывателя лобового стекла и зоны покоя стеклоочистителей",
+          "price": null,
+          "sort_order": 31
+        },
+        {
+          "name": "Обогрев рулевого колеса",
+          "price": null,
+          "sort_order": 32
+        },
+        {
+          "name": "Сиденье водителя с механической регулировкой в 6 направлениях",
+          "price": null,
+          "sort_order": 33
+        },
+        {
+          "name": "Сиденье переднего пассажира с механической регулировкой в 4 направлениях",
+          "price": null,
+          "sort_order": 34
+        },
+        {
+          "name": "Спинки сидений второго ряда с возможностью складывания в соотношении 60:40",
+          "price": null,
+          "sort_order": 35
+        },
+        {
+          "name": "Наружные зеркала заднего вида с электрорегулировкой и подогревом",
+          "price": null,
+          "sort_order": 36
+        },
+        {
+          "name": "Электростеклоподъемники передних и задних дверей с функцией защиты от защемления",
+          "price": null,
+          "sort_order": 37
+        },
+        {
+          "name": "Цифровая приборная панель диагональю 10,25\\\"",
+          "price": null,
+          "sort_order": 38
+        },
+        {
+          "name": "Мультимедийная система с сенсорным экраном диагональю 13,2\\\" с Bluetooth",
+          "price": null,
+          "sort_order": 39
+        },
+        {
+          "name": "Динамики (4)",
+          "price": null,
+          "sort_order": 40
+        },
+        {
+          "name": "Функция интеграции смартфона на платфоме IOS",
+          "price": null,
+          "sort_order": 41
+        },
+        {
+          "name": "Электрическая розетка 12 В в передней части центральной консоли",
+          "price": null,
+          "sort_order": 42
+        },
+        {
+          "name": "Разъемы USB (3)",
+          "price": null,
+          "sort_order": 43
+        },
+        {
+          "name": "Бесключевой доступ со стороны двери водителя, кнопка запуска двигателя",
+          "price": null,
+          "sort_order": 44
+        },
+        {
+          "name": "Система мониторинга давления в шинах (TPMS)",
+          "price": null,
+          "sort_order": 45
+        },
+        {
+          "name": "Датчик дождя/света",
+          "price": null,
+          "sort_order": 46
+        }
+      ],
+      "fuel": "не удалось заполнить с сайта",
+      "gearbox": "не указано",
+      "gearbox_auto": 1,
+      "gears": "не удалось заполнить с сайта",
+      "luggage": "не удалось заполнить с сайта",
+      "luggage_max": "не удалось заполнить с сайта",
+      "luggage_text": "не удалось заполнить с сайта",
+      "max_speed": "не удалось заполнить с сайта",
+      "seats": "5",
+      "transmission": "не удалось заполнить с сайта"
+    },
+    {
+      "acceleration": "не удалось заполнить с сайта",
+      "active": 1,
+      "body": "не удалось заполнить с сайта",
+      "clearence": "не удалось заполнить с сайта",
+      "complectation": "Luxury",
+      "complectation_alias": "luxury",
+      "consumption_city": "не удалось заполнить с сайта",
+      "consumption_highway": "не удалось заполнить с сайта",
+      "consumption_mixed": "не удалось заполнить с сайта",
+      "cost": 1952514,
+      "cost_discount": 3094190,
+      "dim_base": "не удалось заполнить с сайта",
+      "dim_height": "не удалось заполнить с сайта",
+      "dim_length": "не удалось заполнить с сайта",
+      "dim_width": "не удалось заполнить с сайта",
+      "doors": "не удалось заполнить с сайта",
+      "engine_power": 0,
+      "engine_torque": "не удалось заполнить с сайта",
+      "engine_type": "не указано",
+      "engine_volume": 0.0,
+      "equipments": [
+        {
+          "name": "Сдвоенные патрубки выхлопной системы, справа и слева",
+          "price": null,
+          "sort_order": 0
+        },
+        {
+          "name": "Легкосплавные колесные диски 18\\\" (шины 225/55 R18)",
+          "price": null,
+          "sort_order": 1
+        },
+        {
+          "name": "Компактное запасное колесо",
+          "price": null,
+          "sort_order": 2
+        },
+        {
+          "name": "Молдинги на окнах серебристого цвета (полоса снизу)",
+          "price": null,
+          "sort_order": 3
+        },
+        {
+          "name": "Светодиодные фары ближнего и дальнего света",
+          "price": null,
+          "sort_order": 4
+        },
+        {
+          "name": "Светодиодные дневные ходовые огни и указатели поворотов",
+          "price": null,
+          "sort_order": 5
+        },
+        {
+          "name": "Светодиодные задние комбинированные фонари с контурной линией на багажной двери",
+          "price": null,
+          "sort_order": 6
+        },
+        {
+          "name": "Панорамная крыша с люком",
+          "price": null,
+          "sort_order": 7
+        },
+        {
+          "name": "Отделка сидений и вставки в дверях из экокожи",
+          "price": null,
+          "sort_order": 8
+        },
+        {
+          "name": "Обивка потолка черного цвета",
+          "price": null,
+          "sort_order": 9
+        },
+        {
+          "name": "Мультифункциональное рулевое колесо с отделкой из экокожи чёрного цвета",
+          "price": null,
+          "sort_order": 10
+        },
+        {
+          "name": "Багажное отделение с подсветкой",
+          "price": null,
+          "sort_order": 11
+        },
+        {
+          "name": "Салонное зеркало заднего вида с функцией автозатемнения",
+          "price": null,
+          "sort_order": 12
+        },
+        {
+          "name": "Передний подлокотник",
+          "price": null,
+          "sort_order": 13
+        },
+        {
+          "name": "Подстаканники в центральной консоли",
+          "price": null,
+          "sort_order": 14
+        },
+        {
+          "name": "Задний подлокотник с подстаканниками",
+          "price": null,
+          "sort_order": 15
+        },
+        {
+          "name": "Два плафона освещения второго ряда",
+          "price": null,
+          "sort_order": 16
+        },
+        {
+          "name": "Система вызова экстренных оперативных служб ЭРА-ГЛОНАСС",
+          "price": null,
+          "sort_order": 17
+        },
+        {
+          "name": "Электронная система курсовой устойчивости (ESС) и антипробуксовочная система (TCS)",
+          "price": null,
+          "sort_order": 18
+        },
+        {
+          "name": "Антиблокировочная система тормозов (ABS) с функцией электронного распределения тормозных усилий (EBD)",
+          "price": null,
+          "sort_order": 19
+        },
+        {
+          "name": "Система помощи при экстренном торможении (EBA)",
+          "price": null,
+          "sort_order": 20
+        },
+        {
+          "name": "Система помощи при старте на подъеме (HАC) и при движении под уклон (HDC)",
+          "price": null,
+          "sort_order": 21
+        },
+        {
+          "name": "Фронтальные подушки безопасности водителя и переднего пассажира",
+          "price": null,
+          "sort_order": 22
+        },
+        {
+          "name": "Боковые подушки безопасности водителя и переднего пассажира",
+          "price": null,
+          "sort_order": 23
+        },
+        {
+          "name": "Боковые подушки безопасности занавесочного типа",
+          "price": null,
+          "sort_order": 24
+        },
+        {
+          "name": "Противоугонная сигнализация, иммобилайзер",
+          "price": null,
+          "sort_order": 25
+        },
+        {
+          "name": "Система предупреждения (FCW) и предотвращения фронтального столкновения (AEB)",
+          "price": null,
+          "sort_order": 26
+        },
+        {
+          "name": "Система удержания автомобиля в полосе движения (LKA)",
+          "price": null,
+          "sort_order": 27
+        },
+        {
+          "name": "Система распознавания дорожных знаков (TSI)",
+          "price": null,
+          "sort_order": 28
+        },
+        {
+          "name": "Интеллектуальный круиз-ассистент (ICA)",
+          "price": null,
+          "sort_order": 29
+        },
+        {
+          "name": "Система контроля слепых зон (BSD)",
+          "price": null,
+          "sort_order": 30
+        },
+        {
+          "name": "Ассистент смены полосы (LCA)",
+          "price": null,
+          "sort_order": 31
+        },
+        {
+          "name": "Система помощи при выезде задним ходом (RCTA)",
+          "price": null,
+          "sort_order": 32
+        },
+        {
+          "name": "Система предупреждения об опасности при открывании дверей (DOW)",
+          "price": null,
+          "sort_order": 33
+        },
+        {
+          "name": "Задние датчики парковки",
+          "price": null,
+          "sort_order": 34
+        },
+        {
+          "name": "Система камер кругового обзора 360°, вкл. функцию \\\"прозрачное шасси\\\"",
+          "price": null,
+          "sort_order": 35
+        },
+        {
+          "name": "Адаптивный круиз-контроль (ACC)",
+          "price": null,
+          "sort_order": 36
+        },
+        {
+          "name": "Электромеханический стояночный тормоз (EPB) и функция удержания автомобиля на месте Auto Hold",
+          "price": null,
+          "sort_order": 37
+        },
+        {
+          "name": "Механизм блокировки открывания задних боковых дверей изнутри «Детский замок»",
+          "price": null,
+          "sort_order": 38
+        },
+        {
+          "name": "Крепления для детских кресел стандарта ISOFIX на втором ряду сидений",
+          "price": null,
+          "sort_order": 39
+        },
+        {
+          "name": "4 режимa движения (Eco, Comfort, Sport, Smart)",
+          "price": null,
+          "sort_order": 40
+        },
+        {
+          "name": "Система старт/стоп",
+          "price": null,
+          "sort_order": 41
+        },
+        {
+          "name": "Система интеллектуального управления дальним светом фар (IHBC)",
+          "price": null,
+          "sort_order": 42
+        },
+        {
+          "name": "Электроусилитель рулевого управления (EPS)",
+          "price": null,
+          "sort_order": 43
+        },
+        {
+          "name": "Регулировка руля по высоте и по вылету",
+          "price": null,
+          "sort_order": 44
+        },
+        {
+          "name": "Однозонный климат-контроль с фильтром стандарта CN95",
+          "price": null,
+          "sort_order": 45
+        },
+        {
+          "name": "Подогрев передних и задних сидений",
+          "price": null,
+          "sort_order": 46
+        },
+        {
+          "name": "Обогрев форсунок омывателя лобового стекла и зоны покоя стеклоочистителей",
+          "price": null,
+          "sort_order": 47
+        },
+        {
+          "name": "Электрообогрев лобового стекла",
+          "price": null,
+          "sort_order": 48
+        },
+        {
+          "name": "Обогрев рулевого колеса",
+          "price": null,
+          "sort_order": 49
+        },
+        {
+          "name": "Сиденье водителя с электрорегулировкой в 6 направлениях",
+          "price": null,
+          "sort_order": 50
+        },
+        {
+          "name": "Сиденье переднего пассажира с механической регулировкой в 4 направлениях",
+          "price": null,
+          "sort_order": 51
+        },
+        {
+          "name": "Спинки сидений второго ряда с возможностью складывания в соотношении 60:40",
+          "price": null,
+          "sort_order": 52
+        },
+        {
+          "name": "Наружные зеркала заднего вида с электрорегулировкой и подогревом",
+          "price": null,
+          "sort_order": 53
+        },
+        {
+          "name": "Электропривод складывания наружных зеркал заднего вида",
+          "price": null,
+          "sort_order": 54
+        },
+        {
+          "name": "Электростеклоподъемники передних и задних дверей с функцией защиты от защемления",
+          "price": null,
+          "sort_order": 55
+        },
+        {
+          "name": "Цифровая приборная панель диагональю 10,25\\\"",
+          "price": null,
+          "sort_order": 56
+        },
+        {
+          "name": "Мультимедийная система с сенсорным экраном диагональю 13,2\\\" с Bluetooth",
+          "price": null,
+          "sort_order": 57
+        },
+        {
+          "name": "Динамики (6)",
+          "price": null,
+          "sort_order": 58
+        },
+        {
+          "name": "Функция интеграции смартфона на платфоме IOS",
+          "price": null,
+          "sort_order": 59
+        },
+        {
+          "name": "Электрическая розетка 12 В в передней части центральной консоли",
+          "price": null,
+          "sort_order": 60
+        },
+        {
+          "name": "Разъемы USB (3)",
+          "price": null,
+          "sort_order": 61
+        },
+        {
+          "name": "Бесключевой доступ со стороны двери водителя и переднего пассажира, кнопка запуска двигателя",
+          "price": null,
+          "sort_order": 62
+        },
+        {
+          "name": "Система мониторинга давления в шинах (TPMS)",
+          "price": null,
+          "sort_order": 63
+        },
+        {
+          "name": "Датчик дождя/света",
+          "price": null,
+          "sort_order": 64
+        }
+      ],
+      "fuel": "не удалось заполнить с сайта",
+      "gearbox": "не указано",
+      "gearbox_auto": 1,
+      "gears": "не удалось заполнить с сайта",
+      "luggage": "не удалось заполнить с сайта",
+      "luggage_max": "не удалось заполнить с сайта",
+      "luggage_text": "не удалось заполнить с сайта",
+      "max_speed": "не удалось заполнить с сайта",
+      "seats": "5",
+      "transmission": "не удалось заполнить с сайта"
+    },
+    {
+      "acceleration": "не удалось заполнить с сайта",
+      "active": 1,
+      "body": "не удалось заполнить с сайта",
+      "clearence": "не удалось заполнить с сайта",
+      "complectation": "Flagship",
+      "complectation_alias": "flagship",
+      "consumption_city": "не удалось заполнить с сайта",
+      "consumption_highway": "не удалось заполнить с сайта",
+      "consumption_mixed": "не удалось заполнить с сайта",
+      "cost": 2072514,
+      "cost_discount": 3214190,
+      "dim_base": "не удалось заполнить с сайта",
+      "dim_height": "не удалось заполнить с сайта",
+      "dim_length": "не удалось заполнить с сайта",
+      "dim_width": "не удалось заполнить с сайта",
+      "doors": "не удалось заполнить с сайта",
+      "engine_power": 0,
+      "engine_torque": "не удалось заполнить с сайта",
+      "engine_type": "не указано",
+      "engine_volume": 0.0,
+      "equipments": [
+        {
+          "name": "Сдвоенные патрубки выхлопной системы, справа и слева",
+          "price": null,
+          "sort_order": 0
+        },
+        {
+          "name": "Легкосплавные колесные диски 19\\\" (шины 235/45 R19)",
+          "price": null,
+          "sort_order": 1
+        },
+        {
+          "name": "Компактное запасное колесо",
+          "price": null,
+          "sort_order": 2
+        },
+        {
+          "name": "Молдинги на окнах серебристого цвета (полоса снизу)",
+          "price": null,
+          "sort_order": 3
+        },
+        {
+          "name": "Светодиодные фары ближнего и дальнего света",
+          "price": null,
+          "sort_order": 4
+        },
+        {
+          "name": "Светодиодные дневные ходовые огни и указатели поворотов",
+          "price": null,
+          "sort_order": 5
+        },
+        {
+          "name": "Светодиодные задние комбинированные фонари с контурной линией на багажной двери",
+          "price": null,
+          "sort_order": 6
+        },
+        {
+          "name": "Панорамная крыша с люком",
+          "price": null,
+          "sort_order": 7
+        },
+        {
+          "name": "Отделка сидений и вставки в дверях из экокожи",
+          "price": null,
+          "sort_order": 8
+        },
+        {
+          "name": "Обивка потолка черного цвета",
+          "price": null,
+          "sort_order": 9
+        },
+        {
+          "name": "Мультифункциональное рулевое колесо с отделкой из экокожи чёрного цвета",
+          "price": null,
+          "sort_order": 10
+        },
+        {
+          "name": "Атмосферная подсветка интерьера, включая подсветку динамиков",
+          "price": null,
+          "sort_order": 11
+        },
+        {
+          "name": "Багажное отделение с подсветкой",
+          "price": null,
+          "sort_order": 12
+        },
+        {
+          "name": "Подсветка зеркал в солнцезащитных козырьках",
+          "price": null,
+          "sort_order": 13
+        },
+        {
+          "name": "Подсветка перчаточного ящика",
+          "price": null,
+          "sort_order": 14
+        },
+        {
+          "name": "Салонное зеркало заднего вида с функцией автозатемнения",
+          "price": null,
+          "sort_order": 15
+        },
+        {
+          "name": "Передний подлокотник",
+          "price": null,
+          "sort_order": 16
+        },
+        {
+          "name": "Подстаканники в центральной консоли",
+          "price": null,
+          "sort_order": 17
+        },
+        {
+          "name": "Задний подлокотник с подстаканниками",
+          "price": null,
+          "sort_order": 18
+        },
+        {
+          "name": "Два плафона освещения второго ряда",
+          "price": null,
+          "sort_order": 19
+        },
+        {
+          "name": "Система вызова экстренных оперативных служб ЭРА-ГЛОНАСС",
+          "price": null,
+          "sort_order": 20
+        },
+        {
+          "name": "Электронная система курсовой устойчивости (ESС) и антипробуксовочная система (TCS)",
+          "price": null,
+          "sort_order": 21
+        },
+        {
+          "name": "Антиблокировочная система тормозов (ABS) с функцией электронного распределения тормозных усилий (EBD)",
+          "price": null,
+          "sort_order": 22
+        },
+        {
+          "name": "Система помощи при экстренном торможении (EBA)",
+          "price": null,
+          "sort_order": 23
+        },
+        {
+          "name": "Система помощи при старте на подъеме (HАC) и при движении под уклон (HDC)",
+          "price": null,
+          "sort_order": 24
+        },
+        {
+          "name": "Фронтальные подушки безопасности водителя и переднего пассажира",
+          "price": null,
+          "sort_order": 25
+        },
+        {
+          "name": "Боковые подушки безопасности водителя и переднего пассажира",
+          "price": null,
+          "sort_order": 26
+        },
+        {
+          "name": "Боковые подушки безопасности занавесочного типа",
+          "price": null,
+          "sort_order": 27
+        },
+        {
+          "name": "Противоугонная сигнализация, иммобилайзер",
+          "price": null,
+          "sort_order": 28
+        },
+        {
+          "name": "Система предупреждения (FCW) и предотвращения фронтального столкновения (AEB)",
+          "price": null,
+          "sort_order": 29
+        },
+        {
+          "name": "Система удержания автомобиля в полосе движения (LKA)",
+          "price": null,
+          "sort_order": 30
+        },
+        {
+          "name": "Система распознавания дорожных знаков (TSI)",
+          "price": null,
+          "sort_order": 31
+        },
+        {
+          "name": "Интеллектуальный круиз-ассистент (ICA)",
+          "price": null,
+          "sort_order": 32
+        },
+        {
+          "name": "Система контроля слепых зон (BSD)",
+          "price": null,
+          "sort_order": 33
+        },
+        {
+          "name": "Ассистент смены полосы (LCA)",
+          "price": null,
+          "sort_order": 34
+        },
+        {
+          "name": "Система помощи при выезде задним ходом (RCTA)",
+          "price": null,
+          "sort_order": 35
+        },
+        {
+          "name": "Система предупреждения об опасности при открывании дверей (DOW)",
+          "price": null,
+          "sort_order": 36
+        },
+        {
+          "name": "Задние датчики парковки",
+          "price": null,
+          "sort_order": 37
+        },
+        {
+          "name": "Система камер кругового обзора 360°, вкл. функцию \\\"прозрачное шасси\\\"",
+          "price": null,
+          "sort_order": 38
+        },
+        {
+          "name": "Адаптивный круиз-контроль (ACC)",
+          "price": null,
+          "sort_order": 39
+        },
+        {
+          "name": "Электромеханический стояночный тормоз (EPB) и функция удержания автомобиля на месте Auto Hold",
+          "price": null,
+          "sort_order": 40
+        },
+        {
+          "name": "Механизм блокировки открывания задних боковых дверей изнутри «Детский замок»",
+          "price": null,
+          "sort_order": 41
+        },
+        {
+          "name": "Крепления для детских кресел стандарта ISOFIX на втором ряду сидений",
+          "price": null,
+          "sort_order": 42
+        },
+        {
+          "name": "4 режимa движения (Eco, Comfort, Sport, Smart)",
+          "price": null,
+          "sort_order": 43
+        },
+        {
+          "name": "Система старт/стоп",
+          "price": null,
+          "sort_order": 44
+        },
+        {
+          "name": "Система интеллектуального управления дальним светом фар (IHBC)",
+          "price": null,
+          "sort_order": 45
+        },
+        {
+          "name": "Электроусилитель рулевого управления (EPS)",
+          "price": null,
+          "sort_order": 46
+        },
+        {
+          "name": "Регулировка руля по высоте и по вылету",
+          "price": null,
+          "sort_order": 47
+        },
+        {
+          "name": "Однозонный климат-контроль с фильтром стандарта CN95",
+          "price": null,
+          "sort_order": 48
+        },
+        {
+          "name": "Подогрев передних и задних сидений",
+          "price": null,
+          "sort_order": 49
+        },
+        {
+          "name": "Обогрев форсунок омывателя лобового стекла и зоны покоя стеклоочистителей",
+          "price": null,
+          "sort_order": 50
+        },
+        {
+          "name": "Электрообогрев лобового стекла",
+          "price": null,
+          "sort_order": 51
+        },
+        {
+          "name": "Обогрев рулевого колеса",
+          "price": null,
+          "sort_order": 52
+        },
+        {
+          "name": "Сиденье водителя с электрорегулировкой в 6 направлениях",
+          "price": null,
+          "sort_order": 53
+        },
+        {
+          "name": "Сиденье переднего пассажира с электрорегулировкой в 4 направлениях",
+          "price": null,
+          "sort_order": 54
+        },
+        {
+          "name": "Спинки сидений второго ряда с возможностью складывания в соотношении 60:40",
+          "price": null,
+          "sort_order": 55
+        },
+        {
+          "name": "Наружные зеркала заднего вида с электрорегулировкой и подогревом",
+          "price": null,
+          "sort_order": 56
+        },
+        {
+          "name": "Электропривод складывания наружных зеркал заднего вида",
+          "price": null,
+          "sort_order": 57
+        },
+        {
+          "name": "Электростеклоподъемники передних и задних дверей с функцией защиты от защемления",
+          "price": null,
+          "sort_order": 58
+        },
+        {
+          "name": "Цифровая приборная панель диагональю 10,25\\\"",
+          "price": null,
+          "sort_order": 59
+        },
+        {
+          "name": "Мультимедийная система с сенсорным экраном диагональю 13,2\\\" с Bluetooth",
+          "price": null,
+          "sort_order": 60
+        },
+        {
+          "name": "Динамики (8)",
+          "price": null,
+          "sort_order": 61
+        },
+        {
+          "name": "Функция интеграции смартфона на платфоме IOS",
+          "price": null,
+          "sort_order": 62
+        },
+        {
+          "name": "Электрическая розетка 12 В в передней части центральной консоли",
+          "price": null,
+          "sort_order": 63
+        },
+        {
+          "name": "Разъемы USB (3)",
+          "price": null,
+          "sort_order": 64
+        },
+        {
+          "name": "Беспроводная зарядка для мобильных устройств",
+          "price": null,
+          "sort_order": 65
+        },
+        {
+          "name": "Бесключевой доступ со стороны двери водителя и переднего пассажира, кнопка запуска двигателя",
+          "price": null,
+          "sort_order": 66
+        },
+        {
+          "name": "Система мониторинга давления в шинах (TPMS)",
+          "price": null,
+          "sort_order": 67
+        },
+        {
+          "name": "Электропривод двери багажника",
+          "price": null,
+          "sort_order": 68
+        },
+        {
+          "name": "Датчик дождя/света",
+          "price": null,
+          "sort_order": 69
+        }
+      ],
+      "fuel": "не удалось заполнить с сайта",
+      "gearbox": "не указано",
+      "gearbox_auto": 1,
+      "gears": "не удалось заполнить с сайта",
+      "luggage": "не удалось заполнить с сайта",
+      "luggage_max": "не удалось заполнить с сайта",
+      "luggage_text": "не удалось заполнить с сайта",
+      "max_speed": "не удалось заполнить с сайта",
+      "seats": "5",
+      "transmission": "не удалось заполнить с сайта"
+    },
+    {
+      "acceleration": "не удалось заполнить с сайта",
+      "active": 1,
+      "body": "не удалось заполнить с сайта",
+      "clearence": "не удалось заполнить с сайта",
+      "complectation": "Flagship Sport",
+      "complectation_alias": "flagship_sport",
+      "consumption_city": "не удалось заполнить с сайта",
+      "consumption_highway": "не удалось заполнить с сайта",
+      "consumption_mixed": "не удалось заполнить с сайта",
+      "cost": 2112514,
+      "cost_discount": 3254190,
+      "dim_base": "не удалось заполнить с сайта",
+      "dim_height": "не удалось заполнить с сайта",
+      "dim_length": "не удалось заполнить с сайта",
+      "dim_width": "не удалось заполнить с сайта",
+      "doors": "не удалось заполнить с сайта",
+      "engine_power": 0,
+      "engine_torque": "не удалось заполнить с сайта",
+      "engine_type": "не указано",
+      "engine_volume": 0.0,
+      "equipments": [
+        {
+          "name": "Пакет отделки экстерьера Sport: двухцветная окраска кузова (элементы экстерьера чёрного цвета: молдинги на окнах, крыша, рейлинги), увеличенный спортивный спойлер особого дизайна, 4 патрубка выхлопной системы в центральной части, черного цвета",
+          "price": null,
+          "sort_order": 0
+        },
+        {
+          "name": "Легкосплавные колесные диски 19\\\" (шины 235/45 R19), с черными элементами",
+          "price": null,
+          "sort_order": 1
+        },
+        {
+          "name": "Компактное запасное колесо",
+          "price": null,
+          "sort_order": 2
+        },
+        {
+          "name": "Светодиодные фары ближнего и дальнего света",
+          "price": null,
+          "sort_order": 3
+        },
+        {
+          "name": "Светодиодные дневные ходовые огни и указатели поворотов",
+          "price": null,
+          "sort_order": 4
+        },
+        {
+          "name": "Светодиодные задние комбинированные фонари с контурной линией на багажной двери",
+          "price": null,
+          "sort_order": 5
+        },
+        {
+          "name": "Панорамная крыша с люком",
+          "price": null,
+          "sort_order": 6
+        },
+        {
+          "name": "Отделка сидений и вставки в дверях из экокожи",
+          "price": null,
+          "sort_order": 7
+        },
+        {
+          "name": "Обивка потолка черного цвета",
+          "price": null,
+          "sort_order": 8
+        },
+        {
+          "name": "Накладки на педали из нержавеющей стали",
+          "price": null,
+          "sort_order": 9
+        },
+        {
+          "name": "Мультифункциональное рулевое колесо с отделкой из экокожи чёрного цвета",
+          "price": null,
+          "sort_order": 10
+        },
+        {
+          "name": "Атмосферная подсветка интерьера, включая подсветку динамиков",
+          "price": null,
+          "sort_order": 11
+        },
+        {
+          "name": "Багажное отделение с подсветкой",
+          "price": null,
+          "sort_order": 12
+        },
+        {
+          "name": "Подсветка зеркал в солнцезащитных козырьках",
+          "price": null,
+          "sort_order": 13
+        },
+        {
+          "name": "Подсветка перчаточного ящика",
+          "price": null,
+          "sort_order": 14
+        },
+        {
+          "name": "Салонное зеркало заднего вида с функцией автозатемнения",
+          "price": null,
+          "sort_order": 15
+        },
+        {
+          "name": "Передний подлокотник",
+          "price": null,
+          "sort_order": 16
+        },
+        {
+          "name": "Подстаканники в центральной консоли",
+          "price": null,
+          "sort_order": 17
+        },
+        {
+          "name": "Задний подлокотник с подстаканниками",
+          "price": null,
+          "sort_order": 18
+        },
+        {
+          "name": "Два плафона освещения второго ряда",
+          "price": null,
+          "sort_order": 19
+        },
+        {
+          "name": "Система вызова экстренных оперативных служб ЭРА-ГЛОНАСС",
+          "price": null,
+          "sort_order": 20
+        },
+        {
+          "name": "Электронная система курсовой устойчивости (ESС) и антипробуксовочная система (TCS)",
+          "price": null,
+          "sort_order": 21
+        },
+        {
+          "name": "Антиблокировочная система тормозов (ABS) с функцией электронного распределения тормозных усилий (EBD)",
+          "price": null,
+          "sort_order": 22
+        },
+        {
+          "name": "Система помощи при экстренном торможении (EBA)",
+          "price": null,
+          "sort_order": 23
+        },
+        {
+          "name": "Система помощи при старте на подъеме (HАC) и при движении под уклон (HDC)",
+          "price": null,
+          "sort_order": 24
+        },
+        {
+          "name": "Фронтальные подушки безопасности водителя и переднего пассажира",
+          "price": null,
+          "sort_order": 25
+        },
+        {
+          "name": "Боковые подушки безопасности водителя и переднего пассажира",
+          "price": null,
+          "sort_order": 26
+        },
+        {
+          "name": "Боковые подушки безопасности занавесочного типа",
+          "price": null,
+          "sort_order": 27
+        },
+        {
+          "name": "Противоугонная сигнализация, иммобилайзер",
+          "price": null,
+          "sort_order": 28
+        },
+        {
+          "name": "Система предупреждения (FCW) и предотвращения фронтального столкновения (AEB)",
+          "price": null,
+          "sort_order": 29
+        },
+        {
+          "name": "Система удержания автомобиля в полосе движения (LKA)",
+          "price": null,
+          "sort_order": 30
+        },
+        {
+          "name": "Система распознавания дорожных знаков (TSI)",
+          "price": null,
+          "sort_order": 31
+        },
+        {
+          "name": "Интеллектуальный круиз-ассистент (ICA)",
+          "price": null,
+          "sort_order": 32
+        },
+        {
+          "name": "Система контроля слепых зон (BSD)",
+          "price": null,
+          "sort_order": 33
+        },
+        {
+          "name": "Ассистент смены полосы (LCA)",
+          "price": null,
+          "sort_order": 34
+        },
+        {
+          "name": "Система помощи при выезде задним ходом (RCTA)",
+          "price": null,
+          "sort_order": 35
+        },
+        {
+          "name": "Система предупреждения об опасности при открывании дверей (DOW)",
+          "price": null,
+          "sort_order": 36
+        },
+        {
+          "name": "Задние датчики парковки",
+          "price": null,
+          "sort_order": 37
+        },
+        {
+          "name": "Система камер кругового обзора 360°, вкл. функцию \\\"прозрачное шасси\\\"",
+          "price": null,
+          "sort_order": 38
+        },
+        {
+          "name": "Адаптивный круиз-контроль (ACC)",
+          "price": null,
+          "sort_order": 39
+        },
+        {
+          "name": "Электромеханический стояночный тормоз (EPB) и функция удержания автомобиля на месте Auto Hold",
+          "price": null,
+          "sort_order": 40
+        },
+        {
+          "name": "Механизм блокировки открывания задних боковых дверей изнутри «Детский замок»",
+          "price": null,
+          "sort_order": 41
+        },
+        {
+          "name": "Крепления для детских кресел стандарта ISOFIX на втором ряду сидений",
+          "price": null,
+          "sort_order": 42
+        },
+        {
+          "name": "4 режимa движения (Eco, Comfort, Sport, Smart)",
+          "price": null,
+          "sort_order": 43
+        },
+        {
+          "name": "Система старт/стоп",
+          "price": null,
+          "sort_order": 44
+        },
+        {
+          "name": "Система интеллектуального управления дальним светом фар (IHBC)",
+          "price": null,
+          "sort_order": 45
+        },
+        {
+          "name": "Электроусилитель рулевого управления (EPS)",
+          "price": null,
+          "sort_order": 46
+        },
+        {
+          "name": "Регулировка руля по высоте и по вылету",
+          "price": null,
+          "sort_order": 47
+        },
+        {
+          "name": "Однозонный климат-контроль с фильтром стандарта CN95",
+          "price": null,
+          "sort_order": 48
+        },
+        {
+          "name": "Подогрев передних и задних сидений",
+          "price": null,
+          "sort_order": 49
+        },
+        {
+          "name": "Обогрев форсунок омывателя лобового стекла и зоны покоя стеклоочистителей",
+          "price": null,
+          "sort_order": 50
+        },
+        {
+          "name": "Электрообогрев лобового стекла",
+          "price": null,
+          "sort_order": 51
+        },
+        {
+          "name": "Обогрев рулевого колеса",
+          "price": null,
+          "sort_order": 52
+        },
+        {
+          "name": "Сиденье водителя с электрорегулировкой в 6 направлениях",
+          "price": null,
+          "sort_order": 53
+        },
+        {
+          "name": "Сиденье переднего пассажира с электрорегулировкой в 4 направлениях",
+          "price": null,
+          "sort_order": 54
+        },
+        {
+          "name": "Спинки сидений второго ряда с возможностью складывания в соотношении 60:40",
+          "price": null,
+          "sort_order": 55
+        },
+        {
+          "name": "Наружные зеркала заднего вида с электрорегулировкой и подогревом",
+          "price": null,
+          "sort_order": 56
+        },
+        {
+          "name": "Электропривод складывания наружных зеркал заднего вида",
+          "price": null,
+          "sort_order": 57
+        },
+        {
+          "name": "Электростеклоподъемники передних и задних дверей с функцией защиты от защемления",
+          "price": null,
+          "sort_order": 58
+        },
+        {
+          "name": "Цифровая приборная панель диагональю 10,25\\\"",
+          "price": null,
+          "sort_order": 59
+        },
+        {
+          "name": "Мультимедийная система с сенсорным экраном диагональю 13,2\\\" с Bluetooth",
+          "price": null,
+          "sort_order": 60
+        },
+        {
+          "name": "Динамики (8)",
+          "price": null,
+          "sort_order": 61
+        },
+        {
+          "name": "Функция интеграции смартфона на платфоме IOS",
+          "price": null,
+          "sort_order": 62
+        },
+        {
+          "name": "Электрическая розетка 12 В в передней части центральной консоли",
+          "price": null,
+          "sort_order": 63
+        },
+        {
+          "name": "Разъемы USB (3)",
+          "price": null,
+          "sort_order": 64
+        },
+        {
+          "name": "Беспроводная зарядка для мобильных устройств",
+          "price": null,
+          "sort_order": 65
+        },
+        {
+          "name": "Бесключевой доступ со стороны двери водителя и переднего пассажира, кнопка запуска двигателя",
+          "price": null,
+          "sort_order": 66
+        },
+        {
+          "name": "Система мониторинга давления в шинах (TPMS)",
+          "price": null,
+          "sort_order": 67
+        },
+        {
+          "name": "Электропривод двери багажника",
+          "price": null,
+          "sort_order": 68
+        },
+        {
+          "name": "Датчик дождя/света",
+          "price": null,
+          "sort_order": 69
+        }
+      ],
+      "fuel": "не удалось заполнить с сайта",
+      "gearbox": "не указано",
+      "gearbox_auto": 1,
+      "gears": "не удалось заполнить с сайта",
+      "luggage": "не удалось заполнить с сайта",
+      "luggage_max": "не удалось заполнить с сайта",
+      "luggage_text": "не удалось заполнить с сайта",
+      "max_speed": "не удалось заполнить с сайта",
+      "seats": "5",
+      "transmission": "не удалось заполнить с сайта"
+    }
+  ]
+}]

@@ -78,6 +78,7 @@ changan, sc7164buni-s |Changan, UNI-S | 127
 сhangan, hunter |Changan, Hunter | 129
 сhangan, lamore |Changan, Lamore | 130
 changan, alsvin |Changan, Alsvin | 119
+сhangan, cs35 |Changan, CS35 | 116
 changan, cs35plus |Changan, CS35 Plus | 115
 changan, cs35plus2018 |Changan, CS35 Plus | 115
 changan, cs35plusnew |Changan, CS35 Plus New | 122
@@ -945,6 +946,7 @@ m-hero, i| M-HERO, I | 473
 mazda, 3 |Mazda, 3 | 474
 mazda, 3хэтчбек |Mazda, 3 Hatchback | 817
 mazda, 3седан |Mazda, 3 New | 475
+mazda, 3sedan |Mazda, 3 | 474
 mazda, 3:хэтчбекnew |Mazda, 3 New | 475
 mazda, new3 |Mazda, 3 New | 475
 mazda, new3sedan |Mazda, 3 Sedan New | 476

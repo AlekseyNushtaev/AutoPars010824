@@ -10,6 +10,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver import Chrome
 
 from bot import bot
+from carparser.parser_models import parser_models
 from config import ADMIN_ID, CHANEL_ID
 from json_maker import json_maker
 from parser import parser_stavropol, parser_surgut, parser_krasnodar, parser_moscow, parser_volgograd, \
@@ -35,6 +36,8 @@ async def pars():
         options.add_argument('--disable-dev-shm-usage')
         browser = Chrome(service=browser_service, options=options)
         browser.maximize_window()
+        await parser_models()
+        shutil.copy('carparser/models.json', '/var/www/html/storage/models.json')
         await parser_stavropol(dct)
         await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/stavropol.xlsx"))
         await parser_samara(dct, browser)

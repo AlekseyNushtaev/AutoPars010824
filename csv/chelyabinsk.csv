@@ -221,7 +221,6 @@ Suzuki,Vitara,969000
 TANK,300,2579400
 TANK,500,3893000
 UAZ,3303 Бортовой грузовик,1420000
-UAZ,3909,1440000
 UAZ,3909 Бортовой грузовик,1470000
 UAZ,3909 Микроавтобус,1510000
 UAZ,3909 Скорая помощь,1475000
@@ -231,6 +230,7 @@ UAZ,Patriot,429380
 UAZ,Patriot New,1517000
 UAZ,Patriot Pickup,1223000
 UAZ,Pickup,621000
+UAZ,Pickup New,1722000
 UAZ,Профи Фургон,1445000
 Volkswagen,Jetta,910800
 Volkswagen,Polo,519300
