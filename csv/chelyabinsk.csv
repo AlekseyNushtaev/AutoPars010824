@@ -10,17 +10,18 @@ Belgee,X70,1695714
 Changan,Alsvin,774000
 Changan,CS35,728900
 Changan,CS35 Plus,878900
-Changan,CS35 Plus New,1233900
+Changan,CS35 Plus New,1089300
 Changan,CS55,999000
 Changan,CS55 Plus,1238900
+Changan,CS75 Plus New,2039900
 Changan,CS75FL,1089300
 Changan,CS85 Coupe,2039900
 Changan,CS95,2609940
 Changan,Eado Plus,978900
-Changan,Lamore,1683900
+Changan,Lamore,1628900
 Changan,UNI-K,2068900
-Changan,UNI-S/CS55 Plus,1609900
-Changan,UNI-T,1791940
+Changan,UNI-S/CS55 Plus,1238900
+Changan,UNI-T,1841940
 Changan,UNI-V,1628900
 Chery,Arrizo 8,1668000
 Chery,Tiggo 4,565900
@@ -48,7 +49,7 @@ Datsun,MI-DO,344000
 Datsun,ON-DO,244000
 Dongfeng,580,759000
 Dongfeng,AX7,737400
-EXEED,LX,1854000
+EXEED,LX,2299900
 EXEED,LX New,2028000
 EXEED,RX,2850000
 EXEED,TXL,1399900
@@ -71,31 +72,32 @@ Gac,M8,3299999
 Geely,Atlas,869900
 Geely,Atlas New,1859990
 Geely,Atlas Pro,1087596
-Geely,Cityray,1712514
+Geely,Cityray,1709994
 Geely,Coolray,919900
 Geely,Coolray New,1199990
-Geely,Emgrand,1219990
+Geely,Emgrand,1087596
 Geely,Emgrand New,1090000
 Geely,Emgrand X7,864990
 Geely,GS,994990
 Geely,Monjaro,2689900
 Geely,Okavango,2015514
-Geely,Preface New,1529000
+Geely,Preface New,1859990
 Geely,Tugella,2193714
 Geely,Tugella New,2193714
 Great Wall,Wingle 7,2099000
 Haval,Dargo,1679000
-Haval,F7,1559400
-Haval,F7 New,1709400
+Haval,F7,1307400
+Haval,F7 New,1679400
 Haval,F7x,1299000
-Haval,H3,1679400
+Haval,H3,1649000
 Haval,H5,958000
+Haval,H5 New,2069400
 Haval,H6,1078000
 Haval,H9,1909300
 Haval,H9 New,2759400
 Haval,Jolion,989900
 Haval,Jolion New,1199000
-Haval,M6,1367400
+Haval,M6,1299000
 Hyundai,Creta,676000
 Hyundai,Creta New,962000
 Hyundai,Elantra,863000
@@ -106,7 +108,7 @@ Hyundai,Sonata,1432000
 Hyundai,Tucson,1429000
 Hyundai,Tucson New,1481000
 JAC,J7,718000
-JAC,JS3,1067400
+JAC,JS3,718000
 JAC,JS6,1475400
 JAC,S3,698000
 JAC,S5,839000
@@ -119,6 +121,8 @@ JAECOO,J7,1775940
 JAECOO,J8,2759400
 Jetour,Dashing,1493940
 Jetour,T2,2375400
+Jetour,X50,1194000
+Jetour,X70,1589400
 Jetour,X70 Plus,1799940
 Jetour,X90 Plus,2087940
 Jetta,VA3,840000
@@ -131,32 +135,33 @@ KAIYI,X7 Kunlun,1798740
 KIA,Ceed,1013000
 KIA,Ceed SW,1023000
 KIA,Cerato,943990
+KIA,K5,1640940
 KIA,Rio,623900
 KIA,Rio X,759900
 KIA,Seltos,920300
 KIA,Soul,831200
 KIA,Sportage,2309940
 KIA,Sportage 5,1709940
-Lada,Aura,1659400
-Lada,Granta Cross,425900
+Lada,Aura,1559400
+Lada,Granta Cross,384300
 Lada,Granta Hatchback,268500
 Lada,Granta Liftback,268500
 Lada,Granta Liftback New,943150
 Lada,Granta Sedan,257900
-Lada,Granta Sedan Drive Active,378810
+Lada,Granta Sedan Drive Active,348900
 Lada,Granta Sedan New,929505
-Lada,Granta Sport Liftback,735400
-Lada,Granta Sport Sedan,651340
-Lada,Granta Sportline,539500
-Lada,Granta Sportline Liftback,560900
-Lada,Granta Universal,278900
+Lada,Granta Sport Liftback,635400
+Lada,Granta Sport Sedan,551340
+Lada,Granta Sportline,444500
+Lada,Granta Sportline Liftback,465900
+Lada,Granta Universal,257900
 Lada,Largus,348900
 Lada,Largus Cross,384300
 Lada,Largus Cross New,895800
 Lada,Largus New,619000
 Lada,Largus Фургон,329000
 Lada,Niva,515900
-Lada,Niva Legend 3 двери,559000
+Lada,Niva Legend 3 двери,360200
 Lada,Niva Legend 5 дверей,398900
 Lada,Niva Off-Road,569900
 Lada,Niva Travel,360200
@@ -166,13 +171,13 @@ Lada,Vesta SW,390000
 Lada,Vesta SW Cross,433000
 Lada,Vesta SW Cross New,727000
 Lada,Vesta SW New,591900
-Lada,Vesta SW Sportline New,1565800
+Lada,Vesta SW Sportline New,1465800
 Lada,Vesta Sedan,380900
 Lada,Vesta Sedan CNG,465900
 Lada,Vesta Sedan New,479300
 Lada,Vesta Sport,579900
-Lada,Vesta Sportline,1463800
-Lada,Xray,385900
+Lada,Vesta Sportline,1363800
+Lada,Xray,380900
 Lada,Xray Cross,384300
 Lada,ВИС 2349 Бортовая платформа,1156100
 Lifan,Murman,844900
@@ -199,13 +204,13 @@ Renault,Arkana,853000
 Renault,Duster,475000
 Renault,Kaptur,713000
 Renault,Logan,395000
-Renault,Logan Stepway,503990
+Renault,Logan Stepway,399000
 Renault,Logan Stepway City,677990
 Renault,Sandero,395000
 Renault,Sandero Stepway,399000
 Renault,Stepway City,656993
 Skoda,Karoq,954000
-Skoda,Kodiaq,1354000
+Skoda,Kodiaq,1211000
 Skoda,Octavia,844800
 Skoda,Octavia New,994200
 Skoda,Rapid,425000

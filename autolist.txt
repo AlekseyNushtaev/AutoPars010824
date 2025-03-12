@@ -909,6 +909,7 @@ lada, xrayкроссовер |Lada, Xray | 447
 lada, xraycross |Lada, Xray Cross | 448
 lada, xraycrosscross |Lada, Xray Cross | 448
 lada, primakub |Lada, Prima Kub | 861
+land, roverdiscoverysport |Land Rover, Discovery Sport | 887
 lexus, es |Lexus, ES | 751
 lexus, nx |Lexus, NX | 752
 lexus, rx |Lexus, RX | 753
@@ -1216,9 +1217,11 @@ toyota, camryновая |Toyota, Camry New | 622
 toyota, camryxv80 |Toyota, Camry New | 622
 toyota, highlander |Toyota, Highlander | 625
 toyota, highlandernew |Toyota, Highlander New | 626
+toyota, hiace |Toyota, Hiace | 888
 toyota, hilux |Toyota, Hilux | 627
 toyota, hiluxnew |Toyota, Hilux New | 628
 toyota, landcruiser |Toyota, Land Cruiser 300 | 629
+toyota, landcruiser200 |Toyota, Land Cruiser 200 | 889
 toyota, landcruiser300 |Toyota, Land Cruiser 300 | 629
 toyota, landcruiser300gr-sport |Toyota, Land Cruiser 300 GR-Sport | 740
 toyota, landcruiser300grsport |Toyota, Land Cruiser 300 GR-Sport | 740
@@ -1331,5 +1334,6 @@ zotye, т600 |Zotye, T600 | 674
 xcite, x-cross7 |XCite, X-Cross 7 | 675
 xcite, x-cross7универсал |XCite, X-Cross 7 | 675
 xcite, x-cross7new |XCite, X-Cross 7 New | 676
+lada, x-cross7new |XCite, X-Cross 7 New | 676
 xcite, x-cross8 |XCite, X-Cross 8 | 787
 xcite, x-cross8универсал |XCite, X-Cross 8 | 787

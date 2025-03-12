@@ -239,3 +239,64 @@ async def kemerevo_autochina(dct_up):
             res.append([name, cost, link])
         cnt += 1
     return res
+
+
+async def lada_kemerovo_42(dct_up):
+    cnt = 1
+    res = []
+    while True:
+        link = f'https://lada-kemerovo42.ru/new_auto/page/{cnt}/'
+        response = requests.get(link)
+        time.sleep(0.2)
+        html = response.text
+        soup = bs4.BeautifulSoup(html, 'lxml')
+        cards = soup.find_all(attrs={"class": "auto-card new_auto"})
+        if len(cards) == 0:
+            break
+        for card in cards:
+            link = card.get("href")
+            title = card.find(attrs={"class": "auto-card__title"}).text.lower().strip()
+            brand = title.split()[0]
+            model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i")
+            cost__ = card.find(attrs={"class": "auto-card__price"}).text
+            cost_ = ''
+            for y in cost__:
+                if y.isdigit():
+                    cost_ += y
+            cost = int(cost_)
+            name = brand + ', ' + model
+            try:
+                name = dct_up[name]
+            except KeyError:
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
+            res.append([name, cost, link])
+        cnt += 1
+    return res
+
+
+async def lada_42(dct_up, browser):
+    link = 'https://lada-42.ru/'
+    browser.get(link)
+    time.sleep(2)
+    html = browser.page_source
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "catalog-item"})
+    res = []
+    for card in cards:
+        link = card.find(attrs={"class": "catalog-item__title"}).get("href")
+        title = 'lada ' + card.find(attrs={"class": "catalog-item__title"}).text.lower().strip()
+        brand = title.split()[0]
+        model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i")
+        cost__ = card.find(attrs={"class": "catalog-item__price"}).text
+        cost_ = ''
+        for y in cost__:
+            if y.isdigit():
+                cost_ += y
+        cost = int(cost_)
+        name = brand + ', ' + model
+        try:
+            name = dct_up[name]
+        except KeyError:
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
+        res.append([name, cost, link])
+    return res
