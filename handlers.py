@@ -1,4 +1,5 @@
 import asyncio
+import time
 from datetime import datetime
 import shutil
 
@@ -20,6 +21,15 @@ from parser import parser_stavropol, parser_surgut, parser_krasnodar, parser_mos
 router =Router()
 
 
+async def send_doc(chat_id, file):
+    while True:
+        try:
+            await bot.send_document(chat_id, file)
+            break
+        except:
+            time.sleep(1)
+
+
 async def pars():
     try:
         dct = {}
@@ -37,35 +47,35 @@ async def pars():
         browser = Chrome(service=browser_service, options=options)
         browser.maximize_window()
         await parser_stavropol(dct)
-        await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/stavropol.xlsx"))
+        await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/stavropol.xlsx"))
         await parser_samara(dct, browser)
-        await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/samara.xlsx"))
+        await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/samara.xlsx"))
         await parser_yaroslavl(dct, browser)
-        await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/yaroslavl.xlsx"))
+        await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/yaroslavl.xlsx"))
         await parser_novokuzneck(dct, browser)
-        await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/novokuzneck.xlsx"))
+        await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/novokuzneck.xlsx"))
         await parser_saratov(dct)
-        await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/saratov.xlsx"))
+        await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/saratov.xlsx"))
         await parser_ekaterinburg(dct, browser)
-        await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/ekaterinburg.xlsx"))
+        await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/ekaterinburg.xlsx"))
         await parser_volgograd(dct, browser)
-        await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/volgograd.xlsx"))
+        await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/volgograd.xlsx"))
         await parser_surgut(dct, browser)
-        await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/surgut.xlsx"))
+        await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/surgut.xlsx"))
         await parser_tumen(dct, browser)
-        await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/tumen.xlsx"))
+        await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/tumen.xlsx"))
         await parser_cheboksari(dct, browser)
-        await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/cheboksari.xlsx"))
+        await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/cheboksari.xlsx"))
         await parser_chelyabinsk(dct, browser)
-        await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/chelyabinsk.xlsx"))
+        await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/chelyabinsk.xlsx"))
         await parser_krasnodar(dct, browser)
-        await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/krasnodar.xlsx"))
+        await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/krasnodar.xlsx"))
         await parser_kazan(dct, browser)
-        await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/kazan.xlsx"))
+        await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/kazan.xlsx"))
         await parser_ufa(dct, browser)
-        await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/ufa.xlsx"))
+        await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/ufa.xlsx"))
         await parser_moscow(dct, browser)
-        await bot.send_document(CHANEL_ID, types.FSInputFile(path="xlsx/moscow.xlsx"))
+        await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/moscow.xlsx"))
         await parser_models()
         shutil.copy('carparser/models.json', '/var/www/html/storage/models.json')
         try:
