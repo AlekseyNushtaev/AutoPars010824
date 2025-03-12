@@ -24,14 +24,8 @@ async def main() -> None:
     dp.include_router(handlers.router)
 
     await bot.delete_webhook(drop_pending_updates=True)
-    while True:
-        try:
-            await dp.start_polling(bot, polling_timeout=100, close_bot_session=False)
-        except TelegramNetworkError as err:
-            print(err)
-            print('* Connection failed, waiting to reconnect...')
-            time.sleep(1)
-            print('* Reconnecting.')
+    await dp.start_polling(bot)
+
 
 if __name__ == '__main__':
     asyncio.run(main())
