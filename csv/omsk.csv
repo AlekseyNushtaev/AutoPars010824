@@ -1,0 +1,524 @@
+brand,model,min_price
+BAIC,BJ40,3559000
+BAIC,U5 Plus,1339000
+BAIC,X35,1569000
+BAIC,X55,2255000
+BAIC,X7,2400000
+Belgee,X50,1435990
+Belgee,X70,1845714
+Changan,Alsvin,590000
+Changan,CS35 Plus,750300
+Changan,CS35 Plus New,1090000
+Changan,CS55,910300
+Changan,CS55 Plus,1679900
+Changan,CS75,1399900
+Changan,CS75 Plus,2179000
+Changan,CS75FL,1110300
+Changan,CS85 Coupe,2524000
+Changan,CS95,2944000
+Changan,CS95 New,3146000
+Changan,Eado Plus,1100000
+Changan,Hunter Plus,2436000
+Changan,Lamore,2119000
+Changan,UNI-K,2499000
+Changan,UNI-S/CS55 Plus,1350000
+Changan,UNI-T,1392000
+Changan,UNI-V,2079000
+Chery,Arrizo 8,2379930
+Chery,Tiggo 4,668900
+Chery,Tiggo 4 New,1398000
+Chery,Tiggo 4 Pro,1277300
+Chery,Tiggo 7,847300
+Chery,Tiggo 7 Pro,1520000
+Chery,Tiggo 7 Pro Max,1916900
+Chery,Tiggo 7 Pro Max New,2270000
+Chery,Tiggo 8,1096900
+Chery,Tiggo 8 New,1030000
+Chery,Tiggo 8 Pro,1930400
+Chery,Tiggo 8 Pro Max,2587900
+Chery,Tiggo 8 Pro Max New,3139900
+Chevrolet,Cobalt,953900
+Chevrolet,Nexia,880900
+Chevrolet,Spark,950900
+DFM,580,1629000
+DFM,AX7,1229000
+Datsun,MI-DO,445000
+Datsun,ON-DO,425000
+Dongfeng,580,1629000
+Dongfeng,AX7,929000
+EXEED,LX,2284900
+EXEED,LX AWD,2940000
+EXEED,RX,2939900
+EXEED,TXL,1906900
+EXEED,TXL New,2369900
+EXEED,VX,3209900
+EXEED,VX LE,4690000
+EXEED,VX New,4190000
+FAW,Bestune B70,1828000
+FAW,Bestune T55,1789000
+FAW,Bestune T77,1919000
+FAW,Bestune T99,2430000
+FAW,Besturn X80,1308000
+FAW,X40,1242000
+FAW,X80,1308000
+Forthing,T5 Evo,2680000
+Forthing,Yacht,3690000
+Gac,GN8,1919000
+Gac,GS3,1724250
+Gac,GS5,1020000
+Gac,GS8,1408000
+Gac,GS8 II,2167000
+Geely,Atlas,970300
+Geely,Atlas New,2344990
+Geely,Atlas Pro,1200000
+Geely,Belgee X50,876000
+Geely,Boyue,1794000
+Geely,Coolray,966300
+Geely,Coolray New,1115000
+Geely,Emgrand,1040000
+Geely,Emgrand New,1799990
+Geely,Emgrand X7,999990
+Geely,GS,875000
+Geely,Monjaro,3849990
+Geely,Okavango,1854000
+Geely,Okavango New,2067000
+Geely,Preface,2799000
+Geely,Tugella,1750000
+Geely,Tugella New,2626990
+Haval,Dargo,1690000
+Haval,Dargo X,1890000
+Haval,F7,930300
+Haval,F7 New,1030300
+Haval,F7x,970300
+Haval,F7x New,1070300
+Haval,H2,1028000
+Haval,H3,2099000
+Haval,H5,977000
+Haval,H5 New,2369400
+Haval,H6,985800
+Haval,H9,1920300
+Haval,Jolion,889000
+Haval,Jolion New,1199000
+Haval,M6,890000
+Hyundai,Creta,690000
+Hyundai,Creta New,849000
+Hyundai,Elantra,1029900
+Hyundai,Palisade,4669000
+Hyundai,Santa Fe,1869400
+Hyundai,Solaris,500300
+Hyundai,Sonata,800200
+Hyundai,Staria,3249000
+Hyundai,Tucson,1519000
+JAC,J7,1120000
+JAC,JS3,833000
+JAC,JS4,1763300
+JAC,JS6,2099000
+JAC,S3,846000
+JAC,S5,839000
+JAC,S7,1326000
+JAC,T6,1400000
+JAECOO,J7,2249900
+JAECOO,J8,3079000
+Jetour,Dashing,1493940
+Jetour,T2,2664000
+Jetour,X70 Plus,1809900
+Jetour,X90 Plus,2039940
+Jetta,VA3,1554000
+Jetta,VS5,1962000
+Jetta,VS7,1849000
+KAIYI,E5,1230000
+KAIYI,X3,1582000
+KAIYI,X3 Pro,1870000
+KAIYI,X7 Kunlun,2298900
+KIA,Carnival,2249900
+KIA,Ceed,960300
+KIA,Ceed SW,970300
+KIA,Cerato,1204900
+KIA,K5,1070300
+KIA,Mohave,2860700
+KIA,Picanto,569900
+KIA,Rio,510300
+KIA,Rio X,590300
+KIA,Rio X-Line,557000
+KIA,Seltos,705300
+KIA,Sorento,1720300
+KIA,Sorento New,3189900
+KIA,Soul,571200
+KIA,Sportage,1354300
+KIA,Sportage 5,2449900
+KIA,Sportage New,1599900
+KIA,Stinger,2159900
+KIA,XCeed,1320300
+Lada,4x4 Bronto,476300
+Lada,Aura,1599000
+Lada,Granta Cross,301800
+Lada,Granta Drive Active,755000
+Lada,Granta Hatchback,625000
+Lada,Granta Hatchback New,625000
+Lada,Granta Liftback,307200
+Lada,Granta Liftback New,600000
+Lada,Granta Sedan,585000
+Lada,Granta Sedan Drive Active,755000
+Lada,Granta Sedan New,300400
+Lada,Granta Universal,300300
+Lada,Granta Universal New,605000
+Lada,Largus,1300900
+Lada,Largus 7 мест,1332900
+Lada,Largus Cross,828900
+Lada,Largus Cross New,688300
+Lada,Largus Cross New 7 мест,715300
+Lada,Largus New,451300
+Lada,Largus New 7 мест,498300
+Lada,Largus Фургон,510300
+Lada,Niva,738000
+Lada,Niva Legend 3 двери,350300
+Lada,Niva Legend 5 дверей,371300
+Lada,Niva Legend Urban 3 двери,416900
+Lada,Niva Legend Urban 5 дверей,450900
+Lada,Niva Off-Road,624000
+Lada,Niva Travel,437900
+Lada,Vesta Cross,450900
+Lada,Vesta Cross New,685500
+Lada,Vesta SW,415900
+Lada,Vesta SW Cross,501900
+Lada,Vesta SW Cross New,566900
+Lada,Vesta SW New,857900
+Lada,Vesta Sedan,346900
+Lada,Vesta Sedan CNG,563100
+Lada,Vesta Sedan New,704500
+Lada,Vesta Sport,772700
+Lada,Xray,409300
+Lada,Xray Cross,395300
+Lifan,Murman,820000
+Lifan,MyWay,774100
+Lifan,Solano 2,570000
+Lifan,X50,555000
+Lifan,X60,620000
+Lifan,X70,795000
+Livan,S6 Pro,1784930
+Livan,X3 Pro,1379900
+Livan,X6 Pro,1840930
+MG,5,1830000
+MG,6,970000
+MG,HS,2750000
+MG,ZS,1780000
+Mazda,6,1273000
+Mazda,CX-5,1325000
+Mazda,CX-9,2973000
+Moskvich,3,1570000
+Moskvich,3e,2958000
+Moskvich,6,1616000
+Nissan,Murano,2249000
+Nissan,Qashqai,965300
+Nissan,Qashqai New,1837000
+Nissan,Terrano,659900
+Nissan,X-trail,1270300
+OMODA,C5,1679900
+OMODA,S5,1409900
+OMODA,S5 GT,1869900
+Ravon,Nexia R3,660000
+Ravon,R2,710000
+Ravon,R4,685000
+Renault,Arkana,915300
+Renault,Duster,1142000
+Renault,Kaptur,789900
+Renault,Koleos,1699000
+Renault,Logan,460300
+Renault,Logan Stepway,555300
+Renault,Sandero,547300
+Renault,Sandero Stepway,565300
+SWM,G01,1743000
+SWM,G01F,1955000
+SWM,G05 Pro,1984000
+Skoda,Karoq,1129900
+Skoda,Kodiaq,1364000
+Skoda,Kodiaq New,2030000
+Skoda,Octavia,1657000
+Skoda,Octavia A8,855800
+Skoda,Rapid,570300
+Skoda,Superb,1222000
+Skoda,Superb Combi,2690000
+Solaris,HC,1749300
+Solaris,HS,1679000
+Solaris,KRS,1575600
+Solaris,KRX,1714000
+Soueast,DX8S,2599900
+TANK,300,2900000
+TANK,500,3999000
+Toyota,CH-R,1825000
+Toyota,Camry,1630500
+Toyota,Corolla,1000000
+Toyota,RAV4,1917000
+UAZ,Hunter,968000
+UAZ,Patriot,1092000
+UAZ,Patriot New,619400
+UAZ,Patriot Pickup,1112000
+UAZ,Pickup,666900
+Volkswagen,Jetta,1070300
+Volkswagen,Passat,1439000
+Volkswagen,Passat New,2211300
+Volkswagen,Polo,540300
+Volkswagen,Taos,1464000
+Volkswagen,Teramont,2477000
+Volkswagen,Tiguan,1499900
+XCite,X-Cross 7 New,1999000
+Zotye,Coupa,1040000
+Zotye,T600,860000
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,

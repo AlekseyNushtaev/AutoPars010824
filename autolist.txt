@@ -53,6 +53,7 @@ changan, cs35 |Changan, CS35 | 116
 сhangan, cs55 |Changan, CS55 | 117
 сhangan, cs75fl |Changan, CS75FL | 118
 сhangan, alsvin |Changan, Alsvin | 119
+changan, alsvinv7 |Changan, Alsvin v7 | 879
 сhangan, uni-k |Changan, UNI-K | 120
 changan, sc7164buni-k |Changan, UNI-K | 120
 changan, unik |Changan, UNI-K | 120
@@ -108,6 +109,7 @@ changan, cs95new |Changan, CS95 New | 140
 changan, новыйcs95 |Changan, CS95 New | 140
 changan, cs95-new |Changan, CS95 New | 140
 сhangan, eado |Changan, Eado | 796
+changan, eado |Changan, Eado | 796
 changan, eadoplus |Changan, Eado Plus | 128
 changan, hunter |Changan, Hunter | 129
 changan, hunterplus |Changan, Hunter Plus | 141
@@ -116,6 +118,7 @@ changan, hunterplus |Changan, Hunter Plus | 141
 changan, sc7164bhunterplus |Changan, Hunter Plus | 141
 changan, lamore |Changan, Lamore | 130
 сhangan, raeton |Changan, Raeton | 839
+changan, raeton |Changan, Raeton | 839
 changan, raetonplus |Changan, Raeton Plus | 142
 сhangan, raetonplus |Changan, Raeton Plus | 142
 changan, uni-k |Changan, UNI-K | 120
@@ -129,6 +132,12 @@ chery, tiggoarrizo8 |Chery, Arrizo 8 | 143
 chery, arrizo8седан |Chery, Arrizo 8 | 143
 chery, explore06 |Chery, Explore 06 | 144
 chery, explore06new |Chery, Explore 06 New | 145
+chery, m11седан |Chery, M11 Sedan | 892
+chery, m11хэтчбек |Chery, M11 Hatchback | 893
+chery, indis |Chery, Indis | 894
+chery, bonus3 |Chery, Bonus 3 | 895
+chery, bonus |Chery, Bonus | 896
+chery, arrizo7 |Chery, Arrizo 7 | 897
 chery, tiggo2 |Chery, Tiggo 2 | 146
 chery, tiggo2pro |Chery, Tiggo 2 Pro | 812
 chery, tiggo3 |Chery, Tiggo 3 | 147
@@ -193,6 +202,8 @@ chery, tiggo9 |Chery, Tiggo 9 | 165
 chery, tiggo9iрестайлингвнедорожник5дв. |Chery, Tiggo 9 | 165
 chery, tiggo9iвнедорожник5дв. |Chery, Tiggo 9 | 165
 chery, tiggo9new |Chery, Tiggo 9 New | 832
+chery, tiggofl |Chery, Tiggo FL | 890
+chery, very |Chery, Very | 891
 chevrolet, equinox |Chevrolet, Equinox | 801
 chevrolet, captiva |Chevrolet, Captiva | 166
 chevrolet, сaptiva |Chevrolet, Captiva | 166
@@ -225,11 +236,15 @@ datsun, ondo |Datsun, ON-DO | 183
 dfm, 580 |DFM, 580 | 184
 dfm, ax7 |DFM, AX7 | 185
 dongfeng, mengshim-hero917 |Dongfeng, Mengshi M-Hero 917 | 871
+dongfeng, h30cross |Dongfeng, H30 Cross | 898
+dongfeng, s30 |Dongfeng, S30 | 899
+dongfeng, 500 |Dongfeng, 500 | 900
 dongfeng, 580new |Dongfeng, 580 New | 186
 dongfeng, df6 |Dongfeng, DF6 | 187
 dongfeng, dfskix5 |Dongfeng, DFSK IX5 | 188
 dongfeng, dfskix7 |Dongfeng, DFSK IX7 | 189
 dongfeng, shinemax |Dongfeng, Shine Max | 190
+dongfeng, ix5 | Dongfeng, IX5 | 964
 dongfeng, ix7 | Dongfeng, IX7 | 802
 dongfeng, ax7 | Dongfeng, AX7 | 191
 dong, fengax7 | Dongfeng, AX7 | 191
@@ -296,6 +311,7 @@ faw, bestunet90new |FAW, Bestune T90 New| 833
 faw, bestunet99 |FAW, Bestune T99 | 216
 faw, bestuneт99 |FAW, Bestune T99 | 216
 faw, bestuneт99new |FAW, Bestune T99 New | 217
+faw, bestunet99new |FAW, Bestune T99 New | 217
 faw, bestunet99рестайлинг |FAW, Bestune T99 New | 217
 faw, besturnx80new |FAW, Besturn X80 New | 218
 faw, bestunex80new |FAW, Besturn X80 New | 218
@@ -314,9 +330,12 @@ faw, x40 |FAW, X40 | 223
 faw, x40new |FAW, X40 New | 222
 faw, x80 |FAW, X80 | 224
 faw, d60 |FAW, D60 | 709
+faw, oley |FAW, Oley | 901
+forthing, m7 |Forthing, M7 | 902
 forthing, t5 |Forthing, T5 | 785
 forthing, t5evo |Forthing, T5 Evo | 225
 forthing, yacht |Forthing, Yacht | 226
+forthing, venuciad60plus |Forthing, Venucia D60 Plus | 903
 foton, sauvana |Foton, Sauvana | 227
 foton, tunland |Foton, Tunland | 228
 ford, fiestaхэтчбек |Ford, Fiesta Hatchback | 229
@@ -391,6 +410,11 @@ geely, emgrand2023 |Geely, Emgrand | 260
 geely, emgrand7 |Geely, Emgrand 7 | 261
 geely, emgrandgt |Geely, Emgrand GT | 262
 geely, emgrand72023 |Geely, Emgrand 7 2023 | 263
+geely, emgrandec7хэтчбек |Geely, Emgrand ec7 Hatchback | 904
+geely, emgrandec7седан |Geely, Emgrand ec7 Sedan | 905
+geely, emgrandcross |Geely, Emgrand Cross | 906
+geely, gc6 |Geely, GC6 | 907
+geely, mkcross |Geely, MK Cross | 908
 geely, ex5 |Geely, EX5 | 881
 geely, cityray |Geely, Cityray | 772
 geely, citiray |Geely, Cityray | 772
@@ -470,6 +494,7 @@ haval, h6new |Haval, H6 New | 299
 haval, h9 |Haval, H9 | 300
 haval, h92023 |Haval, H9 | 300
 haval, h9new |Haval, H9 New | 684
+haval, h8 |Haval, H8 | 909
 haval, newh9 |Haval, H9 New | 684
 haval, новыйh9 |Haval, H9 New | 684
 haval, jolion |Haval, Jolion | 301
@@ -517,15 +542,20 @@ hyundai, нoвaяcreta |Hyundai, Creta New | 314
 hyundai, celesta |Hyundai, Celesta | 315
 hyundai, custin |Hyundai, Custin | 739
 hyundai, custo |Hyundai, Custo | 805
+hyundai, equus |Hyundai, Equus | 915
+hyundai, genesis |Hyundai, Genesis | 916
 hyundai, h-1 |Hyundai, H-1 | 316
 hyundai, h1 |Hyundai, H-1 | 316
 hyundai, ioniq5 |Hyundai, IONIQ 5 | 806
+hyundai, ix35 |Hyundai, ix35 | 910
 hyundai, ix35new |Hyundai, ix35 New | 317
 hyundai, i30n |Hyundai, i30 N | 318
 hyundai, i20 |Hyundai, i20 | 836
 hyundai, i30 |Hyundai, i30 | 704
 hyundai, i30хэтчбек |Hyundai, i30 | 704
 hyundai, i30универсал |Hyundai, i30 универсал | 851
+hyundai, i40универсал |Hyundai, i40 универсал | 912
+hyundai, i40седан |Hyundai, i40 | 913
 hyundai, elantra |Hyundai, Elantra | 319
 hyundai, elantranew |Hyundai, Elantra New | 320
 hyundai, elantranewrest |Hyundai, Elantra New Rest| 883
@@ -537,15 +567,20 @@ hyundai, newsonata |Hyundai, Sonata New | 322
 hyundai, palisade |Hyundai, Palisade | 323
 hyundai, santafeрестайлинг |Hyundai, Santa Fe Restyling | 324
 hyundai, santafenew |Hyundai, Santa Fe New | 325
+hyundai, santafepremium |Hyundai, Santa Fe Premium | 917
 hyundai, santafe2024 |Hyundai, Santa Fe New | 325
+hyundai, grandsantafe |Hyundai, Grand Santa Fe | 911
 hyundai, newcreta |Hyundai, Creta New | 314
 hyundai, sonatanew |Hyundai, Sonata New | 322
 hyundai, sonatanewrest |Hyundai, Sonata New Rest| 884
 hyundai, santafe |Hyundai, Santa Fe | 326
 hyundai, santafe2021 |Hyundai, Santa Fe | 326
+hyundai, santafeiv |Hyundai, Santa Fe | 326
 hyundai, palisadenew |Hyundai, Palisade New | 327
 hyundai, mufasa |Hyundai, Mufasa | 328
 hyundai, solaris |Hyundai, Solaris | 329
+hyundai, solarisседан |Hyundai, Solaris | 329
+hyundai, solarisхэтчбек |Hyundai, Solaris Hatchback| 914
 solaris, hs(hyundai) |Hyundai, Solaris | 329
 hyundai, sonata |Hyundai, Sonata | 330
 hyundai, sonataседан |Hyundai, Sonata | 330
@@ -574,6 +609,7 @@ jac, js6 |JAC, JS6 | 340
 jac, js6кроссовер |JAC, JS6 | 340
 jac, js7 |JAC, JS7 | 746
 jac, s3 |JAC, S3 | 341
+jac, s4 |JAC, S4 | 918
 jac, s5 |JAC, S5 | 342
 jac, s6 |JAC, S6 | 733
 jac, s7 |JAC, S7 | 343
@@ -610,17 +646,23 @@ kia, carnival |KIA, Carnival | 362
 kia, carnivalnew |KIA, Carnival New| 837
 kia, ceed |KIA, Ceed | 363
 kia, ceednew |KIA, Ceed New | 364
+kia, ceedjd |KIA, Ceed JD | 922
 kia, ceedsw |KIA, Ceed SW | 365
 kia, ceedswsw |KIA, Ceed SW | 365
 kia, ceedуниверсал |KIA, Ceed SW Universal | 366
 kia, ceedswnew |KIA, Ceed SW New | 367
+kia, ceedgt |KIA, Ceed GT | 924
+kia, proceedgt |KIA, Pro Ceed GT | 925
 kia, cerato |KIA, Cerato | 368
+kia, ceratoclassic |KIA, Cerato | 368
 kia, ceratoрестайлинг |KIA, Cerato Restyling | 369
 kia, ceratonew |KIA, Cerato New | 370
 kia, нoвыйcerato |KIA, Cerato New | 370
+kia, quoris |KIA, Quoris | 923
 kia, k3 |KIA, K3 | 790
 kia, k5 |KIA, K5 | 371
 kia, newsoul |KIA, Soul New | 372
+kia, optima |KIA, Optima | 919
 kia, optimarest |KIA, Optima Rest | 807
 kia, pegas |KIA, Pegas | 737
 kia, picanto |KIA, Picanto | 373
@@ -628,6 +670,7 @@ kia, picantonew |KIA, Picanto New | 374
 kia, нoвыйpicanto |KIA, Picanto New | 374
 kia, proceed |KIA, ProCeed | 375
 kia, rio |KIA, Rio | 376
+kia, rioхэтчбек |KIA, Rio Hatchback | 920
 solaris, krs(kiario) |KIA, Rio | 376
 kia, rionew |KIA, Rio New | 377
 kia, нoвыйrio |KIA, Rio New | 377
@@ -648,6 +691,7 @@ kia, k900 |KIA, K900 | 386
 kia, k5new |KIA, K5 New | 387
 kia, k9 |KIA, K9 | 388
 kia, sorentonew |KIA, Sorento New | 389
+kia, sorentoprime |KIA, Sorento Prime | 923
 kia, sorentonew24 |KIA, Sorento New | 389
 kia, нoвыйsorento |KIA, Sorento New | 389
 kia, soul |KIA, Soul | 390
@@ -671,11 +715,8 @@ kia, sorento |KIA, Sorento | 397
 kia, stinger |KIA, Stinger | 398
 kia, mohave |KIA, Mohave | 399
 kia, mohavenew |KIA, Mohave New | 400
+kia, venga |KIA, Venga | 921
 knewstar, 001 |Knewstar, 001 | 775
-kgm, korando |KGM, Korando | 877
-kgm, rexton |KGM, Rexton | 878
-kgm, tivoli |KGM, Tivoli | 879
-kgm, torres |KGM, Torres | 880
 lada, aura |Lada, Aura | 795
 lada, (ваз)auraседан |Lada, Aura | 795
 lada, grantaбортовая |Lada, Granta Бортовая | 854
@@ -755,6 +796,8 @@ lada, grantauniversalnew |Lada, Granta Universal New | 416
 lada, grantacrosscross |Lada, Granta Cross | 402
 lada, (ваз)grantacrossiрестайлингуниверсал |Lada, Granta Cross | 402
 lada, grantadriveactivedriveactive |Lada, Granta Drive Active | 403
+lada, kalinaхэтчбек |Lada, Kalina Hatchback | 962
+lada, kalinacross |Lada, Kalina Cross | 963
 lada, largus |Lada, Largus | 418
 lada, largus5м. |Lada, Largus | 418
 lada, largus5мест |Lada, Largus | 418
@@ -915,6 +958,10 @@ lexus, nx |Lexus, NX | 752
 lexus, rx |Lexus, RX | 753
 lexus, gxnew |Lexus, GX New | 754
 lexus, lx |Lexus, LX | 755
+lifan, cebrium |Lifan, Cebrium | 926
+lifan, celliya |Lifan, Celliya | 927
+lifan, smily |Lifan, Smily | 928
+lifan, x80 |Lifan, X80 | 929
 lifan, murman |Lifan, Murman | 455
 lifan, murman(820) |Lifan, Murman (820) | 456
 lifan, myway |Lifan, MyWay | 457
@@ -944,6 +991,7 @@ lixiang, mega |Lixiang, Mega | 792
 lynk-co, 08 |Lync&Co, 08 | 471
 lynk-co, 09 |Lync&Co, 09 | 472
 m-hero, i| M-HERO, I | 473
+mazda, 2 |Mazda, 2 | 930
 mazda, 3 |Mazda, 3 | 474
 mazda, 3хэтчбек |Mazda, 3 Hatchback | 817
 mazda, 3седан |Mazda, 3 New | 475
@@ -953,6 +1001,7 @@ mazda, new3 |Mazda, 3 New | 475
 mazda, new3sedan |Mazda, 3 Sedan New | 476
 mazda, cx-30 |Mazda, CX-30 | 477
 mazda, cx-5 |Mazda, CX-5 | 478
+mazda, cx-52016 |Mazda, CX-5 2016 | 931
 mazda, cx-9 |Mazda, CX-9 | 479
 mazda, cx-9рестайлинг |Mazda, CX-9 Restyling | 480
 mazda, cx-9new |Mazda, CX-9 New | 481
@@ -992,9 +1041,11 @@ mitsubishi, asxnew |Mitsubishi, ASX New | 496
 mitsubishi, asx |Mitsubishi, ASX | 685
 mitsubishi, asxрестайлинг3 |Mitsubishi, ASX Restyling 3 | 497
 mitsubishi, eclipsecross |Mitsubishi, Eclipse Cross | 498
+mitsubishi, eclipseсross2021 |Mitsubishi, Eclipse Cross | 498
 mitsubishi, eclipsecrossnew |Mitsubishi, Eclipse Cross New | 499
 mitsubishi, monterosport |Mitsubishi, Montero Sport | 500
 mitsubishi, monterosportnew |Mitsubishi, Montero Sport New| 808
+mitsubishi, lancerxседан |Mitsubishi, Lancer X | 932
 mitsubishi, newl200 |Mitsubishi, L200 New | 501
 mitsubishi, l200new |Mitsubishi, L200 New | 501
 mitsubishi, l200 |Mitsubishi, L200 New | 501
@@ -1033,6 +1084,10 @@ nissan, newterrano |Nissan, Terrano New | 519
 nissan, terranonew |Nissan, Terrano New | 519
 nissan, qashqai |Nissan, Qashqai | 520
 nissan, qashqainew |Nissan, Qashqai New | 521
+nissan, sentra |Nissan, Sentra | 933
+nissan, teana |Nissan, Teana | 934
+nissan, tiida |Nissan, Tiida | 935
+nissan, patrol |Nissan, Patrol | 936
 nissan, terrano |Nissan, Terrano | 522
 nissan, qashqai2021 |Nissan, Qashqai | 520
 nissan, qashqai2020 |Nissan, Qashqai | 520
@@ -1056,6 +1111,15 @@ omoda, s5 |OMODA, S5 | 526
 omoda, s5седан |OMODA, S5 | 526
 omoda, s5gt |OMODA, S5 GT | 527
 omoda, s5gtседан |OMODA, S5 GT | 527
+opel, astragtc |Opel, Astra GTC | 937
+opel, astraседан |Opel, Astra Sedan | 938
+opel, astraуниверсал |Opel, Astra Universal | 939
+opel, mokka |Opel, Mokka | 940
+opel, astraхэтчбек |Opel, Astra Hatchback | 941
+opel, astrafamilyхэтчбек |Opel, Astra Family Hatchback | 942
+opel, astrafamilyседан |Opel, Astra Family Sedan | 943
+opel, astrafamilyуниверсал |Opel, Astra Family Universal | 944
+opel, antara |Opel, Antara | 945
 opel, combolife |Opel, Combo Life | 528
 opel, grandland |Opel, Grandland | 529
 opel, grandlandx |Opel, Grandland X | 530
@@ -1090,6 +1154,10 @@ renault, duster |Renault, Duster | 553
 renault, duster2021 |Renault, Duster 2021 | 554
 renault, dusternew |Renault, Duster New | 555
 renault, нoвыйduster |Renault, Duster New | 555
+renault, fluence |Renault, Fluence | 946
+renault, meganeхэтчбек |Renault, Megane | 947
+renault, dokkerstepway |Renault, Dokker Stepway | 948
+renault, dokkervan |Renault, Dokker Van | 949
 renault, kaptur |Renault, Kaptur | 556
 renault, kaptur2019 |Renault, Kaptur | 556
 renault, kapturnew |Renault, Kaptur New | 557
@@ -1130,6 +1198,9 @@ skoda, octavianew |Skoda, Octavia New | 579
 skoda, нoвaяoctavia |Skoda, Octavia New | 579
 skoda, octaviaa7 |Skoda, Octavia A7 | 810
 skoda, octaviaa8 |Skoda, Octavia A8 | 580
+skoda, octaviars |Skoda, Octavia RS | 950
+skoda, yeti |Skoda, Yeti | 951
+skoda, octaviascout |Skoda, Octavia Scout | 952
 skoda, rapid |Skoda, Rapid | 581
 skoda, rapid2019 |Skoda, Rapid | 581
 skoda, новыйrapid |Skoda, Rapid New | 584
@@ -1177,16 +1248,27 @@ soueast, dx5 |Soueast, DX5 | 599
 soueast, dx8schieftainedition | Soueast, DX8S Chieftain Edition | 600
 soueast, s07 |Soueast, S07 | 821
 soueast, s09 |Soueast, S07 | 822
-ssangyong, actyon |SsangYong, Actyon | 601
-ssangyong, actyonnew |SsangYong, Actyon New | 602
-ssangyong, stavic |SsangYong, Stavic | 603
-ssangyong, tivoli |SsangYong, Tivol | 604
+ssangyong, actyon |KGM(SsangYong), Actyon | 601
+ssangyong, actyonnew |KGM(SsangYong), Actyon New | 602
+ssangyong, stavic |KGM(SsangYong), Stavic | 603
+ssangyong, tivoli |KGM(SsangYong), Tivoli | 604
+kgm, korando |KGM(SsangYong), Korando | 877
+kgm, (ssangyong)korando |KGM(SsangYong), Korando | 877
+kgm, rexton |KGM(SsangYong), Rexton | 878
+kgm, (ssangyong)rexton |KGM(SsangYong), Rexton | 878
+kgm, tivoli |KGM(SsangYong), Tivoli | 604
+kgm, (ssangyong)tivoli |KGM(SsangYong), Tivoli | 604
+kgm, torres |KGM(SsangYong), Torres | 880
+kgm, (ssangyong)torres |KGM(SsangYong), Torres | 880
 suzuki, baleno |Suzuki, Baleno | 605
 suzuki, jimny |Suzuki, Jimny | 690
 suzuki, newjimny |Suzuki, Jimny New | 606
 suzuki, sx4 |Suzuki, SX4 | 607
 suzuki, vitara |Suzuki, Vitara | 608
 suzuki, vitaranew |Suzuki, Vitara New | 609
+suzuki, grandvitara5d |Suzuki, Grand Vitara 5d | 953
+suzuki, grandvitara3d |Suzuki, Grand Vitara 3d | 954
+suzuki, vitaras |Suzuki, Vitara S | 955
 suzuki, sx4tabi |Suzuki, SX4 SX4 Tabi | 610
 suzuki, allnewjimny |Suzuki, Jimny New | 606
 suzuki, jimnynew |Suzuki, Jimny New | 606
@@ -1199,6 +1281,10 @@ tank, 500 |TANK, 500 | 615
 tank, 500urban |TANK, 500 Urban | 731
 tank, 700 |TANK, 700 | 770
 toyota, alphard |Toyota, Alphard | 616
+toyota, auris |Toyota, Auris | 956
+toyota, venza |Toyota, Venza | 957
+toyota, verso |Toyota, Verso | 958
+toyota, prius |Toyota, Prius | 959
 toyota, bz4x |Toyota, BZ4X | 738
 toyota, corolla |Toyota, Corolla | 617
 toyota, fortuner |Toyota, Fortuner | 618
@@ -1290,6 +1376,8 @@ volkswagen, passat2019 |Volkswagen, Passat | 649
 volkswagen, passatnew |Volkswagen, Passat New | 650
 volkswagen, passatalltrack |Volkswagen, Passat Alltrack New | 651
 volkswagen, passatalltracknew |Volkswagen, Passat Alltrack New | 651
+volkswagen, passatcc |Volkswagen, Passat CC | 960
+volkswagen, passatvariant |Volkswagen, Passat Variant | 961
 volkswagen, polo |Volkswagen, Polo | 652
 volkswagen, polosedan |Volkswagen, Polo | 652
 volkswagen, taos |Volkswagen, Taos | 653

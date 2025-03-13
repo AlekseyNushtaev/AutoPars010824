@@ -204,7 +204,6 @@ async def car_plaza_42(dct_up, browser):
         except KeyError:
             await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, cost, link])
-        print([name, cost, link])
     return res
 
 

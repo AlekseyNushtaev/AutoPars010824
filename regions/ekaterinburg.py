@@ -202,7 +202,7 @@ async def atc_gagarin(dct_up):
 async def uu_stocks(dct_up, browser):
     link = 'https://uu-stoks.ru/auto'
     browser.get(link)
-    time.sleep(10)
+    time.sleep(13)
     html = browser.page_source
     soup = bs4.BeautifulSoup(html, 'lxml')
     cards = soup.find_all(attrs={"class": "model"})

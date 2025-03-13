@@ -16,6 +16,179 @@ from regions.samara import *
 from regions.yaroslavl import *
 from regions.kemerovo import *
 from regions.kazan import *
+from regions.spb import *
+from regions.omsk import *
+
+
+async def parser_omsk(dct_up, browser):
+    try:
+        res_1 = await vostoc_ac(dct_up)
+    except Exception as e:
+        res_1 = []
+        await bot.send_message(CHANEL_ID, 'https://vostok-ac.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_2 = await center_irtysh(dct_up, browser)
+    except Exception as e:
+        res_2 = []
+        await bot.send_message(CHANEL_ID, 'https://center-irtysh.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_3 = await astella_cars(dct_up)
+    except Exception as e:
+        res_3 = []
+        await bot.send_message(CHANEL_ID, 'https://astella-cars.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    res = res_1 + res_2 + res_3
+    res_1_name = [x[0] for x in res_1]
+    res_2_name = [x[0] for x in res_2]
+    res_3_name = [x[0] for x in res_3]
+    res_name = []
+    for item in res:
+        if item[0] not in res_name:
+            res_name.append(item[0])
+    res_name.sort()
+    wb = openpyxl.Workbook()
+    sheet = wb['Sheet']
+    dct_id = {}
+    with open('autolist.txt', 'r', encoding='utf-8') as f:
+        lst = f.readlines()
+    for item in lst:
+        try:
+            dct_id[item.split('|')[1].strip()] = item.split('|')[2].strip()
+        except Exception:
+            pass
+    sheet.cell(row=1, column=1).value = 'id'
+    sheet.cell(row=1, column=2).value = 'brand'
+    sheet.cell(row=1, column=3).value = 'model'
+    sheet.cell(row=1, column=4).value = 'min_price'
+    sheet.cell(row=1, column=5).value = 'min_price_url'
+    sheet.cell(row=1, column=6).value = 'vostok-ac.ru_price'
+    sheet.cell(row=1, column=7).value = 'vostok-ac.ru'
+    sheet.cell(row=1, column=8).value = 'center-irtysh.ru_price'
+    sheet.cell(row=1, column=9).value = 'center-irtysh.ru'
+    sheet.cell(row=1, column=10).value = 'astella-cars.ru_price'
+    sheet.cell(row=1, column=11).value = 'astella-cars.ru'
+    lst_res = [res_1, res_2, res_3]
+    lst_res_name = [res_1_name, res_2_name, res_3_name]
+    for i in range(2, len(res_name) + 2):
+        try:
+            sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
+        except Exception:
+            sheet.cell(row=i, column=1).value = 'Новая машина, необходимо назначить id'
+        sheet.cell(row=i, column=2).value = res_name[i - 2].split(', ')[0]
+        sheet.cell(row=i, column=3).value = res_name[i - 2].split(', ')[1]
+        dct = {}
+        lst = []
+        for y in range(len(lst_res_name)):
+            if res_name[i - 2] in lst_res_name[y]:
+                index = lst_res_name[y].index(res_name[i - 2])
+                sheet.cell(row=i, column=6 + y * 2).value = lst_res[y][index][1]
+                sheet.cell(row=i, column=7 + y * 2).value = lst_res[y][index][2]
+                dct[str(lst_res[y][index][1])] = lst_res[y][index][2]
+                lst.append(int(lst_res[y][index][1]))
+        sheet.cell(row=i, column=4).value = min(lst)
+        sheet.cell(row=i, column=5).value = dct[str(min(lst))]
+    wb.save('xlsx/omsk.xlsx')
+    data = []
+    for i in range(1, len(res) + 1):
+        string = []
+        for y in range(2, 5):
+            string.append(sheet.cell(row=i, column=y).value)
+        data.append(string)
+    with open('csv/omsk.csv', 'w', encoding='utf-8', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+
+
+async def parser_spb(dct_up, browser):
+    try:
+        res_1 = await spb_carso(dct_up)
+    except Exception as e:
+        res_1 = []
+        await bot.send_message(CHANEL_ID, 'https://spb.carso.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_2 = await credit_cars_spb(dct_up)
+    except Exception as e:
+        res_2 = []
+        await bot.send_message(CHANEL_ID, 'https://credit-cars-spb.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_3 = await renault_nnov(dct_up, browser)
+    except Exception as e:
+        res_3 = []
+        await bot.send_message(CHANEL_ID, 'https://renault-nnov.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_4 = await altimus_auto(dct_up, browser)
+    except Exception as e:
+        res_4 = []
+        await bot.send_message(CHANEL_ID, 'https://altimus-auto.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    res = res_1 + res_2 + res_3 + res_4
+    res_1_name = [x[0] for x in res_1]
+    res_2_name = [x[0] for x in res_2]
+    res_3_name = [x[0] for x in res_3]
+    res_4_name = [x[0] for x in res_4]
+    res_name = []
+    for item in res:
+        if item[0] not in res_name:
+            res_name.append(item[0])
+    res_name.sort()
+    wb = openpyxl.Workbook()
+    sheet = wb['Sheet']
+    dct_id = {}
+    with open('autolist.txt', 'r', encoding='utf-8') as f:
+        lst = f.readlines()
+    for item in lst:
+        try:
+            dct_id[item.split('|')[1].strip()] = item.split('|')[2].strip()
+        except Exception:
+            pass
+    sheet.cell(row=1, column=1).value = 'id'
+    sheet.cell(row=1, column=2).value = 'brand'
+    sheet.cell(row=1, column=3).value = 'model'
+    sheet.cell(row=1, column=4).value = 'min_price'
+    sheet.cell(row=1, column=5).value = 'min_price_url'
+    sheet.cell(row=1, column=6).value = 'spb.carso.ru_price'
+    sheet.cell(row=1, column=7).value = 'spb.carso.ru'
+    sheet.cell(row=1, column=8).value = 'credit-cars-spb.ru_price'
+    sheet.cell(row=1, column=9).value = 'credit-cars-spb.ru'
+    sheet.cell(row=1, column=10).value = 'renault-nnov.ru_price'
+    sheet.cell(row=1, column=11).value = 'renault-nnov.ru'
+    sheet.cell(row=1, column=12).value = 'altimus-auto.ru_price'
+    sheet.cell(row=1, column=13).value = 'altimus-auto.ru'
+    lst_res = [res_1, res_2, res_3, res_4]
+    lst_res_name = [res_1_name, res_2_name, res_3_name, res_4_name]
+    for i in range(2, len(res_name) + 2):
+        try:
+            sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
+        except Exception:
+            sheet.cell(row=i, column=1).value = 'Новая машина, необходимо назначить id'
+        sheet.cell(row=i, column=2).value = res_name[i - 2].split(', ')[0]
+        sheet.cell(row=i, column=3).value = res_name[i - 2].split(', ')[1]
+        dct = {}
+        lst = []
+        for y in range(len(lst_res_name)):
+            if res_name[i - 2] in lst_res_name[y]:
+                index = lst_res_name[y].index(res_name[i - 2])
+                sheet.cell(row=i, column=6 + y * 2).value = lst_res[y][index][1]
+                sheet.cell(row=i, column=7 + y * 2).value = lst_res[y][index][2]
+                dct[str(lst_res[y][index][1])] = lst_res[y][index][2]
+                lst.append(int(lst_res[y][index][1]))
+        sheet.cell(row=i, column=4).value = min(lst)
+        sheet.cell(row=i, column=5).value = dct[str(min(lst))]
+    wb.save('xlsx/spb.xlsx')
+    data = []
+    for i in range(1, len(res) + 1):
+        string = []
+        for y in range(2, 5):
+            string.append(sheet.cell(row=i, column=y).value)
+        data.append(string)
+    with open('csv/spb.csv', 'w', encoding='utf-8', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
 
 
 async def parser_ekaterinburg(dct_up, browser):
