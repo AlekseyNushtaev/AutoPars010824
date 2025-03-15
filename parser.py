@@ -18,6 +18,7 @@ from regions.kemerovo import *
 from regions.kazan import *
 from regions.spb import *
 from regions.omsk import *
+from regions.novosib import *
 
 
 async def parser_omsk(dct_up, browser):
@@ -1705,5 +1706,150 @@ async def parser_kazan(dct_up, browser):
             string.append(sheet.cell(row=i, column=y).value)
         data.append(string)
     with open('csv/kazan.csv', 'w', encoding='utf-8', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+
+
+async def parser_nsk(dct_up, browser):
+    try:
+        res_1 = await astella_cars(dct_up)
+    except Exception as e:
+        res_1 = []
+        await bot.send_message(CHANEL_ID, 'https://astella-cars.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_2 = await carproms_nsk(dct_up)
+    except Exception as e:
+        res_2 = []
+        await bot.send_message(CHANEL_ID, 'https://carproms-nsk.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_3 = await lada_novosib(dct_up)
+    except Exception as e:
+        res_3 = []
+        await bot.send_message(CHANEL_ID, 'https://lada-novosib.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_4 = await sib_autosalon(dct_up)
+    except Exception as e:
+        res_4 = []
+        await bot.send_message(CHANEL_ID, 'https://sib-autosalon.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_5 = await ac_azimut(dct_up, browser)
+    except Exception as e:
+        res_5 = []
+        await bot.send_message(CHANEL_ID, 'https://ac-azimut.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_6 = await nsk_drive(dct_up, browser)
+    except Exception as e:
+        res_6 = []
+        await bot.send_message(CHANEL_ID, 'https://nsk-drive.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_7 = await sibear_auto(dct_up)
+    except Exception as e:
+        res_7 = []
+        await bot.send_message(CHANEL_ID, 'https://sibear-auto.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_8 = await nsk_avtomir(dct_up)
+    except Exception as e:
+        res_8 = []
+        await bot.send_message(CHANEL_ID, 'https://nsk.avtomir.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_9 = await centorauto_nsk(dct_up)
+    except Exception as e:
+        res_9 = []
+        await bot.send_message(CHANEL_ID, 'https://centorauto-nsk.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_10 = await kia_novo(dct_up, browser)
+    except Exception as e:
+        res_10 = []
+        await bot.send_message(CHANEL_ID, 'https://kia-novo.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    res = res_1 + res_2 + res_3 + res_4 + res_5 + res_6 + res_7 + res_8 + res_9 + res_10
+    res_1_name = [x[0] for x in res_1]
+    res_2_name = [x[0] for x in res_2]
+    res_3_name = [x[0] for x in res_3]
+    res_4_name = [x[0] for x in res_4]
+    res_5_name = [x[0] for x in res_5]
+    res_6_name = [x[0] for x in res_6]
+    res_7_name = [x[0] for x in res_7]
+    res_8_name = [x[0] for x in res_8]
+    res_9_name = [x[0] for x in res_9]
+    res_10_name = [x[0] for x in res_10]
+    res_name = []
+    for item in res:
+        if item[0] not in res_name:
+            res_name.append(item[0])
+    res_name.sort()
+    wb = openpyxl.Workbook()
+    sheet = wb['Sheet']
+    dct_id = {}
+    with open('autolist.txt', 'r', encoding='utf-8') as f:
+        lst = f.readlines()
+    for item in lst:
+        try:
+            dct_id[item.split('|')[1].strip()] = item.split('|')[2].strip()
+        except Exception:
+            pass
+    sheet.cell(row=1, column=1).value = 'id'
+    sheet.cell(row=1, column=2).value = 'brand'
+    sheet.cell(row=1, column=3).value = 'model'
+    sheet.cell(row=1, column=4).value = 'min_price'
+    sheet.cell(row=1, column=5).value = 'min_price_url'
+    sheet.cell(row=1, column=6).value = 'astella-cars.ru_price'
+    sheet.cell(row=1, column=7).value = 'astella-cars.ru'
+    sheet.cell(row=1, column=8).value = 'carproms-nsk.ru_price'
+    sheet.cell(row=1, column=9).value = 'carproms-nsk.ru'
+    sheet.cell(row=1, column=10).value = 'lada-novosib.ru_price'
+    sheet.cell(row=1, column=11).value = 'lada-novosib.ru'
+    sheet.cell(row=1, column=12).value = 'sib-autosalon.ru_price'
+    sheet.cell(row=1, column=13).value = 'sib-autosalon.ru'
+    sheet.cell(row=1, column=14).value = 'ac-azimut.ru_price'
+    sheet.cell(row=1, column=15).value = 'ac-azimut.ru'
+    sheet.cell(row=1, column=16).value = 'nsk-drive.ru_price'
+    sheet.cell(row=1, column=17).value = 'nsk-drive.ru'
+    sheet.cell(row=1, column=18).value = 'sibear-auto.ru_price'
+    sheet.cell(row=1, column=19).value = 'sibear-auto.ru'
+    sheet.cell(row=1, column=20).value = 'nsk.avtomir.ru_price'
+    sheet.cell(row=1, column=21).value = 'nsk.avtomir.ru'
+    sheet.cell(row=1, column=22).value = 'centorauto-nsk.ru_price'
+    sheet.cell(row=1, column=23).value = 'centorauto-nsk.ru'
+    sheet.cell(row=1, column=24).value = 'kia-novo.ru_price'
+    sheet.cell(row=1, column=25).value = 'kia-novo.ru'
+    lst_res = [res_1, res_2, res_3, res_4, res_5, res_6, res_7, res_8, res_9, res_10]
+    lst_res_name = [res_1_name, res_2_name, res_3_name, res_4_name, res_5_name, res_6_name, res_7_name, res_8_name,
+                    res_9_name, res_10_name]
+    for i in range(2, len(res_name) + 2):
+        try:
+            sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
+        except Exception:
+            sheet.cell(row=i, column=1).value = 'Новая машина, необходимо назначить id'
+        sheet.cell(row=i, column=2).value = res_name[i - 2].split(', ')[0]
+        sheet.cell(row=i, column=3).value = res_name[i - 2].split(', ')[1]
+        dct = {}
+        lst = []
+        for y in range(len(lst_res_name)):
+            if res_name[i - 2] in lst_res_name[y]:
+                index = lst_res_name[y].index(res_name[i - 2])
+                sheet.cell(row=i, column=6 + y * 2).value = lst_res[y][index][1]
+                sheet.cell(row=i, column=7 + y * 2).value = lst_res[y][index][2]
+                dct[str(lst_res[y][index][1])] = lst_res[y][index][2]
+                lst.append(int(lst_res[y][index][1]))
+        sheet.cell(row=i, column=4).value = min(lst)
+        sheet.cell(row=i, column=5).value = dct[str(min(lst))]
+    wb.save('xlsx/nsk.xlsx')
+    data = []
+    for i in range(1, len(res_name) + 1):
+        string = []
+        for y in range(2, 5):
+            string.append(sheet.cell(row=i, column=y).value)
+        data.append(string)
+    with open('csv/nsk.csv', 'w', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
         writer.writerows(data)

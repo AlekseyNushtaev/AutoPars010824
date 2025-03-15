@@ -11,11 +11,13 @@ baic, x35 |BAIC, X35 | 104
 baic, x55 |BAIC, X55 | 105
 baic, x7 |BAIC, X7 | 106
 baic, x75 |BAIC, X75 | 107
+baic, u5 |BAIC, U5 | 969
 baic, u5plus |BAIC, U5 Plus | 108
 baic, u5pluscng |BAIC, U5 Plus CNG | 742
 baic, u5pluscngcng |BAIC, U5 Plus CNG | 742
 belgee, x50 |Belgee, X50 | 109
 belgee, х50 |Belgee, X50 | 109
+belgee, x-50 |Belgee, X50 | 109
 belgee, х50(sx11) |Belgee, X50 | 109
 belgee, x70 |Belgee, X70 | 110
 belgee, х70 |Belgee, X70 | 110
@@ -86,6 +88,7 @@ changan, cs35plusnew |Changan, CS35 Plus New | 122
 changan, cs35plusновый |Changan, CS35 Plus New | 122
 changan, новыйcs35plus |Changan, CS35 Plus New | 122
 changan, cs35plusрестайлинг |Changan, CS35 Plus Restyling | 131
+changan, cs35plus(рестайлинг) |Changan, CS35 Plus Restyling | 131
 changan, cs55 |Changan, CS55 | 117
 changan, cs55plus |Changan, CS55 Plus | 121
 changan, cs55plusnew |Changan, CS55 Plus New | 132
@@ -104,6 +107,7 @@ changan, cs85coupecoupe |Changan, CS85 Coupe | 124
 changan, cs85 |Changan, CS85 | 138
 changan, cs95 |Changan, CS95 | 125
 changan, cs952023 |Changan, CS95 | 125
+changan, cs95plus |Changan, CS95 Plus| 965
 changan, cs95рестайлинг |Changan, CS95 Restyling | 139
 changan, cs95new |Changan, CS95 New | 140
 changan, новыйcs95 |Changan, CS95 New | 140
@@ -177,6 +181,7 @@ chery, tiggo7promaxnew |Chery, Tiggo 7 Pro Max New | 157
 chery, tiggo7proplug-in-hybrid |Chery, Tiggo 7 Pro Plug-In-Hybrid | 679
 chery, tiggo7proplug-inhybrid |Chery, Tiggo 7 Pro Plug-In-Hybrid | 679
 chery, tiggo7propluginhybrid |Chery, Tiggo 7 Pro Plug-In-Hybrid | 679
+chery, tiggo7prohybrid |Chery, Tiggo 7 Pro Plug-In-Hybrid | 679
 chery, tiggo7proplug-inhybridвнедорожник5дв. |Chery, Tiggo 7 Pro Plug-In-Hybrid | 679
 chery, tiggo8 |Chery, Tiggo 8 | 158
 chery, tiggo8pro |Chery, Tiggo 8 Pro | 159
@@ -384,6 +389,7 @@ geely, atlas |Geely, Atlas | 250
 geely, atlas(fx11) |Geely, Atlas | 250
 geely, atlasnew |Geely, Atlas New | 251
 geely, atlasnew(fx11) |Geely, Atlas New | 251
+новый, geelyatlas |Geely, Atlas New | 251
 geely, новыйatlas |Geely, Atlas New | 251
 geely, atlasновый |Geely, Atlas New | 251
 geely, atlaspro |Geely, Atlas Pro | 252
@@ -396,6 +402,7 @@ geely, coolray(sx11a3) |Geely, Coolray | 255
 джили, кулрей2019 |Geely, Coolray | 255
 geely, coolrayрестайлинг |Geely, Coolray Restyling | 256
 geely, coolraynew |Geely, Coolray New | 257
+новый, geelycoolray |Geely, Coolray New | 257
 джили, кулрей |Geely, Coolray New | 257
 geely, coolray2019 |Geely, Coolray | 255
 geely, новыйсoolray |Geely, Coolray New | 257
@@ -533,6 +540,7 @@ hongqi, hs5 | Hongqi, HS5 | 719
 hongqi, новыйhs5 | Hongqi, HS5 New | 843
 hongqi, hs3 | Hongqi, HS3 | 749
 hongqi, hs5(i) | Hongqi, HS5 (I) | 720
+hyundai, accent |Hyundai, Accent | 968
 hyundai, bayon |Hyundai, Bayon | 312
 hyundai, creta |Hyundai, Creta | 313
 hyundai, creta2020 |Hyundai, Creta | 313
@@ -658,9 +666,11 @@ kia, ceratoclassic |KIA, Cerato | 368
 kia, ceratoрестайлинг |KIA, Cerato Restyling | 369
 kia, ceratonew |KIA, Cerato New | 370
 kia, нoвыйcerato |KIA, Cerato New | 370
+kia, ev6 |KIA, EV6 | 966
 kia, quoris |KIA, Quoris | 923
 kia, k3 |KIA, K3 | 790
 kia, k5 |KIA, K5 | 371
+kia, k8 |KIA, K8 | 967
 kia, newsoul |KIA, Soul New | 372
 kia, optima |KIA, Optima | 919
 kia, optimarest |KIA, Optima Rest | 807
@@ -991,6 +1001,7 @@ lixiang, mega |Lixiang, Mega | 792
 lynk-co, 08 |Lync&Co, 08 | 471
 lynk-co, 09 |Lync&Co, 09 | 472
 m-hero, i| M-HERO, I | 473
+maple, х3pro | Maple, X3 Pro | 970
 mazda, 2 |Mazda, 2 | 930
 mazda, 3 |Mazda, 3 | 474
 mazda, 3хэтчбек |Mazda, 3 Hatchback | 817
@@ -1084,6 +1095,7 @@ nissan, newterrano |Nissan, Terrano New | 519
 nissan, terranonew |Nissan, Terrano New | 519
 nissan, qashqai |Nissan, Qashqai | 520
 nissan, qashqainew |Nissan, Qashqai New | 521
+nissan, qashqaiiii |Nissan, Qashqai New | 521
 nissan, sentra |Nissan, Sentra | 933
 nissan, teana |Nissan, Teana | 934
 nissan, tiida |Nissan, Tiida | 935
@@ -1096,6 +1108,7 @@ nissan, x-trail2020 |Nissan, X-trail | 523
 nissan, x-trail |Nissan, X-trail | 523
 nissan, xtrail |Nissan, X-trail | 523
 nissan, x-trailnew |Nissan, X-trail New | 524
+nissan, x-trailiv |Nissan, X-trail New | 524
 nissan, newx-trailnew |Nissan, X-trail New | 524
 nissan, newx-trail |Nissan, X-trail New | 524
 omoda, c5 |OMODA, C5 | 525
@@ -1260,6 +1273,7 @@ kgm, tivoli |KGM(SsangYong), Tivoli | 604
 kgm, (ssangyong)tivoli |KGM(SsangYong), Tivoli | 604
 kgm, torres |KGM(SsangYong), Torres | 880
 kgm, (ssangyong)torres |KGM(SsangYong), Torres | 880
+ssangyong, xlv |KGM(SsangYong), XLV | 971
 suzuki, baleno |Suzuki, Baleno | 605
 suzuki, jimny |Suzuki, Jimny | 690
 suzuki, newjimny |Suzuki, Jimny New | 606
@@ -1309,11 +1323,13 @@ toyota, hiluxnew |Toyota, Hilux New | 628
 toyota, landcruiser |Toyota, Land Cruiser 300 | 629
 toyota, landcruiser200 |Toyota, Land Cruiser 200 | 889
 toyota, landcruiser300 |Toyota, Land Cruiser 300 | 629
+toyota, lc300 |Toyota, Land Cruiser 300 | 629
 toyota, landcruiser300gr-sport |Toyota, Land Cruiser 300 GR-Sport | 740
 toyota, landcruiser300grsport |Toyota, Land Cruiser 300 GR-Sport | 740
 toyota, landcruiserprado150series |Toyota, Land Cruiser Prado | 630
 toyota, landcruiserprado |Toyota, Land Cruiser Prado | 630
 toyota, landcruiser250pradonew |Toyota, Land Cruiser Prado New | 741
+toyota, landcruiser250prado |Toyota, Land Cruiser Prado New | 741
 toyota, newcorolla |Toyota, Corolla New | 631
 toyota, corollanew |Toyota, Corolla New | 631
 toyota, rav4new |Toyota, RAV4 New | 632
