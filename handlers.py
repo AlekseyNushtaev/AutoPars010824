@@ -34,7 +34,7 @@ async def send_doc(chat_id, file):
 async def pars():
     try:
         dct = {}
-        # shutil.copy('id.xlsx', '/var/www/html/storage/id.xlsx')
+        shutil.copy('id.xlsx', '/var/www/html/storage/id.xlsx')
         with open('autolist.txt', 'r', encoding='utf-8') as f:
             lst = f.readlines()
             for item in lst:
