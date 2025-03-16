@@ -1,8 +1,6 @@
 import asyncio
 import logging
-import time
 
-from aiogram.exceptions import TelegramNetworkError
 
 import handlers
 

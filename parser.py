@@ -19,6 +19,7 @@ from regions.kazan import *
 from regions.spb import *
 from regions.omsk import *
 from regions.novosib import *
+from regions.krasnoyarsk import *
 
 
 async def parser_omsk(dct_up, browser):
@@ -1851,5 +1852,122 @@ async def parser_nsk(dct_up, browser):
             string.append(sheet.cell(row=i, column=y).value)
         data.append(string)
     with open('csv/nsk.csv', 'w', encoding='utf-8', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+
+
+async def parser_krsk(dct_up, browser):
+    try:
+        res_1 = await car_avangard(dct_up)
+    except Exception as e:
+        res_1 = []
+        await bot.send_message(CHANEL_ID, 'https://car-avangard.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_2 = await avangard_24(dct_up, browser)
+    except Exception as e:
+        res_2 = []
+        await bot.send_message(CHANEL_ID, 'https://avangard-24.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_3 = await lada_krs_m2(dct_up)
+    except Exception as e:
+        res_3 = []
+        await bot.send_message(CHANEL_ID, 'https://lada-krs-m2.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_4 = await lada_kras(dct_up)
+    except Exception as e:
+        res_4 = []
+        await bot.send_message(CHANEL_ID, 'https://lada-kras.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_5 = await krsk_auto(dct_up, browser)
+    except Exception as e:
+        res_5 = []
+        await bot.send_message(CHANEL_ID, 'https://krsk-auto.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_6 = await krasnoyarsk_carso(dct_up, browser)
+    except Exception as e:
+        res_6 = []
+        await bot.send_message(CHANEL_ID, 'https://krasnoyarsk.carso.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_7 = await autonew_krr(dct_up)
+    except Exception as e:
+        res_7 = []
+        await bot.send_message(CHANEL_ID, 'http://autonew-krr.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    res = res_1 + res_2 + res_3 + res_4 + res_5 + res_6 + res_7
+    res_1_name = [x[0] for x in res_1]
+    res_2_name = [x[0] for x in res_2]
+    res_3_name = [x[0] for x in res_3]
+    res_4_name = [x[0] for x in res_4]
+    res_5_name = [x[0] for x in res_5]
+    res_6_name = [x[0] for x in res_6]
+    res_7_name = [x[0] for x in res_7]
+    res_name = []
+    for item in res:
+        if item[0] not in res_name:
+            res_name.append(item[0])
+    res_name.sort()
+    wb = openpyxl.Workbook()
+    sheet = wb['Sheet']
+    dct_id = {}
+    with open('autolist.txt', 'r', encoding='utf-8') as f:
+        lst = f.readlines()
+    for item in lst:
+        try:
+            dct_id[item.split('|')[1].strip()] = item.split('|')[2].strip()
+        except Exception:
+            pass
+    sheet.cell(row=1, column=1).value = 'id'
+    sheet.cell(row=1, column=2).value = 'brand'
+    sheet.cell(row=1, column=3).value = 'model'
+    sheet.cell(row=1, column=4).value = 'min_price'
+    sheet.cell(row=1, column=5).value = 'min_price_url'
+    sheet.cell(row=1, column=6).value = 'car-avangard.ru_price'
+    sheet.cell(row=1, column=7).value = 'car-avangard.ru'
+    sheet.cell(row=1, column=8).value = 'avangard-24.ru_price'
+    sheet.cell(row=1, column=9).value = 'avangard-24.ru'
+    sheet.cell(row=1, column=10).value = 'lada-krs-m2.ru_price'
+    sheet.cell(row=1, column=11).value = 'lada-krs-m2.ru'
+    sheet.cell(row=1, column=12).value = 'lada-kras.ru_price'
+    sheet.cell(row=1, column=13).value = 'lada-kras.ru'
+    sheet.cell(row=1, column=14).value = 'krsk-auto.ru_price'
+    sheet.cell(row=1, column=15).value = 'krsk-auto.ru'
+    sheet.cell(row=1, column=16).value = 'krasnoyarsk.carso.ru_price'
+    sheet.cell(row=1, column=17).value = 'krasnoyarsk.carso.ru'
+    sheet.cell(row=1, column=18).value = 'autonew-krr.ru_price'
+    sheet.cell(row=1, column=19).value = 'autonew-krr.ru'
+    lst_res = [res_1, res_2, res_3, res_4, res_5, res_6, res_7]
+    lst_res_name = [res_1_name, res_2_name, res_3_name, res_4_name, res_5_name, res_6_name, res_7_name]
+    for i in range(2, len(res_name) + 2):
+        try:
+            sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
+        except Exception:
+            sheet.cell(row=i, column=1).value = 'Новая машина, необходимо назначить id'
+        sheet.cell(row=i, column=2).value = res_name[i - 2].split(', ')[0]
+        sheet.cell(row=i, column=3).value = res_name[i - 2].split(', ')[1]
+        dct = {}
+        lst = []
+        for y in range(len(lst_res_name)):
+            if res_name[i - 2] in lst_res_name[y]:
+                index = lst_res_name[y].index(res_name[i - 2])
+                sheet.cell(row=i, column=6 + y * 2).value = lst_res[y][index][1]
+                sheet.cell(row=i, column=7 + y * 2).value = lst_res[y][index][2]
+                dct[str(lst_res[y][index][1])] = lst_res[y][index][2]
+                lst.append(int(lst_res[y][index][1]))
+        sheet.cell(row=i, column=4).value = min(lst)
+        sheet.cell(row=i, column=5).value = dct[str(min(lst))]
+    wb.save('xlsx/krsk.xlsx')
+    data = []
+    for i in range(1, len(res_name) + 1):
+        string = []
+        for y in range(2, 5):
+            string.append(sheet.cell(row=i, column=y).value)
+        data.append(string)
+    with open('csv/krsk.csv', 'w', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
         writer.writerows(data)

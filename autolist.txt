@@ -73,6 +73,7 @@ changan, sc7164buni-t |Changan, UNI-T | 126
 changan, uni-tновый |Changan, UNI-T | 126
 changan, uni-tрестайлинг |Changan, UNI-T | 126
 changan, uni-s |Changan, UNI-S | 127
+сhangan, uni-s |Changan, UNI-S | 127
 changan, uni-s/cs55plus |Changan, UNI-S/CS55 Plus | 852
 changan, uni-s(cs55plus) |Changan, UNI-S/CS55 Plus | 852
 changan, uni-z |Changan, UNI-Z | 815
@@ -110,6 +111,7 @@ changan, cs952023 |Changan, CS95 | 125
 changan, cs95plus |Changan, CS95 Plus| 965
 changan, cs95рестайлинг |Changan, CS95 Restyling | 139
 changan, cs95new |Changan, CS95 New | 140
+сhangan, cs95-new |Changan, CS95 New | 140
 changan, новыйcs95 |Changan, CS95 New | 140
 changan, cs95-new |Changan, CS95 New | 140
 сhangan, eado |Changan, Eado | 796
@@ -392,6 +394,7 @@ geely, atlasnew(fx11) |Geely, Atlas New | 251
 новый, geelyatlas |Geely, Atlas New | 251
 geely, новыйatlas |Geely, Atlas New | 251
 geely, atlasновый |Geely, Atlas New | 251
+geely, atlasnewnew |Geely, Atlas New | 251
 geely, atlaspro |Geely, Atlas Pro | 252
 джили, атласпро |Geely, Atlas Pro | 252
 geely, boyue |Geely, Boyue | 253
@@ -507,6 +510,7 @@ haval, новыйh9 |Haval, H9 New | 684
 haval, jolion |Haval, Jolion | 301
 haval, jolionрестайлинг |Haval, Jolion Restyling | 302
 haval, jolionnew |Haval, Jolion New | 303
+haval, jolionnewnew |Haval, Jolion New | 303
 haval, jolionновый |Haval, Jolion New | 303
 haval, jolion2023 |Haval, Jolion New | 303
 haval, новыйjolion |Haval, Jolion New | 303
@@ -734,6 +738,7 @@ lada, grantaфургон |Lada, Granta Фургон | 855
 lada, nivalegendбортовая |Lada, Niva Legend Бортовая | 856
 lada, grantacross |Lada, Granta Cross | 402
 lada, grantadriveactive |Lada, Granta Sedan Drive Active | 403
+lada, grantasportdriveactive |Lada, Granta Sport Drive Active Liftback | 407
 lada, grantaседанdriveactive |Lada, Granta Sedan Drive Active | 403
 lada, grantasportline |Lada, Granta Sportline | 723
 lada, grantasportlineседан |Lada, Granta Sportline | 723
@@ -1287,8 +1292,11 @@ suzuki, sx4tabi |Suzuki, SX4 SX4 Tabi | 610
 suzuki, allnewjimny |Suzuki, Jimny New | 606
 suzuki, jimnynew |Suzuki, Jimny New | 606
 swm, g01 |SWM, G01 | 611
+swm, go1 |SWM, G01 | 611
 swm, g01f |SWM, G01F | 612
+swm, go1f |SWM, G01F | 612
 swm, g05pro |SWM, G05 Pro | 613
+swm, go5pro |SWM, G05 Pro | 613
 tank, 300 |TANK, 300 | 614
 tank, 400 |TANK, 400 | 850
 tank, 500 |TANK, 500 | 615
