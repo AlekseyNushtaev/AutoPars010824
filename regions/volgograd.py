@@ -99,3 +99,40 @@ async def vlg_auto34(dct_up):
             await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, dct["cost"], link])
     return res
+
+
+async def avto_volga(dct_up, browser):
+    link = 'https://avto-volga-2025.ru/catalog'
+    browser.get(link)
+    time.sleep(2)
+    last_height = browser.execute_script("return document.body.scrollHeight")
+    while True:
+        # scroll_js = "window.scrollBy(0, 1000);"
+        browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        # browser.execute_script(scroll_js)
+        time.sleep(5)  # Adjust sleep duration as needed
+        new_height = browser.execute_script("return document.body.scrollHeight")
+        if new_height == last_height:
+            break
+        last_height = new_height
+    html = browser.page_source
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "UiLink_UiLink__pbmRv UiLink CatalogCar_CatalogCar__6ku6m"})
+    res = []
+    for card in cards:
+        link = 'https://avto-volga-2025.ru' + card.get("href")
+        title = card.find(attrs={"class": "CatalogCar_CatalogCarTitle__sqMzF"}).text.lower().strip()
+        brand = title.split()[0].replace('š', 's')
+        model = title.replace(brand, '').strip().replace(" ", "").replace(' ', '').replace('škoda', '')
+        price_ = card.find(attrs={"class": "CatalogCar_CatalogCarPrice__2905b"}).text
+        price = ''
+        for i in price_:
+            if i.isdigit():
+                price += i
+        name = brand + ', ' + model
+        try:
+            name = dct_up[name]
+        except KeyError:
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
+        res.append([name, price, link])
+    return res

@@ -325,11 +325,13 @@ faw, bestunex80new |FAW, Besturn X80 New | 218
 faw, besturnt55 |FAW, Besturn T55 | 826
 faw, besturnb30 |FAW, Besturn B30 | 708
 faw, besturnb70 |FAW, Besturn B70 | 840
+faw, новыйbesturnb70 |FAW, Besturn B70 New | 972
 faw, besturnx80 |FAW, Besturn X80 | 219
 faw, bestunex80 |FAW, Besturn X80 | 219
 faw, besturnx40 |FAW, Besturn X40 | 220
 faw, bestunex40 |FAW, Besturn X40 | 220
 faw, besturnt77 |FAW, Besturn T77 | 221
+faw, besturnt90 |FAW, Besturn T90 | 973
 faw, besturnт99 |FAW, Besturn T99 | 794
 faw, besturnt99 |FAW, Besturn T99 | 794
 faw, newx40 |FAW, X40 New | 222
@@ -654,6 +656,7 @@ kaiyi, x3 |KAIYI, X3 | 359
 kaiyi, x3pro |KAIYI, X3 Pro | 360
 kaiyi, x7 |KAIYI, X7 | 736
 kaiyi, x7kunlun |KAIYI, X7 Kunlun | 361
+kaiyi, x7kunlon |KAIYI, X7 Kunlun | 361
 kia, carnival |KIA, Carnival | 362
 kia, carnivalnew |KIA, Carnival New| 837
 kia, ceed |KIA, Ceed | 363

@@ -193,7 +193,7 @@ JAC,S5,889000
 JAC,S7,1199000
 JAC,T6,1799000
 JAC,T8,2199000
-JAC,T8 Pro,1924000
+JAC,T8 Pro,1724000
 JAC,T9,2412000
 JAC,T9 New,2412000
 JAC,iEV7S,2739000
@@ -261,12 +261,11 @@ Lada,4x4 Bronto,636900
 Lada,Aura,2249000
 Lada,Granta Cross,599300
 Lada,Granta Drive Active,617900
-Lada,Granta Drive Active Liftback,617900
 Lada,Granta Hatchback,534200
 Lada,Granta Hatchback New,534200
 Lada,Granta Liftback,559040
 Lada,Granta Liftback New,559040
-Lada,Granta Sedan,506640
+Lada,Granta Sedan,617900
 Lada,Granta Sedan Drive Active,780900
 Lada,Granta Sedan New,506640
 Lada,Granta Sport Drive Active Liftback,780900
@@ -389,6 +388,7 @@ Renault,Sandero,759000
 Renault,Sandero Stepway,849000
 SWM,G01,1290000
 SWM,G01F,1390000
+SWM,G05 Pro,1500000
 Skoda,Karoq,1085000
 Skoda,Kodiaq,1342000
 Skoda,Kodiaq New,1575000
@@ -461,6 +461,7 @@ XCite,X-Cross 7 New,1599000
 XCite,X-Cross 8,1770000
 Zotye,Coupa,809600
 Zotye,T600,651600
+,,
 ,,
 ,,
 ,,
