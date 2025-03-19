@@ -20,6 +20,7 @@ from regions.spb import *
 from regions.omsk import *
 from regions.novosib import *
 from regions.krasnoyarsk import *
+from regions.himki import *
 
 
 async def parser_omsk(dct_up, browser):
@@ -2005,5 +2006,68 @@ async def parser_krsk(dct_up, browser):
             string.append(sheet.cell(row=i, column=y).value)
         data.append(string)
     with open('csv/krsk.csv', 'w', encoding='utf-8', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+
+
+async def parser_himki(dct_up, browser):
+    try:
+        res_1 = await autogansa(dct_up)
+    except Exception as e:
+        res_1 = []
+        await bot.send_message(CHANEL_ID, 'https://autogansa.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    res = res_1
+    res_1_name = [x[0] for x in res_1]
+    res_name = []
+    for item in res:
+        if item[0] not in res_name:
+            res_name.append(item[0])
+    res_name.sort()
+    wb = openpyxl.Workbook()
+    sheet = wb['Sheet']
+    dct_id = {}
+    with open('autolist.txt', 'r', encoding='utf-8') as f:
+        lst = f.readlines()
+    for item in lst:
+        try:
+            dct_id[item.split('|')[1].strip()] = item.split('|')[2].strip()
+        except Exception:
+            pass
+    sheet.cell(row=1, column=1).value = 'id'
+    sheet.cell(row=1, column=2).value = 'brand'
+    sheet.cell(row=1, column=3).value = 'model'
+    sheet.cell(row=1, column=4).value = 'min_price'
+    sheet.cell(row=1, column=5).value = 'min_price_url'
+    sheet.cell(row=1, column=6).value = 'autogansa.ru_price'
+    sheet.cell(row=1, column=7).value = 'autogansa.ru'
+    lst_res = [res_1]
+    lst_res_name = [res_1_name]
+    for i in range(2, len(res_name) + 2):
+        try:
+            sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
+        except Exception:
+            sheet.cell(row=i, column=1).value = 'Новая машина, необходимо назначить id'
+        sheet.cell(row=i, column=2).value = res_name[i - 2].split(', ')[0]
+        sheet.cell(row=i, column=3).value = res_name[i - 2].split(', ')[1]
+        dct = {}
+        lst = []
+        for y in range(len(lst_res_name)):
+            if res_name[i - 2] in lst_res_name[y]:
+                index = lst_res_name[y].index(res_name[i - 2])
+                sheet.cell(row=i, column=6 + y * 2).value = lst_res[y][index][1]
+                sheet.cell(row=i, column=7 + y * 2).value = lst_res[y][index][2]
+                dct[str(lst_res[y][index][1])] = lst_res[y][index][2]
+                lst.append(int(lst_res[y][index][1]))
+        sheet.cell(row=i, column=4).value = min(lst)
+        sheet.cell(row=i, column=5).value = dct[str(min(lst))]
+    wb.save('xlsx/himki.xlsx')
+    data = []
+    for i in range(1, len(res) + 1):
+        string = []
+        for y in range(2, 5):
+            string.append(sheet.cell(row=i, column=y).value)
+        data.append(string)
+    with open('csv/himki.csv', 'w', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
         writer.writerows(data)

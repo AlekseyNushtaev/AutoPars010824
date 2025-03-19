@@ -1,17 +1,15 @@
 brand,model,min_price
-Belgee,X50,2590190
 Belgee,X70,2946190
 Changan,Alsvin,1899900
 Changan,CS35 Plus,2629900
 Changan,CS75 Plus,3949900
 Changan,CS95,4609900
 Changan,Eado Plus,2529900
-Changan,Hunter Plus,3739900
 Changan,UNI-K,4549900
 Changan,UNI-S,2959900
 Changan,UNI-T,3239900
 Changan,UNI-V,3209900
-Geely,Atlas New,3717190
+Geely,Atlas New,3817190
 Geely,Cityray,3214190
 Geely,Coolray,2799190
 Geely,Emgrand,2243990
@@ -20,12 +18,12 @@ Geely,Okavango,3697190
 Geely,Preface FS11,3359190
 Great Wall,POER,3499000
 Haval,Dargo,3349000
-Haval,F7,2849000
-Haval,Jolion,2049000
+Haval,F7,3049000
+Haval,Jolion,2149000
 Haval,M6,2179000
 JAC,J7,2149000
 JAC,JS3,1889000
-JAC,JS6,2399000
+JAC,JS6,2809000
 JAC,T6,2665500
 JAC,T8,3259000
 JAC,T8 Pro,3279000
@@ -34,7 +32,7 @@ JAECOO,J7,2339900
 JAECOO,J8,4349000
 Knewstar,001,4393190
 Lada,4x4 3 двери,1059000
-Lada,Granta Sedan,1038500
+Lada,Granta Sedan,1043500
 Lada,Largus,1670000
 Lada,Niva,1310500
 Lada,Vesta Sedan,1586500

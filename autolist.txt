@@ -1197,7 +1197,7 @@ renault, sanderostepwaynew |Renault, Sandero Stepway New | 564
 renault, sandero |Renault, Sandero | 565
 renault, sanderostepway |Renault, Sandero Stepway | 566
 renault, sanderostepwaystepway |Renault, Sandero Stepway | 566
-renault, sanderostepwaycity |Renault, Stepway City | 567
+renault, sanderostepwaycity |Renault, Sandero Stepway City | 567
 renault, новыйduster |Renault, Duster New | 555
 rising, f7 | Rising, F7 | 568
 rising, r7 | Rising, R7 | 569

@@ -5,29 +5,29 @@ BAIC,X35,1133000
 BAIC,X55,1770000
 BAIC,X7,1860000
 BAIC,X75,1794000
-Belgee,X50,1383594
+Belgee,X50,1380990
 Belgee,X70,1695714
 Changan,Alsvin,774000
 Changan,CS35,728900
 Changan,CS35 Plus,878900
 Changan,CS35 Plus New,1089300
 Changan,CS55,999000
-Changan,CS55 Plus,1238900
+Changan,CS55 Plus,857000
 Changan,CS75 Plus New,2039900
 Changan,CS75FL,1089300
 Changan,CS85 Coupe,2039900
 Changan,CS95,2609940
 Changan,Eado Plus,978900
 Changan,Lamore,1628900
-Changan,UNI-K,2068900
+Changan,UNI-K,2039900
 Changan,UNI-S/CS55 Plus,1238900
-Changan,UNI-T,1841940
+Changan,UNI-T,1769900
 Changan,UNI-V,1628900
 Chery,Arrizo 8,1668000
 Chery,Tiggo 4,565900
 Chery,Tiggo 4 New,1087900
 Chery,Tiggo 4 Pro,993900
-Chery,Tiggo 4 Pro New,1620983
+Chery,Tiggo 4 Pro New,1652967
 Chery,Tiggo 5,996900
 Chery,Tiggo 7,926900
 Chery,Tiggo 7 Pro,1108900
@@ -38,12 +38,12 @@ Chery,Tiggo 8,1234900
 Chery,Tiggo 8 Pro,1778900
 Chery,Tiggo 8 Pro Max,1849900
 Chery,Tiggo 8 Pro Max New,1714000
-Chery,Tiggo 8 Pro Max Restyling,2238571
+Chery,Tiggo 8 Pro Max Restyling,2287892
 Chery,Tiggo 9,2850000
 Chevrolet,Cobalt,539900
 Chevrolet,Nexia,487900
 Chevrolet,Spark,537900
-DFM,580,1219900
+DFM,580,759000
 DFM,AX7,737400
 Datsun,MI-DO,344000
 Datsun,ON-DO,244000
@@ -59,13 +59,13 @@ EXEED,VX New,3408000
 FAW,Bestune B70,1424400
 FAW,Bestune B70 New,1799994
 FAW,Bestune T55,1446600
-FAW,Bestune T77,1552000
+FAW,Bestune T77,1539000
 FAW,Besturn X40,619300
 FAW,Besturn X80,761000
-FAW,X40,856000
+FAW,X40,619300
 FAW,X80,714300
 Gac,GN8,3399000
-Gac,GS3,1439400
+Gac,GS3,1299000
 Gac,GS5,2099000
 Gac,GS8,2399400
 Gac,M8,3299999
@@ -79,7 +79,7 @@ Geely,Emgrand,1087596
 Geely,Emgrand New,1090000
 Geely,Emgrand X7,864990
 Geely,GS,994990
-Geely,Monjaro,2689900
+Geely,Monjaro,2599000
 Geely,Okavango,2015514
 Geely,Preface New,1859990
 Geely,Tugella,2193714
@@ -89,13 +89,13 @@ Haval,Dargo,1679000
 Haval,F7,1307400
 Haval,F7 New,1679400
 Haval,F7x,1299000
-Haval,H3,1649000
+Haval,H3,1519000
 Haval,H5,958000
 Haval,H5 New,2069400
 Haval,H6,1078000
 Haval,H9,1909300
 Haval,H9 New,2759400
-Haval,Jolion,989900
+Haval,Jolion,689900
 Haval,Jolion New,1199000
 Haval,M6,1299000
 Hyundai,Creta,676000
@@ -157,8 +157,8 @@ Lada,Granta Sportline Liftback,465900
 Lada,Granta Universal,257900
 Lada,Largus,348900
 Lada,Largus Cross,384300
-Lada,Largus Cross New,895800
-Lada,Largus New,619000
+Lada,Largus Cross New,699310
+Lada,Largus New,540310
 Lada,Largus Фургон,329000
 Lada,Niva,515900
 Lada,Niva Legend 3 двери,360200
@@ -166,15 +166,15 @@ Lada,Niva Legend 5 дверей,398900
 Lada,Niva Off-Road,569900
 Lada,Niva Travel,360200
 Lada,Vesta Cross,444500
-Lada,Vesta Cross New,669000
+Lada,Vesta Cross New,444500
 Lada,Vesta SW,390000
 Lada,Vesta SW Cross,433000
-Lada,Vesta SW Cross New,727000
-Lada,Vesta SW New,591900
+Lada,Vesta SW Cross New,433000
+Lada,Vesta SW New,390000
 Lada,Vesta SW Sportline New,1465800
 Lada,Vesta Sedan,380900
 Lada,Vesta Sedan CNG,465900
-Lada,Vesta Sedan New,479300
+Lada,Vesta Sedan New,380900
 Lada,Vesta Sport,579900
 Lada,Vesta Sportline,1363800
 Lada,Xray,380900
@@ -189,7 +189,7 @@ Livan,S6 Pro,1529940
 Livan,X3 Pro,999000
 Livan,X6 Pro,1577940
 Moskvich,3,999000
-Moskvich,6,1320000
+Moskvich,6,1249000
 Nissan,Qashqai,880000
 Nissan,Terrano,619000
 Nissan,X-trail,1134000
@@ -208,7 +208,7 @@ Renault,Logan Stepway,399000
 Renault,Logan Stepway City,677990
 Renault,Sandero,395000
 Renault,Sandero Stepway,399000
-Renault,Stepway City,656993
+Renault,Sandero Stepway City,656993
 Skoda,Karoq,954000
 Skoda,Kodiaq,1211000
 Skoda,Octavia,844800
@@ -216,10 +216,10 @@ Skoda,Octavia New,994200
 Skoda,Rapid,425000
 Skoda,Superb,1211000
 Skoda,Superb Combi,1752000
-Solaris,HC,1590000
-Solaris,HS,1212000
-Solaris,KRS,1236000
-Solaris,KRX,1344600
+Solaris,HC,1499000
+Solaris,HS,1199000
+Solaris,KRS,1209000
+Solaris,KRX,1239000
 Suzuki,Jimny,1379000
 Suzuki,SX4,1069000
 Suzuki,Vitara,969000
@@ -233,7 +233,7 @@ UAZ,3909 Цельнометаллический фургон,1350000
 UAZ,Hunter,538000
 UAZ,Patriot,429380
 UAZ,Patriot New,1517000
-UAZ,Patriot Pickup,1223000
+UAZ,Patriot Pickup,621000
 UAZ,Pickup,621000
 UAZ,Pickup New,1722000
 UAZ,Профи Фургон,1445000

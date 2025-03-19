@@ -1,3 +1,6 @@
+from pprint import pprint
+
+import openpyxl
 import requests
 import fake_headers
 import json
@@ -5,34 +8,7 @@ import csv
 from bot import bot
 from config import ADMIN_ID, CHANEL_ID
 
-dct_rrc = {
-    1: 749900,
-    2: 1077000,
-    3: 778500,
-    4: 719300,
-    5: 1175000,
-    6: 950900,
 
-    7: 1121900,
-    8: 1239900,
-    9: 1269900,
-    10: 1759000,
-    11: 1213900,
-    12: 1655000,
-    13: 1328900,
-    14: 1879000,
-    15: 1316900,
-    16: 1597900,
-
-    17: 1106900,
-    18: 1249900,
-
-    19: 1660000,
-    20: 2020000,
-    21: 1670000,
-
-    22: 1314000
-}
 async def json_maker(dct):
     headers = fake_headers.Headers(browser='firefox', os='win')
     try:
@@ -84,7 +60,7 @@ async def json_maker(dct):
         except Exception:
             print(name)
             await bot.send_message(CHANEL_ID, f"id {item['id']} - error\nhttp://37.143.15.242/api/v1/models")
-    for region in ['krasnodar', 'moscow', 'stavropol', 'surgut', 'volgograd', 'samara', 'kazan', 'spb', 'omsk',
+    for region in ['krasnodar', 'moscow', 'stavropol', 'surgut', 'volgograd', 'samara', 'kazan', 'spb', 'omsk', 'himki',
                    'chelyabinsk', 'cheboksari', 'ufa', 'tumen', 'ekaterinburg', 'saratov', 'kemerovo', 'nsk', 'krsk']:
         if region != 'krsk':
             res_lst = []
@@ -102,28 +78,48 @@ async def json_maker(dct):
             with open(f'json/{region}.json', 'w') as f:
                 f.write(json_object)
         else:
+            dct_region = {}
             res_lst = []
             res = {}
             with open(f'csv/{region}.csv', 'r', encoding='utf-8') as csvfile:
-                lst_file = csv.reader(csvfile)
+                lst_file = list(csv.reader(csvfile))[1:]
                 for row in lst_file:
                     name = row[0] + ', ' + row[1]
-                    if name in dct_id.keys():
-                        res_lst.append([dct_id[name], int(row[2])])
-            res_lst.sort()
-            baza_granta = res_lst[3][1] / dct_rrc[4]
-            baza_vesta = res_lst[6][1] / dct_rrc[7]
-            baza_xray = res_lst[16][1] / dct_rrc[17]
-            baza_largus = res_lst[18][1] / dct_rrc[19]
-            for i in range(21):
-                if i in [0, 1, 2, 4, 5]:
-                    res_lst[i][1] = (int(dct_rrc[i + 1] * baza_granta) // 100) * 100
-                if i in range(7, 16):
-                    res_lst[i][1] = (int(dct_rrc[i + 1] * baza_vesta) // 100) * 100
-                if i == 17:
-                    res_lst[i][1] = (int(dct_rrc[i + 1] * baza_xray) // 100) * 100
-                if i in [19, 20]:
-                    res_lst[i][1] = (int(dct_rrc[i + 1] * baza_largus) // 100) * 100
+                    dct_region[name] = int(row[2])
+            res_all = []
+            wb = openpyxl.load_workbook('id.xlsx')
+            sh = wb['Sheet']
+            for i in range(1, 1000):
+                model_id = sh.cell(i, 4).value
+                if model_id:
+                    brand = sh.cell(i, 2).value
+                    model = sh.cell(i, 3).value
+                    name = brand + ', ' + model
+                    price_rrc = sh.cell(i, 5).value
+                    price_min = dct_region.get(name, 0)
+                    res_all.append([model_id, name, price_rrc, price_min])
+            res_all.sort(key=lambda x: x[0])
+            pprint(res_all)
+            for cat in ['Lada, Granta', 'Lada, Vesta', 'Lada, Xray', 'Lada, Largus', 'Chevrolet', 'Datsun', 'Haval',
+                        'Hyundai',
+                        'KIA', 'Nissan', 'Renault', 'Skoda', 'Volkswagen', 'Changan', 'DFM', 'FAW', 'Geely', 'JAC',
+                        'Lifan',
+                        'Ravon', 'Zotye', 'Chery', 'OMODA', 'EXEED', 'BAIC', 'Jetta,', 'KAIYI', 'Livan', 'Moskvich',
+                        'TANK',
+                        'JAECOO', 'Jetour']:
+                lst_cat = []
+                for model in res_all:
+                    if cat in model[1]:
+                        lst_cat.append(model)
+                lst_cat.sort(key=lambda x: x[2])
+                if lst_cat[0][3] == 0:
+                    baza = 0.6
+                else:
+                    baza = lst_cat[0][3] / lst_cat[0][2]
+                for car in lst_cat:
+                    price_min_fix = (int(baza * car[2]) // 100) * 100
+                    res_lst.append([int(car[0]), price_min_fix])
+            res_lst.sort(key=lambda x: x[0])
             for item in res_lst:
                 res[str(item[0])] = {'min_price': item[1]}
             json_object = json.dumps(res, indent=4)

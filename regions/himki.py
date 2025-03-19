@@ -1,5 +1,3 @@
-import csv
-import json
 import time
 import requests
 import bs4
@@ -16,8 +14,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver import Chrome
 
 
-
-def autogansa(dct_up):
+async def autogansa(dct_up):
     headers = fake_headers.Headers(browser='firefox', os='win')
     link = 'https://autogansa.ru/cars/'
     response = requests.get(link, headers.generate())
@@ -51,31 +48,8 @@ def autogansa(dct_up):
                 try:
                     name = dct_up[name]
                 except KeyError:
-                    print([name, cost, link])
-                    # await bot.send_message(CHANEL_ID, f'{name} {link}')
+                    await bot.send_message(CHANEL_ID, f'{name} {link}')
                 res.append([name, cost, link])
-                # print([name, cost, link])
             except:
                 pass
     return res
-
-
-
-
-
-# chrome_driver_path = ChromeDriverManager().install()
-# browser_service = Service(executable_path=chrome_driver_path)
-# options = Options()
-# options.add_argument('--headless')
-# options.add_argument('--no-sandbox')
-# options.add_argument("--window-size=1200,600")
-#
-# options.add_argument('--disable-dev-shm-usage')
-# browser = Chrome(service=browser_service, options=options)
-# browser.maximize_window()
-dct = {}
-with open('../autolist.txt', 'r', encoding='utf-8') as f:
-    lst = f.readlines()
-    for item in lst:
-        dct[item.split('|')[0].strip()] = item.split('|')[1].strip()
-autogansa(dct)
