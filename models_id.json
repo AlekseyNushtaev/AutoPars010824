@@ -1,0 +1,1132 @@
+[
+    {
+        "id": 1,
+        "brand": "Lada",
+        "model": "Granta Sedan"
+    },
+    {
+        "id": 2,
+        "brand": "Lada",
+        "model": "Granta Liftback"
+    },
+    {
+        "id": 3,
+        "brand": "Lada",
+        "model": "Granta Hatchback"
+    },
+    {
+        "id": 4,
+        "brand": "Lada",
+        "model": "Granta Universal"
+    },
+    {
+        "id": 5,
+        "brand": "Lada",
+        "model": "Granta Cross"
+    },
+    {
+        "id": 6,
+        "brand": "Lada",
+        "model": "Granta Drive Active"
+    },
+    {
+        "id": 7,
+        "brand": "Lada",
+        "model": "Vesta"
+    },
+    {
+        "id": 8,
+        "brand": "Lada",
+        "model": "Vesta 1"
+    },
+    {
+        "id": 9,
+        "brand": "Lada",
+        "model": "Vesta Cross"
+    },
+    {
+        "id": 10,
+        "brand": "Lada",
+        "model": "Vesta Cross 1"
+    },
+    {
+        "id": 11,
+        "brand": "Lada",
+        "model": "Vesta Sw"
+    },
+    {
+        "id": 12,
+        "brand": "Lada",
+        "model": "Vesta Sw 1"
+    },
+    {
+        "id": 13,
+        "brand": "Lada",
+        "model": "Vesta Sw Cross"
+    },
+    {
+        "id": 14,
+        "brand": "Lada",
+        "model": "Vesta Sw Cross 1"
+    },
+    {
+        "id": 15,
+        "brand": "Lada",
+        "model": "Vesta Cng"
+    },
+    {
+        "id": 16,
+        "brand": "Lada",
+        "model": "Vesta Sport"
+    },
+    {
+        "id": 17,
+        "brand": "Lada",
+        "model": "Xray"
+    },
+    {
+        "id": 18,
+        "brand": "Lada",
+        "model": "Xray Cross"
+    },
+    {
+        "id": 19,
+        "brand": "Lada",
+        "model": "Largus"
+    },
+    {
+        "id": 20,
+        "brand": "Lada",
+        "model": "Largus Cross"
+    },
+    {
+        "id": 21,
+        "brand": "Lada",
+        "model": "Largus Furgon"
+    },
+    {
+        "id": 22,
+        "brand": "Lada",
+        "model": "Niva Travel"
+    },
+    {
+        "id": 23,
+        "brand": "Chevrolet",
+        "model": "Spark"
+    },
+    {
+        "id": 24,
+        "brand": "Chevrolet",
+        "model": "Nexia"
+    },
+    {
+        "id": 25,
+        "brand": "Chevrolet",
+        "model": "Cobalt"
+    },
+    {
+        "id": 26,
+        "brand": "Datsun",
+        "model": "On Do"
+    },
+    {
+        "id": 27,
+        "brand": "Datsun",
+        "model": "Mi Do"
+    },
+    {
+        "id": 28,
+        "brand": "Haval",
+        "model": "H2"
+    },
+    {
+        "id": 29,
+        "brand": "Haval",
+        "model": "H5"
+    },
+    {
+        "id": 30,
+        "brand": "Haval",
+        "model": "H6"
+    },
+    {
+        "id": 31,
+        "brand": "Haval",
+        "model": "H9"
+    },
+    {
+        "id": 32,
+        "brand": "Haval",
+        "model": "F7"
+    },
+    {
+        "id": 33,
+        "brand": "Haval",
+        "model": "F7X"
+    },
+    {
+        "id": 34,
+        "brand": "Haval",
+        "model": "Jolion"
+    },
+    {
+        "id": 35,
+        "brand": "Haval",
+        "model": "Jolion 1"
+    },
+    {
+        "id": 36,
+        "brand": "Haval",
+        "model": "Dargo"
+    },
+    {
+        "id": 37,
+        "brand": "Haval",
+        "model": "Dargo X"
+    },
+    {
+        "id": 38,
+        "brand": "Hyundai",
+        "model": "Solaris"
+    },
+    {
+        "id": 39,
+        "brand": "Hyundai",
+        "model": "Creta"
+    },
+    {
+        "id": 40,
+        "brand": "Hyundai",
+        "model": "Elantra"
+    },
+    {
+        "id": 41,
+        "brand": "Hyundai",
+        "model": "Sonata"
+    },
+    {
+        "id": 42,
+        "brand": "Hyundai",
+        "model": "Tucson"
+    },
+    {
+        "id": 43,
+        "brand": "Kia",
+        "model": "Picanto"
+    },
+    {
+        "id": 44,
+        "brand": "Kia",
+        "model": "Rio"
+    },
+    {
+        "id": 45,
+        "brand": "Kia",
+        "model": "Rio X"
+    },
+    {
+        "id": 46,
+        "brand": "Kia",
+        "model": "Rio X Line"
+    },
+    {
+        "id": 47,
+        "brand": "Kia",
+        "model": "Ceed"
+    },
+    {
+        "id": 48,
+        "brand": "Kia",
+        "model": "Ceed Sw"
+    },
+    {
+        "id": 49,
+        "brand": "Kia",
+        "model": "Proceed"
+    },
+    {
+        "id": 50,
+        "brand": "Kia",
+        "model": "Cerato"
+    },
+    {
+        "id": 51,
+        "brand": "Kia",
+        "model": "K5"
+    },
+    {
+        "id": 52,
+        "brand": "Kia",
+        "model": "Soul"
+    },
+    {
+        "id": 53,
+        "brand": "Kia",
+        "model": "Seltos"
+    },
+    {
+        "id": 54,
+        "brand": "Kia",
+        "model": "Xceed"
+    },
+    {
+        "id": 55,
+        "brand": "Kia",
+        "model": "Sportage"
+    },
+    {
+        "id": 56,
+        "brand": "Nissan",
+        "model": "Qashqai"
+    },
+    {
+        "id": 57,
+        "brand": "Nissan",
+        "model": "X Trail"
+    },
+    {
+        "id": 58,
+        "brand": "Nissan",
+        "model": "Terrano"
+    },
+    {
+        "id": 59,
+        "brand": "Renault",
+        "model": "Logan"
+    },
+    {
+        "id": 60,
+        "brand": "Renault",
+        "model": "Logan Stepway"
+    },
+    {
+        "id": 61,
+        "brand": "Renault",
+        "model": "Logan Stepway City"
+    },
+    {
+        "id": 62,
+        "brand": "Renault",
+        "model": "Sandero"
+    },
+    {
+        "id": 63,
+        "brand": "Renault",
+        "model": "Sandero Stepway"
+    },
+    {
+        "id": 64,
+        "brand": "Renault",
+        "model": "Sandero Stepway City"
+    },
+    {
+        "id": 65,
+        "brand": "Renault",
+        "model": "Duster"
+    },
+    {
+        "id": 66,
+        "brand": "Renault",
+        "model": "Kaptur"
+    },
+    {
+        "id": 67,
+        "brand": "Renault",
+        "model": "Arkana"
+    },
+    {
+        "id": 68,
+        "brand": "Renault",
+        "model": "Koleos"
+    },
+    {
+        "id": 69,
+        "brand": "Skoda",
+        "model": "Rapid"
+    },
+    {
+        "id": 70,
+        "brand": "Skoda",
+        "model": "Octavia"
+    },
+    {
+        "id": 71,
+        "brand": "Skoda",
+        "model": "Octavia Hockey Edition"
+    },
+    {
+        "id": 72,
+        "brand": "Skoda",
+        "model": "Karoq"
+    },
+    {
+        "id": 73,
+        "brand": "Skoda",
+        "model": "Kodiaq"
+    },
+    {
+        "id": 74,
+        "brand": "Skoda",
+        "model": "Kodiaq Hockey Edition"
+    },
+    {
+        "id": 75,
+        "brand": "Skoda",
+        "model": "Kodiaq Scout"
+    },
+    {
+        "id": 76,
+        "brand": "Skoda",
+        "model": "Kodiaq Sportline"
+    },
+    {
+        "id": 77,
+        "brand": "Skoda",
+        "model": "Kodiaq Laurin  Klement"
+    },
+    {
+        "id": 78,
+        "brand": "Skoda",
+        "model": "Superb"
+    },
+    {
+        "id": 79,
+        "brand": "Skoda",
+        "model": "Superb Combi"
+    },
+    {
+        "id": 80,
+        "brand": "Volkswagen",
+        "model": "Polo"
+    },
+    {
+        "id": 81,
+        "brand": "Volkswagen",
+        "model": "Jetta"
+    },
+    {
+        "id": 82,
+        "brand": "Volkswagen",
+        "model": "Passat"
+    },
+    {
+        "id": 83,
+        "brand": "Volkswagen",
+        "model": "Tiguan"
+    },
+    {
+        "id": 84,
+        "brand": "Volkswagen",
+        "model": "Taos"
+    },
+    {
+        "id": 85,
+        "brand": "Changan",
+        "model": "Alsvin"
+    },
+    {
+        "id": 86,
+        "brand": "Changan",
+        "model": "Eado Plus"
+    },
+    {
+        "id": 87,
+        "brand": "Changan",
+        "model": "Cs35"
+    },
+    {
+        "id": 88,
+        "brand": "Changan",
+        "model": "Cs35 Plus"
+    },
+    {
+        "id": 89,
+        "brand": "Changan",
+        "model": "Cs55"
+    },
+    {
+        "id": 90,
+        "brand": "Changan",
+        "model": "Cs55 Plus"
+    },
+    {
+        "id": 91,
+        "brand": "Changan",
+        "model": "Cs75Fl"
+    },
+    {
+        "id": 92,
+        "brand": "Changan",
+        "model": "Cs85 Coupe"
+    },
+    {
+        "id": 93,
+        "brand": "Changan",
+        "model": "Cs95"
+    },
+    {
+        "id": 94,
+        "brand": "Changan",
+        "model": "Uni V"
+    },
+    {
+        "id": 95,
+        "brand": "Changan",
+        "model": "Uni K"
+    },
+    {
+        "id": 96,
+        "brand": "DFM",
+        "model": "Ax7"
+    },
+    {
+        "id": 97,
+        "brand": "DFM",
+        "model": "580"
+    },
+    {
+        "id": 98,
+        "brand": "FAW",
+        "model": "Bestune B70"
+    },
+    {
+        "id": 99,
+        "brand": "FAW",
+        "model": "Bestune T55"
+    },
+    {
+        "id": 100,
+        "brand": "FAW",
+        "model": "Besturn T77"
+    },
+    {
+        "id": 101,
+        "brand": "FAW",
+        "model": "X40"
+    },
+    {
+        "id": 102,
+        "brand": "FAW",
+        "model": "X80"
+    },
+    {
+        "id": 103,
+        "brand": "Geely",
+        "model": "Emgrand"
+    },
+    {
+        "id": 104,
+        "brand": "Geely",
+        "model": "Atlas"
+    },
+    {
+        "id": 105,
+        "brand": "Geely",
+        "model": "Atlas 1"
+    },
+    {
+        "id": 106,
+        "brand": "Geely",
+        "model": "Atlas Pro"
+    },
+    {
+        "id": 107,
+        "brand": "Geely",
+        "model": "Coolray"
+    },
+    {
+        "id": 108,
+        "brand": "Geely",
+        "model": "Coolray 1"
+    },
+    {
+        "id": 109,
+        "brand": "Geely",
+        "model": "Emgrand X7"
+    },
+    {
+        "id": 110,
+        "brand": "Geely",
+        "model": "Gs"
+    },
+    {
+        "id": 111,
+        "brand": "Geely",
+        "model": "Tugella"
+    },
+    {
+        "id": 112,
+        "brand": "Geely",
+        "model": "Okavango"
+    },
+    {
+        "id": 113,
+        "brand": "Geely",
+        "model": "Monjaro"
+    },
+    {
+        "id": 114,
+        "brand": "Geely",
+        "model": "Belgee X50"
+    },
+    {
+        "id": 115,
+        "brand": "JAC",
+        "model": "S3"
+    },
+    {
+        "id": 116,
+        "brand": "JAC",
+        "model": "S5"
+    },
+    {
+        "id": 117,
+        "brand": "JAC",
+        "model": "S7"
+    },
+    {
+        "id": 118,
+        "brand": "JAC",
+        "model": "J7"
+    },
+    {
+        "id": 119,
+        "brand": "Lifan",
+        "model": "X50"
+    },
+    {
+        "id": 120,
+        "brand": "Lifan",
+        "model": "X60"
+    },
+    {
+        "id": 121,
+        "brand": "Lifan",
+        "model": "X70"
+    },
+    {
+        "id": 122,
+        "brand": "Lifan",
+        "model": "Myway"
+    },
+    {
+        "id": 123,
+        "brand": "Lifan",
+        "model": "Murman"
+    },
+    {
+        "id": 124,
+        "brand": "Lifan",
+        "model": "Solano Ii"
+    },
+    {
+        "id": 125,
+        "brand": "Ravon",
+        "model": "R2"
+    },
+    {
+        "id": 126,
+        "brand": "Ravon",
+        "model": "Nexia R3"
+    },
+    {
+        "id": 127,
+        "brand": "Ravon",
+        "model": "R4"
+    },
+    {
+        "id": 128,
+        "brand": "Zotye",
+        "model": "T600"
+    },
+    {
+        "id": 129,
+        "brand": "Zotye",
+        "model": "Coupa"
+    },
+    {
+        "id": 130,
+        "brand": "Chery",
+        "model": "Arrizo 8"
+    },
+    {
+        "id": 131,
+        "brand": "Chery",
+        "model": "Tiggo 3"
+    },
+    {
+        "id": 132,
+        "brand": "Chery",
+        "model": "Tiggo 4"
+    },
+    {
+        "id": 133,
+        "brand": "Chery",
+        "model": "Tiggo 4 Pro"
+    },
+    {
+        "id": 134,
+        "brand": "Chery",
+        "model": "Tiggo 7"
+    },
+    {
+        "id": 135,
+        "brand": "Chery",
+        "model": "Tiggo 7 Pro"
+    },
+    {
+        "id": 136,
+        "brand": "Chery",
+        "model": "Tiggo 7 Pro Max"
+    },
+    {
+        "id": 137,
+        "brand": "Chery",
+        "model": "Tiggo 8"
+    },
+    {
+        "id": 138,
+        "brand": "Chery",
+        "model": "Tiggo 8 Pro"
+    },
+    {
+        "id": 139,
+        "brand": "Chery",
+        "model": "Tiggo 8 Pro Max"
+    },
+    {
+        "id": 140,
+        "brand": "Chery",
+        "model": "Tiggo 8 Pro Max 1"
+    },
+    {
+        "id": 141,
+        "brand": "OMODA",
+        "model": "S5"
+    },
+    {
+        "id": 142,
+        "brand": "OMODA",
+        "model": "C5"
+    },
+    {
+        "id": 143,
+        "brand": "EXEED",
+        "model": "Txl"
+    },
+    {
+        "id": 144,
+        "brand": "BAIC",
+        "model": "U5 Plus"
+    },
+    {
+        "id": 145,
+        "brand": "BAIC",
+        "model": "X35"
+    },
+    {
+        "id": 146,
+        "brand": "BAIC",
+        "model": "X55"
+    },
+    {
+        "id": 147,
+        "brand": "BAIC",
+        "model": "Bj40"
+    },
+    {
+        "id": 148,
+        "brand": "Jetta",
+        "model": "Va3"
+    },
+    {
+        "id": 149,
+        "brand": "Jetta",
+        "model": "Vs5"
+    },
+    {
+        "id": 150,
+        "brand": "Jetta",
+        "model": "Vs7"
+    },
+    {
+        "id": 151,
+        "brand": "KAIYI",
+        "model": "E5"
+    },
+    {
+        "id": 152,
+        "brand": "KAIYI",
+        "model": "X3"
+    },
+    {
+        "id": 153,
+        "brand": "KAIYI",
+        "model": "X3 Pro"
+    },
+    {
+        "id": 154,
+        "brand": "KAIYI",
+        "model": "X7 Kunlun"
+    },
+    {
+        "id": 155,
+        "brand": "LIVAN",
+        "model": "S6Pro"
+    },
+    {
+        "id": 156,
+        "brand": "LIVAN",
+        "model": "X3Pro"
+    },
+    {
+        "id": 157,
+        "brand": "LIVAN",
+        "model": "X6Pro"
+    },
+    {
+        "id": 158,
+        "brand": "\u041c\u043e\u0441\u043a\u0432\u0438\u0447",
+        "model": "3"
+    },
+    {
+        "id": 159,
+        "brand": "\u041c\u043e\u0441\u043a\u0432\u0438\u0447",
+        "model": "3E"
+    },
+    {
+        "id": 160,
+        "brand": "TANK",
+        "model": "300"
+    },
+    {
+        "id": 161,
+        "brand": "TANK",
+        "model": "500"
+    },
+    {
+        "id": 166,
+        "brand": "JAECOO",
+        "model": "J7"
+    },
+    {
+        "id": 167,
+        "brand": "Jetour",
+        "model": "Dashing"
+    },
+    {
+        "id": 168,
+        "brand": "Jetour",
+        "model": "X70 Plus"
+    },
+    {
+        "id": 169,
+        "brand": "Jetour",
+        "model": "X90 Plus"
+    },
+    {
+        "id": 170,
+        "brand": "Lada",
+        "model": "Granta Sportline Sedan"
+    },
+    {
+        "id": 171,
+        "brand": "Lada",
+        "model": "Granta Sportline Liftback"
+    },
+    {
+        "id": 172,
+        "brand": "Lada",
+        "model": "Granta Sport Sedan"
+    },
+    {
+        "id": 173,
+        "brand": "Lada",
+        "model": "Granta Sport Liftback"
+    },
+    {
+        "id": 174,
+        "brand": "Lada",
+        "model": "Vesta Sportline"
+    },
+    {
+        "id": 175,
+        "brand": "Lada",
+        "model": "Vesta SW Sportline"
+    },
+    {
+        "id": 176,
+        "brand": "Lada",
+        "model": "Niva Legend 5d"
+    },
+    {
+        "id": 177,
+        "brand": "Lada",
+        "model": "Niva Legend 3d"
+    },
+    {
+        "id": 178,
+        "brand": "Lada",
+        "model": "Niva Legend Bronto"
+    },
+    {
+        "id": 179,
+        "brand": "Skoda",
+        "model": "Kodiaq 1"
+    },
+    {
+        "id": 180,
+        "brand": "Hyundai",
+        "model": "Santa Fe"
+    },
+    {
+        "id": 181,
+        "brand": "Hyundai",
+        "model": "Tucson N Line"
+    },
+    {
+        "id": 182,
+        "brand": "Hyundai",
+        "model": "Staria"
+    },
+    {
+        "id": 183,
+        "brand": "Hyundai",
+        "model": "Palisade"
+    },
+    {
+        "id": 184,
+        "brand": "Nissan",
+        "model": "Murano"
+    },
+    {
+        "id": 185,
+        "brand": "Kia",
+        "model": "Sorento"
+    },
+    {
+        "id": 186,
+        "brand": "Kia",
+        "model": "Carnival"
+    },
+    {
+        "id": 187,
+        "brand": "Kia",
+        "model": "Mohave"
+    },
+    {
+        "id": 188,
+        "brand": "Kia",
+        "model": "K9"
+    },
+    {
+        "id": 189,
+        "brand": "Volkswagen",
+        "model": "Golf"
+    },
+    {
+        "id": 190,
+        "brand": "Volkswagen",
+        "model": "Teramont"
+    },
+    {
+        "id": 191,
+        "brand": "Volkswagen",
+        "model": "Touareg"
+    },
+    {
+        "id": 192,
+        "brand": "Haval",
+        "model": "M6"
+    },
+    {
+        "id": 193,
+        "brand": "Haval",
+        "model": "H3"
+    },
+    {
+        "id": 194,
+        "brand": "Haval",
+        "model": "H9 New"
+    },
+    {
+        "id": 195,
+        "brand": "UAZ",
+        "model": "Hunter"
+    },
+    {
+        "id": 196,
+        "brand": "UAZ",
+        "model": "Patriot"
+    },
+    {
+        "id": 197,
+        "brand": "UAZ",
+        "model": "Patriot Pickup"
+    },
+    {
+        "id": 198,
+        "brand": "Chery",
+        "model": "Tiggo 4 Pro 18 years edition"
+    },
+    {
+        "id": 199,
+        "brand": "Chery",
+        "model": "Tiggo 7 Pro Max New"
+    },
+    {
+        "id": 200,
+        "brand": "Chery",
+        "model": "Tiggo 7 Pro Plug-in Hybrid"
+    },
+    {
+        "id": 201,
+        "brand": "Chery",
+        "model": "Tiggo 8 Pro Plug-in Hybrid"
+    },
+    {
+        "id": 202,
+        "brand": "Chery",
+        "model": "Tiggo 8 Pro е+ Hybrid"
+    },
+    {
+        "id": 203,
+        "brand": "Changan",
+        "model": "UNI-S/CS55 Plus"
+    },
+    {
+        "id": 204,
+        "brand": "Changan",
+        "model": "Lamore"
+    },
+    {
+        "id": 205,
+        "brand": "Changan",
+        "model": "UNI-T"
+    },
+    {
+        "id": 206,
+        "brand": "Changan",
+        "model": "Hunter Plus"
+    },
+    {
+        "id": 207,
+        "brand": "Changan",
+        "model": "CS95 New"
+    },
+    {
+        "id": 208,
+        "brand": "Changan",
+        "model": "UNI-K iDD"
+    },
+    {
+        "id": 209,
+        "brand": "Changan",
+        "model": "CS75 Plus"
+    },
+    {
+        "id": 210,
+        "brand": "JAC",
+        "model": "JS3"
+    },
+    {
+        "id": 211,
+        "brand": "JAC",
+        "model": "JS6"
+    },
+    {
+        "id": 212,
+        "brand": "JAC",
+        "model": "T8"
+    },
+    {
+        "id": 213,
+        "brand": "JAC",
+        "model": "T8 Pro"
+    },
+    {
+        "id": 214,
+        "brand": "JAC",
+        "model": "T9"
+    },
+    {
+        "id": 215,
+        "brand": "GAC",
+        "model": "GS3"
+    },
+    {
+        "id": 216,
+        "brand": "GAC",
+        "model": "GS8"
+    },
+    {
+        "id": 217,
+        "brand": "GAC",
+        "model": "M8"
+    },
+    {
+        "id": 218,
+        "brand": "EXEED",
+        "model": "LX"
+    },
+    {
+        "id": 219,
+        "brand": "EXEED",
+        "model": "RX"
+    },
+    {
+        "id": 220,
+        "brand": "EXEED",
+        "model": "VX"
+    },
+    {
+        "id": 221,
+        "brand": "Belgee",
+        "model": "X50"
+    },
+    {
+        "id": 222,
+        "brand": "BAIC",
+        "model": "U5 Plus CNG"
+    },
+    {
+        "id": 223,
+        "brand": "BAIC",
+        "model": "X75"
+    },
+    {
+        "id": 224,
+        "brand": "BAIC",
+        "model": "X7"
+    },
+    {
+        "id": 225,
+        "brand": "Solaris",
+        "model": "HS"
+    },
+    {
+        "id": 226,
+        "brand": "Solaris",
+        "model": "KRS"
+    },
+    {
+        "id": 227,
+        "brand": "Solaris",
+        "model": "KRX"
+    },
+    {
+        "id": 228,
+        "brand": "Solaris",
+        "model": "HC"
+    },
+    {
+        "id": 229,
+        "brand": "Great Wall",
+        "model": "Poer King Kong"
+    },
+    {
+        "id": 230,
+        "brand": "Great Wall",
+        "model": "Poer"
+    }
+]

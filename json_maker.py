@@ -61,7 +61,8 @@ async def json_maker(dct):
             print(name)
             await bot.send_message(CHANEL_ID, f"id {item['id']} - error\nhttp://37.143.15.242/api/v1/models")
     for region in ['krasnodar', 'moscow', 'stavropol', 'surgut', 'volgograd', 'samara', 'kazan', 'spb', 'omsk', 'himki',
-                   'chelyabinsk', 'cheboksari', 'ufa', 'tumen', 'ekaterinburg', 'saratov', 'kemerovo', 'nsk', 'krsk']:
+                   'chelyabinsk', 'cheboksari', 'ufa', 'tumen', 'ekaterinburg', 'saratov', 'kemerovo', 'nsk', 'krsk',
+                   'toliati']:
         if region != 'krsk':
             res_lst = []
             res = {}
@@ -99,14 +100,11 @@ async def json_maker(dct):
                     price_min = dct_region.get(name, 0)
                     res_all.append([model_id, name, price_rrc, price_min])
             res_all.sort(key=lambda x: x[0])
-            pprint(res_all)
-            for cat in ['Lada, Granta', 'Lada, Vesta', 'Lada, Xray', 'Lada, Largus', 'Chevrolet', 'Datsun', 'Haval',
-                        'Hyundai',
-                        'KIA', 'Nissan', 'Renault', 'Skoda', 'Volkswagen', 'Changan', 'DFM', 'FAW', 'Geely', 'JAC',
-                        'Lifan',
-                        'Ravon', 'Zotye', 'Chery', 'OMODA', 'EXEED', 'BAIC', 'Jetta,', 'KAIYI', 'Livan', 'Moskvich',
-                        'TANK',
-                        'JAECOO', 'Jetour']:
+            for cat in ['BAIC', 'Belgee,', 'Changan', 'Chery', 'Chevrolet', 'DFM', 'Datsun', 'EXEED', 'Gac', 'FAW', 'Geely',
+                        'Great Wall', 'Haval', 'Hyundai', 'JAC', 'JAECOO', 'Jetour', 'Jetta,', 'KAIYI', 'KIA', 'Lada, Granta',
+                        'Lada, Largus', 'Lada, Niva', 'Lada, Vesta', 'Lada, Xray', 'Lifan', 'Livan', 'Moskvich',
+                        'Nissan', 'OMODA', 'Ravon', 'Renault', 'Skoda', 'Solaris,', 'TANK', 'UAZ', 'Volkswagen',
+                        'Zotye']:
                 lst_cat = []
                 for model in res_all:
                     if cat in model[1]:
@@ -118,10 +116,12 @@ async def json_maker(dct):
                     baza = lst_cat[0][3] / lst_cat[0][2]
                 for car in lst_cat:
                     price_min_fix = (int(baza * car[2]) // 100) * 100
-                    res_lst.append([int(car[0]), price_min_fix])
+                    res_lst.append([int(car[0]), car[1], price_min_fix])
             res_lst.sort(key=lambda x: x[0])
             for item in res_lst:
-                res[str(item[0])] = {'min_price': item[1]}
+                if str(item[0]) in res.keys():
+                    print(item)
+                res[str(item[0])] = {'model': item[1], 'min_price': item[2]}
             json_object = json.dumps(res, indent=4)
             with open(f'json/{region}.json', 'w') as f:
                 f.write(json_object)

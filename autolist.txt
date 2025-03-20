@@ -947,7 +947,7 @@ lada, vestanewcross |Lada, Vesta Cross New | 438
 lada, vestanew |Lada, Vesta Sedan New | 439
 lada, vestasport |Lada, Vesta Sport | 440
 lada, vestasportlinenew |Lada, Vesta Sportline New | 441
-lada, vestangsportline |Lada, Vesta Sportline New | 441
+lada, vestangsportline |Lada, Vesta Sportline | 442
 lada, vestasportline |Lada, Vesta Sportline | 442
 lada, vestasportlinesportline |Lada, Vesta Sportline | 442
 lada, vestasw |Lada, Vesta SW | 443
@@ -958,9 +958,9 @@ lada, vestaswcrossswcross |Lada, Vesta SW Cross | 445
 lada, vestaswcrossnew |Lada, Vesta SW Cross New | 446
 lada, vestacrossswnew |Lada, Vesta SW Cross New | 446
 lada, vestaswcrossnewswcross |Lada, Vesta SW Cross New | 446
-lada, vestaswngsportline |Lada, Vesta SW Sportline New | 703
-lada, vestaswsportline |Lada, Vesta SW Sportline New | 703
-lada, vestaswsportlineswsportline |Lada, Vesta SW Sportline New | 703
+lada, vestaswngsportline |Lada, Vesta SW Sportline | 703
+lada, vestaswsportline |Lada, Vesta SW Sportline | 703
+lada, vestaswsportlineswsportline |Lada, Vesta SW Sportline | 703
 lada, vestaswnew |Lada, Vesta SW New | 444
 lada, vestaседан |Lada, Vesta Sedan | 435
 lada, vestaседанседан |Lada, Vesta Sedan | 435

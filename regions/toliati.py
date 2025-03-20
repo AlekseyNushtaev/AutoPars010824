@@ -1,5 +1,3 @@
-import csv
-import json
 import time
 import requests
 import bs4
@@ -16,8 +14,37 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver import Chrome
 
 
+async def carplex_avto63(dct_up, browser):
+    link = 'https://carplex-avto63.ru/auto'
+    browser.get(link)
+    time.sleep(2)
+    html = browser.page_source
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "catalog-item"})
+    res = []
+    for card in cards:
+        link = card.find(attrs={"class": "catalog-item-title"}).get("href")
+        title = card.find(attrs={"class": "catalog-item-title"}).text.lower().strip()
+        brand = title.split()[0]
+        model = title.replace(brand, '').strip().replace(" ", "")
+        cost__ = card.find(attrs={"class": "catalog-item-info__pricing__new"}).text.strip()
+        cost_ = ''
+        for y in cost__:
+            if y.isdigit():
+                cost_ += y
+        if cost_ == '':
+            continue
+        cost = int(cost_)
+        name = brand + ', ' + model
+        try:
+            name = dct_up[name]
+        except KeyError:
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
+        res.append([name, cost, link])
+    return res
 
-def sool_cars(dct_up, browser):
+
+async def sool_cars(dct_up, browser):
     cnt = 1
     res = []
     while True:
@@ -44,39 +71,7 @@ def sool_cars(dct_up, browser):
             try:
                 name = dct_up[name]
             except KeyError:
-                print([name, cost, link])
-                # await bot.send_message(CHANEL_ID, f'{name} {link}')
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
             res.append([name, cost, link])
-            print([name, cost, link])
         cnt += 1
     return res
-
-
-
-
-#
-# chrome_driver_path = ChromeDriverManager().install()
-# browser_service = Service(executable_path=chrome_driver_path)
-# options = Options()
-# options.add_argument('--headless')
-# options.add_argument('--no-sandbox')
-# options.add_argument("--window-size=1200,600")
-#
-# options.add_argument('--disable-dev-shm-usage')
-# browser = Chrome(service=browser_service, options=options)
-# browser.maximize_window()
-dct = {}
-with open('../autolist.txt', 'r', encoding='utf-8') as f:
-    lst = f.readlines()
-    for item in lst:
-        dct[item.split('|')[0].strip()] = item.split('|')[1].strip()
-# sool_cars(dct, browser)
-lst = ['Lada, Granta', 'Lada, Vesta', 'Lada, Xray', 'Lada, Largus', 'Lada, Niva', 'Chevrolet',
-                        'Datsun', 'Haval', 'Hyundai', 'Belgee', 'Great Wall', 'UAZ', 'Solaris'
-                        'KIA', 'Nissan', 'Renault', 'Skoda', 'Volkswagen', 'Changan', 'DFM', 'FAW', 'Geely', 'JAC',
-                        'Lifan',
-                        'Ravon', 'Zotye', 'Chery', 'OMODA', 'EXEED', 'BAIC', 'Jetta,', 'KAIYI', 'Livan', 'Moskvich',
-                        'TANK',
-                        'JAECOO', 'Jetour']
-lst.sort()
-print(lst)
