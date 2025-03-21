@@ -43,10 +43,31 @@ async def parser_omsk(dct_up, browser):
         res_3 = []
         await bot.send_message(CHANEL_ID, 'https://astella-cars.ru error')
         await bot.send_message(ADMIN_ID, str(e))
-    res = res_1 + res_2 + res_3
+    try:
+        res_4 = await omsk_cars(dct_up, browser)
+    except Exception as e:
+        res_4 = []
+        await bot.send_message(CHANEL_ID, 'https://omsk-cars.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_5 = await omsk_carso(dct_up)
+    except Exception as e:
+        res_5 = []
+        await bot.send_message(CHANEL_ID, 'https://omsk.carso.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_6 = await irtysh_avtosalon(dct_up)
+    except Exception as e:
+        res_6 = []
+        await bot.send_message(CHANEL_ID, 'https://irtysh-avtosalon.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    res = res_1 + res_2 + res_3 + res_4 + res_5 + res_6
     res_1_name = [x[0] for x in res_1]
     res_2_name = [x[0] for x in res_2]
     res_3_name = [x[0] for x in res_3]
+    res_4_name = [x[0] for x in res_4]
+    res_5_name = [x[0] for x in res_5]
+    res_6_name = [x[0] for x in res_6]
     res_name = []
     for item in res:
         if item[0] not in res_name:
@@ -73,8 +94,14 @@ async def parser_omsk(dct_up, browser):
     sheet.cell(row=1, column=9).value = 'center-irtysh.ru'
     sheet.cell(row=1, column=10).value = 'astella-cars.ru_price'
     sheet.cell(row=1, column=11).value = 'astella-cars.ru'
-    lst_res = [res_1, res_2, res_3]
-    lst_res_name = [res_1_name, res_2_name, res_3_name]
+    sheet.cell(row=1, column=12).value = 'omsk-cars.ru_price'
+    sheet.cell(row=1, column=13).value = 'omsk-cars.ru'
+    sheet.cell(row=1, column=14).value = 'omsk.carso.ru_price'
+    sheet.cell(row=1, column=15).value = 'omsk.carso.ru'
+    sheet.cell(row=1, column=16).value = 'irtysh-avtosalon.ru_price'
+    sheet.cell(row=1, column=17).value = 'irtysh-avtosalon.ru'
+    lst_res = [res_1, res_2, res_3, res_4, res_5, res_6]
+    lst_res_name = [res_1_name, res_2_name, res_3_name, res_4_name, res_5_name, res_6_name]
     for i in range(2, len(res_name) + 2):
         try:
             sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
@@ -95,7 +122,7 @@ async def parser_omsk(dct_up, browser):
         sheet.cell(row=i, column=5).value = dct[str(min(lst))]
     wb.save('xlsx/omsk.xlsx')
     data = []
-    for i in range(1, len(res) + 1):
+    for i in range(1, len(res_name) + 1):
         string = []
         for y in range(2, 5):
             string.append(sheet.cell(row=i, column=y).value)
@@ -185,7 +212,7 @@ async def parser_spb(dct_up, browser):
         sheet.cell(row=i, column=5).value = dct[str(min(lst))]
     wb.save('xlsx/spb.xlsx')
     data = []
-    for i in range(1, len(res) + 1):
+    for i in range(1, len(res_name) + 1):
         string = []
         for y in range(2, 5):
             string.append(sheet.cell(row=i, column=y).value)
@@ -284,7 +311,7 @@ async def parser_ekaterinburg(dct_up, browser):
         sheet.cell(row=i, column=5).value = dct[str(min(lst))]
     wb.save('xlsx/ekaterinburg.xlsx')
     data = []
-    for i in range(1, len(res) + 1):
+    for i in range(1, len(res_name) + 1):
         string = []
         for y in range(2, 5):
             string.append(sheet.cell(row=i, column=y).value)
@@ -347,7 +374,7 @@ async def parser_saratov(dct_up):
         sheet.cell(row=i, column=5).value = dct[str(min(lst))]
     wb.save('xlsx/saratov.xlsx')
     data = []
-    for i in range(1, len(res) + 1):
+    for i in range(1, len(res_name) + 1):
         string = []
         for y in range(2, 5):
             string.append(sheet.cell(row=i, column=y).value)
@@ -555,7 +582,7 @@ async def parser_yaroslavl(dct_up, browser):
         sheet.cell(row=i, column=5).value = dct[str(min(lst))]
     wb.save('xlsx/yaroslavl.xlsx')
     data = []
-    for i in range(1, len(res) + 1):
+    for i in range(1, len(res_name) + 1):
         string = []
         for y in range(2, 5):
             string.append(sheet.cell(row=i, column=y).value)
@@ -572,8 +599,22 @@ async def parser_samara(dct_up, browser):
         res_1 = []
         await bot.send_message(CHANEL_ID, 'https://park-auto-sm.ru error')
         await bot.send_message(ADMIN_ID, str(e))
-    res = res_1
+    try:
+        res_2 = await ac_triumph(dct_up)
+    except Exception as e:
+        res_2 = []
+        await bot.send_message(CHANEL_ID, 'https://ac-triumph.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_3 = await ace_auto_63(dct_up)
+    except Exception as e:
+        res_3 = []
+        await bot.send_message(CHANEL_ID, 'https://ace-auto-63.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    res = res_1 + res_2 + res_3
     res_1_name = [x[0] for x in res_1]
+    res_2_name = [x[0] for x in res_2]
+    res_3_name = [x[0] for x in res_3]
     res_name = []
     for item in res:
         if item[0] not in res_name:
@@ -596,8 +637,12 @@ async def parser_samara(dct_up, browser):
     sheet.cell(row=1, column=5).value = 'min_price_url'
     sheet.cell(row=1, column=6).value = 'park-auto-sm.ru_price'
     sheet.cell(row=1, column=7).value = 'park-auto-sm.ru'
-    lst_res = [res_1]
-    lst_res_name = [res_1_name]
+    sheet.cell(row=1, column=8).value = 'ac-triumph.ru_price'
+    sheet.cell(row=1, column=9).value = 'ac-triumph.ru'
+    sheet.cell(row=1, column=10).value = 'ace-auto-63.ru_price'
+    sheet.cell(row=1, column=11).value = 'ace-auto-63.ru'
+    lst_res = [res_1, res_2, res_3]
+    lst_res_name = [res_1_name, res_2_name, res_3_name]
     for i in range(2, len(res_name) + 2):
         try:
             sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
@@ -618,7 +663,7 @@ async def parser_samara(dct_up, browser):
         sheet.cell(row=i, column=5).value = dct[str(min(lst))]
     wb.save('xlsx/samara.xlsx')
     data = []
-    for i in range(1, len(res) + 1):
+    for i in range(1, len(res_name) + 1):
         string = []
         for y in range(2, 5):
             string.append(sheet.cell(row=i, column=y).value)
@@ -690,7 +735,7 @@ async def parser_volgograd(dct_up, browser):
         sheet.cell(row=i, column=5).value = dct[str(min(lst))]
     wb.save('xlsx/volgograd.xlsx')
     data = []
-    for i in range(1, len(res) + 1):
+    for i in range(1, len(res_name) + 1):
         string = []
         for y in range(2, 5):
             string.append(sheet.cell(row=i, column=y).value)
@@ -762,7 +807,7 @@ async def parser_stavropol(dct_up):
         sheet.cell(row=i, column=5).value = dct[str(min(lst))]
     wb.save('xlsx/stavropol.xlsx')
     data = []
-    for i in range(1, len(res) + 1):
+    for i in range(1, len(res_name) + 1):
         string = []
         for y in range(2, 5):
             string.append(sheet.cell(row=i, column=y).value)
@@ -815,7 +860,19 @@ async def parser_krasnodar(dct_up, browser):
         res_7 = []
         await bot.send_message(CHANEL_ID, 'https://kc-klassavto.ru error')
         await bot.send_message(ADMIN_ID, str(e))
-    res = res_1 + res_2 + res_3 + res_4 + res_5 + res_6 + res_7
+    try:
+        res_8 = await kaya_auto(dct_up, browser)
+    except Exception as e:
+        res_8 = []
+        await bot.send_message(CHANEL_ID, 'https://kaya-auto.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_9 = await kr23auto(dct_up, browser)
+    except Exception as e:
+        res_9 = []
+        await bot.send_message(CHANEL_ID, 'https://kr23auto.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    res = res_1 + res_2 + res_3 + res_4 + res_5 + res_6 + res_7 + res_8 + res_9
     res_1_name = [x[0] for x in res_1]
     res_2_name = [x[0] for x in res_2]
     res_3_name = [x[0] for x in res_3]
@@ -823,6 +880,8 @@ async def parser_krasnodar(dct_up, browser):
     res_5_name = [x[0] for x in res_5]
     res_6_name = [x[0] for x in res_6]
     res_7_name = [x[0] for x in res_7]
+    res_8_name = [x[0] for x in res_8]
+    res_9_name = [x[0] for x in res_9]
     res_name = []
     for item in res:
         if item[0] not in res_name:
@@ -857,9 +916,13 @@ async def parser_krasnodar(dct_up, browser):
     sheet.cell(row=1, column=17).value = 'avtosvoboda-krd.ru'
     sheet.cell(row=1, column=18).value = 'kc-klassavto.ru_price'
     sheet.cell(row=1, column=19).value = 'kc-klassavto.ru'
+    sheet.cell(row=1, column=20).value = 'kaya-auto.ru_price'
+    sheet.cell(row=1, column=21).value = 'kaya-auto.ru'
+    sheet.cell(row=1, column=22).value = 'kr23auto.ru_price'
+    sheet.cell(row=1, column=23).value = 'kr23auto.ru'
 
-    lst_res = [res_1, res_2, res_3, res_4, res_5, res_6, res_7]
-    lst_res_name = [res_1_name, res_2_name, res_3_name, res_4_name, res_5_name, res_6_name, res_7_name]
+    lst_res = [res_1, res_2, res_3, res_4, res_5, res_6, res_7, res_8, res_9]
+    lst_res_name = [res_1_name, res_2_name, res_3_name, res_4_name, res_5_name, res_6_name, res_7_name, res_8_name, res_9_name]
     for i in range(2, len(res_name) + 2):
         try:
             sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
@@ -2064,7 +2127,7 @@ async def parser_himki(dct_up, browser):
         sheet.cell(row=i, column=5).value = dct[str(min(lst))]
     wb.save('xlsx/himki.xlsx')
     data = []
-    for i in range(1, len(res) + 1):
+    for i in range(1, len(res_name) + 1):
         string = []
         for y in range(2, 5):
             string.append(sheet.cell(row=i, column=y).value)
@@ -2136,7 +2199,7 @@ async def parser_toliati(dct_up, browser):
         sheet.cell(row=i, column=5).value = dct[str(min(lst))]
     wb.save('xlsx/toliati.xlsx')
     data = []
-    for i in range(1, len(res) + 1):
+    for i in range(1, len(res_name) + 1):
         string = []
         for y in range(2, 5):
             string.append(sheet.cell(row=i, column=y).value)

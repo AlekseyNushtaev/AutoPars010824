@@ -88,7 +88,7 @@ async def pars():
         await parser_moscow(dct, browser)
         await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/moscow.xlsx"))
         try:
-            await json_maker(dct)
+            await json_maker()
         except Exception as e:
             await bot.send_message(ADMIN_ID, f'JSONify error - {str(e)}')
         for region in ['krasnodar', 'moscow', 'stavropol', 'surgut', 'volgograd', 'chelyabinsk', 'kazan', 'spb', 'omsk',

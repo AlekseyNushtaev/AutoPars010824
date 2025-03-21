@@ -30,19 +30,16 @@
         "min_price": 869900
     },
     "11": {
-        "min_price": 813900
-    },
-    "12": {
         "min_price": 999900
     },
-    "13": {
-        "min_price": 928900
+    "12": {
+        "min_price": 813900
     },
-    "14": {
+    "13": {
         "min_price": 1069900
     },
-    "15": {
-        "min_price": 1166900
+    "14": {
+        "min_price": 928900
     },
     "16": {
         "min_price": 1297900
@@ -74,89 +71,59 @@
     "25": {
         "min_price": 627900
     },
-    "28": {
-        "min_price": 898000
-    },
-    "29": {
-        "min_price": 1099000
-    },
-    "30": {
-        "min_price": 918000
-    },
     "31": {
         "min_price": 1873000
     },
     "32": {
-        "min_price": 1199000
+        "min_price": 1349000
     },
     "33": {
-        "min_price": 1229000
-    },
-    "34": {
-        "min_price": 899000
+        "min_price": 1589000
     },
     "35": {
         "min_price": 689900
     },
     "36": {
-        "min_price": 1869000
+        "min_price": 2019000
     },
     "37": {
-        "min_price": 2139000
+        "min_price": 2249000
     },
     "38": {
-        "min_price": 963560
-    },
-    "39": {
-        "min_price": 987000
-    },
-    "40": {
-        "min_price": 1169000
+        "min_price": 1099000
     },
     "41": {
         "min_price": 1492000
     },
-    "42": {
-        "min_price": 1679000
-    },
     "43": {
-        "min_price": 694900
+        "min_price": 1049000
     },
     "44": {
-        "min_price": 619900
+        "min_price": 1199000
     },
     "45": {
-        "min_price": 1254900
+        "min_price": 1319000
     },
     "46": {
-        "min_price": 619900
+        "min_price": 1319000
     },
     "47": {
-        "min_price": 1345370
+        "min_price": 1449000
     },
     "48": {
-        "min_price": 1344900
-    },
-    "49": {
-        "min_price": 1649900
+        "min_price": 1599000
     },
     "50": {
         "min_price": 1499000
     },
     "51": {
-        "min_price": 1864900
+        "min_price": 1899000
     },
     "52": {
-        "min_price": 1249900
+        "min_price": 1399000
     },
     "53": {
         "min_price": 1449000
-    },
-    "54": {
-        "min_price": 1814900
-    },
-    "55": {
-        "min_price": 1929900
     },
     "56": {
         "min_price": 1233000
@@ -171,7 +138,7 @@
         "min_price": 629000
     },
     "60": {
-        "min_price": 591000
+        "min_price": 799000
     },
     "62": {
         "min_price": 759000
@@ -179,80 +146,44 @@
     "63": {
         "min_price": 849000
     },
-    "65": {
-        "min_price": 502000
-    },
     "66": {
-        "min_price": 714000
+        "min_price": 1249000
     },
     "67": {
-        "min_price": 854000
+        "min_price": 1399000
     },
     "68": {
-        "min_price": 1688900
+        "min_price": 1699000
     },
     "69": {
-        "min_price": 635000
-    },
-    "70": {
-        "min_price": 767000
+        "min_price": 695000
     },
     "72": {
-        "min_price": 1085000
-    },
-    "73": {
-        "min_price": 1342000
-    },
-    "75": {
-        "min_price": 1452000
-    },
-    "78": {
-        "min_price": 940000
-    },
-    "79": {
-        "min_price": 2462000
+        "min_price": 1557000
     },
     "80": {
         "min_price": 760900
     },
     "81": {
-        "min_price": 1365000
-    },
-    "82": {
-        "min_price": 2421900
-    },
-    "83": {
-        "min_price": 1649000
+        "min_price": 1465000
     },
     "84": {
         "min_price": 1426900
     },
     "85": {
-        "min_price": 754910
+        "min_price": 990000
     },
     "86": {
-        "min_price": 1098910
-    },
-    "87": {
-        "min_price": 709900
-    },
-    "88": {
-        "min_price": 959900
-    },
-    "89": {
-        "min_price": 1319900
+        "min_price": 1299000
     },
     "90": {
-        "min_price": 1329900
-    },
-    "91": {
-        "min_price": 1629900
+        "min_price": 1350000
     },
     "92": {
-        "min_price": 2159000
+        "min_price": 2399900
     },
     "93": {
-        "min_price": 2399000
+        "min_price": 2999900
     },
     "94": {
         "min_price": 1726900
@@ -266,35 +197,23 @@
     "99": {
         "min_price": 1499000
     },
-    "103": {
-        "min_price": 1199990
+    "100": {
+        "min_price": 1539000
     },
     "104": {
-        "min_price": 1882990
+        "min_price": 1999990
     },
     "105": {
-        "min_price": 711990
+        "min_price": 999900
     },
     "106": {
-        "min_price": 1254990
-    },
-    "107": {
-        "min_price": 1340000
+        "min_price": 1406990
     },
     "108": {
         "min_price": 619900
     },
-    "109": {
-        "min_price": 1054990
-    },
     "110": {
-        "min_price": 1019990
-    },
-    "111": {
-        "min_price": 1969990
-    },
-    "112": {
-        "min_price": 1490000
+        "min_price": 1069990
     },
     "113": {
         "min_price": 2739990
@@ -306,79 +225,52 @@
         "min_price": 889000
     },
     "117": {
-        "min_price": 1199000
+        "min_price": 1529000
     },
     "118": {
-        "min_price": 939000
-    },
-    "119": {
-        "min_price": 469900
-    },
-    "121": {
-        "min_price": 758900
-    },
-    "122": {
-        "min_price": 669900
-    },
-    "123": {
-        "min_price": 859900
-    },
-    "124": {
-        "min_price": 609900
-    },
-    "128": {
-        "min_price": 651600
-    },
-    "129": {
-        "min_price": 809600
+        "min_price": 1299000
     },
     "130": {
         "min_price": 1790000
-    },
-    "131": {
-        "min_price": 659900
     },
     "132": {
         "min_price": 877900
     },
     "133": {
-        "min_price": 999900
+        "min_price": 1076000
     },
     "134": {
-        "min_price": 974900
+        "min_price": 979900
     },
     "135": {
-        "min_price": 1044900
+        "min_price": 1147900
     },
     "136": {
-        "min_price": 1104900
+        "min_price": 1720000
     },
     "137": {
-        "min_price": 1199900
+        "min_price": 1299900
     },
     "138": {
         "min_price": 1599900
     },
-    "139": {
-        "min_price": 2010900
-    },
     "140": {
-        "min_price": 2469900
+        "min_price": 2349900
     },
     "141": {
-        "min_price": 1209900
+        "min_price": 1219000
     },
     "142": {
-        "min_price": 1309900
+        "min_price": 1319000
     },
     "143": {
-        "min_price": 1619900
+        "min_price": 2599000
     },
     "144": {
-        "min_price": 989900
+        "min_price": 1245000
     },
     "145": {
-        "min_price": 989900
+        "min_price": 1330000
     },
     "146": {
         "min_price": 1775000
@@ -387,7 +279,7 @@
         "min_price": 3013000
     },
     "148": {
-        "min_price": 1074000
+        "min_price": 1090000
     },
     "149": {
         "min_price": 1449000
@@ -399,10 +291,10 @@
         "min_price": 1039000
     },
     "152": {
-        "min_price": 1337650
+        "min_price": 1399000
     },
     "153": {
-        "min_price": 1320000
+        "min_price": 1599000
     },
     "154": {
         "min_price": 1899000
@@ -420,21 +312,21 @@
         "min_price": 999000
     },
     "160": {
-        "min_price": 2665000
+        "min_price": 2719000
     },
     "161": {
         "min_price": 4399000
     },
     "166": {
-        "min_price": 2065000
+        "min_price": 2099000
     },
     "167": {
-        "min_price": 1109900
+        "min_price": 1499000
     },
     "168": {
         "min_price": 1899000
     },
     "169": {
-        "min_price": 2019900
+        "min_price": 2199000
     }
 }

@@ -128,7 +128,7 @@
         "min_price": 2069000
     },
     "33": {
-        "model": "Haval, F7x New",
+        "model": "Haval, F7x",
         "min_price": 2069000
     },
     "34": {
@@ -509,11 +509,11 @@
     },
     "128": {
         "model": "Zotye, T600",
-        "min_price": 757800
+        "min_price": 651600
     },
     "129": {
         "model": "Zotye, Coupa",
-        "min_price": 927900
+        "min_price": 797800
     },
     "130": {
         "model": "Chery, Arrizo 8",

@@ -2,7 +2,7 @@ brand,model,min_price
 Aito,M5,5990000
 Aito,M7,6990000
 BAIC,BJ40,3069000
-BAIC,U5 Plus,1340000
+BAIC,U5 Plus,1379000
 BAIC,X35,1379000
 BAIC,X55,2705000
 Belgee,X50,1870190
@@ -24,22 +24,25 @@ Changan,Hunter Plus,2999900
 Changan,Lamore,1952930
 Changan,UNI-K,3169900
 Changan,UNI-S,2959900
-Changan,UNI-S/CS55 Plus,2109900
+Changan,UNI-S/CS55 Plus,2179900
 Changan,UNI-T,2170000
 Changan,UNI-V,2659900
 Chery,Arrizo 8,2030000
 Chery,Tiggo 2,749900
 Chery,Tiggo 3,637900
 Chery,Tiggo 4,736900
+Chery,Tiggo 4 New,2330000
 Chery,Tiggo 4 Pro,1349900
 Chery,Tiggo 5,569000
 Chery,Tiggo 7,956900
 Chery,Tiggo 7 Pro,1217900
-Chery,Tiggo 7 Pro Max,1946000
+Chery,Tiggo 7 Pro Max,1930000
+Chery,Tiggo 7 Pro Max New,2770000
 Chery,Tiggo 7 Pro Plug-In-Hybrid,4050000
 Chery,Tiggo 8,1247900
 Chery,Tiggo 8 Pro,1527900
 Chery,Tiggo 8 Pro Max,2359000
+Chery,Tiggo 8 Pro Max New,4160000
 Chery,Tiggo 9,3325000
 Chevrolet,Cobalt,597900
 Chevrolet,Nexia,547900
@@ -88,14 +91,16 @@ Geely,Belgee X50,1603693
 Geely,Cityray,2299990
 Geely,Coolray,983999
 Geely,Coolray New,1826993
-Geely,Emgrand,1693990
+Geely,Emgrand,1643990
 Geely,Emgrand New,1949990
 Geely,Emgrand X7,907990
 Geely,GS,999990
-Geely,Monjaro,3842190
-Geely,Okavango,3150190
-Geely,Preface,2911190
+Geely,Monjaro,3690190
+Geely,Okavango,3004190
+Geely,Okavango New,3449990
+Geely,Preface,2781190
 Geely,Tugella,2771993
+Geely,Tugella New,3959990
 Genesis,G70,7360000
 Great Wall,GWM Wingle 7,2899000
 Great Wall,POER,2414300
@@ -108,40 +113,44 @@ Haval,F7 New,2249000
 Haval,F7x,1192000
 Haval,F7x New,2349000
 Haval,H2,972000
-Haval,H3,2699000
+Haval,H3,2649000
 Haval,H5,992000
+Haval,H5 New,3699000
 Haval,H6,992000
 Haval,H9,3999000
 Haval,Jolion,989000
+Haval,Jolion New,1999000
 Haval,M6,1704000
 Haval,M6 New,1704000
 Hongqi,E-HS9,12280000
 Hyundai,Creta,838000
 Hyundai,Creta New,903000
 Hyundai,Elantra,1178000
-Hyundai,Santa Fe,6950000
+Hyundai,Elantra New,2149000
+Hyundai,Santa Fe,2609000
 Hyundai,Solaris,666000
 Hyundai,Solaris New,666000
 Hyundai,Sonata,1273000
-Hyundai,Staria,8900000
+Hyundai,Staria,8600000
 Hyundai,Tucson,1499000
+Hyundai,Tucson New,2749000
 Hyundai,i30,2600000
 JAC,J7,959000
-JAC,JS3,1359000
+JAC,JS3,1335000
 JAC,JS6,1699000
 JAC,S3,674000
 JAC,S5,824000
 JAC,S7,1349900
 JAC,T6,2270000
-JAC,T8,2599000
+JAC,T8,2550000
 JAC,T8 Pro,2729000
 JAC,T9,3299000
-JAECOO,J7,2039900
+JAECOO,J7,2239900
 JAECOO,J8,3484900
 Jetour,Dashing,1493940
-Jetour,T2,3589000
-Jetour,X50,1720000
-Jetour,X70,2349900
+Jetour,T2,3209000
+Jetour,X50,1440000
+Jetour,X70,1999900
 Jetour,X70 Plus,2099930
 Jetour,X90 Plus,2039940
 Jetta,VA3,1147400
@@ -150,22 +159,27 @@ Jetta,VS7,1759800
 KAIYI,E5,1371300
 KAIYI,X3,1566600
 KAIYI,X3 Pro,1760430
+KAIYI,X7 Kunlun,2997900
 KIA,Ceed,1239900
 KIA,Ceed SW,1295940
 KIA,Cerato,1129900
+KIA,Cerato New,2054900
 KIA,K5,2634900
 KIA,Picanto,1234900
+KIA,Picanto New,1334900
+KIA,ProCeed,1869900
 KIA,Rio,807900
+KIA,Rio New,1434900
 KIA,Rio X,860940
 KIA,Rio X-Line,839900
 KIA,Seltos,962900
 KIA,Sorento,2273940
-KIA,Sorento New,3689900
+KIA,Sorento New,2499900
 KIA,Soul,884900
 KIA,Sportage 5,2749900
 KIA,XCeed,2534900
 Knewstar,001,3820190
-Lada,4x4 3 двери,1017500
+Lada,4x4 3 двери,849500
 Lada,Aura,2595500
 Lada,Granta Cross,449900
 Lada,Granta Hatchback,318500
@@ -213,17 +227,17 @@ Livan,S6 Pro,1784930
 Livan,X3 Pro,1579900
 Livan,X6 Pro,1840930
 Lixiang,L7,7084600
-Lixiang,L9,7544000
+Lixiang,L9,9000000
 Mazda,6,1548000
 Mazda,CX-5,1645000
 Mazda,CX-9,3585000
-Mercedes-Benz,G-класс AMG,47000000
+Mercedes-Benz,G-класс AMG,45120000
 Mercedes-Benz,GLE,13000000
 Mercedes-Benz,GLE AMG,27700000
-Mercedes-Benz,GLS,20296000
+Mercedes-Benz,GLS,18860000
 Mercedes-Benz,GLS AMG,38344000
 Mercedes-Benz,Maybach S-класс,45700000
-Mercedes-Benz,V-класс,18500000
+Mercedes-Benz,V-класс,17760000
 Mitsubishi,ASX,1969000
 Mitsubishi,Eclipse Cross,2929000
 Mitsubishi,L200 New,3479000
@@ -240,7 +254,7 @@ OMODA,C5,1614900
 OMODA,S5,1439900
 OMODA,S5 GT,1749900
 Ora,03,3029000
-Porshe,Cayenne,33200000
+Porshe,Cayenne,31871000
 Ravon,Nexia R3,386500
 Ravon,R2,376000
 Ravon,R4,381000
@@ -253,8 +267,8 @@ Renault,Logan Stepway,579000
 Renault,Logan Stepway City,768000
 Renault,Sandero,471000
 Renault,Sandero Stepway,573000
-Renault,Stepway City,822000
-Rox,01,8869000
+Renault,Sandero Stepway City,822000
+Rox,01,8669000
 SWM,G01,1709600
 SWM,G01F,1950200
 SWM,G05 Pro,1964000
@@ -299,9 +313,10 @@ Volkswagen,Polo,685900
 Volkswagen,Polo New,685900
 Volkswagen,Taos,1326900
 Volkswagen,Tiguan,1276900
+Volkswagen,Tiguan New,3375900
 Wey,05,5899000
 Wey,07,7099000
 Wey,80,7399000
 XCite,X-Cross 7,2495500
-XCite,X-Cross 8,3295500
+XCite,X-Cross 8,3395500
 Zotye,Coupa,968000

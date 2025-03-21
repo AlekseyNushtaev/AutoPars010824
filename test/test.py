@@ -17,24 +17,24 @@ from selenium.webdriver import Chrome
 
 
 
-def sool_cars(dct_up, browser):
+def irtysh_avtosalon(dct_up):
     cnt = 1
     res = []
     while True:
-        link = f'https://sool-cars.ru/auto?page={cnt}'
-        browser.get(link)
-        time.sleep(2)
-        html = browser.page_source
+        link = f'https://irtysh-avtosalon.ru/new_auto/page/{cnt}/'
+        response = requests.get(link)
+        time.sleep(0.2)
+        html = response.text
         soup = bs4.BeautifulSoup(html, 'lxml')
-        cards = soup.find_all(attrs={"class": "models-new__item models-new-item"})
+        cards = soup.find_all(attrs={"class": "auto-card new_auto"})
         if len(cards) == 0:
             break
         for card in cards:
             link = card.get("href")
-            title = card.find(attrs={"class": "models-new-item__name"}).text.lower().strip()
+            title = card.find(attrs={"class": "auto-card__title"}).text.lower().strip()
             brand = title.split()[0]
             model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i")
-            cost__ = card.find(attrs={"class": "models-new-item__price-current"}).text
+            cost__ = card.find(attrs={"class": "auto-card__price"}).text
             cost_ = ''
             for y in cost__:
                 if y.isdigit():
@@ -44,17 +44,14 @@ def sool_cars(dct_up, browser):
             try:
                 name = dct_up[name]
             except KeyError:
-                print([name, cost, link])
                 # await bot.send_message(CHANEL_ID, f'{name} {link}')
+                print([name, cost, link])
             res.append([name, cost, link])
             print([name, cost, link])
         cnt += 1
     return res
 
 
-
-
-#
 # chrome_driver_path = ChromeDriverManager().install()
 # browser_service = Service(executable_path=chrome_driver_path)
 # options = Options()
@@ -70,13 +67,6 @@ with open('../autolist.txt', 'r', encoding='utf-8') as f:
     lst = f.readlines()
     for item in lst:
         dct[item.split('|')[0].strip()] = item.split('|')[1].strip()
-# sool_cars(dct, browser)
-lst = ['Lada, Granta', 'Lada, Vesta', 'Lada, Xray', 'Lada, Largus', 'Lada, Niva', 'Chevrolet',
-                        'Datsun', 'Haval', 'Hyundai', 'Belgee', 'Great Wall', 'UAZ', 'Solaris'
-                        'KIA', 'Nissan', 'Renault', 'Skoda', 'Volkswagen', 'Changan', 'DFM', 'FAW', 'Geely', 'JAC',
-                        'Lifan',
-                        'Ravon', 'Zotye', 'Chery', 'OMODA', 'EXEED', 'BAIC', 'Jetta,', 'KAIYI', 'Livan', 'Moskvich',
-                        'TANK',
-                        'JAECOO', 'Jetour']
-lst.sort()
-print(lst)
+res = irtysh_avtosalon(dct)
+print(len(res))
+

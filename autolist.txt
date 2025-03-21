@@ -294,6 +294,7 @@ exeed, txl |EXEED, TXL | 201
 exeed, txlfl |EXEED, TXL | 201
 exeed, txlрестайлинг |EXEED, TXL Restyling | 209
 exeed, txl2.0 |EXEED, TXL | 201
+exeed, txl2 |EXEED, TXL 2 | 976
 exeed, txlnew |EXEED, TXL New | 202
 exeed, txlрестайлинг2 |EXEED, TXL New | 202
 exeed, новыйtxl |EXEED, TXL New | 202
@@ -345,6 +346,7 @@ forthing, t5 |Forthing, T5 | 785
 forthing, t5evo |Forthing, T5 Evo | 225
 forthing, yacht |Forthing, Yacht | 226
 forthing, venuciad60plus |Forthing, Venucia D60 Plus | 903
+forthing, venuciav-online |Forthing, Venucia V-Online | 975
 foton, sauvana |Foton, Sauvana | 227
 foton, tunland |Foton, Tunland | 228
 ford, fiestaхэтчбек |Ford, Fiesta Hatchback | 229
