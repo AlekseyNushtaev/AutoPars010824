@@ -509,11 +509,11 @@
     },
     "128": {
         "model": "Zotye, T600",
-        "min_price": 651600
+        "min_price": 757800
     },
     "129": {
         "model": "Zotye, Coupa",
-        "min_price": 797800
+        "min_price": 927900
     },
     "130": {
         "model": "Chery, Arrizo 8",
@@ -841,15 +841,15 @@
     },
     "215": {
         "model": "Gac, GS3",
-        "min_price": 1725000
+        "min_price": 1350000
     },
     "216": {
         "model": "Gac, GS8",
-        "min_price": 2887200
+        "min_price": 2259500
     },
     "217": {
         "model": "Gac, M8",
-        "min_price": 3874000
+        "min_price": 3031800
     },
     "218": {
         "model": "EXEED, LX",

@@ -101,6 +101,7 @@ changan, cs75fl |Changan, CS75FL | 118
 changan, cs75flfl |Changan, CS75FL | 118
 changan, cs75plus |Changan, CS75 Plus | 135
 сhangan, cs75plus |Changan, CS75 Plus | 135
+changan, cs75plus(iii) |Changan, CS75 Plus New | 136
 changan, cs75plusnew |Changan, CS75 Plus New | 136
 changan, cs75plus2023 |Changan, CS75 Plus 2023 | 137
 changan, cs85coupe |Changan, CS85 Coupe | 124
@@ -381,6 +382,7 @@ gac, gs3gac, gs3new |Gac, GS3 | 243
 gac, motorgs3 |Gac, GS3 | 243
 gac, gs3new |Gac, GS3 New | 244
 gac, gs3 |Gac, GS3 | 243
+gac, gs4 |Gac, GS4 | 978
 gac, gs5 |Gac, GS5 | 245
 gac, motorgs5 |Gac, GS5 | 245
 gac, gs8 |Gac, GS8 | 246
@@ -444,6 +446,7 @@ geely, monjarohi-phybrid |Geely, Monjaro Hi-P Hybrid | 714
 geely, okavango |Geely, Okavango | 267
 джили, окаванго |Geely, Okavango | 267
 geely, okavango(iрестайлинг) |Geely, Okavango New | 268
+geely, okavango(vx11) |Geely, Okavango | 267
 geely, новыйokavango |Geely, Okavango New | 268
 geely, okavangoрестайлинг |Geely, Okavango New | 268
 geely, okavangonew |Geely, Okavango New | 268
@@ -821,6 +824,7 @@ lada, kalinacross |Lada, Kalina Cross | 963
 lada, largus |Lada, Largus | 418
 lada, largus5м. |Lada, Largus | 418
 lada, largus5мест |Lada, Largus | 418
+lada, largus5-мест |Lada, Largus | 418
 lada, largusуниверсалcng |Lada, Largus CNG| 686
 lada, larguscross |Lada, Largus Cross | 419
 lada, larguscrosscross |Lada, Largus Cross | 419
@@ -843,6 +847,7 @@ lada, largusnew |Lada, Largus New | 449
 lada, новыйlargusуниверсал |Lada, Largus New | 449
 lada, новыйlargus7мест |Lada, Largus New 7 мест | 450
 lada, largus7м. |Lada, Largus New 7 мест | 450
+lada, largus7-мест |Lada, Largus New 7 мест | 450
 lada, largus7мест |Lada, Largus New 7 мест | 450
 lada, новыйlargus5мест |Lada, Largus New | 449
 lada, largusnew7мест |Lada, Largus New 7 мест | 450
@@ -873,6 +878,7 @@ lada, (ваз)2349iрестайлингборт-тент |Lada, ВИС 2349 Бо
 lada, (ваз)2349iрестайлингбортовойгрузовик |Lada, ВИС 2349 Бортовая платформа | 721
 lada, (ваз)2349iрестайлингизотермическийкузов |Lada, ВИС 2349 Бортовая платформа | 721
 lada, (ваз)2349iрестайлингпромтоварныйавтофургон |Lada, ВИС 2349 Бортовая платформа | 721
+lada, (ваз)2349iрестайлингрефрижератор |Lada, ВИС 2349 Бортовая платформа | 721
 lada, niva |Lada, Niva | 422
 lada, (ваз)niva |Lada, Niva | 422
 lada, 21230 |Lada, Niva | 422
@@ -1227,6 +1233,7 @@ skoda, octaviascout |Skoda, Octavia Scout | 952
 skoda, rapid |Skoda, Rapid | 581
 skoda, rapid2019 |Skoda, Rapid | 581
 skoda, новыйrapid |Skoda, Rapid New | 584
+skoda, newrapid |Skoda, Rapid New | 584
 skoda, rapidsportedition |Skoda, Rapid Sport Edition | 582
 skoda, octaviacombi |Skoda, Octavia Combi | 583
 skoda, rapidnew |Skoda, Rapid New | 584
@@ -1305,6 +1312,7 @@ swm, go5pro |SWM, G05 Pro | 613
 tank, 300 |TANK, 300 | 614
 tank, 400 |TANK, 400 | 850
 tank, 500 |TANK, 500 | 615
+tank, 500new |TANK, 500 New| 977
 tank, 500urban |TANK, 500 Urban | 731
 tank, 700 |TANK, 700 | 770
 toyota, alphard |Toyota, Alphard | 616
@@ -1357,6 +1365,7 @@ uaz, патриотсакпп |UAZ, Patriot АКПП| 734
 уаз, патриот |UAZ, Patriot | 634
 uaz, patriotnew |UAZ, Patriot New | 635
 уаз, patriotiрестайлинг3кроссовер |UAZ, Patriot New | 635
+уаз, patriotnew |UAZ, Patriot New | 635
 uaz, patriotpickup |UAZ, Patriot Pickup | 636
 уаз, patriotpickup |UAZ, Patriot Pickup | 636
 uaz, patriotпикап |UAZ, Patriot Pickup | 636
@@ -1383,6 +1392,7 @@ uaz, пикап |UAZ, Pickup | 637
 uaz, пикапмкпп |UAZ, Pickup | 637
 uaz, пикапсакпп |UAZ, Pickup АКПП| 828
 uaz, pickupnew |UAZ, Pickup New | 638
+уаз, pickupnew |UAZ, Pickup New | 638
 уаз, pickupiрестайлинг2 |UAZ, Pickup New | 638
 уаз, pickupiрестайлинг2фургон |UAZ, Pickup New | 638
 uaz, новыйпикап |UAZ, Pickup New | 638

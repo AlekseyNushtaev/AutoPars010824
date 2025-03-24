@@ -17,24 +17,27 @@ from selenium.webdriver import Chrome
 
 
 
-def irtysh_avtosalon(dct_up):
-    cnt = 1
+def ac_neva(dct_up, browser):
     res = []
-    while True:
-        link = f'https://irtysh-avtosalon.ru/new_auto/page/{cnt}/'
-        response = requests.get(link)
-        time.sleep(0.2)
-        html = response.text
+    link = 'https://ac-neva.ru/newauto/'
+    browser.get(link)
+    time.sleep(2)
+    html = browser.page_source
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    brands = soup.find_all(attrs={"class": "brand__link"})
+    for br in brands:
+        link_brand = 'https://ac-neva.ru' + br.get('href')
+        browser.get(link_brand)
+        time.sleep(2)
+        html = browser.page_source
         soup = bs4.BeautifulSoup(html, 'lxml')
-        cards = soup.find_all(attrs={"class": "auto-card new_auto"})
-        if len(cards) == 0:
-            break
+        cards = soup.find_all(attrs={"class": "new-list__card"})
         for card in cards:
-            link = card.get("href")
-            title = card.find(attrs={"class": "auto-card__title"}).text.lower().strip()
+            link = 'https://ac-neva.ru' + card.find("a").get("href")
+            title = card.find(attrs={"class": "new-list__name"}).find("a").text.lower().strip().replace("(ваз)", "")
             brand = title.split()[0]
             model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i")
-            cost__ = card.find(attrs={"class": "auto-card__price"}).text
+            cost__ = card.find(attrs={"class": "new-list__price"}).text
             cost_ = ''
             for y in cost__:
                 if y.isdigit():
@@ -47,26 +50,25 @@ def irtysh_avtosalon(dct_up):
                 # await bot.send_message(CHANEL_ID, f'{name} {link}')
                 print([name, cost, link])
             res.append([name, cost, link])
-            print([name, cost, link])
-        cnt += 1
+            # print([name, cost, link])
     return res
 
 
-# chrome_driver_path = ChromeDriverManager().install()
-# browser_service = Service(executable_path=chrome_driver_path)
-# options = Options()
+chrome_driver_path = ChromeDriverManager().install()
+browser_service = Service(executable_path=chrome_driver_path)
+options = Options()
 # options.add_argument('--headless')
 # options.add_argument('--no-sandbox')
-# options.add_argument("--window-size=1200,600")
-#
-# options.add_argument('--disable-dev-shm-usage')
-# browser = Chrome(service=browser_service, options=options)
-# browser.maximize_window()
+options.add_argument("--window-size=1200,600")
+
+options.add_argument('--disable-dev-shm-usage')
+browser = Chrome(service=browser_service, options=options)
+browser.maximize_window()
 dct = {}
 with open('../autolist.txt', 'r', encoding='utf-8') as f:
     lst = f.readlines()
     for item in lst:
         dct[item.split('|')[0].strip()] = item.split('|')[1].strip()
-res = irtysh_avtosalon(dct)
+res = ac_neva(dct, browser)
 print(len(res))
 
