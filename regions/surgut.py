@@ -186,3 +186,58 @@ async def autosalon_hmao(dct_up, browser):
             await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, cost, link])
     return res
+
+
+async def profcouz_autosurgut(dct_up, browser):
+    link = 'https://profcouz-autosurgut.ru/auto'
+    browser.get(link)
+    time.sleep(2)
+    html = browser.page_source
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "catalog-item"})
+    res = []
+    for card in cards:
+        link = card.find(attrs={"class": "catalog-item-title"}).get("href")
+        title = card.find(attrs={"class": "catalog-item-title"}).text.lower().strip()
+        brand = title.split()[0]
+        model = title.replace(brand, '').strip().replace(" ", "")
+        cost__ = card.find(attrs={"class": "catalog-item-info__pricing__new"}).text
+        cost_ = ''
+        for y in cost__:
+            if y.isdigit():
+                cost_ += y
+        cost = int(cost_)
+        name = brand + ', ' + model
+        try:
+            name = dct_up[name]
+        except KeyError:
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
+        res.append([name, cost, link])
+    return res
+
+
+async def ruauto_s(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://ruauto-s.ru/#models'
+    response = requests.get(link, headers.generate())
+    html = response.text
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "models__item model"})
+    res = []
+    for card in cards:
+        title = 'lada ' + card.find(attrs={"class": "model__title"}).text.lower().strip().replace("- по спец. цене!", "")
+        brand = title.split()[0]
+        model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i")
+        cost__ = card.find(attrs={"class": "model__price-current"}).text
+        cost_ = ''
+        for y in cost__:
+            if y.isdigit():
+                cost_ += y
+        cost = int(cost_)
+        name = brand + ', ' + model
+        try:
+            name = dct_up[name]
+        except KeyError:
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
+        res.append([name, cost, link])
+    return res

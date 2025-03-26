@@ -250,3 +250,45 @@ async def avto_trend_72(dct_up):
             await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, dct["cost"], link])
     return res
+
+
+async def sibtrackt_salon(dct_up, browser):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://sibtrackt-salon.ru/new'
+    browser.get(link)
+    time.sleep(2)
+    try:
+        browser.find_element(By.XPATH, '/html/body/div/main/section[2]/div/div/button').click()
+        time.sleep(2)
+    except:
+        pass
+    html = browser.page_source
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    tags = soup.find_all(attrs={"class": "list__marks-item"})
+    res = []
+    for tag in tags:
+        link_1 = 'https://sibtrackt-salon.ru' + tag.find("a").get("href")
+        response = requests.get(link_1, headers.generate())
+        time.sleep(0.25)
+        html = response.text
+        soup = bs4.BeautifulSoup(html, 'lxml')
+        cards = soup.find_all(attrs={"class": "mini-card--folder--catalog mini-card mini-card--folder"})
+        for card in cards:
+            link = 'https://sibtrackt-salon.ru' + card.get("href")
+            brand = card.find(attrs={"class": "mini-card__regular-title"}).text.lower().strip()
+            model = card.find(attrs={"class": "mini-card__bold-title"}).text.lower().strip().replace(' ', '')
+            cost__ = card.find(attrs={"class": "mini-card__prices-price mini-card__prices-price--actual"}).text.strip()
+            cost_ = ''
+            for y in cost__:
+                if y.isdigit():
+                    cost_ += y
+            if cost_ == '':
+                continue
+            cost = int(cost_)
+            name = brand + ', ' + model
+            try:
+                name = dct_up[name]
+            except KeyError:
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
+            res.append([name, cost, link])
+    return res

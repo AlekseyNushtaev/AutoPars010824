@@ -28,16 +28,18 @@ async def nord_car(dct_up):
         model = card.find(attrs={"class": "absolute-link"}).text.strip()
         name = brand.lower() + ', ' + model.lower().replace(" ", "")
         price_ = card.find(attrs={"class": "cars-list__price"}).text
-        price = ('')
+        price = ''
         for i in price_:
             if i.isdigit():
                 price += i
+        price = int(price)
         try:
             name = dct_up[name]
         except KeyError:
             await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, price, link])
     return res
+
 
 async def dc_dbr(dct_up):
     headers = fake_headers.Headers(browser='firefox', os='win')
@@ -297,6 +299,7 @@ async def autodealer_moscow(dct_up):
         for i in price_:
             if i.isdigit():
                 price += i
+        price = int(price)
         try:
             name = dct_up[name]
         except KeyError:
@@ -323,6 +326,7 @@ async def az_cars(dct_up):
         for i in price_:
             if i.isdigit():
                 price += i
+        price = int(price)
         try:
             name = dct_up[name]
         except KeyError:
@@ -563,4 +567,38 @@ async def ca_geely(dct_up, browser):
             res.append([name, cost, link])
         except Exception:
             pass
+    return res
+
+
+async def carsmo(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://carsmo.ru/catalog'
+    response = requests.get(link, headers.generate())
+    html = response.text
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    brands = soup.find_all(attrs={"class": "catalog__item"})
+    res = []
+    for brand in brands:
+        brand_name = brand.find(attrs={"class": "catalog__title"}).text.lower().strip()
+        brand_link = brand.find("a").get("href")
+        response = requests.get(brand_link, headers.generate())
+        time.sleep(0.2)
+        html = response.text
+        soup = bs4.BeautifulSoup(html, 'lxml')
+        cards = soup.find_all(attrs={"class": "grid__cars-item"})
+        for card in cards:
+            link = card.find("a").get("href")
+            model = card.find(attrs={"class": "grid__cars-title"}).text.lower().replace(' ', '').strip()
+            name = brand_name + ', ' + model
+            price_ = card.find(attrs={"class": "grid__cars-price"}).text
+            price = ''
+            for i in price_:
+                if i.isdigit():
+                    price += i
+            price = int(price)
+            try:
+                name = dct_up[name]
+            except KeyError:
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
+            res.append([name, price, link])
     return res

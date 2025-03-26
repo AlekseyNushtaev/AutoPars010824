@@ -445,3 +445,41 @@ async def kr23auto(dct_up, browser):
             await bot.send_message(CHANEL_ID, f'{name} {link}')
         res.append([name, price, link])
     return res
+
+
+async def atc_maxium_credit(dct_up, browser):
+    link = 'https://atc-maximum-credit.ru/cars-new/'
+    browser.get(link)
+    time.sleep(2)
+    last_height = browser.execute_script("return document.body.scrollHeight")
+    while True:
+        # scroll_js = "window.scrollBy(0, 1000);"
+        browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        # browser.execute_script(scroll_js)
+        time.sleep(2)  # Adjust sleep duration as needed
+        new_height = browser.execute_script("return document.body.scrollHeight")
+        if new_height == last_height:
+            break
+        last_height = new_height
+    html = browser.page_source
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "card-body"})
+    res = []
+    for card in cards:
+        link = 'https://atc-maximum-credit.ru' + card.find("a").get("href")
+        title = card.find(attrs={"class": "card-title__title"}).text.lower().strip()
+        brand = title.split()[0].replace('š', 's')
+        model = title.replace(brand, '').strip().replace(" ", "").replace(' ', '').replace('(ваз)', '')
+        price_ = card.find(attrs={"class": "price-box__current"}).text
+        price = ''
+        for i in price_:
+            if i.isdigit():
+                price += i
+        price = int(price)
+        name = brand + ', ' + model
+        try:
+            name = dct_up[name]
+        except KeyError:
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
+        res.append([name, price, link])
+    return res
