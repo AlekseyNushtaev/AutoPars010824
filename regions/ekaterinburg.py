@@ -235,3 +235,67 @@ async def uu_stocks(dct_up, browser):
         except Exception as e:
             print(e)
     return res
+
+
+async def autoworld_ekb(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://autoworld-ekb.ru/auto/'
+    response = requests.get(link, headers.generate())
+    html = response.text
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "catalog--brands-list--brand--model pa-3"})
+    res = []
+    for card in cards:
+        data = card.get("data-model").replace('null', 'None').replace('\\', '')
+        dct = eval(data)
+        link = 'https://autoworld-ekb.ru' + card.find("a").get("href")
+        name = dct["brand"].lower().strip() + ', ' + dct["model"].lower().replace(" ", "").strip()
+        try:
+            name = dct_up[name]
+        except KeyError:
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
+        res.append([name, dct["cost"], link])
+    return res
+
+
+async def swmauto_dealer(dct_up, browser):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://swmauto-dealer.ru/new'
+    browser.get(link)
+    time.sleep(2)
+    try:
+        browser.find_element(By.XPATH, '/html/body/div/main/div/div/section/div/button/span').click()
+        time.sleep(2)
+    except:
+        pass
+    html = browser.page_source
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    tags = soup.find(attrs={"class": "popular-marks-list"}).find_all("a")
+    res = []
+    for tag in tags:
+        link_1 = 'https://swmauto-dealer.ru' + tag.get("href")
+        response = requests.get(link_1, headers.generate())
+        time.sleep(0.25)
+        html = response.text
+        soup = bs4.BeautifulSoup(html, 'lxml')
+        cards = soup.find_all(attrs={"class": "mini-card mini-card--folder"})
+        for card in cards:
+            link = 'https://swmauto-dealer.ru' + card.find("a").get("href")
+            title = card.find(attrs={"class": "mini-card__folder"}).text.lower().strip()
+            brand = title.split()[0]
+            model = title.replace(brand, '').strip().replace(" ", "")
+            cost__ = card.find(attrs={"class": "mini-card__price"}).text.strip()
+            cost_ = ''
+            for y in cost__:
+                if y.isdigit():
+                    cost_ += y
+            if cost_ == '':
+                continue
+            cost = int(cost_)
+            name = brand + ', ' + model
+            try:
+                name = dct_up[name]
+            except KeyError:
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
+            res.append([name, cost, link])
+    return res

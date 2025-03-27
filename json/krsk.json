@@ -569,7 +569,7 @@
     },
     "143": {
         "model": "EXEED, TXL",
-        "min_price": 2181100
+        "min_price": 1938700
     },
     "144": {
         "model": "BAIC, U5 Plus",
@@ -853,15 +853,15 @@
     },
     "218": {
         "model": "EXEED, LX",
-        "min_price": 1935000
+        "min_price": 1719900
     },
     "219": {
         "model": "EXEED, RX",
-        "min_price": 2604800
+        "min_price": 2315200
     },
     "220": {
         "model": "EXEED, VX",
-        "min_price": 2810900
+        "min_price": 2498400
     },
     "221": {
         "model": "Belgee, X50",

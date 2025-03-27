@@ -6,8 +6,8 @@ BAIC,U5,1518000
 BAIC,U5 Plus,989900
 BAIC,U5 Plus CNG,2240522
 BAIC,X35,989900
-BAIC,X55,1780000
-BAIC,X7,1900000
+BAIC,X55,1040000
+BAIC,X7,1500000
 BAIC,X75,1990000
 BYD,Qin,3139900
 Belgee,X50,706300
@@ -41,7 +41,7 @@ Changan,UNI-S,1329900
 Changan,UNI-T,1329900
 Changan,UNI-V,1399900
 Chery,Arrizo 7,1331900
-Chery,Arrizo 8,1549900
+Chery,Arrizo 8,1099900
 Chery,Bonus,979990
 Chery,Bonus 3,1075000
 Chery,Explore 06 New,1340000
@@ -67,7 +67,7 @@ Chery,Tiggo 8 Pro,1570000
 Chery,Tiggo 8 Pro Max,1880000
 Chery,Tiggo 8 Pro Max New,2189900
 Chery,Tiggo 8 Pro Plug-In-Hybrid,3878000
-Chery,Tiggo 8 Pro e+,2915940
+Chery,Tiggo 8 Pro e+,2119900
 Chery,Tiggo 9,1950000
 Chery,Tiggo FL,1279900
 Chery,Very,989999
@@ -89,32 +89,32 @@ Dongfeng,580 New,1499000
 Dongfeng,AX7,619000
 Dongfeng,DF6,2045000
 Dongfeng,DFSK 500,1479000
-Dongfeng,DFSK IX5,1670000
-Dongfeng,DFSK IX7,2690000
+Dongfeng,DFSK IX5,1300000
+Dongfeng,DFSK IX7,2050000
 Dongfeng,H30 Cross,509000
 Dongfeng,S30,839000
 Dongfeng,SK 580,470000
 Dongfeng,Shine Max,1479000
-EXEED,LX,1935000
+EXEED,LX,1719900
 EXEED,LX AWD,2099000
 EXEED,LX New,2470000
-EXEED,RX,2700000
-EXEED,TXL,1619900
+EXEED,RX,2420000
+EXEED,TXL,1916900
 EXEED,TXL New,2016900
-EXEED,VX,3029900
+EXEED,VX,2999900
 EXEED,VX LE,3800990
 EXEED,VX New,3534930
 Evolute,i-JOY,2794500
 Evolute,i-PRO,2091000
 Evolute,i-SKY,3442000
 FAW,Bestune B70,1328000
-FAW,Bestune B70 New,1997992
+FAW,Bestune B70 New,1660000
 FAW,Bestune T55,1448610
 FAW,Bestune T77,1469000
-FAW,Bestune T90,1779990
+FAW,Bestune T90,1750000
 FAW,Bestune T90 New,2221992
 FAW,Bestune T99,1710000
-FAW,Bestune T99 New,3063000
+FAW,Bestune T99 New,1763000
 FAW,Besturn B30,910000
 FAW,Besturn T99,2250000
 FAW,Besturn X40,587300
@@ -195,7 +195,7 @@ Hawtai,Laville,649000
 Honda,CR-V New,3833900
 Hyundai,Bayon,1559000
 Hyundai,Creta,690000
-Hyundai,Creta New,849000
+Hyundai,Creta New,839000
 Hyundai,Elantra,1026900
 Hyundai,Elantra New,1029900
 Hyundai,Equus,3726700
@@ -205,7 +205,7 @@ Hyundai,H-1,2099000
 Hyundai,Mufasa,2042000
 Hyundai,Palisade,3402000
 Hyundai,Palisade New,3872000
-Hyundai,Santa Fe,1869400
+Hyundai,Santa Fe,1619000
 Hyundai,Santa Fe New,2229000
 Hyundai,Santa Fe Premium,2133400
 Hyundai,Solaris,500300
@@ -215,7 +215,7 @@ Hyundai,Sonata,1130200
 Hyundai,Sonata New,1130200
 Hyundai,Staria,3249000
 Hyundai,Tucson,1478000
-Hyundai,Tucson New,1519000
+Hyundai,Tucson New,1399000
 Hyundai,i30,1249890
 Hyundai,i30 N,2710000
 Hyundai,i40,1474300
@@ -262,7 +262,7 @@ KGM(SsangYong),Rexton,3450000
 KGM(SsangYong),Tivoli,625000
 KGM(SsangYong),Torres,3100000
 KGM(SsangYong),XLV,909000
-KIA,Carnival,2249900
+KIA,Carnival,2104900
 KIA,Ceed,960300
 KIA,Ceed GT,2009900
 KIA,Ceed JD,1629370
@@ -270,11 +270,11 @@ KIA,Ceed New,960300
 KIA,Ceed SW,980300
 KIA,Ceed SW New,980300
 KIA,Cerato,870300
-KIA,Cerato New,1204900
+KIA,Cerato New,1134900
 KIA,K5,1070300
 KIA,K900,4704900
 KIA,Mohave,2759900
-KIA,Mohave New,4169900
+KIA,Mohave New,3769900
 KIA,Optima,1949900
 KIA,Picanto,566900
 KIA,Picanto New,445900
@@ -288,14 +288,14 @@ KIA,Rio X,590300
 KIA,Rio X-Line,557000
 KIA,Seltos,705300
 KIA,Seltos New,1375000
-KIA,Sorento,1669900
+KIA,Sorento,1179900
 KIA,Sorento New,1670300
 KIA,Sorento Prime,1964900
 KIA,Soul,571200
 KIA,Soul New,571200
 KIA,Sportage,977300
 KIA,Sportage 5,1709940
-KIA,Sportage New,1599900
+KIA,Sportage New,1579900
 KIA,Stinger,2059900
 KIA,Venga,1642490
 KIA,XCeed,845300

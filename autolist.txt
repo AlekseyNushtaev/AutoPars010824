@@ -391,6 +391,7 @@ ford, s-max |Ford, S-MAX | 803
 ford, tourneo |Ford, Tourneo | 710
 ford, tourneocustom |Ford, Tourneo | 710
 gac, emkoo |Gac, Emkoo | 239
+gac, empow |Gac, Empow | 1008
 gac, trumpchiemkoo |Gac, Emkoo Trumpchi | 240
 gac, trumpchigs3 |Gac, GS3 Trumpchi | 241
 gac, ga6 |Gac, GA6 | 771
@@ -530,6 +531,7 @@ haval, h5 |Haval, H5 | 297
 haval, h6 |Haval, H6 | 298
 haval, h6coupe |Haval, H6 | 298
 haval, h6new |Haval, H6 New | 299
+haval, h7 |Haval, H7 | 1007
 haval, h9 |Haval, H9 | 300
 haval, h92023 |Haval, H9 | 300
 haval, h9new |Haval, H9 New | 684

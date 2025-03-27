@@ -13,7 +13,7 @@ async def json_maker():
     for region in ['krasnodar', 'moscow', 'stavropol', 'surgut', 'volgograd', 'samara', 'kazan', 'spb', 'omsk', 'himki',
                    'chelyabinsk', 'cheboksari', 'ufa', 'tumen', 'ekaterinburg', 'saratov', 'kemerovo', 'nsk', 'krsk',
                    'toliati', 'dmitrovka']:
-        if region != 'krsk':
+        if region not in ['krsk', 'dmitrovka', 'moscow']:
             dct_region = {}
             res_lst = []
             res = {}
@@ -31,7 +31,7 @@ async def json_maker():
                     model = sh.cell(i, 3).value
                     name = brand + ', ' + model
                     price_min = dct_region.get(name, 0)
-                    if price_min != 0 and model_id < 170:
+                    if price_min != 0:
                         res_lst.append([model_id, price_min])
             res_lst.sort()
             for item in res_lst:
@@ -40,6 +40,7 @@ async def json_maker():
             with open(f'json/{region}.json', 'w') as f:
                 f.write(json_object)
         else:
+            print(region)
             dct_region = {}
             res_lst = []
             res = {}
