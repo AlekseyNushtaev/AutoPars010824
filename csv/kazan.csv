@@ -62,7 +62,7 @@ EXEED,TXL,1999900
 EXEED,VX,4909900
 FAW,Bestune B70,1629600
 FAW,Bestune T55,1602300
-FAW,Bestune T77,2124000
+FAW,Bestune T77,2169000
 FAW,Bestune T99,2900000
 FAW,Besturn T77,1969000
 FAW,Besturn X40,470000
@@ -90,14 +90,14 @@ Geely,Belgee X50,1603693
 Geely,Cityray,2294190
 Geely,Coolray,983999
 Geely,Coolray New,1826993
-Geely,Emgrand,1633990
+Geely,Emgrand,1635990
 Geely,Emgrand New,1949990
 Geely,Emgrand X7,907990
 Geely,GS,999990
-Geely,Monjaro,3592190
-Geely,Okavango,2784190
+Geely,Monjaro,3500000
+Geely,Okavango,2787190
 Geely,Okavango New,3449990
-Geely,Preface,2667190
+Geely,Preface,2700000
 Geely,Tugella,2771993
 Geely,Tugella New,3959990
 Genesis,G70,7360000
@@ -116,6 +116,7 @@ Haval,H3,2649000
 Haval,H5,992000
 Haval,H5 New,3699000
 Haval,H6,992000
+Haval,H7,3799000
 Haval,H9,3999000
 Haval,Jolion,989000
 Haval,Jolion New,1999000
@@ -178,7 +179,7 @@ KIA,Soul,884900
 KIA,Sportage 5,2749900
 KIA,XCeed,2534900
 Knewstar,001,3820190
-Lada,4x4 3 двери,849500
+Lada,4x4 3 двери,1017500
 Lada,Aura,2595500
 Lada,Granta Cross,449900
 Lada,Granta Hatchback,318500
@@ -289,9 +290,9 @@ Solaris,KRX,1464000
 Suzuki,Jimny New,2069000
 Suzuki,SX4,1969000
 Suzuki,Vitara,1819000
-TANK,300,4049000
-TANK,400,6199000
-TANK,500,5527970
+TANK,300,3569000
+TANK,400,5699000
+TANK,500,5749000
 Toyota,CH-R,1931000
 Toyota,Camry,1798000
 Toyota,Corolla,1255000
@@ -313,9 +314,9 @@ Volkswagen,Polo New,685900
 Volkswagen,Taos,1326900
 Volkswagen,Tiguan,1276900
 Volkswagen,Tiguan New,3375900
-Wey,05,5899000
-Wey,07,7099000
-Wey,80,7399000
-XCite,X-Cross 7,2495500
-XCite,X-Cross 8,3395500
+Wey,05,5399000
+Wey,07,6349000
+Wey,80,6499000
+XCite,X-Cross 7,2195500
+XCite,X-Cross 8,3095500
 Zotye,Coupa,968000

@@ -1,7 +1,7 @@
 brand,model,min_price
 BAIC,BJ40,2835000
 BAIC,U5 Plus,1210000
-BAIC,X35,1241400
+BAIC,X35,1220000
 BAIC,X55,1780000
 BAIC,X7,1900000
 BYD,Qin,1599900
@@ -54,10 +54,10 @@ Chery,Tiggo 8 Pro e+,2000000
 Chery,Tiggo 9,1950000
 Chery,Tiggo 9 New,2905000
 Chevrolet,Captiva,1249000
-Chevrolet,Cobalt,873900
-Chevrolet,Nexia,800900
+Chevrolet,Cobalt,590000
+Chevrolet,Nexia,540000
 Chevrolet,Niva,437900
-Chevrolet,Spark,870900
+Chevrolet,Spark,500000
 Chevrolet,Trailblazer,1670000
 Chevrolet,Traverse,2940000
 Datsun,MI-DO,289000
@@ -68,7 +68,7 @@ Dongfeng,AX7,737400
 Dongfeng,DF6,1790000
 Dongfeng,DFSK IX5,2990000
 Dongfeng,DFSK IX7,3990000
-Dongfeng,Shine Max,1990000
+Dongfeng,Shine Max,1540000
 EXEED,LX,1930000
 EXEED,RX,2700000
 EXEED,TXL,1920000
@@ -78,8 +78,8 @@ EXEED,VX,2830000
 EXEED,VX LE,5440000
 EXEED,VX New,4350000
 EXEED,VX Restyling,4349000
-FAW,Bestune B70,1860000
-FAW,Bestune T55,1744200
+FAW,Bestune B70,1328000
+FAW,Bestune T55,1740000
 FAW,Bestune T77,1302000
 FAW,Bestune T99,2250000
 FAW,Bestune T99 New,2240000
@@ -88,10 +88,10 @@ FAW,Besturn T55,2161000
 FAW,Besturn T99,2790000
 FAW,Besturn X40,640300
 FAW,Besturn X80,782000
-FAW,X40,961200
+FAW,X40,640300
 FAW,X40 New,1522000
 Forthing,T5 Evo,2080000
-Forthing,Yacht,3090000
+Forthing,Yacht,2950000
 Gac,GN8,2039400
 Gac,GS3,1552500
 Gac,GS3 New,2049000
@@ -116,7 +116,7 @@ Geely,Okavango New,2649990
 Geely,Preface,1500000
 Geely,Preface New,2699000
 Geely,Tugella,1919500
-Geely,Tugella New,2000000
+Geely,Tugella New,1999000
 Geely,Tugella Restyling,1999000
 Great Wall,POER,2800000
 Great Wall,POER King Kong,2490000
@@ -149,7 +149,7 @@ Hyundai,Creta,760000
 Hyundai,Creta New,919200
 Hyundai,Custo,2110000
 Hyundai,Elantra,1100000
-Hyundai,Elantra New,1107200
+Hyundai,Elantra New,1100000
 Hyundai,H-1,2090000
 Hyundai,IONIQ 5,3660000
 Hyundai,Palisade,3401300
@@ -163,7 +163,7 @@ Hyundai,Sonata New,1391200
 Hyundai,Staria,3790000
 Hyundai,Staria Premium,4899000
 Hyundai,Tucson,1260000
-Hyundai,Tucson New,1476200
+Hyundai,Tucson New,1470000
 Hyundai,i30 N,1800000
 JAC,J7,860000
 JAC,JS3,1299000
@@ -177,7 +177,7 @@ JAC,T8 Pro,2949000
 JAC,T9 New,3149000
 JAC,iEV7S,2040000
 JAECOO,J7,1903940
-JAECOO,J8,4149000
+JAECOO,J8,2399000
 Jetour,Dashing,1750000
 Jetour,T2,2759000
 Jetour,T2 New,3759000
@@ -198,7 +198,7 @@ KIA,Ceed SW,1250000
 KIA,Ceed SW New,1258100
 KIA,Ceed SW Universal,1258100
 KIA,Cerato,1030000
-KIA,Cerato New,1035100
+KIA,Cerato New,1030000
 KIA,Cerato Restyling,1035100
 KIA,K5,1390000
 KIA,K9,6224900
@@ -208,7 +208,7 @@ KIA,Optima Rest,1140000
 KIA,Picanto,740000
 KIA,Picanto New,747900
 KIA,Rio,710000
-KIA,Rio New,710100
+KIA,Rio New,710000
 KIA,Rio X,830000
 KIA,Rio X-Line,600000
 KIA,Seltos,1020000
@@ -232,7 +232,7 @@ Lada,Granta Hatchback,431100
 Lada,Granta Hatchback New,431100
 Lada,Granta Liftback,440000
 Lada,Granta Liftback New,433380
-Lada,Granta Sedan,411000
+Lada,Granta Sedan,410000
 Lada,Granta Sedan New,410000
 Lada,Granta Sport Sedan,749900
 Lada,Granta Universal,450000
@@ -290,16 +290,16 @@ Mazda,CX-5,1600000
 Mazda,CX-60,3570000
 Mazda,CX-9,2920000
 Mazda,CX-9 Restyling,2922100
-Mitsubishi,ASX New,1372000
+Mitsubishi,ASX New,1340000
 Mitsubishi,ASX Restyling 3,1372000
 Mitsubishi,Eclipse Cross,1450000
-Mitsubishi,Eclipse Cross New,3549000
-Mitsubishi,L200 New,4099000
+Mitsubishi,Eclipse Cross New,2010000
+Mitsubishi,L200 New,2450000
 Mitsubishi,Montero Sport,3300000
 Mitsubishi,Outlander,1251400
 Mitsubishi,Outlander New,2070000
 Mitsubishi,Pajero Sport,2479000
-Mitsubishi,Pajero Sport New,4359000
+Mitsubishi,Pajero Sport New,2600000
 Moskvich,3,1200000
 Moskvich,3e,1750000
 Moskvich,6,1136000
@@ -325,16 +325,16 @@ Renault,Arkana,909000
 Renault,Arkana New,909000
 Renault,Duster,750000
 Renault,Duster 2021,640000
-Renault,Duster New,751000
+Renault,Duster New,750000
 Renault,Kaptur,780000
 Renault,Kaptur New,789900
 Renault,Koleos,1449000
-Renault,Logan,500000
+Renault,Logan,499000
 Renault,Logan New,499000
 Renault,Logan Stepway,650000
 Renault,Sandero,540000
 Renault,Sandero New,545000
-Renault,Sandero Stepway,700000
+Renault,Sandero Stepway,565300
 Renault,Sandero Stepway New,565300
 SWM,G01,1438220
 SWM,G01F,1588340
@@ -350,10 +350,10 @@ Skoda,Rapid,560000
 Skoda,Rapid New,727600
 Skoda,Superb,1240000
 Skoda,Superb New,2308000
-Solaris,HC,1770000
+Solaris,HC,1749000
 Solaris,HS,1110000
 Solaris,KRS,1280000
-Solaris,KRX,1780000
+Solaris,KRX,1464000
 Soueast,DX5,1550000
 Soueast,DX8S,1630000
 Suzuki,SX4,1109000
@@ -387,6 +387,6 @@ Volkswagen,Polo New,734000
 Volkswagen,Taos,1464000
 Volkswagen,Teramont,2679400
 Volkswagen,Tiguan,1230000
-Volkswagen,Tiguan New,1529300
+Volkswagen,Tiguan New,1230000
 Zotye,Coupa,750300
 Zotye,T600,570300

@@ -104,7 +104,7 @@ async def ac_azimut(dct_up, browser):
     headers = fake_headers.Headers(browser='firefox', os='win')
     link = 'https://ac-azimut.ru/new'
     browser.get(link)
-    time.sleep(2)
+    time.sleep(5)
     try:
         browser.find_element(By.XPATH, '/html/body/div/main/div/div/section/div/button').click()
         time.sleep(2)
@@ -147,7 +147,7 @@ async def nsk_drive(dct_up, browser):
     headers = fake_headers.Headers(browser='firefox', os='win')
     link = 'https://nsk-drive.ru/new'
     browser.get(link)
-    time.sleep(2)
+    time.sleep(5)
     try:
         browser.find_element(By.XPATH, '/html/body/div/main/section[2]/div/div/button').click()
         time.sleep(2)
@@ -319,6 +319,33 @@ async def kia_novo(dct_up, browser):
         brand = title.split()[0]
         model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i")
         cost__ = card.find(attrs={"class": "main_catalog_item__price"}).find("div").text
+        cost_ = ''
+        for y in cost__:
+            if y.isdigit():
+                cost_ += y
+        cost = int(cost_)
+        name = brand + ', ' + model
+        try:
+            name = dct_up[name]
+        except KeyError:
+            await bot.send_message(CHANEL_ID, f'{name} {link}')
+        res.append([name, cost, link])
+    return res
+
+
+async def azimuth_auto(dct_up, browser):
+    link = 'https://azimuth-auto.ru/auto'
+    browser.get(link)
+    time.sleep(2)
+    html = browser.page_source
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    cards = soup.find_all(attrs={"class": "car__box"})
+    res = []
+    for card in cards:
+        link = card.find("a").get("href")
+        brand = card.find(attrs={"class": "car__mark-name"}).text.lower().strip()
+        model = card.find(attrs={"class": "car__car-name"}).text.lower().strip().replace(" ", "")
+        cost__ = card.find(attrs={"class": "car__price"}).text
         cost_ = ''
         for y in cost__:
             if y.isdigit():

@@ -197,3 +197,46 @@ async def ac_neva(dct_up, browser):
                 await bot.send_message(CHANEL_ID, f'{name} {link}')
             res.append([name, cost, link])
     return res
+
+
+async def astella_drive(dct_up, browser):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://astella-drive.ru/'
+    browser.get(link)
+    time.sleep(2)
+    try:
+        browser.find_element(By.XPATH, '/html/body/div/main/div/div/div[1]/div[2]').click()
+        time.sleep(2)
+    except:
+        pass
+    html = browser.page_source
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    tags = soup.find(attrs={"class": "list list__marks"}).find_all("a")
+    res = []
+    for tag in tags:
+        link_1 = 'https://astella-drive.ru' + tag.get("href")
+        response = requests.get(link_1, headers.generate())
+        time.sleep(0.25)
+        html = response.text
+        soup = bs4.BeautifulSoup(html, 'lxml')
+        cards = soup.find_all(attrs={"class": "mini-card mini-card__folder"})
+        for card in cards:
+            link = 'https://astella-drive.ru' + card.get("href")
+            title = card.find(attrs={"class": "mini-card__folder-title"}).text.lower().strip()
+            brand = title.split()[0]
+            model = title.replace(brand, '').strip().replace(" ", "")
+            cost__ = card.find(attrs={"class": "mini-card__folder-prices"}).text.strip()
+            cost_ = ''
+            for y in cost__:
+                if y.isdigit():
+                    cost_ += y
+            if cost_ == '':
+                continue
+            cost = int(cost_)
+            name = brand + ', ' + model
+            try:
+                name = dct_up[name]
+            except KeyError:
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
+            res.append([name, cost, link])
+    return res

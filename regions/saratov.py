@@ -160,3 +160,6 @@ async def automarket_saratov(dct_up):
             await asyncio.sleep(0.1)
         res.append([name, dct["cost"], link])
     return res
+
+
+

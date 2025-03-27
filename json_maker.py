@@ -40,7 +40,6 @@ async def json_maker():
             with open(f'json/{region}.json', 'w') as f:
                 f.write(json_object)
         else:
-            print(region)
             dct_region = {}
             res_lst = []
             res = {}

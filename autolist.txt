@@ -193,6 +193,7 @@ chery, tiggo7promaxnew |Chery, Tiggo 7 Pro Max New | 157
 chery, tiggo7proplug-in-hybrid |Chery, Tiggo 7 Pro Plug-In-Hybrid | 679
 chery, tiggo7proplug-inhybrid |Chery, Tiggo 7 Pro Plug-In-Hybrid | 679
 chery, tiggo7propluginhybrid |Chery, Tiggo 7 Pro Plug-In-Hybrid | 679
+chery, tiggo7plug-inhybryd |Chery, Tiggo 7 Pro Plug-In-Hybrid | 679
 chery, tiggo7prohybrid |Chery, Tiggo 7 Pro Plug-In-Hybrid | 679
 chery, tiggo7proplug-inhybridвнедорожник5дв. |Chery, Tiggo 7 Pro Plug-In-Hybrid | 679
 chery, tiggo8 |Chery, Tiggo 8 | 158
@@ -204,6 +205,7 @@ chery, tiggo8proе+hybrid |Chery, Tiggo 8 Pro e+ Hybrid | 677
 chery, tiggo8proplug-in-hybrid |Chery, Tiggo 8 Pro Plug-In-Hybrid | 678
 chery, tiggo8propluginhybrid |Chery, Tiggo 8 Pro Plug-In-Hybrid | 678
 chery, tiggo8proplug-inhybridкроссовер |Chery, Tiggo 8 Pro Plug-In-Hybrid | 678
+chery, tiggo8plug-inhybryd |Chery, Tiggo 8 Pro Plug-In-Hybrid | 678
 chery, tiggo8proplug-inhybrid |Chery, Tiggo 8 Pro Plug-In-Hybrid | 678
 chery, tiggo8promax |Chery, Tiggo 8 Pro Max | 161
 chery, tiggo8promax2022 |Chery, Tiggo 8 Pro Max | 161
@@ -443,6 +445,7 @@ geely, emgrandx7new |Geely, Emgrand X7 | 259
 geely, emgrand |Geely, Emgrand | 260
 geely, emgrand2023 |Geely, Emgrand | 260
 джили, эмгранд |Geely, Emgrand | 260
+geely, emgrandss11 |Geely, Emgrand | 260
 geely, emgrand7 |Geely, Emgrand 7 | 261
 geely, emgrandgt |Geely, Emgrand GT | 262
 geely, emgrand72023 |Geely, Emgrand 7 2023 | 263
@@ -486,11 +489,13 @@ great, wallpoer |Great Wall, POER | 273
 great wall, poer |Great Wall, POER | 273
 greatwall, poer |Great Wall, POER | 273
 great, wallgwmpoer |Great Wall, POER | 273
+great wall, gwmpoer |Great Wall, POER | 273
 great wall, wingle5 |Great Wall, Wingle 5 | 274
 greatwall, wingle7 |Great Wall, Wingle 7 | 275
 great wall, wingle7 |Great Wall, Wingle 7 | 275
 great, wallwingle7 |Great Wall, Wingle 7 | 275
 great, wallgwmwingle7 |Great Wall, GWM Wingle 7 | 691
+great wall, gwmwingle7 |Great Wall, GWM Wingle 7 | 691
 great, wallgwmpoerkingkong |Great Wall, GWM POER King Kong | 276
 greatwall, poerkingkong |Great Wall, POER King Kong | 277
 great, wallpoerkingkong |Great Wall, POER King Kong | 277
@@ -1171,6 +1176,7 @@ omoda, c5iрестайлингкроссовер |OMODA, C5 New| 820
 omoda, c5рестайлинг |OMODA, C5 New| 820
 omoda, c5кроссовер |OMODA, C5 | 525
 omoda, c5iкроссовер |OMODA, C5 | 525
+omoda, c5fl |OMODA, C5 FL| 1009
 omoda, s5 |OMODA, S5 | 526
 omoda, s5седан |OMODA, S5 | 526
 omoda, s5gt |OMODA, S5 GT | 527
@@ -1389,6 +1395,7 @@ toyota, landcruiserprado |Toyota, Land Cruiser Prado | 630
 toyota, landcruiser250pradonew |Toyota, Land Cruiser Prado New | 741
 toyota, landcruiser250prado |Toyota, Land Cruiser Prado New | 741
 toyota, landcruiserprado250series |Toyota, Land Cruiser Prado New | 741
+toyota, новыйlandcruiserprado |Toyota, Land Cruiser Prado New | 741
 toyota, newcorolla |Toyota, Corolla New | 631
 toyota, corollanew |Toyota, Corolla New | 631
 toyota, rav4new |Toyota, RAV4 New | 632
@@ -1413,6 +1420,7 @@ uaz, patriotpikap |UAZ, Patriot Pickup | 636
 уаз, сгркомби |UAZ, 3909 | 694
 уаз, 3909бортовойгрузовик |UAZ, 3909 Бортовой грузовик| 695
 уаз, 39094бортовойгрузовик |UAZ, 3909 Бортовой грузовик| 695
+уаз, сгрбортовой |UAZ, 3909 Бортовой грузовик| 695
 уаз, 3303бортовойгрузовик |UAZ, 3303 Бортовой грузовик| 875
 уаз, 3909микроавтобус |UAZ, 3909 Микроавтобус| 696
 уаз, сгравтобус |UAZ, 3909 Микроавтобус| 696

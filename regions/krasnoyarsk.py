@@ -136,7 +136,7 @@ async def lada_kras(dct_up):
 async def krsk_auto(dct_up, browser):
     link = 'https://krsk-auto.ru/auto'
     browser.get(link)
-    time.sleep(2)
+    time.sleep(5)
     html = browser.page_source
     soup = bs4.BeautifulSoup(html, 'lxml')
     cards = soup.find_all(attrs={"class": "models__item"})

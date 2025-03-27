@@ -17,33 +17,31 @@ from selenium.webdriver import Chrome
 
 
 
-def sibauto_official(dct_up, browser):
+def saratov_autospot(dct_up):
     headers = fake_headers.Headers(browser='firefox', os='win')
-    link = 'https://sibauto-official.ru/'
-    browser.get(link)
-    time.sleep(2)
-    try:
-        browser.find_element(By.XPATH, '/html/body/div/main/div/div/div[1]/div[2]').click()
-        time.sleep(2)
-    except:
-        pass
-    html = browser.page_source
+    link = 'https://saratov.autospot.ru/brands/'
+    response = requests.get(link, headers.generate())
+    time.sleep(0.5)
+    html = response.text
     soup = bs4.BeautifulSoup(html, 'lxml')
-    tags = soup.find(attrs={"class": "list list__marks"}).find_all("a")
+    tags = soup.find(attrs={"data-testid": "allBrands-block"}).find_all("a")
     res = []
     for tag in tags:
-        link_1 = 'https://sibauto-official.ru' + tag.get("href")
+        link_1 = 'https://saratov.autospot.ru' + tag.get("href")
         response = requests.get(link_1, headers.generate())
-        time.sleep(0.25)
+        time.sleep(0.5)
         html = response.text
         soup = bs4.BeautifulSoup(html, 'lxml')
-        cards = soup.find_all(attrs={"class": "mini-card mini-card__folder"})
+        cards = soup.find(attrs={"class": "brand-model-catalog"}).find_all(attrs={"class": "brand-model-card"})
         for card in cards:
-            link = 'https://sibauto-official.ru' + card.get("href")
-            title = card.find(attrs={"class": "mini-card__folder-title"}).text.lower().strip()
+            link = 'https://saratov.autospot.ru' + card.find("a").get("href")
+            title = card.find("a").text.replace(' • ', ' ').lower().strip()
             brand = title.split()[0]
             model = title.replace(brand, '').strip().replace(" ", "")
-            cost__ = card.find(attrs={"class": "mini-card__folder-prices"}).text.strip()
+            try:
+                cost__ = card.find(attrs={"class": "brand-model-card__price-sale"}).text.strip()
+            except:
+                cost__ = card.find(attrs={"class": "brand-model-card__price"}).text.strip()
             cost_ = ''
             for y in cost__:
                 if y.isdigit():
@@ -54,7 +52,7 @@ def sibauto_official(dct_up, browser):
             name = brand + ', ' + model
             try:
                 name = dct_up[name]
-            except KeyError:
+            except:
                 print([name, cost, link])
                 # await bot.send_message(CHANEL_ID, f'{name} {link}')
             res.append([name, cost, link])
@@ -62,20 +60,20 @@ def sibauto_official(dct_up, browser):
     return res
 
 
-chrome_driver_path = ChromeDriverManager().install()
-browser_service = Service(executable_path=chrome_driver_path)
-options = Options()
-options.add_argument('--headless')
-options.add_argument('--no-sandbox')
-options.add_argument("--window-size=1200,600")
-
-options.add_argument('--disable-dev-shm-usage')
-browser = Chrome(service=browser_service, options=options)
-browser.maximize_window()
+# chrome_driver_path = ChromeDriverManager().install()
+# browser_service = Service(executable_path=chrome_driver_path)
+# options = Options()
+# options.add_argument('--headless')
+# options.add_argument('--no-sandbox')
+# options.add_argument("--window-size=1200,600")
+#
+# options.add_argument('--disable-dev-shm-usage')
+# browser = Chrome(service=browser_service, options=options)
+# browser.maximize_window()
 dct = {}
 with open('../autolist.txt', 'r', encoding='utf-8') as f:
     lst = f.readlines()
     for item in lst:
         dct[item.split('|')[0].strip()] = item.split('|')[1].strip()
-res = sibauto_official(dct, browser)
+res = saratov_autospot(dct)
 print(len(res))
