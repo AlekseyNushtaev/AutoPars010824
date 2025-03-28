@@ -53,7 +53,7 @@ async def car_avangard(dct_up):
 async def avangard_24(dct_up, browser):
     link = 'https://avangard-24.ru/vehicles'
     browser.get(link)
-    time.sleep(3)
+    time.sleep(5)
     html = browser.page_source
     soup = bs4.BeautifulSoup(html, 'lxml')
     cards = soup.find_all(attrs={"class": "main_catalog_item"})

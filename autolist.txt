@@ -1316,6 +1316,7 @@ sollers, atlantцельнометаллическийфургон |Sollers, Argo
 sollers, atlantфургонцельнометаллический |Sollers, Argo цельнометаллический фургон | 729
 sollers, atlantфургонпромтоварный |Sollers, Argo фургон промтоварный | 726
 sollers, st6 |Sollers, ST6 | 730
+sollers, st8 |Sollers, ST8 | 1010
 soueast, dx8s |Soueast, DX8S | 598
 soueast, dx5 |Soueast, DX5 | 599
 soueast, dx8schieftainedition | Soueast, DX8S Chieftain Edition | 600

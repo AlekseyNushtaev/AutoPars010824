@@ -303,7 +303,10 @@ async def tumen_salon(dct_up, browser):
         browser.find_element(By.XPATH, '/html/body/div/main/div/div/div[1]/div[2]').click()
         time.sleep(2)
     except:
-        pass
+        browser.find_element(By.XPATH, '/html/body/div/div[2]/div/a').click()
+        time.sleep(2)
+        browser.find_element(By.XPATH, '/html/body/div/main/div/div/div[1]/div[2]').click()
+        time.sleep(2)
     html = browser.page_source
     soup = bs4.BeautifulSoup(html, 'lxml')
     tags = soup.find(attrs={"class": "list__marks--full list list__marks"}).find_all("a")

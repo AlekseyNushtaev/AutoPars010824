@@ -221,55 +221,55 @@
     },
     "56": {
         "model": "Nissan, Qashqai",
-        "min_price": 912500
+        "min_price": 953100
     },
     "57": {
         "model": "Nissan, X-trail",
-        "min_price": 1078400
+        "min_price": 1126500
     },
     "58": {
         "model": "Nissan, Terrano",
-        "min_price": 659900
+        "min_price": 689300
     },
     "59": {
         "model": "Renault, Logan",
-        "min_price": 460300
+        "min_price": 489500
     },
     "60": {
         "model": "Renault, Logan Stepway",
-        "min_price": 532700
+        "min_price": 566500
     },
     "61": {
         "model": "Renault, Logan Stepway City",
-        "min_price": 540900
+        "min_price": 575200
     },
     "62": {
         "model": "Renault, Sandero",
-        "min_price": 515100
+        "min_price": 547800
     },
     "63": {
         "model": "Renault, Sandero Stepway",
-        "min_price": 562200
+        "min_price": 597900
     },
     "64": {
         "model": "Renault, Sandero Stepway City",
-        "min_price": 570400
+        "min_price": 606600
     },
     "65": {
         "model": "Renault, Duster New",
-        "min_price": 662600
+        "min_price": 704600
     },
     "66": {
         "model": "Renault, Kaptur",
-        "min_price": 706000
+        "min_price": 750700
     },
     "67": {
         "model": "Renault, Arkana",
-        "min_price": 767400
+        "min_price": 816100
     },
     "68": {
         "model": "Renault, Koleos",
-        "min_price": 695700
+        "min_price": 739900
     },
     "69": {
         "model": "Skoda, Rapid",
@@ -717,7 +717,7 @@
     },
     "184": {
         "model": "Nissan, Murano",
-        "min_price": 1721500
+        "min_price": 1798200
     },
     "185": {
         "model": "KIA, Sorento",
