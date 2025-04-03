@@ -54,11 +54,11 @@ Geely,Preface,2599000
 Geely,Tugella,1620000
 Geely,Tugella New,1950000
 Haval,Dargo,1990000
-Haval,Dargo X,2190000
-Haval,F7,1699000
+Haval,Dargo X,2240000
+Haval,F7,1049000
 Haval,F7 New,1699000
-Haval,F7x,1769000
-Haval,H3,1980000
+Haval,F7x,1149000
+Haval,H3,1979000
 Haval,H5,2759000
 Haval,H9,3790000
 Haval,Jolion,1019000
@@ -66,15 +66,16 @@ Haval,Jolion New,1119000
 Haval,M6,890000
 Hyundai,Creta,590000
 Hyundai,Creta New,864000
-Hyundai,Elantra,1505000
+Hyundai,Custin,2490000
+Hyundai,Elantra,1219000
 Hyundai,Palisade,5640000
 Hyundai,Santa Fe,1673000
-Hyundai,Santa Fe New,3804000
-Hyundai,Solaris,899000
+Hyundai,Santa Fe New,4299000
+Hyundai,Solaris,1049000
 Hyundai,Sonata,1370000
 Hyundai,Sonata New,2214000
-Hyundai,Staria,4990000
-Hyundai,Tucson,1394000
+Hyundai,Staria,6990000
+Hyundai,Tucson,1990000
 JAC,J7,1199000
 JAC,JS3,1099000
 JAC,JS6,1499000
@@ -92,25 +93,27 @@ KAIYI,E5,900000
 KAIYI,X3,1055000
 KAIYI,X3 Pro,1300000
 KAIYI,X7 Kunlun,2150000
-KIA,Carnival,2249900
-KIA,Ceed,713000
-KIA,Ceed SW,723000
+KIA,Carnival,3490000
+KIA,Carnival New,4890000
+KIA,Ceed,1349000
+KIA,Ceed SW,1449000
 KIA,Cerato,850000
-KIA,K5,2049000
-KIA,Mohave,3844900
-KIA,Picanto,680000
-KIA,Rio,899000
+KIA,K5,2490000
+KIA,K5 New,2790000
+KIA,Mohave,4390000
+KIA,Picanto,890000
+KIA,Rio,1049000
 KIA,Rio X,899000
-KIA,Rio X-Line,557000
+KIA,Rio X-Line,690000
 KIA,Seltos,790000
-KIA,Seltos New,1375000
+KIA,Seltos New,1149000
 KIA,Sorento,1621000
 KIA,Sorento New,2960000
-KIA,Soul,638000
+KIA,Soul,1149000
 KIA,Sportage,1143000
 KIA,Sportage New,1599900
-KIA,Stinger,2309900
-KIA,XCeed,1374000
+KIA,Stinger,3990000
+KIA,XCeed,1749000
 Knewstar,001,3199000
 Lada,4x4 Bronto,1290000
 Lada,Aura,2599000
@@ -144,6 +147,7 @@ MG,HS,2900000
 MG,ZS,1889000
 Mazda,6,1528000
 Mazda,CX-5,1604000
+Mazda,CX-50,2490000
 Mazda,CX-9,2973000
 Moskvich,3,1299000
 Moskvich,6,1899000
@@ -163,27 +167,28 @@ Ravon,Gentra,917000
 Ravon,Nexia R3,805000
 Ravon,R2,1049000
 Ravon,R4,831000
-Renault,Arkana,690000
+Renault,Arkana,890000
 Renault,Duster New,650000
-Renault,Kaptur,670000
+Renault,Kaptur,890000
 Renault,Logan,690000
-Renault,Logan Stepway,530000
+Renault,Logan Stepway,740000
 Renault,Sandero,730000
-Renault,Sandero Stepway,550000
+Renault,Sandero Stepway,790000
 Rox,01,7949000
 SWM,G01,990000
 SWM,G01F,1119000
 SWM,G05 Pro,1249000
-Skoda,Karoq,740000
-Skoda,Kodiaq,930000
+Skoda,Karoq,1499000
+Skoda,Kodiaq,1899000
 Skoda,Octavia,1899000
-Skoda,Rapid,1299000
-Skoda,Superb,1222000
+Skoda,Rapid,979000
+Skoda,Superb,2199000
 Solaris,HC,1950000
 Solaris,HS,1218000
 Solaris,KRS,1380000
 Solaris,KRX,1481000
 Soueast,S07,2049000
+Soueast,S09,2399000
 TANK,300,2499000
 TANK,500,4899000
 Toyota,CH-R,1865000
@@ -198,5 +203,5 @@ UAZ,Patriot,1499000
 UAZ,Pickup,1499000
 Volkswagen,Jetta,1285000
 Volkswagen,Passat,2438000
-Volkswagen,Polo,840300
-Volkswagen,Teramont,4990000
+Volkswagen,Polo,899000
+Volkswagen,Teramont,6990000

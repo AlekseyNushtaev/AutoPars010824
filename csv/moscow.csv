@@ -26,7 +26,7 @@ Changan,CS75 Plus,1739940
 Changan,CS75 Plus New,1418500
 Changan,CS75 Restyling,1518400
 Changan,CS75FL,1100299
-Changan,CS85,2521500
+Changan,CS85,2309900
 Changan,CS85 Coupe,2255940
 Changan,CS95,1809000
 Changan,CS95 New,2717940
@@ -84,8 +84,8 @@ DFM,580,808200
 DFM,AX7,709300
 DWHover,H3,954100
 DWHover,H5,964200
-Datsun,MI-DO,661200
-Datsun,ON-DO,615200
+Datsun,MI-DO,604199
+Datsun,ON-DO,560199
 Dongfeng,580,808200
 Dongfeng,580 New,1497500
 Dongfeng,AX7,709300
@@ -202,11 +202,12 @@ Haval,Jolion Restyling,989000
 Haval,M6,840000
 Honda,CR-V New,3341200
 Honda,Pilot,3677200
+Hyundai,Avante,1700000
 Hyundai,Bayon,1500000
 Hyundai,Celesta,700000
 Hyundai,Creta,446899
 Hyundai,Creta New,436898
-Hyundai,Custin,3183000
+Hyundai,Custin,2490000
 Hyundai,Elantra,1107900
 Hyundai,Elantra New,836300
 Hyundai,Elantra New Rest,1774600
@@ -281,10 +282,10 @@ KIA,K5,1060299
 KIA,K5 New,2144400
 KIA,K9,4424940
 KIA,K900,4025100
-KIA,Mohave,2860700
+KIA,Mohave,3497940
 KIA,Mohave New,2374928
 KIA,Pegas,1050000
-KIA,Picanto,569900
+KIA,Picanto,679300
 KIA,Picanto New,728200
 KIA,ProCeed,722940
 KIA,Rio,834900
@@ -297,14 +298,14 @@ KIA,Seltos New,1041100
 KIA,Seltos Rest,1541300
 KIA,Sorento,1619400
 KIA,Sorento New,1519000
-KIA,Soul,571200
+KIA,Soul,637400
 KIA,Soul New,561199
 KIA,Soul New Rest,1655100
 KIA,Sportage,1141900
 KIA,Sportage 5,1131899
 KIA,Sportage New,955175
 KIA,Sportage New 2022,1956100
-KIA,Stinger,2159900
+KIA,Stinger,3990000
 KIA,Stinger New,4037899
 KIA,Stinger Restyling,2457400
 KIA,XCeed,1320300
@@ -381,7 +382,7 @@ MG,One,1850000
 MG,ZS,1587400
 Mazda,3 Hatchback,2120000
 Mazda,3 New,2235000
-Mazda,6,1273000
+Mazda,6,1748000
 Mazda,6 New,1497000
 Mazda,CX-30,1871300
 Mazda,CX-4,1689200
@@ -419,7 +420,7 @@ Nissan,Terrano New,451699
 Nissan,X-trail,769000
 Nissan,X-trail New,769000
 OMODA,C5,938999
-OMODA,C5 New,1199000
+OMODA,C5 New,1269900
 OMODA,S5,838999
 OMODA,S5 GT,1339900
 Opel,Combo Life,1613200
@@ -459,9 +460,9 @@ Rox,01,7949000
 SWM,G01,833000
 SWM,G01F,973000
 SWM,G05 Pro,1010700
-Skoda,Kamiq,1751200
+Skoda,Kamiq,1400000
 Skoda,Karoq,720700
-Skoda,Karoq New,1950000
+Skoda,Karoq New,1900000
 Skoda,Karoq Restyling,1648400
 Skoda,Kodiaq,929000
 Skoda,Kodiaq Hockey Edition,1271340
@@ -475,7 +476,7 @@ Skoda,Octavia A8,831000
 Skoda,Octavia New,831000
 Skoda,Rapid,899000
 Skoda,Rapid New,579700
-Skoda,Superb,1222000
+Skoda,Superb,1223800
 Skoda,Superb Combi,1608600
 Skoda,Superb Combi New,2925200
 Skoda,Superb New,2615200
@@ -489,6 +490,7 @@ Soueast,DX5,1250000
 Soueast,DX8S,1225000
 Soueast,DX8S Chieftain Edition,2600000
 Soueast,S07,1599000
+Soueast,S09,2099000
 Suzuki,Baleno,1499300
 Suzuki,Jimny,1976000
 Suzuki,Jimny New,1069000
@@ -544,7 +546,7 @@ Volkswagen,Lavida Qihang,1790000
 Volkswagen,Passat,2133000
 Volkswagen,Passat Alltrack New,3122800
 Volkswagen,Passat New,2557200
-Volkswagen,Polo,840300
+Volkswagen,Polo,899000
 Volkswagen,Polo New,550000
 Volkswagen,T-Cross,2290000
 Volkswagen,Taos,1124899

@@ -2,43 +2,43 @@
     {
         "id": 1,
         "brand": "Lada",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Granta Sedan"
     },
     {
         "id": 2,
         "brand": "Lada",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Granta Liftback"
     },
     {
         "id": 3,
         "brand": "Lada",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Granta Hatchback"
     },
     {
         "id": 4,
         "brand": "Lada",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Granta Universal"
     },
     {
         "id": 5,
         "brand": "Lada",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Granta Cross"
     },
     {
         "id": 6,
         "brand": "Lada",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Granta Drive Active"
     },
     {
         "id": 7,
         "brand": "Lada",
-        "generation": "I Рестайлинг (NG)",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433 (NG)",
         "model": "Vesta"
     },
     {
@@ -50,13 +50,13 @@
     {
         "id": 9,
         "brand": "Lada",
-        "generation": "I Рестайлинг (NG)",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433 (NG)",
         "model": "Vesta Cross"
     },
     {
         "id": 10,
         "brand": "Lada",
-        "generation": "I Рестайлинг (NG)",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433 (NG)",
         "model": "Vesta Cross 1"
     },
     {
@@ -74,7 +74,7 @@
     {
         "id": 13,
         "brand": "Lada",
-        "generation": "I Рестайлинг (NG)",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433 (NG)",
         "model": "Vesta Sw Cross"
     },
     {
@@ -86,7 +86,7 @@
     {
         "id": 15,
         "brand": "Lada",
-        "generation": "I Рестайлинг (NG)",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433 (NG)",
         "model": "Vesta Cng"
     },
     {
@@ -110,19 +110,19 @@
     {
         "id": 19,
         "brand": "Lada",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Largus"
     },
     {
         "id": 20,
         "brand": "Lada",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Largus Cross"
     },
     {
         "id": 21,
         "brand": "Lada",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Largus Furgon"
     },
     {
@@ -134,7 +134,7 @@
     {
         "id": 23,
         "brand": "Chevrolet",
-        "generation": "III (M300) Рестайлинг",
+        "generation": "III (M300) \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Spark"
     },
     {
@@ -146,25 +146,25 @@
     {
         "id": 25,
         "brand": "Chevrolet",
-        "generation": "II Рестайлинг",
+        "generation": "II \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Cobalt"
     },
     {
         "id": 26,
         "brand": "Datsun",
-        "generation": "I Рестайлинг",
+        "generation": null,
         "model": "On Do"
     },
     {
         "id": 27,
         "brand": "Datsun",
-        "generation": "I Поколение",
+        "generation": null,
         "model": "Mi Do"
     },
     {
         "id": 28,
         "brand": "Haval",
-        "generation": "I Поколение",
+        "generation": null,
         "model": "H"
     },
     {
@@ -176,31 +176,31 @@
     {
         "id": 30,
         "brand": "Haval",
-        "generation": "III Поколение",
+        "generation": null,
         "model": "H6"
     },
     {
         "id": 31,
         "brand": "Haval",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "H9"
     },
     {
         "id": 32,
         "brand": "Haval",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "F7"
     },
     {
         "id": 33,
         "brand": "Haval",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "F7X"
     },
     {
         "id": 34,
         "brand": "Haval",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Jolion"
     },
     {
@@ -224,7 +224,7 @@
     {
         "id": 38,
         "brand": "Hyundai",
-        "generation": "II Рестайлинг",
+        "generation": "II \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Solaris"
     },
     {
@@ -254,37 +254,37 @@
     {
         "id": 43,
         "brand": "Kia",
-        "generation": "III Рестайлинг",
+        "generation": "III \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Picanto"
     },
     {
         "id": 44,
         "brand": "Kia",
-        "generation": "IV Рестайлинг",
+        "generation": "IV \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Rio"
     },
     {
         "id": 45,
         "brand": "Kia",
-        "generation": "IV Рестайлинг",
+        "generation": "IV \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Rio X"
     },
     {
         "id": 46,
         "brand": "Kia",
-        "generation": "IV Рестайлинг",
+        "generation": null,
         "model": "Rio X Line"
     },
     {
         "id": 47,
         "brand": "Kia",
-        "generation": "III Рестайлинг",
+        "generation": "III \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Ceed"
     },
     {
         "id": 48,
         "brand": "Kia",
-        "generation": "III Рестайлинг",
+        "generation": "III \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Ceed Sw"
     },
     {
@@ -296,7 +296,7 @@
     {
         "id": 50,
         "brand": "Kia",
-        "generation": "IV Рестайлинг",
+        "generation": "IV \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Cerato"
     },
     {
@@ -332,55 +332,55 @@
     {
         "id": 56,
         "brand": "Nissan",
-        "generation": "II Рестайлинг",
+        "generation": "II \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Qashqai"
     },
     {
         "id": 57,
         "brand": "Nissan",
-        "generation": "III Рестайлинг",
+        "generation": "III \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "X Trail"
     },
     {
         "id": 58,
         "brand": "Nissan",
-        "generation": "III Поколение",
+        "generation": "III \u041f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u0435",
         "model": "Terrano"
     },
     {
         "id": 59,
         "brand": "Renault",
-        "generation": "II Рестайлинг",
+        "generation": "II \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Logan"
     },
     {
         "id": 60,
         "brand": "Renault",
-        "generation": "II Рестайлинг",
+        "generation": "II \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Logan Stepway"
     },
     {
         "id": 61,
         "brand": "Renault",
-        "generation": "II Рестайлинг",
+        "generation": null,
         "model": "Logan Stepway City"
     },
     {
         "id": 62,
         "brand": "Renault",
-        "generation": "II Рестайлинг",
+        "generation": "II \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Sandero"
     },
     {
         "id": 63,
         "brand": "Renault",
-        "generation": "II Рестайлинг",
+        "generation": "II \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Sandero Stepway"
     },
     {
         "id": 64,
         "brand": "Renault",
-        "generation": "II Рестайлинг",
+        "generation": null,
         "model": "Sandero Stepway City"
     },
     {
@@ -392,7 +392,7 @@
     {
         "id": 66,
         "brand": "Renault",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Kaptur"
     },
     {
@@ -404,7 +404,7 @@
     {
         "id": 68,
         "brand": "Renault",
-        "generation": "II Рестайлинг",
+        "generation": null,
         "model": "Koleos"
     },
     {
@@ -422,55 +422,55 @@
     {
         "id": 71,
         "brand": "Skoda",
-        "generation": "III (A7) Рестайлинг",
+        "generation": null,
         "model": "Octavia Hockey Edition"
     },
     {
         "id": 72,
         "brand": "Skoda",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Karoq"
     },
     {
         "id": 73,
         "brand": "Skoda",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Kodiaq"
     },
     {
         "id": 74,
         "brand": "Skoda",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Kodiaq Hockey Edition"
     },
     {
         "id": 75,
         "brand": "Skoda",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Kodiaq Scout"
     },
     {
         "id": 76,
         "brand": "Skoda",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Kodiaq Sportline"
     },
     {
         "id": 77,
         "brand": "Skoda",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Kodiaq Laurin  Klement"
     },
     {
         "id": 78,
         "brand": "Skoda",
-        "generation": "III Рестайлинг",
+        "generation": "III \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Superb"
     },
     {
         "id": 79,
         "brand": "Skoda",
-        "generation": "III Рестайлинг",
+        "generation": "III \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Superb Combi"
     },
     {
@@ -488,13 +488,13 @@
     {
         "id": 82,
         "brand": "Volkswagen",
-        "generation": "B8 Рестайлинг",
+        "generation": null,
         "model": "Passat"
     },
     {
         "id": 83,
         "brand": "Volkswagen",
-        "generation": "II Рестайлинг",
+        "generation": "II \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Tiguan"
     },
     {
@@ -518,13 +518,13 @@
     {
         "id": 87,
         "brand": "Changan",
-        "generation": "I Поколение",
+        "generation": null,
         "model": "Cs35"
     },
     {
         "id": 88,
         "brand": "Changan",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Cs35 Plus"
     },
     {
@@ -536,13 +536,13 @@
     {
         "id": 90,
         "brand": "Changan",
-        "generation": "I Рестайлинг",
+        "generation": null,
         "model": "Cs55 Plus"
     },
     {
         "id": 91,
         "brand": "Changan",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Cs75Fl"
     },
     {
@@ -554,19 +554,19 @@
     {
         "id": 93,
         "brand": "Changan",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Cs95"
     },
     {
         "id": 94,
         "brand": "Changan",
-        "generation": "I Поколение",
+        "generation": "I \u041f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u0435",
         "model": "Uni V"
     },
     {
         "id": 95,
         "brand": "Changan",
-        "generation": "I Поколение",
+        "generation": "I \u041f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u0435",
         "model": "Uni K"
     },
     {
@@ -584,19 +584,19 @@
     {
         "id": 98,
         "brand": "FAW",
-        "generation": "I Поколение",
+        "generation": "I \u041f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u0435",
         "model": "Bestune B70"
     },
     {
         "id": 99,
         "brand": "FAW",
-        "generation": "I Поколение",
+        "generation": "I \u041f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u0435",
         "model": "Bestune T55"
     },
     {
         "id": 100,
         "brand": "FAW",
-        "generation": "I Поколение",
+        "generation": "I \u041f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u0435",
         "model": "Besturn T77"
     },
     {
@@ -608,7 +608,7 @@
     {
         "id": 102,
         "brand": "FAW",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "X80"
     },
     {
@@ -638,7 +638,7 @@
     {
         "id": 107,
         "brand": "Geely",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Coolray"
     },
     {
@@ -650,7 +650,7 @@
     {
         "id": 109,
         "brand": "Geely",
-        "generation": "I Рестайлинг 2",
+        "generation": null,
         "model": "Emgrand X7"
     },
     {
@@ -662,13 +662,13 @@
     {
         "id": 111,
         "brand": "Geely",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Tugella"
     },
     {
         "id": 112,
         "brand": "Geely",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Okavango"
     },
     {
@@ -680,7 +680,7 @@
     {
         "id": 114,
         "brand": "Geely",
-        "generation": "I Поколение",
+        "generation": null,
         "model": "Belgee X50"
     },
     {
@@ -692,7 +692,7 @@
     {
         "id": 116,
         "brand": "JAC",
-        "generation": "I Рестайлинг",
+        "generation": null,
         "model": "S5"
     },
     {
@@ -716,7 +716,7 @@
     {
         "id": 120,
         "brand": "Lifan",
-        "generation": "I Рестайлинг 2",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433 2",
         "model": "X60"
     },
     {
@@ -782,13 +782,13 @@
     {
         "id": 131,
         "brand": "Chery",
-        "generation": "I Поколение",
+        "generation": null,
         "model": "Tiggo 3"
     },
     {
         "id": 132,
         "brand": "Chery",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Tiggo 4"
     },
     {
@@ -830,7 +830,7 @@
     {
         "id": 139,
         "brand": "Chery",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Tiggo 8 Pro Max"
     },
     {
@@ -854,7 +854,7 @@
     {
         "id": 143,
         "brand": "EXEED",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Txl"
     },
     {
@@ -878,7 +878,7 @@
     {
         "id": 147,
         "brand": "BAIC",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Bj40"
     },
     {
@@ -890,13 +890,13 @@
     {
         "id": 149,
         "brand": "Jetta",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Vs5"
     },
     {
         "id": 150,
         "brand": "Jetta",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Vs7"
     },
     {
@@ -943,13 +943,13 @@
     },
     {
         "id": 158,
-        "brand": "Москвич",
-        "generation": "I Поколение",
+        "brand": "\u041c\u043e\u0441\u043a\u0432\u0438\u0447",
+        "generation": "I \u041f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u0435",
         "model": "3"
     },
     {
         "id": 159,
-        "brand": "Москвич",
+        "brand": "\u041c\u043e\u0441\u043a\u0432\u0438\u0447",
         "generation": "I",
         "model": "3E"
     },
@@ -968,19 +968,19 @@
     {
         "id": 166,
         "brand": "JAECOO",
-        "generation": "I Поколение",
+        "generation": "I \u041f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u0435",
         "model": "J7"
     },
     {
         "id": 167,
         "brand": "Jetour",
-        "generation": "I Поколение",
+        "generation": "I \u041f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u0435",
         "model": "Dashing"
     },
     {
         "id": 168,
         "brand": "Jetour",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "X70 Plus"
     },
     {
@@ -992,37 +992,37 @@
     {
         "id": 170,
         "brand": "Lada",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Granta Sportline Sedan"
     },
     {
         "id": 171,
         "brand": "Lada",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Granta Sportline Liftback"
     },
     {
         "id": 172,
         "brand": "Lada",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Granta Sport Sedan"
     },
     {
         "id": 173,
         "brand": "Lada",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Granta Sport Liftback"
     },
     {
         "id": 174,
         "brand": "Lada",
-        "generation": "I Рестайлинг (NG)",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433 (NG)",
         "model": "Vesta Sportline"
     },
     {
         "id": 175,
         "brand": "Lada",
-        "generation": "I Рестайлинг (NG)",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433 (NG)",
         "model": "Vesta SW Sportline"
     },
     {
@@ -1052,7 +1052,7 @@
     {
         "id": 180,
         "brand": "Hyundai",
-        "generation": "IV Рестайлинг",
+        "generation": "IV \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Santa Fe"
     },
     {
@@ -1076,7 +1076,7 @@
     {
         "id": 184,
         "brand": "Nissan",
-        "generation": "III Поколение",
+        "generation": "III \u041f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u0435",
         "model": "Murano"
     },
     {
@@ -1094,13 +1094,13 @@
     {
         "id": 187,
         "brand": "Kia",
-        "generation": "I Рестайлинг 2",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433 2",
         "model": "Mohave"
     },
     {
         "id": 188,
         "brand": "Kia",
-        "generation": "II (RJ) Рестайлинг",
+        "generation": "II (RJ) \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "K9"
     },
     {
@@ -1112,7 +1112,7 @@
     {
         "id": 190,
         "brand": "Volkswagen",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Teramont"
     },
     {
@@ -1148,25 +1148,25 @@
     {
         "id": 196,
         "brand": "UAZ",
-        "generation": "I Рестайлинг 3",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433 3",
         "model": "Patriot"
     },
     {
         "id": 197,
         "brand": "UAZ",
-        "generation": "I Рестайлинг 3",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433 3",
         "model": "Patriot Pickup"
     },
     {
         "id": 198,
         "brand": "Chery",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Tiggo 4 Pro 18 years edition"
     },
     {
         "id": 199,
         "brand": "Chery",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "Tiggo 7 Pro Max"
     },
     {
@@ -1185,12 +1185,12 @@
         "id": 202,
         "brand": "Chery",
         "generation": "I",
-        "model": "Tiggo 8 Pro е+ Hybrid"
+        "model": "Tiggo 8 Pro \u0435+ Hybrid"
     },
     {
         "id": 203,
         "brand": "Changan",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "UNI-S/CS55 Plus"
     },
     {
@@ -1202,7 +1202,7 @@
     {
         "id": 205,
         "brand": "Changan",
-        "generation": "I Поколение",
+        "generation": "I \u041f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u0435",
         "model": "UNI-T"
     },
     {
@@ -1214,19 +1214,19 @@
     {
         "id": 207,
         "brand": "Changan",
-        "generation": "I Рестайлинг 2",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433 2",
         "model": "CS95"
     },
     {
         "id": 208,
         "brand": "Changan",
-        "generation": "I Поколение",
+        "generation": "I \u041f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u0435",
         "model": "UNI-K iDD"
     },
     {
         "id": 209,
         "brand": "Changan",
-        "generation": "I Поколение",
+        "generation": "I \u041f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u0435",
         "model": "CS75 Plus"
     },
     {
@@ -1280,7 +1280,7 @@
     {
         "id": 218,
         "brand": "EXEED",
-        "generation": "I Рестайлинг",
+        "generation": "I \u0420\u0435\u0441\u0442\u0430\u0439\u043b\u0438\u043d\u0433",
         "model": "LX"
     },
     {

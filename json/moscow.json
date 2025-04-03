@@ -101,11 +101,11 @@
     },
     "26": {
         "model": "Datsun, ON-DO",
-        "min_price": 615200
+        "min_price": 560100
     },
     "27": {
         "model": "Datsun, MI-DO",
-        "min_price": 641800
+        "min_price": 584400
     },
     "28": {
         "model": "Haval, H2",
@@ -317,23 +317,23 @@
     },
     "80": {
         "model": "Volkswagen, Polo",
-        "min_price": 840300
+        "min_price": 899000
     },
     "81": {
         "model": "Volkswagen, Jetta",
-        "min_price": 920300
+        "min_price": 984600
     },
     "82": {
         "model": "Volkswagen, Passat",
-        "min_price": 1610300
+        "min_price": 1722800
     },
     "83": {
         "model": "Volkswagen, Tiguan New",
-        "min_price": 2046800
+        "min_price": 2189800
     },
     "84": {
         "model": "Volkswagen, Taos",
-        "min_price": 1715200
+        "min_price": 1835000
     },
     "85": {
         "model": "Changan, Alsvin",
@@ -737,15 +737,15 @@
     },
     "189": {
         "model": "Volkswagen, Golf",
-        "min_price": 2601700
+        "min_price": 2783400
     },
     "190": {
         "model": "Volkswagen, Teramont",
-        "min_price": 3726700
+        "min_price": 3987000
     },
     "191": {
         "model": "Volkswagen, Touareg",
-        "min_price": 5256400
+        "min_price": 5623600
     },
     "192": {
         "model": "Haval, M6",
@@ -792,7 +792,7 @@
         "min_price": 4930000
     },
     "203": {
-        "model": "Changan, Changan, UNI-S/CS55 Plus",
+        "model": "Changan, UNI-S/CS55 Plus",
         "min_price": 1703900
     },
     "204": {

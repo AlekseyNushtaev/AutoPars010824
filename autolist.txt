@@ -562,6 +562,7 @@ haval, m6 |Haval, M6 | 307
 haval, новыйm6 |Haval, M6 New| 689
 haval, newf7 |Haval, F7 New | 288
 haval, f7new2024 |Haval, F7 New | 288
+haval, f72025 |Haval, F7 New | 288
 haval, f7ii |Haval, F7 New | 288
 haval, новыйf7 |Haval, F7 New | 288
 haval, f72024 |Haval, F7 New | 288
@@ -582,6 +583,7 @@ hongqi, hs3 | Hongqi, HS3 | 749
 hongqi, hs5(i) | Hongqi, HS5 (I) | 720
 hongqi, hs7 | Hongqi, HS7 | 1000
 hyundai, accent |Hyundai, Accent | 968
+hyundai, avante |Hyundai, Avante | 1011
 hyundai, bayon |Hyundai, Bayon | 312
 hyundai, creta |Hyundai, Creta | 313
 hyundai, creta2020 |Hyundai, Creta | 313
@@ -1321,7 +1323,7 @@ soueast, dx8s |Soueast, DX8S | 598
 soueast, dx5 |Soueast, DX5 | 599
 soueast, dx8schieftainedition | Soueast, DX8S Chieftain Edition | 600
 soueast, s07 |Soueast, S07 | 821
-soueast, s09 |Soueast, S07 | 822
+soueast, s09 |Soueast, S09 | 822
 ssangyong, actyon |KGM(SsangYong), Actyon | 601
 ssangyong, actyonnew |KGM(SsangYong), Actyon New | 602
 ssangyong, stavic |KGM(SsangYong), Stavic | 603

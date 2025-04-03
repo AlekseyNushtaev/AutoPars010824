@@ -169,55 +169,55 @@
     },
     "43": {
         "model": "KIA, Picanto",
-        "min_price": 791000
+        "min_price": 979900
     },
     "44": {
         "model": "KIA, Rio",
-        "min_price": 850300
+        "min_price": 1053300
     },
     "45": {
         "model": "KIA, Rio X",
-        "min_price": 933300
+        "min_price": 1156100
     },
     "46": {
         "model": "KIA, Rio X-Line",
-        "min_price": 557000
+        "min_price": 690000
     },
     "47": {
         "model": "KIA, Ceed",
-        "min_price": 1330300
+        "min_price": 1648000
     },
     "48": {
         "model": "KIA, Ceed SW",
-        "min_price": 1371800
+        "min_price": 1699400
     },
     "49": {
         "model": "KIA, ProCeed",
-        "min_price": 714000
+        "min_price": 884500
     },
     "50": {
         "model": "KIA, Cerato",
-        "min_price": 1279900
+        "min_price": 1585600
     },
     "51": {
         "model": "KIA, K5",
-        "min_price": 1620700
+        "min_price": 2007700
     },
     "52": {
         "model": "KIA, Soul",
-        "min_price": 1146600
+        "min_price": 1420400
     },
     "53": {
         "model": "KIA, Seltos",
-        "min_price": 1223600
+        "min_price": 1515800
     },
     "54": {
         "model": "KIA, XCeed",
-        "min_price": 1324400
+        "min_price": 1640600
     },
     "55": {
         "model": "KIA, Sportage",
-        "min_price": 1688800
+        "min_price": 2092100
     },
     "56": {
         "model": "Nissan, Qashqai",
@@ -273,67 +273,67 @@
     },
     "69": {
         "model": "Skoda, Rapid",
-        "min_price": 992000
+        "min_price": 979000
     },
     "70": {
         "model": "Skoda, Octavia New",
-        "min_price": 1563900
+        "min_price": 1543400
     },
     "71": {
         "model": "Skoda, Octavia Hockey Edition",
-        "min_price": 2665300
+        "min_price": 2630400
     },
     "72": {
         "model": "Skoda, Karoq",
-        "min_price": 1609200
+        "min_price": 1588100
     },
     "73": {
         "model": "Skoda, Kodiaq New",
-        "min_price": 3435600
+        "min_price": 3390600
     },
     "74": {
         "model": "Skoda, Kodiaq Hockey Edition",
-        "min_price": 1999900
+        "min_price": 1973700
     },
     "75": {
         "model": "Skoda, Kodiaq Scout",
-        "min_price": 3065600
+        "min_price": 3025400
     },
     "76": {
         "model": "Skoda, Kodiaq Sportline",
-        "min_price": 5076000
+        "min_price": 5009500
     },
     "77": {
         "model": "Skoda, Kodiaq Laurin & Klement",
-        "min_price": 5480000
+        "min_price": 5408200
     },
     "78": {
         "model": "Skoda, Superb",
-        "min_price": 2253900
+        "min_price": 2224400
     },
     "79": {
         "model": "Skoda, Superb Combi",
-        "min_price": 2530400
+        "min_price": 2497300
     },
     "80": {
         "model": "Volkswagen, Polo",
-        "min_price": 840300
+        "min_price": 899000
     },
     "81": {
         "model": "Volkswagen, Jetta",
-        "min_price": 920300
+        "min_price": 984600
     },
     "82": {
         "model": "Volkswagen, Passat",
-        "min_price": 1610300
+        "min_price": 1722800
     },
     "83": {
         "model": "Volkswagen, Tiguan New",
-        "min_price": 2046800
+        "min_price": 2189800
     },
     "84": {
         "model": "Volkswagen, Taos",
-        "min_price": 1715200
+        "min_price": 1835000
     },
     "85": {
         "model": "Changan, Alsvin",
@@ -697,7 +697,7 @@
     },
     "179": {
         "model": "Skoda, Kodiaq",
-        "min_price": 1941500
+        "min_price": 1916000
     },
     "180": {
         "model": "Hyundai, Santa Fe",
@@ -721,31 +721,31 @@
     },
     "185": {
         "model": "KIA, Sorento",
-        "min_price": 2245900
+        "min_price": 2782200
     },
     "186": {
         "model": "KIA, Carnival",
-        "min_price": 2456300
+        "min_price": 3042800
     },
     "187": {
         "model": "KIA, Mohave",
-        "min_price": 3454800
+        "min_price": 4279800
     },
     "188": {
         "model": "KIA, K9",
-        "min_price": 4370400
+        "min_price": 5414000
     },
     "189": {
         "model": "Volkswagen, Golf",
-        "min_price": 2601700
+        "min_price": 2783400
     },
     "190": {
         "model": "Volkswagen, Teramont",
-        "min_price": 3726700
+        "min_price": 3987000
     },
     "191": {
         "model": "Volkswagen, Touareg",
-        "min_price": 5256400
+        "min_price": 5623600
     },
     "192": {
         "model": "Haval, M6",
@@ -792,7 +792,7 @@
         "min_price": 2958000
     },
     "203": {
-        "model": "Changan, Changan, UNI-S/CS55 Plus",
+        "model": "Changan, UNI-S/CS55 Plus",
         "min_price": 1703900
     },
     "204": {

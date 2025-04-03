@@ -20,7 +20,6 @@ Changan,CS75FL,1010300
 Changan,CS85 Coupe,2225940
 Changan,CS95,2260000
 Changan,CS95 New,2696935
-Changan,Eado,560000
 Changan,Eado Plus,1397940
 Changan,Hunter Plus,2057940
 Changan,Lamore,1540000
@@ -98,7 +97,7 @@ Geely,Cityray,1689994
 Geely,Coolray,914990
 Geely,Coolray New,1565994
 Geely,EX5,3259992
-Geely,Emgrand,1159990
+Geely,Emgrand,1220000
 Geely,Emgrand New,1159990
 Geely,Emgrand X7,771200
 Geely,GS,659994
@@ -149,7 +148,7 @@ JAC,S3,469300
 JAC,S5,659300
 JAC,S6,1825000
 JAC,S7,649000
-JAC,T6,958000
+JAC,T6,1100000
 JAC,T8,1929350
 JAC,T8 Pro,1820000
 JAC,T9,2189350
@@ -172,7 +171,6 @@ KAIYI,X7 Kunlun,1798740
 KGM(SsangYong),Actyon,1050000
 KGM(SsangYong),Tivoli,602000
 KGM(SsangYong),XLV,886000
-KIA,Carnival,2901430
 KIA,Ceed,835300
 KIA,Ceed New,860300
 KIA,Ceed SW,770300
@@ -180,23 +178,21 @@ KIA,Ceed SW New,855300
 KIA,Cerato,941900
 KIA,Cerato New,941900
 KIA,K5,970300
-KIA,Mohave,4829900
-KIA,Picanto,569900
+KIA,Picanto,745900
 KIA,Picanto New,469900
 KIA,ProCeed,1121940
 KIA,Rio,464900
 KIA,Rio New,410300
 KIA,Rio X,490300
-KIA,Rio X-Line,590300
+KIA,Rio X-Line,839900
 KIA,Seltos,870300
-KIA,Sorento,1670300
 KIA,Sorento New,1499940
 KIA,Soul,571200
 KIA,Soul New,471200
 KIA,Sportage,1254300
 KIA,Sportage 5,1434900
 KIA,XCeed,1079900
-Lada,4x4 Bronto,476300
+Lada,4x4 Bronto,609100
 Lada,Aura,2059200
 Lada,Granta Cross,291800
 Lada,Granta Drive Active,267900
@@ -244,12 +240,12 @@ Lada,Vesta Sport,470300
 Lada,Vesta Sportline,1394335
 Lada,Xray,309300
 Lada,Xray Cross,295300
-Lifan,Murman,650300
-Lifan,MyWay,701300
-Lifan,Solano 2,401300
-Lifan,X50,420300
-Lifan,X60,491300
-Lifan,X70,770300
+Lifan,Murman,919900
+Lifan,MyWay,799900
+Lifan,Solano 2,609900
+Lifan,X50,589900
+Lifan,X60,669900
+Lifan,X70,889000
 Livan,S6 Pro,1529940
 Livan,X3 Pro,1000000
 Livan,X6 Pro,1577940
@@ -261,24 +257,11 @@ MG,RX 5,1693000
 MG,RX 8,2524000
 MG,RX 9,2950000
 MG,ZS,1570000
-Mazda,3,1190000
-Mazda,6,1283000
-Mazda,CX-30,1400000
-Mazda,CX-5,1325000
-Mitsubishi,ASX,1372000
-Mitsubishi,ASX New,1372000
-Mitsubishi,Eclipse Cross,1900000
-Mitsubishi,Eclipse Cross New,1900000
-Mitsubishi,L200 New,2939000
-Mitsubishi,Outlander,1239000
-Mitsubishi,Outlander New,1239000
 Moskvich,3,970000
 Moskvich,3e,1730000
 Moskvich,6,1320000
 Nissan,Murano,2249000
-Nissan,Murano New,4409000
 Nissan,Qashqai,865300
-Nissan,Qashqai New,1837000
 Nissan,Terrano,178000
 Nissan,Terrano New,579000
 Nissan,X-trail,1149000
@@ -293,7 +276,6 @@ Renault,Duster,514000
 Renault,Duster New,514000
 Renault,Kaptur,729000
 Renault,Kaptur New,689900
-Renault,Koleos,1282000
 Renault,Logan,411000
 Renault,Logan New,360000
 Renault,Logan Stepway,455300
@@ -301,11 +283,8 @@ Renault,Sandero,411000
 Renault,Sandero New,447300
 Renault,Sandero Stepway,517000
 Renault,Sandero Stepway New,465300
-SWM,G01,1938220
 SWM,G01F,1988340
-SWM,G05 Pro,2125960
 Skoda,Karoq,1000000
-Skoda,Kodiaq,1364400
 Skoda,Kodiaq New,1359000
 Skoda,Octavia,1107000
 Skoda,Octavia A8,755800
@@ -319,26 +298,18 @@ Solaris,HS,1206000
 Solaris,KRS,1222800
 Solaris,KRX,1238400
 Soueast,DX8S,2499900
-Suzuki,Jimny,1419000
 Suzuki,Jimny New,2069000
-Suzuki,SX4,1109000
-Suzuki,Vitara,1049000
+Suzuki,SX4,1969000
+Suzuki,Vitara,1819000
 TANK,300,2459400
 TANK,500,3710000
 TANK,700,5319400
-Toyota,Camry,1630500
-Toyota,Camry New,1630500
-Toyota,Corolla,1000000
-Toyota,Corolla New,1000000
-Toyota,RAV4,1684000
-Toyota,RAV4 New,1684000
 UAZ,Hunter,462900
 UAZ,Patriot,619400
 UAZ,Patriot New,519400
 UAZ,Patriot Pickup,666900
 UAZ,Patriot АКПП,1381000
-UAZ,Pickup,666900
-UAZ,Pickup New,666900
+UAZ,Pickup,764500
 UAZ,Pickup АКПП,1100500
 Volkswagen,Golf,2554600
 Volkswagen,Jetta,976200
@@ -353,5 +324,4 @@ Volkswagen,Teramont,3667900
 Volkswagen,Tiguan,1304900
 Volkswagen,Tiguan New,1304900
 Volkswagen,Touareg,5181700
-XCite,X-Cross 7 New,1999000
 Zotye,Coupa,650300
