@@ -409,6 +409,7 @@ gac, motorgs5 |Gac, GS5 | 245
 gac, gs8 |Gac, GS8 | 246
 gac, motorgs8 |Gac, GS8 | 246
 gac, gs8ii |Gac, GS8 II | 247
+gac, gs8traveller |Gac, GS8 Traveller | 1012
 gac, gs8new |Gac, GS8 New | 248
 gac, gs8ii |Gac, GS8 II | 247
 gac, m8 |Gac, M8 | 249
@@ -679,6 +680,7 @@ jetour, t2new |Jetour, T2 New | 350
 jetour, t2 |Jetour, T2 | 351
 jetour, x50 |Jetour, X50 | 758
 jetour, x70 |Jetour, X70 | 352
+jetour, x70new |Jetour, X70 New | 1013
 jetour, x70plus |Jetour, X70 Plus | 353
 jetour, x90plus |Jetour, X90 Plus | 354
 jetta, va3 |Jetta, VA3 | 355

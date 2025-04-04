@@ -13,7 +13,7 @@ async def json_maker():
     for region in ['krasnodar', 'moscow', 'stavropol', 'surgut', 'volgograd', 'samara', 'kazan', 'spb', 'omsk', 'himki',
                    'chelyabinsk', 'cheboksari', 'ufa', 'tumen', 'ekaterinburg', 'saratov', 'kemerovo', 'nsk', 'krsk',
                    'toliati', 'dmitrovka']:
-        if region not in ['krsk', 'dmitrovka', 'moscow']:
+        if region not in ['krsk', 'dmitrovka', 'moscow', 'kemerovo']:
             dct_region = {}
             res_lst = []
             res = {}
