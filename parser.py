@@ -571,18 +571,12 @@ async def parser_kemerovo(dct_up, browser):
         await bot.send_message(CHANEL_ID, 'https://lada-42.ru error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-        res_11 = await nkz_autosalon(dct_up)
+        res_11 = await auto_atlanta_nkz(dct_up)
     except Exception as e:
         res_11 = []
-        await bot.send_message(CHANEL_ID, 'https://novokuznetsk.autosalon.shop error')
-        await bot.send_message(ADMIN_ID, str(e))
-    try:
-        res_12 = await auto_atlanta_nkz(dct_up)
-    except Exception as e:
-        res_12 = []
         await bot.send_message(CHANEL_ID, 'https://auto-atlanta-nkz.ru error')
         await bot.send_message(ADMIN_ID, str(e))
-    res = res_1 + res_2 + res_3 + res_4 + res_5 + res_6 + res_7 + res_8 + res_9 + res_10 + res_11 + res_12
+    res = res_1 + res_2 + res_3 + res_4 + res_5 + res_6 + res_7 + res_8 + res_9 + res_10 + res_11
     res_1_name = [x[0] for x in res_1]
     res_2_name = [x[0] for x in res_2]
     res_3_name = [x[0] for x in res_3]
@@ -594,7 +588,6 @@ async def parser_kemerovo(dct_up, browser):
     res_9_name = [x[0] for x in res_9]
     res_10_name = [x[0] for x in res_10]
     res_11_name = [x[0] for x in res_11]
-    res_12_name = [x[0] for x in res_12]
     res_name = []
     for item in res:
         if item[0] not in res_name:
@@ -635,13 +628,11 @@ async def parser_kemerovo(dct_up, browser):
     sheet.cell(row=1, column=23).value = 'lada-kemerovo42.ru'
     sheet.cell(row=1, column=24).value = 'lada-42.ru_price'
     sheet.cell(row=1, column=25).value = 'lada-42.ru'
-    sheet.cell(row=1, column=26).value = 'novokuznetsk.autosalon.shop_price'
-    sheet.cell(row=1, column=27).value = 'novokuznetsk.autosalon.shop'
-    sheet.cell(row=1, column=28).value = 'auto-atlanta-nkz.ru_price'
-    sheet.cell(row=1, column=29).value = 'auto-atlanta-nkz.ru'
-    lst_res = [res_1, res_2, res_3, res_4, res_5, res_6, res_7, res_8, res_9, res_10, res_11, res_12]
+    sheet.cell(row=1, column=26).value = 'auto-atlanta-nkz.ru_price'
+    sheet.cell(row=1, column=27).value = 'auto-atlanta-nkz.ru'
+    lst_res = [res_1, res_2, res_3, res_4, res_5, res_6, res_7, res_8, res_9, res_10, res_11]
     lst_res_name = [res_1_name, res_2_name, res_3_name, res_4_name, res_5_name, res_6_name, res_7_name, res_8_name,
-                    res_9_name, res_10_name, res_11_name, res_12_name]
+                    res_9_name, res_10_name, res_11_name]
     for i in range(2, len(res_name) + 2):
         try:
             sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
