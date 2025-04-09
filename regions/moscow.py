@@ -602,3 +602,41 @@ async def carsmo(dct_up):
                 await bot.send_message(CHANEL_ID, f'{name} {link}')
             res.append([name, price, link])
     return res
+
+
+async def ac_cronos_msk(dct_up, browser):
+    link = 'https://ac-kronos-msk.ru/auto'
+    browser.get(link)
+    time.sleep(2)
+    html = browser.page_source
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    tags = soup.find(attrs={"class": "filter__marks"}).find_all("a")
+    res = []
+    for tag in tags:
+        link_1 = tag.get("href")
+        browser.get(link_1)
+        time.sleep(1)
+        time.sleep(0.25)
+        html = browser.page_source
+        soup = bs4.BeautifulSoup(html, 'lxml')
+        cards = soup.find(attrs={"class": "main"}).find_all(attrs={"class": "col"})
+        for card in cards:
+            link = card.find("a").get("href")
+            if 'ac-kronos-msk' not in link:
+                continue
+            title = card.find(attrs={"class": "model__name"}).text.lower().strip().replace("(ваз)", "")
+            brand = title.split()[0]
+            model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i")
+            cost__ = card.find(attrs={"class": "model__price model__price--current"}).text
+            cost_ = ''
+            for y in cost__:
+                if y.isdigit():
+                    cost_ += y
+            cost = int(cost_)
+            name = brand + ', ' + model
+            try:
+                name = dct_up[name]
+            except KeyError:
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
+            res.append([name, cost, link])
+    return res

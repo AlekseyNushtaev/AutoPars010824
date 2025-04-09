@@ -122,20 +122,22 @@ async def parser_omsk(dct_up, browser):
         res_1 = []
         await bot.send_message(CHANEL_ID, 'https://irtysh-avtosalon.ru error')
         await bot.send_message(ADMIN_ID, str(e))
-    # try:
-    #     res_2 = await omsk_cars(dct_up, browser)
-    # except Exception as e:
-    #     res_2 = []
-    #     await bot.send_message(CHANEL_ID, 'https://omsk-cars.ru error')
-    #     await bot.send_message(ADMIN_ID, str(e))
-    # try:
-    #     res_3 = await omsk_carso(dct_up)
-    # except Exception as e:
-    #     res_3 = []
-    #     await bot.send_message(CHANEL_ID, 'https://omsk.carso.ru error')
-    #     await bot.send_message(ADMIN_ID, str(e))
-    res = res_1
+    try:
+        res_2 = await omsk_cars(dct_up, browser)
+    except Exception as e:
+        res_2 = []
+        await bot.send_message(CHANEL_ID, 'https://omsk-cars.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    try:
+        res_3 = await omsk_carso(dct_up)
+    except Exception as e:
+        res_3 = []
+        await bot.send_message(CHANEL_ID, 'https://omsk.carso.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    res = res_1 + res_2 + res_3
     res_1_name = [x[0] for x in res_1]
+    res_2_name = [x[0] for x in res_2]
+    res_3_name = [x[0] for x in res_3]
     res_name = []
     for item in res:
         if item[0] not in res_name:
@@ -158,12 +160,12 @@ async def parser_omsk(dct_up, browser):
     sheet.cell(row=1, column=5).value = 'min_price_url'
     sheet.cell(row=1, column=6).value = 'irtysh-avtosalon.ru_price'
     sheet.cell(row=1, column=7).value = 'irtysh-avtosalon.ru'
-    # sheet.cell(row=1, column=8).value = 'omsk-cars.ru_price'
-    # sheet.cell(row=1, column=9).value = 'omsk-cars.ru'
-    # sheet.cell(row=1, column=10).value = 'omsk.carso.ru_price'
-    # sheet.cell(row=1, column=11).value = 'omsk.carso.ru'
-    lst_res = [res_1]
-    lst_res_name = [res_1_name]
+    sheet.cell(row=1, column=8).value = 'omsk-cars.ru_price'
+    sheet.cell(row=1, column=9).value = 'omsk-cars.ru'
+    sheet.cell(row=1, column=10).value = 'omsk.carso.ru_price'
+    sheet.cell(row=1, column=11).value = 'omsk.carso.ru'
+    lst_res = [res_1, res_2, res_3]
+    lst_res_name = [res_1_name, res_2_name, res_3_name]
     for i in range(2, len(res_name) + 2):
         try:
             sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
@@ -337,10 +339,10 @@ async def parser_ekaterinburg(dct_up, browser):
         await bot.send_message(CHANEL_ID, 'https://primeauto-ekb.ru error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-        res_5 = await autoworld_ekb(dct_up)
+        res_5 = await topautos_ekb(dct_up)
     except Exception as e:
         res_5 = []
-        await bot.send_message(CHANEL_ID, 'https://autoworld-ekb.ru error')
+        await bot.send_message(CHANEL_ID, 'https://topautos-ekb.ru error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
         res_6 = await swmauto_dealer(dct_up, browser)
@@ -383,8 +385,8 @@ async def parser_ekaterinburg(dct_up, browser):
     sheet.cell(row=1, column=11).value = 'autosalon-kit.ru'
     sheet.cell(row=1, column=12).value = 'primeauto-ekb.ru_price'
     sheet.cell(row=1, column=13).value = 'primeauto-ekb.ru'
-    sheet.cell(row=1, column=14).value = 'autoworld-ekb.ru_price'
-    sheet.cell(row=1, column=15).value = 'autoworld-ekb.ru'
+    sheet.cell(row=1, column=14).value = 'topautos-ekb.ru_price'
+    sheet.cell(row=1, column=15).value = 'topautos-ekb.ru'
     sheet.cell(row=1, column=16).value = 'swmauto-dealer.ru_price'
     sheet.cell(row=1, column=17).value = 'swmauto-dealer.ru'
     lst_res = [res_1, res_2, res_3, res_4, res_5, res_6]
@@ -439,16 +441,23 @@ async def parser_saratov(dct_up):
         await bot.send_message(CHANEL_ID, 'https://saratov.asavtomotors.ru error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-        res_4 = await saratov_autosalon(dct_up)
+        res_4 = await saratov_avtosalon(dct_up)
     except Exception as e:
         res_4 = []
         await bot.send_message(CHANEL_ID, 'https://saratov.avtosalon.shop error')
         await bot.send_message(ADMIN_ID, str(e))
-    res = res_1 + res_2 + res_3 + res_4
+    try:
+        res_5 = await saratov_autosalon(dct_up)
+    except Exception as e:
+        res_5 = []
+        await bot.send_message(CHANEL_ID, 'https://saratov.autosalon.shop error')
+        await bot.send_message(ADMIN_ID, str(e))
+    res = res_1 + res_2 + res_3 + res_4 + res_5
     res_1_name = [x[0] for x in res_1]
     res_2_name = [x[0] for x in res_2]
     res_3_name = [x[0] for x in res_3]
     res_4_name = [x[0] for x in res_4]
+    res_5_name = [x[0] for x in res_5]
     res_name = []
     for item in res:
         if item[0] not in res_name:
@@ -477,8 +486,10 @@ async def parser_saratov(dct_up):
     sheet.cell(row=1, column=11).value = 'saratov.asavtomotors.ru'
     sheet.cell(row=1, column=12).value = 'saratov.avtosalon.shop_price'
     sheet.cell(row=1, column=13).value = 'saratov.avtosalon.shop'
-    lst_res = [res_1, res_2, res_3, res_4]
-    lst_res_name = [res_1_name, res_2_name, res_3_name, res_4_name]
+    sheet.cell(row=1, column=14).value = 'saratov.autosalon.shop_price'
+    sheet.cell(row=1, column=15).value = 'saratov.autosalon.shop'
+    lst_res = [res_1, res_2, res_3, res_4, res_5]
+    lst_res_name = [res_1_name, res_2_name, res_3_name, res_4_name, res_5_name]
     for i in range(2, len(res_name) + 2):
         try:
             sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
@@ -809,10 +820,10 @@ async def parser_samara(dct_up, browser):
 
 async def parser_volgograd(dct_up, browser):
     try:
-        res_1 = await vlg_auto34(dct_up)
+        res_1 = await volga_2024_auto(dct_up)
     except Exception as e:
         res_1 = []
-        await bot.send_message(CHANEL_ID, 'https://vlg-auto34.ru error')
+        await bot.send_message(CHANEL_ID, 'https://volga-2024-auto.ru error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
         res_2 = await avto_volga(dct_up, browser)
@@ -843,8 +854,8 @@ async def parser_volgograd(dct_up, browser):
     sheet.cell(row=1, column=3).value = 'model'
     sheet.cell(row=1, column=4).value = 'min_price'
     sheet.cell(row=1, column=5).value = 'min_price_url'
-    sheet.cell(row=1, column=6).value = 'vlg-auto34.ru_price'
-    sheet.cell(row=1, column=7).value = 'vlg-auto34.ru'
+    sheet.cell(row=1, column=6).value = 'volga-2024-auto.ru_price'
+    sheet.cell(row=1, column=7).value = 'volga-2024-auto.ru'
     sheet.cell(row=1, column=8).value = 'avto-volga-2025.ru_price'
     sheet.cell(row=1, column=9).value = 'avto-volga-2025.ru'
     lst_res = [res_1, res_2]
@@ -1416,10 +1427,10 @@ async def parser_chelyabinsk(dct_up, browser):
         await bot.send_message(CHANEL_ID, 'https://avto-graf-newcars.ru error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-        res_2 = await che_motors(dct_up, browser)
+        res_2 = await auto_graf74(dct_up, browser)
     except Exception as e:
         res_2 = []
-        await bot.send_message(CHANEL_ID, 'https://che-motors-2024.ru/catalog error')
+        await bot.send_message(CHANEL_ID, 'https://auto-graf74.ru error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
         res_3 = await saturn2(dct_up, browser)
@@ -1472,8 +1483,8 @@ async def parser_chelyabinsk(dct_up, browser):
     sheet.cell(row=1, column=5).value = 'min_price_url'
     sheet.cell(row=1, column=6).value = 'avto-graf-newcars.ru_price'
     sheet.cell(row=1, column=7).value = 'avto-graf-newcars.ru'
-    sheet.cell(row=1, column=8).value = 'che-motors-2024.ru_price'
-    sheet.cell(row=1, column=9).value = 'che-motors-2024.ru'
+    sheet.cell(row=1, column=8).value = 'auto-graf74.ru_price'
+    sheet.cell(row=1, column=9).value = 'auto-graf74.ru'
     sheet.cell(row=1, column=10).value = 'saturn2.ru_price'
     sheet.cell(row=1, column=11).value = 'saturn2.ru'
     sheet.cell(row=1, column=12).value = 'kcelitauto.ru_price'
@@ -1579,10 +1590,10 @@ async def parser_moscow(dct_up, browser):
         await bot.send_message(ADMIN_ID, str(e))
     try:
         # await bot.send_message(ADMIN_ID, 'begin https://az-cars.ru')
-        res_10 = await az_cars(dct_up)
+        res_10 = await ac_cronos_msk(dct_up, browser)
     except Exception as e:
         res_10 = []
-        await bot.send_message(CHANEL_ID, 'https://az-cars.ru error')
+        await bot.send_message(CHANEL_ID, 'https://ac-kronos-msk.ru error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
         # await bot.send_message(ADMIN_ID, 'https://avtohous-group.ru/katalog')
@@ -1671,8 +1682,8 @@ async def parser_moscow(dct_up, browser):
     sheet.cell(row=1, column=21).value = 'ca-geely.ru'
     sheet.cell(row=1, column=22).value = 'autodrive-777.ru_price'
     sheet.cell(row=1, column=23).value = 'autodrive-777.ru'
-    sheet.cell(row=1, column=24).value = 'az-cars.ru_price'
-    sheet.cell(row=1, column=25).value = 'az-cars.ru'
+    sheet.cell(row=1, column=24).value = 'ac-kronos-msk.ru_price'
+    sheet.cell(row=1, column=25).value = 'ac-kronos-msk.ru'
     sheet.cell(row=1, column=26).value = 'avtohous-group.ru_price'
     sheet.cell(row=1, column=27).value = 'avtohous-group.ru'
     sheet.cell(row=1, column=28).value = 'msk-carshop777.ru_price'

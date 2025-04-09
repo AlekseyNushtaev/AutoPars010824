@@ -162,7 +162,7 @@ async def automarket_saratov(dct_up):
     return res
 
 
-async def saratov_autosalon(dct_up):
+async def saratov_avtosalon(dct_up):
     headers = fake_headers.Headers(browser='firefox', os='win')
     link = 'https://saratov.avtosalon.shop/'
     response = requests.get(link, headers.generate())
@@ -268,4 +268,44 @@ async def saratov_autospot(dct_up):
             except:
                 await bot.send_message(CHANEL_ID, f'{name} {link}')
             res.append([name, cost, link])
+    return res
+
+
+async def saratov_autosalon(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://saratov.autosalon.shop'
+    response = requests.get(link, headers.generate())
+    time.sleep(0.25)
+    html = response.text
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    tags = soup.find(attrs={"class": "header-brands__list row"}).find_all("a")
+    res = []
+    for tag in tags[:-1]:
+        brand = tag.find(attrs={"class": "header-brands__item-text"}).text.lower().strip()
+        link_1 = 'https://saratov.autosalon.shop' + tag.get("href")
+        response = requests.get(link_1, headers.generate())
+        time.sleep(0.25)
+        html = response.text
+        soup = bs4.BeautifulSoup(html, 'lxml')
+        cards = soup.find_all(attrs={"class": "models-card__inner"})
+        for card in cards:
+            try:
+                link = 'https://saratov.autosalon.shop' + card.get("href")
+                model = card.find(attrs={"class": "models-card__name"}).text.lower().strip().replace(" ", "")
+                cost__ = card.find(attrs={"class": "models-card__price-new"}).text.strip()
+                cost_ = ''
+                for y in cost__:
+                    if y.isdigit():
+                        cost_ += y
+                if cost_ == '':
+                    continue
+                cost = int(cost_)
+                name = brand + ', ' + model
+                try:
+                    name = dct_up[name]
+                except KeyError:
+                    await bot.send_message(CHANEL_ID, f'{name} {link}')
+                res.append([name, cost, link])
+            except:
+                pass
     return res
