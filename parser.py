@@ -2181,7 +2181,13 @@ async def parser_krsk(dct_up, browser):
         res_8 = []
         await bot.send_message(CHANEL_ID, 'https://sibauto-official.ru error')
         await bot.send_message(ADMIN_ID, str(e))
-    res = res_1 + res_2 + res_3 + res_4 + res_5 + res_6 + res_7 + res_8
+    try:
+        res_9 = await neokars(dct_up, browser)
+    except Exception as e:
+        res_9 = []
+        await bot.send_message(CHANEL_ID, 'https://neokars.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    res = res_1 + res_2 + res_3 + res_4 + res_5 + res_6 + res_7 + res_8 + res_9
     res_1_name = [x[0] for x in res_1]
     res_2_name = [x[0] for x in res_2]
     res_3_name = [x[0] for x in res_3]
@@ -2190,6 +2196,7 @@ async def parser_krsk(dct_up, browser):
     res_6_name = [x[0] for x in res_6]
     res_7_name = [x[0] for x in res_7]
     res_8_name = [x[0] for x in res_8]
+    res_9_name = [x[0] for x in res_9]
     res_name = []
     for item in res:
         if item[0] not in res_name:
@@ -2226,8 +2233,10 @@ async def parser_krsk(dct_up, browser):
     sheet.cell(row=1, column=19).value = 'autonew-krr.ru'
     sheet.cell(row=1, column=20).value = 'sibauto-official.ru_price'
     sheet.cell(row=1, column=21).value = 'sibauto-official.ru'
-    lst_res = [res_1, res_2, res_3, res_4, res_5, res_6, res_7, res_8]
-    lst_res_name = [res_1_name, res_2_name, res_3_name, res_4_name, res_5_name, res_6_name, res_7_name, res_8_name]
+    sheet.cell(row=1, column=22).value = 'neokars.ru_price'
+    sheet.cell(row=1, column=23).value = 'neokars.ru'
+    lst_res = [res_1, res_2, res_3, res_4, res_5, res_6, res_7, res_8, res_9]
+    lst_res_name = [res_1_name, res_2_name, res_3_name, res_4_name, res_5_name, res_6_name, res_7_name, res_8_name, res_9_name]
     for i in range(2, len(res_name) + 2):
         try:
             sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]
