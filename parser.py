@@ -1301,51 +1301,51 @@ async def parser_tumen(dct_up, browser):
         res_2 = []
         await bot.send_message(CHANEL_ID, 'https://bazis-motors.ru/ error')
         await bot.send_message(ADMIN_ID, str(e))
+    # try:
+    #     res_3 = await tumen_car(dct_up)
+    # except Exception as e:
+    #     res_3 = []
+    #     await bot.send_message(CHANEL_ID, 'https://tumen-car.ru/ error')
+    #     await bot.send_message(ADMIN_ID, str(e))
     try:
-        res_3 = await tumen_car(dct_up)
+        res_3 = await autocentr_city(dct_up)
     except Exception as e:
         res_3 = []
-        await bot.send_message(CHANEL_ID, 'https://tumen-car.ru/ error')
-        await bot.send_message(ADMIN_ID, str(e))
-    try:
-        res_4 = await autocentr_city(dct_up)
-    except Exception as e:
-        res_4 = []
         await bot.send_message(CHANEL_ID, 'https://autocentr-city.ru error')
         await bot.send_message(ADMIN_ID, str(e))
+    # try:
+    #     res_5 = await autotumen(dct_up)
+    # except Exception as e:
+    #     res_5 = []
+    #     await bot.send_message(CHANEL_ID, 'https://autotumen.ru/ error')
+    #     await bot.send_message(ADMIN_ID, str(e))
     try:
-        res_5 = await autotumen(dct_up)
+        res_4 = await avto_trend_72(dct_up)
     except Exception as e:
-        res_5 = []
-        await bot.send_message(CHANEL_ID, 'https://autotumen.ru/ error')
-        await bot.send_message(ADMIN_ID, str(e))
-    try:
-        res_6 = await avto_trend_72(dct_up)
-    except Exception as e:
-        res_6 = []
+        res_4 = []
         await bot.send_message(CHANEL_ID, 'https://avto-trend72.ru error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-        res_7 = await sibtrackt_salon(dct_up, browser)
+        res_5 = await sibtrackt_salon(dct_up, browser)
     except Exception as e:
-        res_7 = []
+        res_5 = []
         await bot.send_message(CHANEL_ID, 'https://sibtrackt-salon.ru error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-        res_8 = await tumen_salon(dct_up, browser)
+        res_6 = await tumen_salon(dct_up, browser)
     except Exception as e:
-        res_8 = []
+        res_6 = []
         await bot.send_message(CHANEL_ID, 'https://tumen-salon.ru error')
         await bot.send_message(ADMIN_ID, str(e))
-    res = res_1 + res_2 + res_3 + res_4 + res_5 + res_6 + res_7 + res_8
+    res = res_1 + res_2 + res_3 + res_4 + res_5 + res_6
     res_1_name = [x[0] for x in res_1]
     res_2_name = [x[0] for x in res_2]
     res_3_name = [x[0] for x in res_3]
     res_4_name = [x[0] for x in res_4]
     res_5_name = [x[0] for x in res_5]
     res_6_name = [x[0] for x in res_6]
-    res_7_name = [x[0] for x in res_7]
-    res_8_name = [x[0] for x in res_8]
+    # res_7_name = [x[0] for x in res_7]
+    # res_8_name = [x[0] for x in res_8]
     res_name = []
     for item in res:
         if item[0] not in res_name:
@@ -1370,21 +1370,21 @@ async def parser_tumen(dct_up, browser):
     sheet.cell(row=1, column=7).value = 'avtosrf5-11.ru'
     sheet.cell(row=1, column=8).value = 'bazis-motors.ru_price'
     sheet.cell(row=1, column=9).value = 'bazis-motors.ru'
-    sheet.cell(row=1, column=10).value = 'tumen-car.ru_price'
-    sheet.cell(row=1, column=11).value = 'tumen-car.ru'
-    sheet.cell(row=1, column=12).value = 'autocentr-city.ru_price'
-    sheet.cell(row=1, column=13).value = 'autocentr-city.ru'
-    sheet.cell(row=1, column=14).value = 'autotumen.ru_price'
-    sheet.cell(row=1, column=15).value = 'autotumen.ru'
-    sheet.cell(row=1, column=16).value = 'avto-trend72.ru_price'
-    sheet.cell(row=1, column=17).value = 'avto-trend72.ru'
-    sheet.cell(row=1, column=18).value = 'sibtrackt-salon.ru_price'
-    sheet.cell(row=1, column=19).value = 'sibtrackt-salon.ru'
-    sheet.cell(row=1, column=20).value = 'tumen-salon.ru_price'
-    sheet.cell(row=1, column=21).value = 'tumen-salon.ru'
+    # sheet.cell(row=1, column=10).value = 'tumen-car.ru_price'
+    # sheet.cell(row=1, column=11).value = 'tumen-car.ru'
+    sheet.cell(row=1, column=10).value = 'autocentr-city.ru_price'
+    sheet.cell(row=1, column=11).value = 'autocentr-city.ru'
+    # sheet.cell(row=1, column=14).value = 'autotumen.ru_price'
+    # sheet.cell(row=1, column=15).value = 'autotumen.ru'
+    sheet.cell(row=1, column=12).value = 'avto-trend72.ru_price'
+    sheet.cell(row=1, column=13).value = 'avto-trend72.ru'
+    sheet.cell(row=1, column=14).value = 'sibtrackt-salon.ru_price'
+    sheet.cell(row=1, column=15).value = 'sibtrackt-salon.ru'
+    sheet.cell(row=1, column=16).value = 'tumen-salon.ru_price'
+    sheet.cell(row=1, column=17).value = 'tumen-salon.ru'
 
-    lst_res = [res_1, res_2, res_3, res_4, res_5, res_6, res_7, res_8]
-    lst_res_name = [res_1_name, res_2_name, res_3_name, res_4_name, res_5_name, res_6_name, res_7_name, res_8_name]
+    lst_res = [res_1, res_2, res_3, res_4, res_5, res_6]
+    lst_res_name = [res_1_name, res_2_name, res_3_name, res_4_name, res_5_name, res_6_name]
     for i in range(2, len(res_name) + 2):
         try:
             sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]

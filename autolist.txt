@@ -1167,7 +1167,7 @@ mg, vshev |MG, VS HEV | 491
 mg, 5 |MG, 5 | 492
 mg, 5new |MG, 5 New| 808
 mg, 6 |MG, 6 | 493
-mg, 6 |MG, 6 New| 1014
+mg, 6new |MG, 6 New| 1014
 mg, hs |MG, HS | 494
 mg, zs |MG, ZS | 495
 mg, rx5 |MG, RX 5 | 834
@@ -1192,6 +1192,7 @@ mitsubishi, outlander5мест |Mitsubishi, Outlander | 502
 mitsubishi, outlandergt |Mitsubishi, Outlander GT| 712
 mitsubishi, outlandernew |Mitsubishi, Outlander New | 503
 mitsubishi, outlander(ivпоколение) |Mitsubishi, Outlander New | 503
+mitsubishi, outlanderiv |Mitsubishi, Outlander New | 503
 mitsubishi, outlander2024new |Mitsubishi, Outlander New | 503
 mitsubishi, outlandernew2024 |Mitsubishi, Outlander New | 503
 mitsubishi, pajero |Mitsubishi, Pajero | 505

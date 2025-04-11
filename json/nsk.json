@@ -1,605 +1,906 @@
 {
     "1": {
-        "min_price": 419940
+        "model": "Lada, Granta Sedan",
+        "min_price": 313000
     },
     "2": {
-        "min_price": 293300
+        "model": "Lada, Granta Liftback",
+        "min_price": 449600
     },
     "3": {
-        "min_price": 467100
+        "model": "Lada, Granta Hatchback",
+        "min_price": 325000
     },
     "4": {
+        "model": "Lada, Granta Universal",
         "min_price": 300300
     },
     "5": {
-        "min_price": 291800
+        "model": "Lada, Granta Cross",
+        "min_price": 490500
     },
     "6": {
-        "min_price": 620940
+        "model": "Lada, Granta Sedan Drive Active",
+        "min_price": 396900
     },
     "7": {
-        "min_price": 595000
+        "model": "Lada, Vesta Sedan New",
+        "min_price": 383300
     },
     "8": {
+        "model": "Lada, Vesta Sedan",
         "min_price": 346900
     },
     "9": {
-        "min_price": 685500
+        "model": "Lada, Vesta Cross New",
+        "min_price": 543800
     },
     "10": {
-        "min_price": 450900
+        "model": "Lada, Vesta Cross",
+        "min_price": 392600
     },
     "11": {
-        "min_price": 686900
+        "model": "Lada, Vesta SW New",
+        "min_price": 511700
     },
     "12": {
-        "min_price": 415900
+        "model": "Lada, Vesta SW",
+        "min_price": 375300
     },
     "13": {
-        "min_price": 566900
+        "model": "Lada, Vesta SW Cross New",
+        "min_price": 581000
     },
     "14": {
-        "min_price": 501900
+        "model": "Lada, Vesta SW Cross",
+        "min_price": 410900
+    },
+    "15": {
+        "model": "Lada, Vesta CNG",
+        "min_price": 407100
     },
     "16": {
-        "min_price": 567300
+        "model": "Lada, Vesta Sport",
+        "min_price": 494000
     },
     "17": {
+        "model": "Lada, Xray",
         "min_price": 409300
     },
     "18": {
-        "min_price": 395300
+        "model": "Lada, Xray Cross",
+        "min_price": 462100
     },
     "19": {
+        "model": "Lada, Largus",
         "min_price": 597600
     },
     "20": {
-        "min_price": 765000
+        "model": "Lada, Largus Cross",
+        "min_price": 727200
     },
     "21": {
-        "min_price": 452300
+        "model": "Lada, Largus \u0424\u0443\u0440\u0433\u043e\u043d",
+        "min_price": 601200
     },
     "22": {
-        "min_price": 437900
+        "model": "Lada, Niva Travel",
+        "min_price": 530900
     },
     "23": {
-        "min_price": 526900
+        "model": "Chevrolet, Spark",
+        "min_price": 471600
     },
     "24": {
+        "model": "Chevrolet, Nexia",
         "min_price": 436900
     },
     "25": {
-        "min_price": 553900
+        "model": "Chevrolet, Cobalt",
+        "min_price": 473100
     },
     "26": {
+        "model": "Datsun, ON-DO",
         "min_price": 281400
     },
     "27": {
-        "min_price": 297300
+        "model": "Datsun, MI-DO",
+        "min_price": 293500
+    },
+    "28": {
+        "model": "Haval, H2",
+        "min_price": 676800
     },
     "29": {
-        "min_price": 867300
+        "model": "Haval, H5",
+        "min_price": 947400
     },
     "30": {
-        "min_price": 1595000
+        "model": "Haval, H6",
+        "min_price": 688800
     },
     "31": {
-        "min_price": 1917300
+        "model": "Haval, H9",
+        "min_price": 2579400
     },
     "32": {
-        "min_price": 930300
+        "model": "Haval, F7",
+        "min_price": 1559400
     },
     "33": {
-        "min_price": 970300
+        "model": "Haval, F7x",
+        "min_price": 1559400
     },
     "34": {
-        "min_price": 990000
+        "model": "Haval, Jolion New",
+        "min_price": 1289400
     },
     "35": {
-        "min_price": 889000
+        "model": "Haval, Jolion",
+        "min_price": 1229400
     },
     "36": {
-        "min_price": 1690000
+        "model": "Haval, Dargo",
+        "min_price": 1889400
     },
     "37": {
-        "min_price": 1890000
+        "model": "Haval, Dargo X",
+        "min_price": 2069400
     },
     "38": {
+        "model": "Hyundai, Solaris",
         "min_price": 500300
     },
     "39": {
-        "min_price": 849000
+        "model": "Hyundai, Creta New",
+        "min_price": 660500
     },
     "40": {
-        "min_price": 1301064
+        "model": "Hyundai, Elantra New",
+        "min_price": 763500
     },
     "41": {
-        "min_price": 1130200
+        "model": "Hyundai, Sonata",
+        "min_price": 983800
+    },
+    "42": {
+        "model": "Hyundai, Tucson New",
+        "min_price": 976700
     },
     "43": {
-        "min_price": 566900
+        "model": "KIA, Picanto",
+        "min_price": 791000
     },
     "44": {
-        "min_price": 510300
+        "model": "KIA, Rio",
+        "min_price": 850300
     },
     "45": {
-        "min_price": 590300
+        "model": "KIA, Rio X",
+        "min_price": 933300
     },
     "46": {
+        "model": "KIA, Rio X-Line",
         "min_price": 557000
     },
     "47": {
-        "min_price": 713000
+        "model": "KIA, Ceed",
+        "min_price": 1330300
     },
     "48": {
-        "min_price": 723000
+        "model": "KIA, Ceed SW",
+        "min_price": 1371800
     },
     "49": {
-        "min_price": 1103940
+        "model": "KIA, ProCeed",
+        "min_price": 714000
     },
     "50": {
-        "min_price": 850000
+        "model": "KIA, Cerato",
+        "min_price": 1279900
     },
     "51": {
-        "min_price": 1070300
+        "model": "KIA, K5",
+        "min_price": 1620700
     },
     "52": {
-        "min_price": 571200
+        "model": "KIA, Soul",
+        "min_price": 1146600
     },
     "53": {
-        "min_price": 705300
+        "model": "KIA, Seltos",
+        "min_price": 1223600
     },
     "54": {
-        "min_price": 1320300
+        "model": "KIA, XCeed",
+        "min_price": 1324400
     },
     "55": {
-        "min_price": 977300
+        "model": "KIA, Sportage",
+        "min_price": 1688800
     },
     "56": {
-        "min_price": 790000
+        "model": "Nissan, Qashqai",
+        "min_price": 908300
     },
     "57": {
-        "min_price": 1267300
+        "model": "Nissan, X-trail",
+        "min_price": 1073500
     },
     "58": {
+        "model": "Nissan, Terrano",
         "min_price": 656900
     },
     "59": {
+        "model": "Renault, Logan",
         "min_price": 457300
     },
     "60": {
-        "min_price": 530000
+        "model": "Renault, Logan Stepway",
+        "min_price": 529300
+    },
+    "61": {
+        "model": "Renault, Logan Stepway City",
+        "min_price": 537400
     },
     "62": {
-        "min_price": 520000
+        "model": "Renault, Sandero",
+        "min_price": 511800
     },
     "63": {
-        "min_price": 550000
+        "model": "Renault, Sandero Stepway",
+        "min_price": 558600
+    },
+    "64": {
+        "model": "Renault, Sandero Stepway City",
+        "min_price": 566700
     },
     "65": {
-        "min_price": 650000
+        "model": "Renault, Duster New",
+        "min_price": 658200
     },
     "66": {
-        "min_price": 670000
+        "model": "Renault, Kaptur",
+        "min_price": 701400
     },
     "67": {
-        "min_price": 690000
+        "model": "Renault, Arkana",
+        "min_price": 762400
     },
     "68": {
-        "min_price": 1019400
+        "model": "Renault, Koleos",
+        "min_price": 691200
     },
     "69": {
+        "model": "Skoda, Rapid",
         "min_price": 520000
     },
+    "70": {
+        "model": "Skoda, Octavia New",
+        "min_price": 819800
+    },
+    "71": {
+        "model": "Skoda, Octavia Hockey Edition",
+        "min_price": 1397100
+    },
     "72": {
-        "min_price": 740000
+        "model": "Skoda, Karoq",
+        "min_price": 843500
+    },
+    "73": {
+        "model": "Skoda, Kodiaq New",
+        "min_price": 1800900
+    },
+    "74": {
+        "model": "Skoda, Kodiaq Hockey Edition",
+        "min_price": 1048300
+    },
+    "75": {
+        "model": "Skoda, Kodiaq Scout",
+        "min_price": 1607000
+    },
+    "76": {
+        "model": "Skoda, Kodiaq Sportline",
+        "min_price": 2660800
+    },
+    "77": {
+        "model": "Skoda, Kodiaq Laurin & Klement",
+        "min_price": 2872600
     },
     "78": {
-        "min_price": 1222000
+        "model": "Skoda, Superb",
+        "min_price": 1181500
     },
     "79": {
-        "min_price": 1608600
+        "model": "Skoda, Superb Combi",
+        "min_price": 1326400
     },
     "80": {
+        "model": "Volkswagen, Polo",
         "min_price": 537300
     },
     "81": {
-        "min_price": 1067300
+        "model": "Volkswagen, Jetta",
+        "min_price": 588500
     },
     "82": {
-        "min_price": 1618300
+        "model": "Volkswagen, Passat",
+        "min_price": 1029700
+    },
+    "83": {
+        "model": "Volkswagen, Tiguan New",
+        "min_price": 1308800
     },
     "84": {
-        "min_price": 1461000
+        "model": "Volkswagen, Taos",
+        "min_price": 1096700
     },
     "85": {
-        "min_price": 590000
+        "model": "Changan, Alsvin",
+        "min_price": 1110000
     },
     "86": {
-        "min_price": 1100000
+        "model": "Changan, Eado Plus",
+        "min_price": 1463900
     },
     "87": {
-        "min_price": 527940
+        "model": "Changan, CS35",
+        "min_price": 527900
     },
     "88": {
-        "min_price": 1090000
+        "model": "Changan, CS35 Plus New",
+        "min_price": 1541900
     },
     "89": {
-        "min_price": 889900
+        "model": "Changan, CS55",
+        "min_price": 1331900
     },
     "90": {
-        "min_price": 1350000
+        "model": "Changan, CS55 Plus",
+        "min_price": 1577900
     },
     "91": {
-        "min_price": 1107300
+        "model": "Changan, CS75FL",
+        "min_price": 1499900
     },
     "92": {
-        "min_price": 2225940
+        "model": "Changan, CS85 Coupe",
+        "min_price": 2255900
     },
     "93": {
-        "min_price": 2549900
+        "model": "Changan, CS95",
+        "min_price": 2669900
     },
     "94": {
-        "min_price": 1841940
+        "model": "Changan, UNI-V",
+        "min_price": 1841900
     },
     "95": {
-        "min_price": 2381940
+        "model": "Changan, UNI-K",
+        "min_price": 2381900
+    },
+    "96": {
+        "model": "DFM, AX7",
+        "min_price": 737400
+    },
+    "97": {
+        "model": "DFM, 580",
+        "min_price": 1374000
     },
     "98": {
-        "min_price": 1396800
+        "model": "FAW, Bestune B70",
+        "min_price": 1424400
     },
     "99": {
-        "min_price": 1373400
+        "model": "FAW, Bestune T55",
+        "min_price": 1446600
     },
     "100": {
-        "min_price": 1301400
+        "model": "FAW, Bestune T77",
+        "min_price": 1214400
     },
     "101": {
-        "min_price": 637300
+        "model": "FAW, X40",
+        "min_price": 961200
+    },
+    "102": {
+        "model": "FAW, X80",
+        "min_price": 904800
+    },
+    "103": {
+        "model": "Geely, Emgrand New",
+        "min_price": 1203500
     },
     "104": {
-        "min_price": 1930000
+        "model": "Geely, Atlas New",
+        "min_price": 1939400
     },
     "105": {
-        "min_price": 690000
+        "model": "Geely, Atlas",
+        "min_price": 1146000
     },
     "106": {
-        "min_price": 790000
+        "model": "Geely, Atlas Pro",
+        "min_price": 1566200
     },
     "107": {
-        "min_price": 1115000
+        "model": "Geely, Coolray New",
+        "min_price": 1543000
     },
     "108": {
-        "min_price": 850000
+        "model": "Geely, Coolray",
+        "min_price": 1148800
     },
     "109": {
+        "model": "Geely, Emgrand X7",
         "min_price": 668000
     },
     "110": {
-        "min_price": 699890
+        "model": "Geely, GS",
+        "min_price": 783900
     },
     "111": {
-        "min_price": 1950000
+        "model": "Geely, Tugella New",
+        "min_price": 2186100
     },
     "112": {
-        "min_price": 1854000
+        "model": "Geely, Okavango",
+        "min_price": 2038700
     },
     "113": {
-        "min_price": 2499000
+        "model": "Geely, Monjaro",
+        "min_price": 2511900
     },
     "114": {
-        "min_price": 676000
+        "model": "Geely, Belgee X50",
+        "min_price": 1264700
     },
     "115": {
-        "min_price": 699000
+        "model": "JAC, S3",
+        "min_price": 1165300
     },
     "116": {
-        "min_price": 888420
+        "model": "JAC, S5",
+        "min_price": 888400
     },
     "117": {
-        "min_price": 1149900
+        "model": "JAC, S7",
+        "min_price": 1387600
     },
     "118": {
-        "min_price": 749000
+        "model": "JAC, J7",
+        "min_price": 1677000
     },
     "119": {
-        "min_price": 538140
+        "model": "Lifan, X50",
+        "min_price": 473900
     },
     "120": {
-        "min_price": 600540
+        "model": "Lifan, X60",
+        "min_price": 521900
     },
     "121": {
-        "min_price": 771420
+        "model": "Lifan, X70",
+        "min_price": 653400
     },
     "122": {
-        "min_price": 701940
+        "model": "Lifan, MyWay",
+        "min_price": 599900
     },
     "123": {
-        "min_price": 795540
+        "model": "Lifan, Murman",
+        "min_price": 873000
     },
     "124": {
-        "min_price": 425940
+        "model": "Lifan, Solano 2",
+        "min_price": 425900
     },
     "125": {
-        "min_price": 339000
+        "model": "Ravon, R2",
+        "min_price": 362800
     },
     "126": {
+        "model": "Ravon, Nexia R3",
         "min_price": 339000
     },
     "127": {
-        "min_price": 389000
+        "model": "Ravon, R4",
+        "min_price": 349600
+    },
+    "128": {
+        "model": "Zotye, T600",
+        "min_price": 757800
+    },
+    "129": {
+        "model": "Zotye, Coupa",
+        "min_price": 927900
     },
     "130": {
-        "min_price": 654100
+        "model": "Chery, Arrizo 8",
+        "min_price": 1740000
+    },
+    "131": {
+        "model": "Chery, Tiggo 3",
+        "min_price": 509900
     },
     "132": {
-        "min_price": 621900
+        "model": "Chery, Tiggo 4",
+        "min_price": 1019900
     },
     "133": {
-        "min_price": 671900
+        "model": "Chery, Tiggo 4 Pro",
+        "min_price": 1200000
     },
     "134": {
-        "min_price": 750000
+        "model": "Chery, Tiggo 7",
+        "min_price": 737900
     },
     "135": {
-        "min_price": 890000
+        "model": "Chery, Tiggo 7 Pro",
+        "min_price": 1542000
     },
     "136": {
-        "min_price": 1090000
+        "model": "Chery, Tiggo 7 Pro Max",
+        "min_price": 1662000
     },
     "137": {
-        "min_price": 1096900
+        "model": "Chery, Tiggo 8",
+        "min_price": 1594000
     },
     "138": {
-        "min_price": 1499000
+        "model": "Chery, Tiggo 8 Pro",
+        "min_price": 2058000
     },
     "139": {
+        "model": "Chery, Tiggo 8 Pro Max New",
         "min_price": 2022000
     },
     "140": {
-        "min_price": 1880000
+        "model": "Chery, Tiggo 8 Pro Max",
+        "min_price": 1950000
     },
     "141": {
+        "model": "OMODA, S5",
         "min_price": 1263900
     },
     "142": {
-        "min_price": 1366900
+        "model": "OMODA, C5",
+        "min_price": 1406300
     },
     "143": {
-        "min_price": 1790000
+        "model": "EXEED, TXL",
+        "min_price": 2181100
     },
     "144": {
-        "min_price": 1210000
+        "model": "BAIC, U5 Plus",
+        "min_price": 1370300
     },
     "145": {
-        "min_price": 1019340
+        "model": "BAIC, X35",
+        "min_price": 1465800
     },
     "146": {
-        "min_price": 1782000
+        "model": "BAIC, X55",
+        "min_price": 1956600
     },
     "147": {
-        "min_price": 2610000
+        "model": "BAIC, BJ40",
+        "min_price": 2865700
     },
     "148": {
+        "model": "Jetta, VA3",
         "min_price": 1156800
     },
     "149": {
-        "min_price": 1637000
+        "model": "Jetta, VS5",
+        "min_price": 1362100
     },
     "150": {
-        "min_price": 1796000
+        "model": "Jetta, VS7",
+        "min_price": 1470900
     },
     "151": {
+        "model": "KAIYI, E5",
         "min_price": 1150000
     },
     "152": {
-        "min_price": 1342800
+        "model": "KAIYI, X3",
+        "min_price": 1216800
     },
     "153": {
-        "min_price": 1508940
+        "model": "KAIYI, X3 Pro",
+        "min_price": 1367400
     },
     "154": {
-        "min_price": 1798740
+        "model": "KAIYI, X7 Kunlun",
+        "min_price": 1630000
     },
     "155": {
-        "min_price": 1529940
+        "model": "Livan, S6 Pro",
+        "min_price": 1529900
     },
     "156": {
+        "model": "Livan, X3 Pro",
         "min_price": 1003200
     },
     "157": {
-        "min_price": 1577940
+        "model": "Livan, X6 Pro",
+        "min_price": 1577900
     },
     "158": {
+        "model": "Moskvich, 3",
         "min_price": 954000
     },
     "159": {
-        "min_price": 1750000
+        "model": "Moskvich, 3e",
+        "min_price": 2216000
     },
     "160": {
+        "model": "TANK, 300",
         "min_price": 2549400
     },
     "161": {
-        "min_price": 3780000
+        "model": "TANK, 500",
+        "min_price": 3852700
     },
     "166": {
-        "min_price": 1709940
+        "model": "JAECOO, J7",
+        "min_price": 1709900
     },
     "167": {
-        "min_price": 1493940
+        "model": "Jetour, Dashing",
+        "min_price": 1493900
     },
     "168": {
-        "min_price": 1799940
+        "model": "Jetour, X70 Plus",
+        "min_price": 1799900
     },
     "169": {
-        "min_price": 1949940
+        "model": "Jetour, X90 Plus",
+        "min_price": 2087900
     },
     "170": {
-        "min_price": 780600
+        "model": "Lada, Granta Sportline",
+        "min_price": 559800
     },
     "171": {
-        "min_price": 804600
+        "model": "Lada, Granta Sportline Liftback",
+        "min_price": 576500
     },
     "172": {
-        "min_price": 868800
+        "model": "Lada, Granta Sport Sedan",
+        "min_price": 623300
     },
     "173": {
-        "min_price": 892800
+        "model": "Lada, Granta Sport Liftback",
+        "min_price": 640000
     },
     "174": {
-        "min_price": 1305540
+        "model": "Lada, Vesta Sportline",
+        "min_price": 702800
     },
     "175": {
-        "min_price": 1410540
+        "model": "Lada, Vesta SW Sportline",
+        "min_price": 755300
     },
     "176": {
+        "model": "Lada, Niva Legend 5 \u0434\u0432\u0435\u0440\u0435\u0439",
         "min_price": 371300
     },
     "177": {
-        "min_price": 350300
+        "model": "Lada, Niva Legend 3 \u0434\u0432\u0435\u0440\u0438",
+        "min_price": 427900
+    },
+    "178": {
+        "model": "Lada, Niva Legend Bronto",
+        "min_price": 600800
     },
     "179": {
-        "min_price": 930000
+        "model": "Skoda, Kodiaq",
+        "min_price": 1017700
     },
     "180": {
-        "min_price": 1673000
+        "model": "Hyundai, Santa Fe",
+        "min_price": 1410200
+    },
+    "181": {
+        "model": "Hyundai, Tucson N Line",
+        "min_price": 1413800
     },
     "182": {
-        "min_price": 3249000
+        "model": "Hyundai, Staria",
+        "min_price": 1456400
     },
     "183": {
-        "min_price": 3402000
+        "model": "Hyundai, Palisade",
+        "min_price": 1872200
     },
     "184": {
-        "min_price": 2246000
+        "model": "Nissan, Murano",
+        "min_price": 1713700
     },
     "185": {
-        "min_price": 1621000
+        "model": "KIA, Sorento",
+        "min_price": 2245900
     },
     "186": {
-        "min_price": 2249900
+        "model": "KIA, Carnival",
+        "min_price": 2456300
     },
     "187": {
-        "min_price": 2860700
+        "model": "KIA, Mohave",
+        "min_price": 3454800
     },
     "188": {
-        "min_price": 4794000
+        "model": "KIA, K9",
+        "min_price": 4370400
     },
     "189": {
-        "min_price": 2574600
+        "model": "Volkswagen, Golf",
+        "min_price": 1663500
     },
     "190": {
-        "min_price": 2477000
+        "model": "Volkswagen, Teramont",
+        "min_price": 2382900
     },
     "191": {
-        "min_price": 5201700
+        "model": "Volkswagen, Touareg",
+        "min_price": 3361000
     },
     "192": {
-        "min_price": 890000
+        "model": "Haval, M6",
+        "min_price": 1307400
     },
     "193": {
+        "model": "Haval, H3",
         "min_price": 1679400
     },
     "194": {
-        "min_price": 2320300
+        "model": "Haval, H9 New",
+        "min_price": 2759400
     },
     "195": {
+        "model": "UAZ, Hunter",
         "min_price": 559900
     },
     "196": {
-        "min_price": 616400
+        "model": "UAZ, Patriot",
+        "min_price": 622900
+    },
+    "197": {
+        "model": "UAZ, Patriot Pickup",
+        "min_price": 632200
+    },
+    "198": {
+        "model": "Chery, Tiggo 4 Pro 18 YEARS EDITION",
+        "min_price": 1182000
     },
     "199": {
-        "min_price": 1247000
+        "model": "Chery, Tiggo 7 Pro Max New",
+        "min_price": 1668000
     },
     "200": {
+        "model": "Chery, Tiggo 7 Pro Plug-In-Hybrid",
         "min_price": 2400000
     },
     "201": {
+        "model": "Chery, Tiggo 8 Pro Plug-In-Hybrid",
         "min_price": 2910000
     },
+    "202": {
+        "model": "Chery, Tiggo 8 Pro e+ Hybrid",
+        "min_price": 2958000
+    },
     "203": {
-        "min_price": 1350000
+        "model": "Changan, UNI-S/CS55 Plus",
+        "min_price": 1703900
     },
     "204": {
-        "min_price": 1560000
+        "model": "Changan, Lamore",
+        "min_price": 1721900
     },
     "205": {
-        "min_price": 1392000
+        "model": "Changan, UNI-T",
+        "min_price": 1841900
     },
     "206": {
-        "min_price": 2057940
+        "model": "Changan, Hunter Plus",
+        "min_price": 2243900
     },
     "207": {
-        "min_price": 2717940
+        "model": "Changan, CS95 New",
+        "min_price": 2717900
     },
     "208": {
-        "min_price": 3131940
+        "model": "Changan, UNI-K iDD Hybrid",
+        "min_price": 3131900
     },
     "209": {
-        "min_price": 1970000
+        "model": "Changan, CS75 Plus",
+        "min_price": 1739900
     },
     "210": {
-        "min_price": 833000
+        "model": "JAC, JS3",
+        "min_price": 1473400
     },
     "211": {
-        "min_price": 1650000
+        "model": "JAC, JS6",
+        "min_price": 1871200
     },
     "212": {
-        "min_price": 1709400
+        "model": "JAC, T8",
+        "min_price": 2386000
     },
     "213": {
-        "min_price": 1967400
+        "model": "JAC, T8 Pro",
+        "min_price": 2557600
     },
     "214": {
-        "min_price": 2099400
+        "model": "JAC, T9",
+        "min_price": 2807200
     },
     "215": {
+        "model": "Gac, GS3",
         "min_price": 1379400
     },
     "216": {
-        "min_price": 1408000
+        "model": "Gac, GS8",
+        "min_price": 2308700
     },
     "217": {
-        "min_price": 3574999
+        "model": "Gac, M8",
+        "min_price": 3097800
     },
     "218": {
+        "model": "EXEED, LX",
         "min_price": 1935000
     },
     "219": {
-        "min_price": 2579000
+        "model": "EXEED, RX",
+        "min_price": 2604800
     },
     "220": {
-        "min_price": 2514000
+        "model": "EXEED, VX",
+        "min_price": 2810900
     },
     "221": {
+        "model": "Belgee, X50",
         "min_price": 751000
     },
     "222": {
-        "min_price": 1344313
+        "model": "BAIC, U5 Plus CNG",
+        "min_price": 1344300
     },
     "223": {
-        "min_price": 1794000
+        "model": "BAIC, X75",
+        "min_price": 1969800
     },
     "224": {
-        "min_price": 1860000
+        "model": "BAIC, X7",
+        "min_price": 2042200
     },
     "225": {
+        "model": "Solaris, HS",
         "min_price": 1260000
     },
     "226": {
-        "min_price": 1222800
+        "model": "Solaris, KRS",
+        "min_price": 1297400
     },
     "227": {
-        "min_price": 1256400
+        "model": "Solaris, KRX",
+        "min_price": 1360400
     },
     "228": {
-        "min_price": 1530000
+        "model": "Solaris, HC",
+        "min_price": 1652900
     },
     "229": {
+        "model": "Great Wall, POER King Kong",
         "min_price": 1979400
     },
     "230": {
+        "model": "Great Wall, POER",
         "min_price": 2129400
     }
 }
