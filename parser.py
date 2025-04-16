@@ -1325,7 +1325,7 @@ async def parser_tumen(dct_up, browser):
     #     res_4 = []
     #     await bot.send_message(CHANEL_ID, 'https://avto-trend72.ru error')
     #     await bot.send_message(ADMIN_ID, str(e))
-    # try:
+    try:
         res_2 = await sibtrackt_salon(dct_up, browser)
     except Exception as e:
         res_2 = []
