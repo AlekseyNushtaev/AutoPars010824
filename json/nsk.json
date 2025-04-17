@@ -601,19 +601,19 @@
     },
     "151": {
         "model": "KAIYI, E5",
-        "min_price": 1150000
+        "min_price": 810000
     },
     "152": {
         "model": "KAIYI, X3",
-        "min_price": 1216800
+        "min_price": 857100
     },
     "153": {
         "model": "KAIYI, X3 Pro",
-        "min_price": 1367400
+        "min_price": 963100
     },
     "154": {
         "model": "KAIYI, X7 Kunlun",
-        "min_price": 1630000
+        "min_price": 1148100
     },
     "155": {
         "model": "Livan, S6 Pro",
@@ -637,15 +637,15 @@
     },
     "160": {
         "model": "TANK, 300",
-        "min_price": 2549400
+        "min_price": 2699400
     },
     "161": {
         "model": "TANK, 500",
-        "min_price": 3852700
+        "min_price": 4079400
     },
     "166": {
         "model": "JAECOO, J7",
-        "min_price": 1709900
+        "min_price": 1649900
     },
     "167": {
         "model": "Jetour, Dashing",
@@ -841,15 +841,15 @@
     },
     "215": {
         "model": "Gac, GS3",
-        "min_price": 1379400
+        "min_price": 1469400
     },
     "216": {
         "model": "Gac, GS8",
-        "min_price": 2308700
+        "min_price": 2459400
     },
     "217": {
         "model": "Gac, M8",
-        "min_price": 3097800
+        "min_price": 3299900
     },
     "218": {
         "model": "EXEED, LX",
@@ -881,19 +881,19 @@
     },
     "225": {
         "model": "Solaris, HS",
-        "min_price": 1260000
+        "min_price": 1206000
     },
     "226": {
         "model": "Solaris, KRS",
-        "min_price": 1297400
+        "min_price": 1241800
     },
     "227": {
         "model": "Solaris, KRX",
-        "min_price": 1360400
+        "min_price": 1302100
     },
     "228": {
         "model": "Solaris, HC",
-        "min_price": 1652900
+        "min_price": 1582100
     },
     "229": {
         "model": "Great Wall, POER King Kong",

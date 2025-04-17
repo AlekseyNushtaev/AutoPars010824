@@ -73,15 +73,15 @@
     },
     "19": {
         "model": "Lada, Largus",
-        "min_price": 366000
+        "min_price": 698300
     },
     "20": {
         "model": "Lada, Largus Cross",
-        "min_price": 445300
+        "min_price": 849700
     },
     "21": {
         "model": "Lada, Largus \u0424\u0443\u0440\u0433\u043e\u043d",
-        "min_price": 368200
+        "min_price": 702500
     },
     "22": {
         "model": "Lada, Niva Travel",
@@ -109,43 +109,43 @@
     },
     "28": {
         "model": "Haval, H2",
-        "min_price": 1028000
+        "min_price": 676800
     },
     "29": {
         "model": "Haval, H5",
-        "min_price": 1439000
+        "min_price": 947400
     },
     "30": {
         "model": "Haval, H6",
-        "min_price": 1046200
+        "min_price": 688800
     },
     "31": {
         "model": "Haval, H9",
-        "min_price": 3917800
+        "min_price": 2579400
     },
     "32": {
         "model": "Haval, F7",
-        "min_price": 2368500
+        "min_price": 1559400
     },
     "33": {
         "model": "Haval, F7x",
-        "min_price": 2368500
+        "min_price": 1559400
     },
     "34": {
         "model": "Haval, Jolion New",
-        "min_price": 1958400
+        "min_price": 1289400
     },
     "35": {
         "model": "Haval, Jolion",
-        "min_price": 1867300
+        "min_price": 1229400
     },
     "36": {
         "model": "Haval, Dargo",
-        "min_price": 2869800
+        "min_price": 1889400
     },
     "37": {
         "model": "Haval, Dargo X",
-        "min_price": 3143200
+        "min_price": 2069400
     },
     "38": {
         "model": "Hyundai, Solaris",
@@ -169,67 +169,67 @@
     },
     "43": {
         "model": "KIA, Picanto",
-        "min_price": 1192800
+        "min_price": 800900
     },
     "44": {
         "model": "KIA, Rio",
-        "min_price": 1282200
+        "min_price": 860900
     },
     "45": {
         "model": "KIA, Rio X",
-        "min_price": 1407300
+        "min_price": 944900
     },
     "46": {
         "model": "KIA, Rio X-Line",
-        "min_price": 839900
+        "min_price": 563900
     },
     "47": {
         "model": "KIA, Ceed",
-        "min_price": 2006000
+        "min_price": 1346900
     },
     "48": {
         "model": "KIA, Ceed SW",
-        "min_price": 2068600
+        "min_price": 1388900
     },
     "49": {
         "model": "KIA, ProCeed",
-        "min_price": 1076700
+        "min_price": 722900
     },
     "50": {
         "model": "KIA, Cerato",
-        "min_price": 1930000
+        "min_price": 1295900
     },
     "51": {
         "model": "KIA, K5",
-        "min_price": 2443900
+        "min_price": 1640900
     },
     "52": {
         "model": "KIA, Soul",
-        "min_price": 1729000
+        "min_price": 1160900
     },
     "53": {
         "model": "KIA, Seltos",
-        "min_price": 1845200
+        "min_price": 1238900
     },
     "54": {
         "model": "KIA, XCeed",
-        "min_price": 1997100
+        "min_price": 1340900
     },
     "55": {
         "model": "KIA, Sportage",
-        "min_price": 2546600
+        "min_price": 1709900
     },
     "56": {
         "model": "Nissan, Qashqai",
-        "min_price": 246100
+        "min_price": 938900
     },
     "57": {
         "model": "Nissan, X-trail",
-        "min_price": 290900
+        "min_price": 1109700
     },
     "58": {
         "model": "Nissan, Terrano",
-        "min_price": 178000
+        "min_price": 679000
     },
     "59": {
         "model": "Renault, Logan",
@@ -473,27 +473,27 @@
     },
     "119": {
         "model": "Lifan, X50",
-        "min_price": 678600
+        "min_price": 473900
     },
     "120": {
         "model": "Lifan, X60",
-        "min_price": 747300
+        "min_price": 521900
     },
     "121": {
         "model": "Lifan, X70",
-        "min_price": 935500
+        "min_price": 653400
     },
     "122": {
         "model": "Lifan, MyWay",
-        "min_price": 859000
+        "min_price": 599900
     },
     "123": {
         "model": "Lifan, Murman",
-        "min_price": 1250000
+        "min_price": 873000
     },
     "124": {
         "model": "Lifan, Solano 2",
-        "min_price": 609900
+        "min_price": 425900
     },
     "125": {
         "model": "Ravon, R2",
@@ -601,19 +601,19 @@
     },
     "151": {
         "model": "KAIYI, E5",
-        "min_price": 770000
+        "min_price": 721000
     },
     "152": {
         "model": "KAIYI, X3",
-        "min_price": 814700
+        "min_price": 762900
     },
     "153": {
         "model": "KAIYI, X3 Pro",
-        "min_price": 915500
+        "min_price": 857300
     },
     "154": {
         "model": "KAIYI, X7 Kunlun",
-        "min_price": 1091400
+        "min_price": 1021900
     },
     "155": {
         "model": "Livan, S6 Pro",
@@ -717,23 +717,23 @@
     },
     "184": {
         "model": "Nissan, Murano",
-        "min_price": 464300
+        "min_price": 1771400
     },
     "185": {
         "model": "KIA, Sorento",
-        "min_price": 3386600
+        "min_price": 2273900
     },
     "186": {
         "model": "KIA, Carnival",
-        "min_price": 3703900
+        "min_price": 2486900
     },
     "187": {
         "model": "KIA, Mohave",
-        "min_price": 5209600
+        "min_price": 3497900
     },
     "188": {
         "model": "KIA, K9",
-        "min_price": 6590200
+        "min_price": 4424900
     },
     "189": {
         "model": "Volkswagen, Golf",
@@ -749,15 +749,15 @@
     },
     "192": {
         "model": "Haval, M6",
-        "min_price": 1985800
+        "min_price": 1307400
     },
     "193": {
         "model": "Haval, H3",
-        "min_price": 2550800
+        "min_price": 1679400
     },
     "194": {
         "model": "Haval, H9 New",
-        "min_price": 4191200
+        "min_price": 2759400
     },
     "195": {
         "model": "UAZ, Hunter",
