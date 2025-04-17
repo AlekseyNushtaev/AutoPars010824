@@ -1,10 +1,10 @@
 brand,model,min_price
-BAIC,BJ40,4200000
+BAIC,BJ40,2455000
 BAIC,U5 Plus,1060000
 BAIC,X35,1050000
-BAIC,X55,1490000
-BAIC,X7,1690000
-BAIC,X75,2195000
+BAIC,X55,1390000
+BAIC,X7,1440000
+BAIC,X75,1790000
 Changan,Alsvin,1090000
 Changan,CS35 Plus,1249000
 Changan,CS55 Plus,1709000
@@ -42,15 +42,15 @@ Gac,M8,5099000
 Geely,Atlas,690000
 Geely,Atlas New,1499000
 Geely,Atlas Pro,790000
-Geely,Cityray,1713000
+Geely,Cityray,1499000
 Geely,Coolray,850000
 Geely,Coolray New,1115000
-Geely,Emgrand,1040000
+Geely,Emgrand,1119900
 Geely,Monjaro,2899000
 Geely,Monjaro New,3099000
 Geely,Okavango,1854000
-Geely,Okavango New,2054000
-Geely,Preface,2599000
+Geely,Okavango New,1899000
+Geely,Preface,1990000
 Geely,Tugella,1620000
 Geely,Tugella New,1950000
 Haval,Dargo,1990000
@@ -145,8 +145,9 @@ MG,5,1199000
 MG,6,1449000
 MG,HS,2900000
 MG,ZS,1889000
-Mazda,6,1528000
+Mazda,6,2490000
 Mazda,CX-5,1604000
+Mazda,CX-5 New,2690000
 Mazda,CX-50,2490000
 Mazda,CX-9,2973000
 Moskvich,3,1299000
@@ -174,7 +175,7 @@ Renault,Logan,690000
 Renault,Logan Stepway,740000
 Renault,Sandero,730000
 Renault,Sandero Stepway,790000
-Rox,01,7949000
+Rox,01,6529000
 SWM,G01,990000
 SWM,G01F,1119000
 SWM,G05 Pro,1249000

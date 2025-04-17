@@ -734,8 +734,10 @@ jetour, x70new |Jetour, X70 New | 1013
 jetour, x70plus |Jetour, X70 Plus | 353
 jetour, x90plus |Jetour, X90 Plus | 354
 jetta, va3 |Jetta, VA3 | 355
+jetta, va3седан |Jetta, VA3 | 355
 jetta, vs5 |Jetta, VS5 | 356
 jetta, vs5new |Jetta, VS5 New| 756
+jetta, vs5iрестайлинг2внедорожник |Jetta, VS5 New| 756
 jetta, новыйvs5 |Jetta, VS5 New| 756
 jetta, vs7 |Jetta, VS7 | 357
 jetta, vs7new |Jetta, VS7 New| 757
@@ -837,6 +839,7 @@ lada, grantaбортовая |Lada, Granta Бортовая | 854
 lada, grantaфургон |Lada, Granta Фургон | 855
 lada, nivalegendбортовая |Lada, Niva Legend Бортовая | 856
 lada, grantacross |Lada, Granta Cross | 402
+lada, (ваз)grantacross |Lada, Granta Cross | 402
 lada, grantadriveactive |Lada, Granta Sedan Drive Active | 403
 lada, grantasportdriveactive |Lada, Granta Sport Drive Active Liftback | 407
 lada, grantaседанdriveactive |Lada, Granta Sedan Drive Active | 403
