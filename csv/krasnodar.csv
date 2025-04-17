@@ -12,17 +12,14 @@ Changan,Alsvin,990000
 Changan,CS35,732900
 Changan,CS35 Plus,810000
 Changan,CS35 Plus New,1499900
-Changan,CS35 Plus Restyling,1499900
-Changan,CS55,756900
+Changan,CS55,857000
 Changan,CS55 Plus,1350000
-Changan,CS55 Plus New,1599900
-Changan,CS75,839920
 Changan,CS75 Plus,1709900
 Changan,CS75 Plus New,1780000
-Changan,CS75FL,1107300
+Changan,CS75FL,1519900
 Changan,CS85 Coupe,2399900
 Changan,CS95,2768900
-Changan,CS95 Restyling,2768900
+Changan,CS95 New,2768900
 Changan,Eado Plus,1299000
 Changan,Hunter Plus,2770000
 Changan,Lamore,1790000
@@ -32,16 +29,16 @@ Changan,UNI-T,1769900
 Changan,UNI-V,1726900
 Chery,Arrizo 8,1439900
 Chery,Tiggo 2,487000
-Chery,Tiggo 3,637900
-Chery,Tiggo 4,463900
+Chery,Tiggo 3,671900
+Chery,Tiggo 4,877900
 Chery,Tiggo 4 New,1389000
 Chery,Tiggo 4 Pro,1076000
-Chery,Tiggo 5,569000
-Chery,Tiggo 7,847300
-Chery,Tiggo 7 Pro,1034900
+Chery,Tiggo 5,650900
+Chery,Tiggo 7,997900
+Chery,Tiggo 7 Pro,1147900
 Chery,Tiggo 7 Pro Max,1529900
 Chery,Tiggo 7 Pro Max New,1627000
-Chery,Tiggo 8,1186900
+Chery,Tiggo 8,1299900
 Chery,Tiggo 8 Pro,1599900
 Chery,Tiggo 8 Pro Max,1649900
 Chery,Tiggo 8 Pro Max New,1649900
@@ -55,14 +52,12 @@ Chevrolet,Nexia,547900
 Chevrolet,Niva,436000
 Chevrolet,Spark,567900
 Chevrolet,Trailblazer,1874000
-Citroen,C4,1749000
-Citroen,C5 Aircross,1810000
-Citroen,Spacetourer,3489900
 DFM,580,919900
 DFM,AX7,1152000
-Datsun,MI-DO,387000
+Datsun,MI-DO,454000
 Datsun,ON-DO,431000
 Dongfeng,580,919900
+Dongfeng,580 New,1989000
 Dongfeng,AX7,899900
 Dongfeng,DF6,2389000
 Dongfeng,DFSK IX5,2142000
@@ -73,39 +68,32 @@ EXEED,LX AWD,2840000
 EXEED,LX New,2091000
 EXEED,RX,3299000
 EXEED,TXL,1457900
-EXEED,TXL New,2938000
-EXEED,TXL Restyling,2599000
+EXEED,TXL New,2599000
 EXEED,VX,2525900
-EXEED,VX Restyling,4608000
+EXEED,VX New,4608000
 FAW,Bestune B70,1525000
+FAW,Bestune B70 New,1875000
 FAW,Bestune T55,1499000
 FAW,Bestune T77,1439000
 FAW,Bestune T90,2113000
 FAW,Bestune T99,2362000
 FAW,Bestune T99 New,2055000
 FAW,Besturn T77,1969000
-FAW,Besturn X40,470000
-FAW,Besturn X80,916000
+FAW,Besturn X80,938000
 FAW,X40,898000
-Ford,Ecosport,1116000
-Ford,Explorer,3010000
-Ford,Fiesta Hatchback,875000
-Ford,Fiesta Sedan,885000
-Ford,Focus Hatchback,1033000
-Ford,Focus Sedan,1043000
-Ford,Focus Universal,1113000
-Ford,Kuga,1609000
-Ford,Mondeo,1612000
 Forthing,T5 Evo,2280000
 Forthing,Yacht,3290000
+Gac,Empow,2149000
 Gac,GA6,1789000
 Gac,GN8,2639000
 Gac,GS3,1299000
 Gac,GS3 New,1299000
+Gac,GS4,2299000
 Gac,GS5,1259000
 Gac,GS8,1455000
 Gac,GS8 II,2669000
 Gac,GS8 New,2869000
+Gac,GS8 Traveller,3709000
 Gac,M8,4150000
 Geely,Atlas,999900
 Geely,Atlas New,1999990
@@ -124,23 +112,23 @@ Geely,Okavango,2430000
 Geely,Okavango New,1629990
 Geely,Preface,1749990
 Geely,Preface New,1749990
-Geely,Tugella,1849900
+Geely,Tugella,2199990
 Geely,Tugella New,2629990
 Geely,Tugella Restyling,2629990
-Great Wall,POER,2414300
-Great Wall,POER King Kong,2239930
+Great Wall,POER,2649000
+Great Wall,POER King Kong,2399000
 Great Wall,Wingle 7,1249000
-Haval,Dargo,1775856
+Haval,Dargo,2019000
 Haval,Dargo X,2249000
-Haval,F7,714000
+Haval,F7,1302000
 Haval,F7 New,1699000
 Haval,F7 Restyling,1539000
 Haval,F7x,1267300
 Haval,F7x New,1352000
 Haval,F7x Restyling,1589000
-Haval,H2,972000
+Haval,H2,992600
 Haval,H3,1519000
-Haval,H5,992000
+Haval,H5,1147000
 Haval,H5 New,2479000
 Haval,H6,1013000
 Haval,H9,1873000
@@ -148,9 +136,9 @@ Haval,H9 New,2900000
 Haval,Jolion,689900
 Haval,Jolion New,1201400
 Haval,Jolion Restyling,1209000
-Haval,M6,1309400
+Haval,M6,1319000
 Hyundai,Bayon,1759000
-Hyundai,Creta,838000
+Hyundai,Creta,962000
 Hyundai,Creta New,956000
 Hyundai,Custin,3183000
 Hyundai,Elantra,1006000
@@ -159,19 +147,18 @@ Hyundai,Mufasa,2381000
 Hyundai,Palisade,4989000
 Hyundai,Santa Fe,2167000
 Hyundai,Solaris,421000
-Hyundai,Solaris New,421000
 Hyundai,Sonata,1481000
 Hyundai,Staria,3759000
 Hyundai,Staria Premium,4709000
-Hyundai,Tucson,1499000
+Hyundai,Tucson,1999000
 Hyundai,Tucson New,1499000
 JAC,J7,746000
 JAC,JS3,1049000
 JAC,JS3 New,1049000
 JAC,JS4,1369000
 JAC,JS6,1499000
-JAC,S3,436000
-JAC,S5,686000
+JAC,S3,597000
+JAC,S5,687000
 JAC,S7,1156000
 JAC,T6,1327000
 JAC,T8,1869000
@@ -184,6 +171,7 @@ Jetour,T2,2479000
 Jetour,T2 New,2479000
 Jetour,X50,1299000
 Jetour,X70,1599000
+Jetour,X70 New,1869000
 Jetour,X70 Plus,1801940
 Jetour,X90 Plus,2041940
 Jetta,VA3,1090000
@@ -196,7 +184,12 @@ KAIYI,X3,1399000
 KAIYI,X3 Pro,1599000
 KAIYI,X7,2148000
 KAIYI,X7 Kunlun,1711900
+KGM(SsangYong),Korando,3184000
+KGM(SsangYong),Rexton,5522000
+KGM(SsangYong),Tivoli,2802000
+KGM(SsangYong),Torres,3830000
 KIA,Carnival,2999900
+KIA,Carnival New,4512000
 KIA,Ceed,1239900
 KIA,Ceed SW,1295940
 KIA,Ceed SW Universal,1599000
@@ -211,7 +204,7 @@ KIA,Rio X,860940
 KIA,Rio X-Line,1319000
 KIA,Seltos,962900
 KIA,Seltos New,2133000
-KIA,Sorento,2273940
+KIA,Sorento,2999000
 KIA,Soul,884900
 KIA,Soul New,2029000
 KIA,Sportage,2491000
@@ -233,8 +226,8 @@ Lada,Granta Sedan New,506640
 Lada,Granta Sport Drive Active Liftback,780900
 Lada,Granta Sport Liftback,989900
 Lada,Granta Sport Sedan,949900
-Lada,Granta Sportline,951000
-Lada,Granta Sportline Liftback,991000
+Lada,Granta Sportline,520900
+Lada,Granta Sportline Liftback,617900
 Lada,Granta Universal,297300
 Lada,Granta Universal New,516040
 Lada,Largus,504000
@@ -244,36 +237,35 @@ Lada,Largus Cross 7 мест,767000
 Lada,Largus Cross New,495000
 Lada,Largus New,368000
 Lada,Largus Фургон,790000
-Lada,Largus Фургон New,457900
+Lada,Largus Фургон New,541610
 Lada,Niva,587000
-Lada,Niva Legend 3 двери,451710
-Lada,Niva Legend 5 дверей,422900
+Lada,Niva Legend 3 двери,454710
+Lada,Niva Legend 5 дверей,490410
 Lada,Niva Legend Bronto,917900
 Lada,Niva Off-Road,669000
 Lada,Niva Travel,546000
 Lada,Niva Urban 3 двери,515000
 Lada,Niva Urban 5 дверей,553000
-Lada,Vesta Cross,637900
+Lada,Vesta Cross,869900
 Lada,Vesta Cross New,619000
-Lada,Vesta SW,559000
-Lada,Vesta SW Cross,569000
+Lada,Vesta SW,597010
+Lada,Vesta SW Cross,693310
 Lada,Vesta SW Cross New,666000
 Lada,Vesta SW New,606000
 Lada,Vesta SW Sportline,2093000
-Lada,Vesta Sedan,477900
-Lada,Vesta Sedan CNG,611900
+Lada,Vesta Sedan,524110
+Lada,Vesta Sedan CNG,639900
 Lada,Vesta Sedan New,566000
 Lada,Vesta Sport,855810
 Lada,Vesta Sportline,1375900
 Lada,Vesta Sportline New,1375900
 Lada,Xray,457900
 Lada,Xray Cross,508900
-Lifan,Murman,427000
+Lifan,Murman,622000
 Lifan,MyWay,685000
-Lifan,Solano,398300
 Lifan,Solano 2,496000
-Lifan,X50,365000
-Lifan,X60,476900
+Lifan,X50,464000
+Lifan,X60,654000
 Lifan,X70,737000
 Livan,S6 Pro,1539000
 Livan,X3 Pro,999000
@@ -289,18 +281,14 @@ MG,RX 8,2893000
 MG,RX 9,3425000
 MG,ZS,1774000
 Maxus,Territory,5155000
-Mazda,6,1548000
+Mazda,6,2480000
 Mazda,CX-30,2801000
-Mazda,CX-5,1645000
-Mazda,CX-9,3585000
-Mitsubishi,ASX,1969000
-Mitsubishi,Eclipse Cross,2929000
-Mitsubishi,L200 New,3479000
-Mitsubishi,Outlander,1989000
+Mazda,CX-5,2743000
+Mitsubishi,ASX,2549000
+Mitsubishi,Outlander,2813000
 Mitsubishi,Outlander New,2941000
 Mitsubishi,Pajero Sport,3101000
 Moskvich,3,999000
-Moskvich,3e,2450000
 Moskvich,6,1249000
 Nissan,Murano,2327000
 Nissan,Qashqai,877000
@@ -311,20 +299,20 @@ OMODA,C5 New,1519000
 OMODA,S5,1219000
 OMODA,S5 GT,1799000
 Oting,Paladin,2789000
-Ravon,Nexia R3,390000
-Ravon,R2,400000
-Ravon,R4,485000
+Ravon,Nexia R3,507000
+Ravon,R2,519000
+Ravon,R4,570000
 Renault,Arkana,938000
-Renault,Duster,586000
-Renault,Duster New,746000
+Renault,Duster,746000
+Renault,Duster New,768000
 Renault,Kaptur,656000
 Renault,Koleos,1553000
 Renault,Logan,566000
 Renault,Logan Stepway,686000
-Renault,Logan Stepway City,715000
+Renault,Logan Stepway City,1110000
 Renault,Sandero,577000
 Renault,Sandero Stepway,736000
-Renault,Sandero Stepway City,822000
+Renault,Sandero Stepway City,1170000
 SWM,G01,1548000
 SWM,G01F,1480000
 SWM,G05 Pro,1579000
@@ -335,10 +323,8 @@ Skoda,Kodiaq New,1659000
 Skoda,Kodiaq Scout,3375000
 Skoda,Octavia,2852000
 Skoda,Octavia A8,1257000
-Skoda,Octavia Hockey Edition,1162000
 Skoda,Octavia New,1055000
 Skoda,Rapid,676000
-Skoda,Rapid New,676000
 Skoda,Superb,1740000
 Skoda,Superb Combi,2431000
 Solaris,HC,1219000
@@ -346,6 +332,8 @@ Solaris,HS,769000
 Solaris,KRS,729000
 Solaris,KRX,789000
 Soueast,DX8S,2699900
+Soueast,S07,2384000
+Soueast,S09,3064000
 Suzuki,Jimny,1587000
 Suzuki,SX4,1619000
 Suzuki,Vitara,1469000
@@ -353,27 +341,22 @@ TANK,300,2719000
 TANK,500,4299000
 TANK,700,6874000
 Toyota,CH-R,1842000
-Toyota,Camry,1798000
+Toyota,Camry,1978000
 Toyota,Camry New,1712500
 Toyota,Corolla,1152000
-Toyota,Fortuner,3064000
-Toyota,Highlander,4559000
-Toyota,Hilux,2941000
-Toyota,Land Cruiser Prado,3251000
-Toyota,RAV4,1971000
+Toyota,Fortuner,3931000
+Toyota,RAV4,2061000
 Toyota,RAV4 New,1859000
 UAZ,Hunter,745000
 UAZ,Patriot,919000
 UAZ,Pickup,984500
-VOYAH,Free,5390000
 Volkswagen,Arteon,1249000
 Volkswagen,Jetta,972000
 Volkswagen,Passat,1460000
 Volkswagen,Polo,727900
-Volkswagen,Polo New,727900
-Volkswagen,Taos,1326900
+Volkswagen,Taos,1426900
 Volkswagen,Tiguan,1276900
 Volkswagen,Tiguan New,1657900
 XCite,X-Cross 7,1599000
 XCite,X-Cross 7 New,1599000
-Zotye,Coupa,886600
+Zotye,Coupa,989600

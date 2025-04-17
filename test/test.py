@@ -19,28 +19,27 @@ from selenium.webdriver import Chrome
 
 
 
-def fast_autodealer(dct_up):
+def avanta_avto_credit(dct_up):
     headers = fake_headers.Headers(browser='firefox', os='win')
-    cnt = 1
+    link = 'https://avanta-avto-credit.ru/cars/'
+    response = requests.get(link, headers.generate())
+    html = response.text
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    brands = soup.find(attrs={"class": "search-brand"}).find_all("a")
     res = []
-    while True:
-        time.sleep(0.5)
-        link = f'https://fast-autodealer.ru/new_auto/page/{cnt}/'
-        response = requests.get(link, headers.generate())
+    for brand_ in brands:
+        link_1 = 'https://avanta-avto-credit.ru' + brand_.get("href")
+        response = requests.get(link_1, headers.generate())
+        time.sleep(0.2)
         html = response.text
         soup = bs4.BeautifulSoup(html, 'lxml')
-        try:
-            cards = soup.find_all(attrs={"class": "auto-card new_auto"})
-        except Exception:
-            break
-        if len(cards) == 0:
-            break
+        cards = soup.find(attrs={"class": "hit other-hit hit-brand-page"}).find_all(attrs={"class": "hit-card"})
         for card in cards:
-            link = card.get("href")
-            title = card.find(attrs={"class": "auto-card__title"}).text.lower().strip()
+            link = 'https://avanta-avto-credit.ru' + card.find("a").get("href")
+            title = card.find("a").text.lower().strip()
             brand = title.split()[0]
-            model = title.replace(brand, '').strip().replace(" ", "")
-            cost__ = card.find(attrs={"class": "auto-card__price"}).text
+            model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i")
+            cost__ = card.find(attrs={"class": "hit-card__price"}).text
             cost_ = ''
             for y in cost__:
                 if y.isdigit():
@@ -50,11 +49,9 @@ def fast_autodealer(dct_up):
             try:
                 name = dct_up[name]
             except KeyError:
-                print([name, cost, link])
-                # await bot.send_message(CHANEL_ID, f'{name} {link}')
+                pass
             res.append([name, cost, link])
             print([name, cost, link])
-        cnt += 1
     return res
 
 
@@ -73,5 +70,5 @@ with open('../autolist.txt', 'r', encoding='utf-8') as f:
     lst = f.readlines()
     for item in lst:
         dct[item.split('|')[0].strip()] = item.split('|')[1].strip()
-res = fast_autodealer(dct)
+res = avanta_avto_credit(dct)
 print(len(res))
