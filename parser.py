@@ -1319,12 +1319,6 @@ async def parser_tumen(dct_up, browser):
     #     res_5 = []
     #     await bot.send_message(CHANEL_ID, 'https://autotumen.ru/ error')
     #     await bot.send_message(ADMIN_ID, str(e))
-    # try:
-    #     res_4 = await avto_trend_72(dct_up)
-    # except Exception as e:
-    #     res_4 = []
-    #     await bot.send_message(CHANEL_ID, 'https://avto-trend72.ru error')
-    #     await bot.send_message(ADMIN_ID, str(e))
     try:
         res_2 = await sibtrackt_salon(dct_up, browser)
     except Exception as e:
@@ -1337,11 +1331,17 @@ async def parser_tumen(dct_up, browser):
         res_3 = []
         await bot.send_message(CHANEL_ID, 'https://tumen-salon.ru error')
         await bot.send_message(ADMIN_ID, str(e))
-    res = res_1 + res_2 + res_3
+    try:
+        res_4 = await leks_avto_credit(dct_up)
+    except Exception as e:
+        res_4 = []
+        await bot.send_message(CHANEL_ID, 'https://leks-avto-credit.ru error')
+        await bot.send_message(ADMIN_ID, str(e))
+    res = res_1 + res_2 + res_3 + res_4
     res_1_name = [x[0] for x in res_1]
     res_2_name = [x[0] for x in res_2]
     res_3_name = [x[0] for x in res_3]
-    # res_4_name = [x[0] for x in res_4]
+    res_4_name = [x[0] for x in res_4]
     # res_5_name = [x[0] for x in res_5]
     # res_6_name = [x[0] for x in res_6]
     # res_7_name = [x[0] for x in res_7]
@@ -1382,9 +1382,11 @@ async def parser_tumen(dct_up, browser):
     sheet.cell(row=1, column=9).value = 'sibtrackt-salon.ru'
     sheet.cell(row=1, column=10).value = 'tumen-salon.ru_price'
     sheet.cell(row=1, column=11).value = 'tumen-salon.ru'
+    sheet.cell(row=1, column=12).value = 'leks-avto-credit.ru_price'
+    sheet.cell(row=1, column=13).value = 'leks-avto-credit.ru'
 
-    lst_res = [res_1, res_2, res_3]
-    lst_res_name = [res_1_name, res_2_name, res_3_name]
+    lst_res = [res_1, res_2, res_3, res_4]
+    lst_res_name = [res_1_name, res_2_name, res_3_name, res_4_name]
     for i in range(2, len(res_name) + 2):
         try:
             sheet.cell(row=i, column=1).value = dct_id[res_name[i - 2].strip()]

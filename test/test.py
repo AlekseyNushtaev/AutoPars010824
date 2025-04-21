@@ -21,25 +21,25 @@ from selenium.webdriver import Chrome
 
 def avanta_avto_credit(dct_up):
     headers = fake_headers.Headers(browser='firefox', os='win')
-    link = 'https://avanta-avto-credit.ru/cars/'
+    link = 'https://leks-avto-credit.ru/cars-new/'
     response = requests.get(link, headers.generate())
     html = response.text
     soup = bs4.BeautifulSoup(html, 'lxml')
-    brands = soup.find(attrs={"class": "search-brand"}).find_all("a")
+    brands = soup.find(attrs={"class": "catalog"}).find_all(attrs={"class": "catalog-link"})
     res = []
     for brand_ in brands:
-        link_1 = 'https://avanta-avto-credit.ru' + brand_.get("href")
+        link_1 = 'https://leks-avto-credit.ru' + brand_.get("href")
         response = requests.get(link_1, headers.generate())
         time.sleep(0.2)
         html = response.text
         soup = bs4.BeautifulSoup(html, 'lxml')
-        cards = soup.find(attrs={"class": "hit other-hit hit-brand-page"}).find_all(attrs={"class": "hit-card"})
+        cards = soup.find_all(attrs={"class": "card-body"})
         for card in cards:
-            link = 'https://avanta-avto-credit.ru' + card.find("a").get("href")
-            title = card.find("a").text.lower().strip()
+            link = 'https://leks-avto-credit.ru' + card.find("a").get("href")
+            title = card.find(attrs={"class": "card-title__title"}).text.lower().strip()
             brand = title.split()[0]
-            model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i")
-            cost__ = card.find(attrs={"class": "hit-card__price"}).text
+            model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i").replace("(ваз)", "")
+            cost__ = card.find(attrs={"class": "price-box__current"}).text
             cost_ = ''
             for y in cost__:
                 if y.isdigit():
@@ -49,9 +49,9 @@ def avanta_avto_credit(dct_up):
             try:
                 name = dct_up[name]
             except KeyError:
-                pass
+                print([name, cost, link])
             res.append([name, cost, link])
-            print([name, cost, link])
+            # print([name, cost, link])
     return res
 
 

@@ -338,3 +338,38 @@ async def tumen_salon(dct_up, browser):
                 await bot.send_message(CHANEL_ID, f'{name} {link}')
             res.append([name, cost, link])
     return res
+
+
+async def leks_avto_credit(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://leks-avto-credit.ru/cars-new/'
+    response = requests.get(link, headers.generate())
+    html = response.text
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    brands = soup.find(attrs={"class": "catalog"}).find_all(attrs={"class": "catalog-link"})
+    res = []
+    for brand_ in brands:
+        link_1 = 'https://leks-avto-credit.ru' + brand_.get("href")
+        response = requests.get(link_1, headers.generate())
+        time.sleep(0.2)
+        html = response.text
+        soup = bs4.BeautifulSoup(html, 'lxml')
+        cards = soup.find_all(attrs={"class": "card-body"})
+        for card in cards:
+            link = 'https://leks-avto-credit.ru' + card.find("a").get("href")
+            title = card.find(attrs={"class": "card-title__title"}).text.lower().strip()
+            brand = title.split()[0]
+            model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i").replace("(ваз)", "")
+            cost__ = card.find(attrs={"class": "price-box__current"}).text
+            cost_ = ''
+            for y in cost__:
+                if y.isdigit():
+                    cost_ += y
+            cost = int(cost_)
+            name = brand + ', ' + model
+            try:
+                name = dct_up[name]
+            except KeyError:
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
+            res.append([name, cost, link])
+    return res
