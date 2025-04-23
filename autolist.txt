@@ -187,6 +187,7 @@ chery, tiggo4proкроссовермп |Chery, Tiggo 4 Pro | 151
 chery, tiggo4pronew |Chery, Tiggo 4 Pro New | 152
 chery, tiggo5 |Chery, Tiggo 5 | 153
 chery, tiggo7 |Chery, Tiggo 7 | 154
+chery, tiggo7l |Chery, Tiggo 7L | 1016
 chery, tiggo7pro |Chery, Tiggo 7 Pro | 155
 chery, tiggo7promax |Chery, Tiggo 7 Pro Max | 156
 chery, tiggo7promax2023 |Chery, Tiggo 7 Pro Max | 156

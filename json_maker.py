@@ -13,7 +13,7 @@ from config import ADMIN_ID, CHANEL_ID
 async def json_maker():
     for region in ['krasnodar', 'moscow', 'stavropol', 'surgut', 'volgograd', 'samara', 'kazan', 'spb', 'omsk', 'himki',
                    'chelyabinsk', 'cheboksari', 'ufa', 'tumen', 'ekaterinburg', 'saratov', 'kemerovo', 'nsk', 'krsk',
-                   'toliati', 'dmitrovka']:
+                   'toliati', 'dmitrovka', 'kemerovo2', 'toliati2', 'surgut2']:
         if region in ['krsk', 'dmitrovka', 'moscow', 'kemerovo', 'nsk']:
             dct_region = {}
             res_lst = []

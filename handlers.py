@@ -17,7 +17,7 @@ from json_maker import json_maker
 from parser import parser_stavropol, parser_surgut, parser_krasnodar, parser_moscow, parser_volgograd, \
     parser_chelyabinsk, parser_cheboksari, parser_ufa, parser_ekaterinburg, parser_tumen, parser_saratov, parser_samara, \
     parser_kazan, parser_kemerovo, parser_omsk, parser_spb, parser_nsk, parser_krsk, parser_himki, parser_toliati, \
-    parser_dmitrovka
+    parser_dmitrovka, kemerovo2, toliati2, surgut2
 
 router = Router()
 
@@ -48,6 +48,12 @@ async def pars():
         options.add_argument('--disable-dev-shm-usage')
         browser = Chrome(service=browser_service, options=options)
         browser.maximize_window()
+        await kemerovo2(dct)
+        await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/kemerovo2.xlsx"))
+        await toliati2(dct)
+        await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/toliati2.xlsx"))
+        await surgut2(dct)
+        await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/surgut2.xlsx"))
         await parser_stavropol(dct)
         await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/stavropol.xlsx"))
         await parser_dmitrovka(dct, browser)
@@ -96,7 +102,7 @@ async def pars():
             await bot.send_message(ADMIN_ID, f'JSONify error - {str(e)}')
         for region in ['krasnodar', 'moscow', 'stavropol', 'surgut', 'volgograd', 'chelyabinsk', 'kazan', 'spb', 'omsk',
                        'cheboksari', 'ufa', 'tumen', 'ekaterinburg', 'saratov', 'samara', 'kemerovo', 'nsk', 'krsk',
-                       'himki', 'toliati', 'dmitrovka']:
+                       'himki', 'toliati', 'dmitrovka', 'kemerovo2', 'toliati2', 'surgut2']:
             shutil.copy(f'csv/{region}.csv', f'/var/www/html/storage/{region}.csv')
             shutil.copy(f'json/{region}.json', f'/var/www/html/storage/{region}.json')
         shutil.copy('models_id.json', '/var/www/html/storage/models_id.json')
