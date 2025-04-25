@@ -64,7 +64,7 @@ async def json_maker():
             with open(f'json/{region}.json', 'w') as f:
                 f.write(json_object)
 
-        elif region == 'tumen':
+        elif region in ['tumen', 'kemerovo2']:
             dct_region = {}
             res_lst = []
             res = {}
