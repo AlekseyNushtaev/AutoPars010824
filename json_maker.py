@@ -84,7 +84,7 @@ async def json_maker():
                     price_min = dct_region.get(name, 0)
                     price_rrc = sh.cell(i, 5).value
                     if price_min != 0:
-                        res_lst.append([model_id, price_min - random.choice([5000, 10000])])
+                        res_lst.append([model_id, price_min])
                     else:
                         price_min = int(((0.6 * price_rrc) // 100) * 100)
                         res_lst.append([model_id, price_min])
