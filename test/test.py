@@ -19,27 +19,27 @@ from selenium.webdriver import Chrome
 
 
 
-def avanta_avto_credit(dct_up):
+def autosalon_arena(dct_up):
     headers = fake_headers.Headers(browser='firefox', os='win')
-    link = 'https://leks-avto-credit.ru/cars-new/'
+    link = 'https://autosalon-arena.ru/cars'
     response = requests.get(link, headers.generate())
     html = response.text
     soup = bs4.BeautifulSoup(html, 'lxml')
-    brands = soup.find(attrs={"class": "catalog"}).find_all(attrs={"class": "catalog-link"})
+    brands = soup.find_all(attrs={"class": "brand__link"})
     res = []
     for brand_ in brands:
-        link_1 = 'https://leks-avto-credit.ru' + brand_.get("href")
+        link_1 = 'https://autosalon-arena.ru' + brand_.get("href")
         response = requests.get(link_1, headers.generate())
         time.sleep(0.2)
         html = response.text
         soup = bs4.BeautifulSoup(html, 'lxml')
-        cards = soup.find_all(attrs={"class": "card-body"})
+        cards = soup.find_all(attrs={"class": "model__info"})
         for card in cards:
-            link = 'https://leks-avto-credit.ru' + card.find("a").get("href")
-            title = card.find(attrs={"class": "card-title__title"}).text.lower().strip()
+            link = 'https://autosalon-arena.ru' + card.get("href")
+            title = card.find(attrs={"class": "name"}).text.lower().replace('ваз (lada)', 'lada').strip()
             brand = title.split()[0]
             model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i").replace("(ваз)", "")
-            cost__ = card.find(attrs={"class": "price-box__current"}).text
+            cost__ = card.find(attrs={"class": "model__price-current"}).text
             cost_ = ''
             for y in cost__:
                 if y.isdigit():
@@ -70,5 +70,5 @@ with open('../autolist.txt', 'r', encoding='utf-8') as f:
     lst = f.readlines()
     for item in lst:
         dct[item.split('|')[0].strip()] = item.split('|')[1].strip()
-res = avanta_avto_credit(dct)
+res = autosalon_arena(dct)
 print(len(res))

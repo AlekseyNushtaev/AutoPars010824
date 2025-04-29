@@ -240,3 +240,38 @@ async def astella_drive(dct_up, browser):
                 await bot.send_message(CHANEL_ID, f'{name} {link}')
             res.append([name, cost, link])
     return res
+
+
+async def autosalon_arena(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
+    link = 'https://autosalon-arena.ru/cars'
+    response = requests.get(link, headers.generate())
+    html = response.text
+    soup = bs4.BeautifulSoup(html, 'lxml')
+    brands = soup.find_all(attrs={"class": "brand__link"})
+    res = []
+    for brand_ in brands:
+        link_1 = 'https://autosalon-arena.ru' + brand_.get("href")
+        response = requests.get(link_1, headers.generate())
+        time.sleep(0.2)
+        html = response.text
+        soup = bs4.BeautifulSoup(html, 'lxml')
+        cards = soup.find_all(attrs={"class": "model__info"})
+        for card in cards:
+            link = 'https://autosalon-arena.ru' + card.get("href")
+            title = card.find(attrs={"class": "name"}).text.lower().replace('ваз (lada)', 'lada').strip()
+            brand = title.split()[0]
+            model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i").replace("(ваз)", "")
+            cost__ = card.find(attrs={"class": "model__price-current"}).text
+            cost_ = ''
+            for y in cost__:
+                if y.isdigit():
+                    cost_ += y
+            cost = int(cost_)
+            name = brand + ', ' + model
+            try:
+                name = dct_up[name]
+            except KeyError:
+                await bot.send_message(CHANEL_ID, f'{name} {link}')
+            res.append([name, cost, link])
+    return res

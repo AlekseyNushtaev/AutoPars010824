@@ -188,6 +188,8 @@ chery, tiggo4pronew |Chery, Tiggo 4 Pro New | 152
 chery, tiggo5 |Chery, Tiggo 5 | 153
 chery, tiggo7 |Chery, Tiggo 7 | 154
 chery, tiggo7l |Chery, Tiggo 7L | 1016
+chery, tiggo7lкроссовер |Chery, Tiggo 7L | 1016
+chery, tiggo7l4wdкроссовер |Chery, Tiggo 7L 4WD| 1020
 chery, tiggo7pro |Chery, Tiggo 7 Pro | 155
 chery, tiggo7promax |Chery, Tiggo 7 Pro Max | 156
 chery, tiggo7promax2023 |Chery, Tiggo 7 Pro Max | 156
@@ -251,6 +253,7 @@ chevrolet, trailblazer |Chevrolet, Trailblazer | 171
 chevrolet, traverse |Chevrolet, Traverse | 172
 chevrolet, tracker |Chevrolet, Tracker | 173
 chevrolet, niva |Chevrolet, Niva | 174
+chevrolet, monza |Chevrolet, Monza | 1022
 citroen, berlingo |Citroen, Berlingo | 987
 citroen, berlingomultispace |Citroen, Berlingo Multispace | 175
 citroёn, c3aircrossnew |Citroen, C3 Aircross New | 176
@@ -524,6 +527,7 @@ geely, newtugella |Geely, Tugella New | 272
 great, wallpoer |Great Wall, POER | 273
 great wall, poer |Great Wall, POER | 273
 greatwall, poer |Great Wall, POER | 273
+great, wallpoernew |Great Wall, POER New| 1018
 great, wallgwmpoer |Great Wall, POER | 273
 great wall, gwmpoer |Great Wall, POER | 273
 great wall, wingle5 |Great Wall, Wingle 5 | 274
@@ -1256,6 +1260,7 @@ omoda, c5(iрестайлинг) |OMODA, C5 New| 820
 omoda, c5iрестайлингкроссовер |OMODA, C5 New| 820
 omoda, c5рестайлинг |OMODA, C5 New| 820
 omoda, c5кроссовер |OMODA, C5 | 525
+omoda, c54wdкроссовер |OMODA, C5 4WD| 1019
 omoda, c5(iпоколение) |OMODA, C5 | 525
 omoda, c5iкроссовер |OMODA, C5 | 525
 omoda, c5fl |OMODA, C5 FL| 1009
@@ -1284,6 +1289,7 @@ ora, 03 |Ora, 03 | 534
 ora, 03gt |Ora, 03 GT | 535
 oting, paladinnew |Oting, Paladin New | 536
 oting, paladin |Oting, Paladin | 537
+oting, palasso |Oting, Palasso | 1017
 peugeot, partnercrossway |Peugeot, Partner Crossway | 538
 peugeot, 408 |Peugeot, 408 | 539
 peugeot, expert |Peugeot, Expert | 540
@@ -1397,6 +1403,7 @@ sollers, atlantавтобус |Sollers, Atlant автобус | 745
 sollers, atlantцельнометаллическийфургон |Sollers, Argo цельнометаллический фургон | 729
 sollers, atlantфургонцельнометаллический |Sollers, Argo цельнометаллический фургон | 729
 sollers, atlantфургонпромтоварный |Sollers, Argo фургон промтоварный | 726
+sollers, sf1 |Sollers, SF1 | 1021
 sollers, st6 |Sollers, ST6 | 730
 sollers, st8 |Sollers, ST8 | 1010
 soueast, dx8s |Soueast, DX8S | 598
@@ -1528,6 +1535,7 @@ uaz, обновленныйпикап |UAZ, Pickup New | 638
 уаз, pickupiрестайлинг2 |UAZ, Pickup New | 638
 уаз, pickupiрестайлинг2фургон |UAZ, Pickup New | 638
 uaz, новыйпикап |UAZ, Pickup New | 638
+уаз, новыйпикап |UAZ, Pickup New | 638
 volkswagen, arteon |Volkswagen, Arteon | 639
 volkswagen, amarok |Volkswagen, Amarok | 707
 volkswagen, bora |Volkswagen, Bora | 640
