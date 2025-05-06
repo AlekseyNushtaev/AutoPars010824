@@ -613,6 +613,7 @@ haval, f7ii |Haval, F7 New | 288
 haval, новыйf7 |Haval, F7 New | 288
 haval, f72024 |Haval, F7 New | 288
 haval, newf7x |Haval, F7x New | 290
+haval, f7xiinew |Haval, F7x New | 290
 haval, новыйf7x |Haval, F7x New | 290
 hawtai, boliger |Hawtai, Boliger | 308
 hawtai, laville |Hawtai, Laville | 309
@@ -845,6 +846,7 @@ lada, grantaбортовая |Lada, Granta Бортовая | 854
 lada, grantaфургон |Lada, Granta Фургон | 855
 lada, nivalegendбортовая |Lada, Niva Legend Бортовая | 856
 lada, grantacross |Lada, Granta Cross | 402
+lada, (ваз)grantacrossуниверсал |Lada, Granta Cross | 402
 lada, (ваз)grantacross |Lada, Granta Cross | 402
 lada, grantadriveactive |Lada, Granta Sedan Drive Active | 403
 lada, grantasportdriveactive |Lada, Granta Sport Drive Active Liftback | 407
@@ -1263,6 +1265,8 @@ omoda, c5кроссовер |OMODA, C5 | 525
 omoda, c54wdкроссовер |OMODA, C5 4WD| 1019
 omoda, c5(iпоколение) |OMODA, C5 | 525
 omoda, c5iкроссовер |OMODA, C5 | 525
+omoda, c74wdкроссовер |OMODA, C7 4WD| 1023
+omoda, c7кроссовер |OMODA, C7| 1024
 omoda, c5fl |OMODA, C5 FL| 1009
 omoda, s5 |OMODA, S5 | 526
 omoda, s5седан |OMODA, S5 | 526
