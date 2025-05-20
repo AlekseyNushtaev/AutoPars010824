@@ -436,8 +436,9 @@ gac, motorgs5 |Gac, GS5 | 245
 gac, gs8 |Gac, GS8 | 246
 gac, gs8(iпоколение) |Gac, GS8 | 246
 gac, motorgs8 |Gac, GS8 | 246
-gac, gs8ii |Gac, GS8 II | 247
+gac, gs8ii |Gac, GS8 New | 247
 gac, gs8traveller |Gac, GS8 Traveller | 1012
+gac, gs8iitraveller |Gac, GS8 Traveller | 1012
 gac, gs8new |Gac, GS8 New | 248
 gac, gs8(iiпоколение) |Gac, GS8 New | 248
 gac, gs8ii |Gac, GS8 II | 247
@@ -565,6 +566,7 @@ haval, f7restyling |Haval, F7 Restyling | 289
 haval, f7(iрестайлинг) |Haval, F7 | 304
 haval, f7(iiпоколение) |Haval, F7 New | 288
 haval, f7xnew |Haval, F7x New | 290
+haval, f7хnew |Haval, F7x New | 290
 haval, f7xrestyling |Haval, F7x Restyling | 291
 haval, f7xрестайлинг |Haval, F7x Restyling | 291
 haval, gwmwingle7 |Haval, GWM Wingle 7 | 292
@@ -1267,6 +1269,8 @@ omoda, c5(iпоколение) |OMODA, C5 | 525
 omoda, c5iкроссовер |OMODA, C5 | 525
 omoda, c74wdкроссовер |OMODA, C7 4WD| 1023
 omoda, c7кроссовер |OMODA, C7| 1024
+omoda, c7 |OMODA, C7| 1024
+omoda, c7iкроссовер |OMODA, C7| 1024
 omoda, c5fl |OMODA, C5 FL| 1009
 omoda, s5 |OMODA, S5 | 526
 omoda, s5седан |OMODA, S5 | 526

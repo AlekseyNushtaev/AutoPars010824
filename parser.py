@@ -789,12 +789,6 @@ async def parser_samara(dct_up, browser):
         res_1 = []
         await bot.send_message(CHANEL_ID, 'https://park-auto-sm.ru error')
         await bot.send_message(ADMIN_ID, str(e))
-    # try:
-    #     res_2 = await ac_triumph(dct_up)
-    # except Exception as e:
-    #     res_2 = []
-    #     await bot.send_message(CHANEL_ID, 'https://ac-triumph.ru error')
-    #     await bot.send_message(ADMIN_ID, str(e))
     try:
         res_2 = await ace_auto_63(dct_up)
     except Exception as e:
@@ -826,8 +820,6 @@ async def parser_samara(dct_up, browser):
     sheet.cell(row=1, column=5).value = 'min_price_url'
     sheet.cell(row=1, column=6).value = 'park-auto-sm.ru_price'
     sheet.cell(row=1, column=7).value = 'park-auto-sm.ru'
-    # sheet.cell(row=1, column=8).value = 'ac-triumph.ru_price'
-    # sheet.cell(row=1, column=9).value = 'ac-triumph.ru'
     sheet.cell(row=1, column=8).value = 'ace-auto-63.ru_price'
     sheet.cell(row=1, column=9).value = 'ace-auto-63.ru'
     lst_res = [res_1, res_2]
@@ -1568,42 +1560,36 @@ async def parser_moscow(dct_up, browser):
         await bot.send_message(CHANEL_ID, 'https://avanta-avto-credit.ru error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-        # await bot.send_message(ADMIN_ID, 'begin https://dc-dbr.ru/catalog')
         res_2 = await dc_dbr(dct_up)
     except Exception as e:
         res_2 = []
         await bot.send_message(CHANEL_ID, 'https://dc-dbr.ru/catalog error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-        # await bot.send_message(ADMIN_ID, 'begin https://you-auto-credit.ru/cars-new/?page=50')
         res_3 = await you_auto_credit(dct_up)
     except Exception as e:
         res_3 = []
         await bot.send_message(CHANEL_ID, 'https://you-auto-credit.ru error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-        # await bot.send_message(ADMIN_ID, 'begin https://warshauto.ru/')
         res_4 = await warshauto(dct_up, browser)
     except Exception as e:
         res_4 = []
         await bot.send_message(CHANEL_ID, 'https://warshauto.ru/ error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-        # await bot.send_message(ADMIN_ID, 'begin https://kosmos-cars.ru/')
         res_5 = await kosmos_cars(dct_up)
     except Exception as e:
         res_5 = []
         await bot.send_message(CHANEL_ID, 'https://kosmos-cars.ru/ error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-        # await bot.send_message(ADMIN_ID, 'begin https://idol-avto.ru/cars-new/?page=100')
         res_6 = await idol_avto(dct_up)
     except Exception as e:
         res_6 = []
         await bot.send_message(CHANEL_ID, 'https://idol-avto.ru/ error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-        # await bot.send_message(ADMIN_ID, 'begin https://vita-auto.ru/')
         res_7 = await vita_avto(dct_up)
     except Exception as e:
         res_7 = []
@@ -1615,40 +1601,18 @@ async def parser_moscow(dct_up, browser):
         res_8 = []
         await bot.send_message(CHANEL_ID, 'https://ca-geely.ru error')
         await bot.send_message(ADMIN_ID, str(e))
-    # try:
-    #     # await bot.send_message(ADMIN_ID, 'begin https://autodrive-777.ru/auto/')
-    #     res_9 = await autodrive_777(dct_up)
-    # except Exception as e:
-    #     res_9 = []
-    #     await bot.send_message(CHANEL_ID, 'https://autodrive-777.ru error')
-    #     await bot.send_message(ADMIN_ID, str(e))
     try:
-        # await bot.send_message(ADMIN_ID, 'begin https://az-cars.ru')
         res_9 = await ac_cronos_msk(dct_up, browser)
     except Exception as e:
         res_9 = []
         await bot.send_message(CHANEL_ID, 'https://ac-kronos-msk.ru error')
         await bot.send_message(ADMIN_ID, str(e))
     try:
-        # await bot.send_message(ADMIN_ID, 'https://avtohous-group.ru/katalog')
         res_10 = await autohous_group(dct_up)
     except Exception as e:
         res_10 = []
         await bot.send_message(CHANEL_ID, 'https://avtohous-group.ru error')
         await bot.send_message(ADMIN_ID, str(e))
-    # try:
-    #     # await bot.send_message(ADMIN_ID, 'begin https://msk-carshop777.ru/auto/')
-    #     res_12 = await msk_carshop777(dct_up)
-    # except Exception as e:
-    #     res_12 = []
-    #     await bot.send_message(CHANEL_ID, 'https://msk-carshop777.ru error')
-    #     await bot.send_message(ADMIN_ID, str(e))
-    # try:
-    #     res_13 = await moscowautos777(dct_up)
-    # except Exception as e:
-    #     res_13 = []
-    #     await bot.send_message(CHANEL_ID, 'https://moscowautos777.ru error')
-    #     await bot.send_message(ADMIN_ID, str(e))
     try:
         res_11 = await fair_cars(dct_up)
     except Exception as e:
