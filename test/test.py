@@ -19,27 +19,29 @@ from selenium.webdriver import Chrome
 
 
 
-def warshauto(dct_up, browser):
-    headers = fake_headers.Headers(browser='firefox', os='win')
-    link = 'https://warshauto.ru/'
-    response = requests.get(link, headers.generate())
-    html = response.text
+def autosalon_arena(dct_up, browser):
+    link = 'https://autosalon-arena.ru/cars'
+    browser.get(link)
+    time.sleep(2)
+    time.sleep(0.25)
+    html = browser.page_source
     soup = bs4.BeautifulSoup(html, 'lxml')
-    brands = soup.find(attrs={"class": "car-selection__list"}).find_all("li")
+    brands = soup.find_all(attrs={"class": "brand__link"})
     res = []
-    for brand in brands:
-        link_1 = brand.find("a").get("href")
+    for brand_ in brands:
+        link_1 = 'https://autosalon-arena.ru' + brand_.get("href")
         browser.get(link_1)
         time.sleep(2)
+        time.sleep(0.25)
         html = browser.page_source
         soup = bs4.BeautifulSoup(html, 'lxml')
-        cards = soup.find_all(attrs={"class": "lineup"})
+        cards = soup.find_all(attrs={"class": "model__info"})
         for card in cards:
-            title = card.find(attrs={"class": "lineup-info"}).find("a").text.lower().strip()
-            link = card.find(attrs={"class": "lineup-info"}).find("a").get("href")
+            link = 'https://autosalon-arena.ru' + card.get("href")
+            title = card.find(attrs={"class": "name"}).text.lower().replace('ваз (lada)', 'lada').strip()
             brand = title.split()[0]
-            model = title.replace(brand, '').strip().replace(" ", "").replace("|","i")
-            cost__ = card.find(attrs={"class": "lineup-price__current"}).text
+            model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i").replace("(ваз)", "")
+            cost__ = card.find(attrs={"class": "model__price-current"}).text
             cost_ = ''
             for y in cost__:
                 if y.isdigit():
@@ -55,20 +57,20 @@ def warshauto(dct_up, browser):
     return res
 
 
-# chrome_driver_path = ChromeDriverManager().install()
-# browser_service = Service(executable_path=chrome_driver_path)
-# options = Options()
+chrome_driver_path = ChromeDriverManager().install()
+browser_service = Service(executable_path=chrome_driver_path)
+options = Options()
 # options.add_argument('--headless')
 # options.add_argument('--no-sandbox')
-# options.add_argument("--window-size=1200,600")
-#
-# options.add_argument('--disable-dev-shm-usage')
-# browser = Chrome(service=browser_service, options=options)
-# browser.maximize_window()
+options.add_argument("--window-size=1200,600")
+
+options.add_argument('--disable-dev-shm-usage')
+browser = Chrome(service=browser_service, options=options)
+browser.maximize_window()
 dct = {}
 with open('../autolist.txt', 'r', encoding='utf-8') as f:
     lst = f.readlines()
     for item in lst:
         dct[item.split('|')[0].strip()] = item.split('|')[1].strip()
-res = avanta_avto_credit(dct)
+res = autosalon_arena(dct, browser)
 print(len(res))

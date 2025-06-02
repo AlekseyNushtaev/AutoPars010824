@@ -242,19 +242,21 @@ async def astella_drive(dct_up, browser):
     return res
 
 
-async def autosalon_arena(dct_up):
-    headers = fake_headers.Headers(browser='firefox', os='win')
+async def autosalon_arena(dct_up, browser):
     link = 'https://autosalon-arena.ru/cars'
-    response = requests.get(link, headers.generate())
-    html = response.text
+    browser.get(link)
+    time.sleep(2)
+    time.sleep(0.25)
+    html = browser.page_source
     soup = bs4.BeautifulSoup(html, 'lxml')
     brands = soup.find_all(attrs={"class": "brand__link"})
     res = []
     for brand_ in brands:
         link_1 = 'https://autosalon-arena.ru' + brand_.get("href")
-        response = requests.get(link_1, headers.generate())
-        time.sleep(0.2)
-        html = response.text
+        browser.get(link_1)
+        time.sleep(2)
+        time.sleep(0.25)
+        html = browser.page_source
         soup = bs4.BeautifulSoup(html, 'lxml')
         cards = soup.find_all(attrs={"class": "model__info"})
         for card in cards:

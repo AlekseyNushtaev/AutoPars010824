@@ -49,7 +49,7 @@ async def pars():
         browser = Chrome(service=browser_service, options=options)
         browser.maximize_window()
         if True:
-            await spb2(dct)
+            await spb2(dct, browser)
             await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/spb2.xlsx"))
             await kemerovo2(dct)
             await send_doc(CHANEL_ID, types.FSInputFile(path="xlsx/kemerovo2.xlsx"))

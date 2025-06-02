@@ -304,12 +304,12 @@ async def parser_spb(dct_up, browser):
         writer.writerows(data)
 
 
-async def spb2(dct_up):
+async def spb2(dct_up, browser):
     try:
-        res_1 = await autosalon_arena(dct_up)
+        res_1 = await autosalon_arena(dct_up, browser)
     except:
         try:
-            res_1 = await autosalon_arena(dct_up)
+            res_1 = await autosalon_arena(dct_up, browser)
         except Exception as e:
             res_1 = []
             await bot.send_message(CHANEL_ID, 'https://autosalon-arena.ru error')
