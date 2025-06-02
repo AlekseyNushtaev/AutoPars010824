@@ -307,10 +307,13 @@ async def parser_spb(dct_up, browser):
 async def spb2(dct_up):
     try:
         res_1 = await autosalon_arena(dct_up)
-    except Exception as e:
-        res_1 = []
-        await bot.send_message(CHANEL_ID, 'https://autosalon-arena.ru error')
-        await bot.send_message(ADMIN_ID, str(e))
+    except:
+        try:
+            res_1 = await autosalon_arena(dct_up)
+        except Exception as e:
+            res_1 = []
+            await bot.send_message(CHANEL_ID, 'https://autosalon-arena.ru error')
+            await bot.send_message(ADMIN_ID, str(e))
     res = res_1
     res_1_name = [x[0] for x in res_1]
     res_name = []
@@ -1573,10 +1576,13 @@ async def parser_moscow(dct_up, browser):
         await bot.send_message(ADMIN_ID, str(e))
     try:
         res_4 = await warshauto(dct_up, browser)
-    except Exception as e:
-        res_4 = []
-        await bot.send_message(CHANEL_ID, 'https://warshauto.ru/ error')
-        await bot.send_message(ADMIN_ID, str(e))
+    except:
+        try:
+            res_4 = await warshauto(dct_up, browser)
+        except Exception as e:
+            res_4 = []
+            await bot.send_message(CHANEL_ID, 'https://warshauto.ru/ error')
+            await bot.send_message(ADMIN_ID, str(e))
     try:
         res_5 = await kosmos_cars(dct_up)
     except Exception as e:

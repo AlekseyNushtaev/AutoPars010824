@@ -55,20 +55,20 @@ def warshauto(dct_up, browser):
     return res
 
 
-chrome_driver_path = ChromeDriverManager().install()
-browser_service = Service(executable_path=chrome_driver_path)
-options = Options()
+# chrome_driver_path = ChromeDriverManager().install()
+# browser_service = Service(executable_path=chrome_driver_path)
+# options = Options()
 # options.add_argument('--headless')
 # options.add_argument('--no-sandbox')
-options.add_argument("--window-size=1200,600")
-
-options.add_argument('--disable-dev-shm-usage')
-browser = Chrome(service=browser_service, options=options)
-browser.maximize_window()
+# options.add_argument("--window-size=1200,600")
+#
+# options.add_argument('--disable-dev-shm-usage')
+# browser = Chrome(service=browser_service, options=options)
+# browser.maximize_window()
 dct = {}
 with open('../autolist.txt', 'r', encoding='utf-8') as f:
     lst = f.readlines()
     for item in lst:
         dct[item.split('|')[0].strip()] = item.split('|')[1].strip()
-res = warshauto(dct, browser)
+res = avanta_avto_credit(dct)
 print(len(res))
