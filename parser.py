@@ -306,7 +306,7 @@ async def parser_spb(dct_up, browser):
 
 async def spb2(dct_up, browser):
     try:
-        res_1 = await autosalon_arena(dct_up, browser)
+        res_1 = await autosalon_arena_req(dct_up)
     except:
         try:
             res_1 = await autosalon_arena(dct_up, browser)

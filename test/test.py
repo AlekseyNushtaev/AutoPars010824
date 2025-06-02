@@ -19,21 +19,19 @@ from selenium.webdriver import Chrome
 
 
 
-def autosalon_arena(dct_up, browser):
+def autosalon_arena_req(dct_up):
+    headers = fake_headers.Headers(browser='firefox', os='win')
     link = 'https://autosalon-arena.ru/cars'
-    browser.get(link)
-    time.sleep(2)
-    time.sleep(0.25)
-    html = browser.page_source
+    response = requests.get(link, headers.generate(), verify=False)
+    html = response.text
     soup = bs4.BeautifulSoup(html, 'lxml')
     brands = soup.find_all(attrs={"class": "brand__link"})
     res = []
     for brand_ in brands:
+        time.sleep(0.2)
         link_1 = 'https://autosalon-arena.ru' + brand_.get("href")
-        browser.get(link_1)
-        time.sleep(2)
-        time.sleep(0.25)
-        html = browser.page_source
+        response = requests.get(link_1, headers.generate(), verify=False)
+        html = response.text
         soup = bs4.BeautifulSoup(html, 'lxml')
         cards = soup.find_all(attrs={"class": "model__info"})
         for card in cards:
@@ -57,20 +55,20 @@ def autosalon_arena(dct_up, browser):
     return res
 
 
-chrome_driver_path = ChromeDriverManager().install()
-browser_service = Service(executable_path=chrome_driver_path)
-options = Options()
-# options.add_argument('--headless')
-# options.add_argument('--no-sandbox')
-options.add_argument("--window-size=1200,600")
-
-options.add_argument('--disable-dev-shm-usage')
-browser = Chrome(service=browser_service, options=options)
-browser.maximize_window()
+# chrome_driver_path = ChromeDriverManager().install()
+# browser_service = Service(executable_path=chrome_driver_path)
+# options = Options()
+# # options.add_argument('--headless')
+# # options.add_argument('--no-sandbox')
+# options.add_argument("--window-size=1200,600")
+#
+# options.add_argument('--disable-dev-shm-usage')
+# browser = Chrome(service=browser_service, options=options)
+# browser.maximize_window()
 dct = {}
 with open('../autolist.txt', 'r', encoding='utf-8') as f:
     lst = f.readlines()
     for item in lst:
         dct[item.split('|')[0].strip()] = item.split('|')[1].strip()
-res = autosalon_arena(dct, browser)
+res = autosalon_arena_req(dct)
 print(len(res))
