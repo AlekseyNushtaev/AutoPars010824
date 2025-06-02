@@ -528,7 +528,10 @@ async def avanta_avto_credit(dct_up):
             for y in cost__:
                 if y.isdigit():
                     cost_ += y
-            cost = int(cost_)
+            try:
+                cost = int(cost_)
+            except:
+                continue
             name = brand + ', ' + model
             try:
                 name = dct_up[name]

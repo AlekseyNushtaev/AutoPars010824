@@ -529,6 +529,7 @@ great, wallpoer |Great Wall, POER | 273
 great wall, poer |Great Wall, POER | 273
 greatwall, poer |Great Wall, POER | 273
 great, wallpoernew |Great Wall, POER New| 1018
+great, wallновыйpoer |Great Wall, POER New| 1018
 great, wallgwmpoer |Great Wall, POER | 273
 great wall, gwmpoer |Great Wall, POER | 273
 great wall, wingle5 |Great Wall, Wingle 5 | 274
@@ -565,6 +566,7 @@ haval, f7рестайлинг |Haval, F7 Restyling | 289
 haval, f7restyling |Haval, F7 Restyling | 289
 haval, f7(iрестайлинг) |Haval, F7 | 304
 haval, f7(iiпоколение) |Haval, F7 New | 288
+haval, f7x(ii) |Haval, F7 New | 288
 haval, f7xnew |Haval, F7x New | 290
 haval, f7хnew |Haval, F7x New | 290
 haval, f7xrestyling |Haval, F7x Restyling | 291
@@ -581,6 +583,7 @@ haval, h6 |Haval, H6 | 298
 haval, h6coupe |Haval, H6 | 298
 haval, h6new |Haval, H6 New | 299
 haval, h7 |Haval, H7 | 1007
+haval, newh7 |Haval, H7 New| 1025
 haval, h9 |Haval, H9 | 300
 haval, h9(iрестайлинг) |Haval, H9 | 300
 haval, h92023 |Haval, H9 | 300
@@ -998,6 +1001,7 @@ lada, nivalegend3dv |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3д3д |Lada, Niva Legend 3 двери | 423
 lada, (ваз)nivalegendуниверсал |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3дверная |Lada, Niva Legend 3 двери | 423
+lada, nivalegend4x4 |Lada, Niva Legend 3 двери | 423
 lada, nivalegend5дверная |Lada, Niva Legend 5 дверей | 424
 lada, nivalegend5dr |Lada, Niva Legend 5 дверей | 424
 lada, nivalegend5д5д |Lada, Niva Legend 5 дверей | 424
