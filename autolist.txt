@@ -10,6 +10,7 @@ avatr, 12 | Avatr, 12 | 1004
 baic, bj40 |BAIC, BJ40 | 102
 baic, bj40plus |BAIC, BJ40 Plus | 103
 baic, bj60 |BAIC, BJ60 | 874
+baic, bj90 |BAIC, BJ90 | 1030
 baic, x35 |BAIC, X35 | 104
 baic, x55 |BAIC, X55 | 105
 baic, x7 |BAIC, X7 | 106
@@ -115,6 +116,7 @@ changan, cs75plus |Changan, CS75 Plus | 135
 changan, cs75plus(iпоколение) |Changan, CS75 Plus | 135
 changan, cs75plus(iii) |Changan, CS75 Plus New | 136
 changan, cs75plus(iiiпоколение) |Changan, CS75 Plus New | 136
+changan, cs75plusiv  |Changan, CS75 Plus New | 136
 changan, cs75plusnew |Changan, CS75 Plus New | 136
 changan, cs75plus2023 |Changan, CS75 Plus 2023 | 137
 changan, cs85coupe |Changan, CS85 Coupe | 124
@@ -276,6 +278,8 @@ dfm, ax7 |DFM, AX7 | 185
 dongfeng, captain-t |Dongfeng, Captain-T | 988
 dongfeng, mengshim-hero917 |Dongfeng, Mengshi M-Hero 917 | 871
 dongfeng, h30cross |Dongfeng, H30 Cross | 898
+dongfeng, huge |Dongfeng, Huge | 1028
+dongfeng, mage |Dongfeng, Mage | 1029
 dongfeng, s30 |Dongfeng, S30 | 899
 dongfeng, 500 |Dongfeng, 500 | 900
 dongfeng, 580new |Dongfeng, 580 New | 186
@@ -431,6 +435,7 @@ gac, motorgs3 |Gac, GS3 | 243
 gac, gs3new |Gac, GS3 New | 244
 gac, gs3 |Gac, GS3 | 243
 gac, gs4 |Gac, GS4 | 978
+gac, gs4max |Gac, GS4 Max | 1026
 gac, gs5 |Gac, GS5 | 245
 gac, motorgs5 |Gac, GS5 | 245
 gac, gs8 |Gac, GS8 | 246
@@ -492,6 +497,7 @@ geely, gc6 |Geely, GC6 | 907
 geely, mkcross |Geely, MK Cross | 908
 geely, ex5 |Geely, EX5 | 881
 geely, cityray |Geely, Cityray | 772
+geely, сityray |Geely, Cityray | 772
 geely, citiray |Geely, Cityray | 772
 geely, cityray(g426) |Geely, Cityray | 772
 geely, gs |Geely, GS | 264
@@ -566,13 +572,17 @@ haval, f7рестайлинг |Haval, F7 Restyling | 289
 haval, f7restyling |Haval, F7 Restyling | 289
 haval, f7(iрестайлинг) |Haval, F7 | 304
 haval, f7(iiпоколение) |Haval, F7 New | 288
-haval, f7x(ii) |Haval, F7 New | 288
+haval, f7x(ii) |Haval, F7x New | 290
+haval, f7xii |Haval, F7x New | 290
 haval, f7xnew |Haval, F7x New | 290
+haval, f7xnew2025 |Haval, F7x New | 290
 haval, f7хnew |Haval, F7x New | 290
 haval, f7xrestyling |Haval, F7x Restyling | 291
 haval, f7xрестайлинг |Haval, F7x Restyling | 291
 haval, gwmwingle7 |Haval, GWM Wingle 7 | 292
 haval, gwmpoer |Haval, GWM POER | 293
+haval, новыйpoer |Haval, GWM POER New | 1031
+haval, gwmpoernew |Haval, GWM POER New | 1031
 haval, gwmpoerkingkong |Haval, GWM POER King Kong | 294
 haval, h2 |Haval, H2 | 295
 haval, h3 |Haval, H3 | 296
@@ -618,6 +628,7 @@ haval, f7ii |Haval, F7 New | 288
 haval, новыйf7 |Haval, F7 New | 288
 haval, f72024 |Haval, F7 New | 288
 haval, newf7x |Haval, F7x New | 290
+haval, f7xновый |Haval, F7x New | 290
 haval, f7xiinew |Haval, F7x New | 290
 haval, новыйf7x |Haval, F7x New | 290
 hawtai, boliger |Hawtai, Boliger | 308
@@ -674,6 +685,7 @@ hyundai, palisade |Hyundai, Palisade | 323
 hyundai, palisade(iпоколение) |Hyundai, Palisade | 323
 hyundai, santafeрестайлинг |Hyundai, Santa Fe Restyling | 324
 hyundai, santafenew |Hyundai, Santa Fe New | 325
+hyundai, santafeновый |Hyundai, Santa Fe New | 325
 hyundai, santafe(vпоколение) |Hyundai, Santa Fe New | 325
 hyundai, santafepremium |Hyundai, Santa Fe Premium | 917
 hyundai, santafe2024 |Hyundai, Santa Fe New | 325
@@ -732,6 +744,7 @@ jac, t8 |JAC, T8 | 681
 jac, t8pro |JAC, T8 Pro | 345
 jac, t9 |JAC, T9 | 682
 jac, t9new |JAC, T9 New | 346
+jac, x75 |JAC, X75 | 1032
 jaecoo, j7 |JAECOO, J7 | 347
 jaecoo, j7кроссовер |JAECOO, J7 | 347
 jaecoo, j8 |JAECOO, J8 | 348
@@ -928,6 +941,7 @@ lada, grantauniversalnew |Lada, Granta Universal New | 416
 lada, grantacrosscross |Lada, Granta Cross | 402
 lada, (ваз)grantacrossiрестайлингуниверсал |Lada, Granta Cross | 402
 lada, grantadriveactivedriveactive |Lada, Granta Drive Active | 403
+lada, (ваз)grantaactivecrossiрестайлинглифтбек |Lada, Granta Active Cross Liftback | 1033
 lada, kalinaхэтчбек |Lada, Kalina Hatchback | 962
 lada, kalinacross |Lada, Kalina Cross | 963
 lada, largus |Lada, Largus | 418
@@ -1136,6 +1150,7 @@ lixiang, l8 |Lixiang, L8 | 469
 lixiang, l9 |Lixiang, L9 | 470
 lixiang, l9рестайлинг |Lixiang, L9 Restyling| 748
 lixiang, mega |Lixiang, Mega | 792
+lynk & co, 05 |Lync&Co, 05 | 1027
 lynk & co, 06 |Lync&Co, 06 | 1001
 lynk-co, 08 |Lync&Co, 08 | 471
 lynk & co, 08 |Lync&Co, 08 | 471
@@ -1265,6 +1280,7 @@ omoda, c5new |OMODA, C5 New| 820
 omoda, новыйc5 |OMODA, C5 New| 820
 omoda, c52024 |OMODA, C5 New| 820
 omoda, c5(iрестайлинг) |OMODA, C5 New| 820
+omoda, c5iрейсталингкроссовер |OMODA, C5 New| 820
 omoda, c5iрестайлингкроссовер |OMODA, C5 New| 820
 omoda, c5рестайлинг |OMODA, C5 New| 820
 omoda, c5кроссовер |OMODA, C5 | 525
@@ -1274,6 +1290,7 @@ omoda, c5iкроссовер |OMODA, C5 | 525
 omoda, c74wdкроссовер |OMODA, C7 4WD| 1023
 omoda, c7кроссовер |OMODA, C7| 1024
 omoda, c7 |OMODA, C7| 1024
+omoda, c7new |OMODA, C7| 1024
 omoda, c7iкроссовер |OMODA, C7| 1024
 omoda, c5fl |OMODA, C5 FL| 1009
 omoda, s5 |OMODA, S5 | 526

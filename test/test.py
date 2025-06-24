@@ -19,27 +19,29 @@ from selenium.webdriver import Chrome
 
 
 
-def autosalon_arena_req(dct_up):
+
+def vita_avto(dct_up):
     headers = fake_headers.Headers(browser='firefox', os='win')
-    link = 'https://autosalon-arena.ru/cars'
-    response = requests.get(link, headers.generate(), verify=False)
+    link = 'https://vita-auto.ru/'
+    response = requests.get(link, headers.generate())
     html = response.text
     soup = bs4.BeautifulSoup(html, 'lxml')
-    brands = soup.find_all(attrs={"class": "brand__link"})
+    brands = soup.find_all(attrs={"class": "catalogTop_item"})
     res = []
+    print(len(brands))
     for brand_ in brands:
         time.sleep(0.2)
-        link_1 = 'https://autosalon-arena.ru' + brand_.get("href")
-        response = requests.get(link_1, headers.generate(), verify=False)
+        brand = brand_.find(attrs={"class": "nameCar"}).text.strip().lower()
+        link_1 = 'https://vita-auto.ru' + brand_.find("a").get("href")
+        response = requests.get(link_1, headers.generate())
         html = response.text
         soup = bs4.BeautifulSoup(html, 'lxml')
-        cards = soup.find_all(attrs={"class": "model__info"})
+        cards = soup.find(attrs={"class": "CATALOG_items"}).find_all(attrs={"class": "CATALOG_item"})
+        print(len(cards))
         for card in cards:
-            link = 'https://autosalon-arena.ru' + card.get("href")
-            title = card.find(attrs={"class": "name"}).text.lower().replace('ваз (lada)', 'lada').strip()
-            brand = title.split()[0]
-            model = title.replace(brand, '').strip().replace(" ", "").replace("|", "i").replace("(ваз)", "")
-            cost__ = card.find(attrs={"class": "model__price-current"}).text
+            link = 'https://vita-auto.ru' + card.find(attrs={"class": "CATALOG_item_imageCar_img_link"}).get("href")
+            model = card.find(attrs={"class": "CATALOG_item_detail_content_nameCar"}).text.lower().strip().replace(" ", "")
+            cost__ = card.find(attrs={"class": "CATALOG_item_detail_content_price"}).text
             cost_ = ''
             for y in cost__:
                 if y.isdigit():
@@ -70,5 +72,5 @@ with open('../autolist.txt', 'r', encoding='utf-8') as f:
     lst = f.readlines()
     for item in lst:
         dct[item.split('|')[0].strip()] = item.split('|')[1].strip()
-res = autosalon_arena_req(dct)
+res = vita_avto(dct)
 print(len(res))

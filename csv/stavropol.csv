@@ -53,7 +53,7 @@ Gac,GS8,2729300
 Geely,Atlas,1177990
 Geely,Atlas New,2236493
 Geely,Atlas Pro,1554990
-Geely,Cityray,2499990
+Geely,Cityray,1709994
 Geely,Coolray,865990
 Geely,Coolray New,1794990
 Geely,Emgrand New,1799990
@@ -61,16 +61,18 @@ Geely,Emgrand X7,867990
 Geely,GS,987990
 Geely,Monjaro,3039000
 Geely,Okavango New,2414993
-Geely,Preface,3357990
+Geely,Preface,2014794
 Geely,Tugella New,1859990
 Haval,Dargo,1789000
 Haval,Dargo X,2709000
-Haval,F7 New,1189000
+Haval,F7 New,1709400
 Haval,F7x New,1259000
 Haval,H3,1589400
 Haval,H5,1137000
 Haval,H5 New,2219400
+Haval,H7,2099400
 Haval,H9,1863000
+Haval,H9 New,2759400
 Haval,Jolion,1049000
 Haval,Jolion New,1399300
 Haval,M6,1349000
@@ -80,8 +82,13 @@ Hyundai,Solaris,685000
 Hyundai,Sonata,1482000
 Hyundai,Tucson New,1489000
 JAC,J7,779000
+JAC,JS3,1133400
+JAC,JS6,1685400
 JAC,S3,315000
 JAC,S7,1199000
+JAC,T8,1835400
+JAC,T8 Pro,1967400
+JAC,T9,2159400
 JAECOO,J7,2439900
 JAECOO,J8,2669400
 Jetour,Dashing,1529900
@@ -108,6 +115,8 @@ KIA,Seltos,1002900
 KIA,Soul,884900
 KIA,Sportage 5,1829000
 KIA,XCeed,962900
+Knewstar,001,2497794
+Lada,Aura,1559400
 Lada,Granta Cross,354400
 Lada,Granta Hatchback,368500
 Lada,Granta Liftback,365500
@@ -132,10 +141,12 @@ Lada,Vesta SW,913900
 Lada,Vesta SW Cross,1028900
 Lada,Vesta SW Cross New,1109900
 Lada,Vesta SW New,919900
+Lada,Vesta SW Sportline,1465800
 Lada,Vesta Sedan,821900
 Lada,Vesta Sedan CNG,1006900
 Lada,Vesta Sedan New,829900
 Lada,Vesta Sport,1297900
+Lada,Vesta Sportline,1363800
 Lada,Xray,496900
 Lada,Xray Cross,614000
 Lifan,Murman,734000
@@ -154,6 +165,7 @@ Nissan,Qashqai,1127000
 Nissan,Terrano,619000
 Nissan,X-trail,1486000
 OMODA,C5,1319900
+OMODA,C5 New,1541940
 OMODA,S5,1449900
 Ravon,Nexia R3,463000
 Ravon,R2,484000
