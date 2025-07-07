@@ -118,6 +118,7 @@ changan, cs75plus(iii) |Changan, CS75 Plus New | 136
 changan, cs75plus(iiiпоколение) |Changan, CS75 Plus New | 136
 changan, cs75plusiv  |Changan, CS75 Plus New | 136
 changan, cs75plusnew |Changan, CS75 Plus New | 136
+changan, cs75plusновый |Changan, CS75 Plus New | 136
 changan, cs75plus2023 |Changan, CS75 Plus 2023 | 137
 changan, cs85coupe |Changan, CS85 Coupe | 124
 changan, cs85coupecoupe |Changan, CS85 Coupe | 124
@@ -151,6 +152,7 @@ changan, uni-kidd |Changan, UNI-K iDD Hybrid| 713
 changan, uni-kiddidd |Changan, UNI-K iDD Hybrid| 713
 changan, uni-t |Changan, UNI-T | 126
 changan, uni-v |Changan, UNI-V | 123
+changan, uni-vрестайлинг |Changan, UNI-V New| 1037
 chery, arrizo8 |Chery, Arrizo 8 | 143
 chery, tiggoarrizo8 |Chery, Arrizo 8 | 143
 chery, arrizo8седан |Chery, Arrizo 8 | 143
@@ -638,6 +640,7 @@ honda, cr-vnew | Honda, CR-V New | 310
 honda, pilot | Honda, Pilot | 311
 hongqi, e-hs9 | Hongqi, E-HS9 | 715
 hongqi, h5 | Hongqi, H5 | 716
+hongqi, h6 | Hongqi, H6 | 1036
 hongqi, h9 | Hongqi, H9 | 717
 hongqi, hq9 | Hongqi, HQ9 | 718
 hongqi, hs5 | Hongqi, HS5 | 719
@@ -699,6 +702,7 @@ hyundai, santafe(ivрестайлинг) |Hyundai, Santa Fe | 326
 hyundai, santafe2021 |Hyundai, Santa Fe | 326
 hyundai, santafeiv |Hyundai, Santa Fe | 326
 hyundai, palisadenew |Hyundai, Palisade New | 327
+hyundai, palisadeii |Hyundai, Palisade New | 327
 hyundai, palisade(iрестайлинг) |Hyundai, Palisade New | 327
 hyundai, mufasa |Hyundai, Mufasa | 328
 hyundai, solaris |Hyundai, Solaris | 329
@@ -942,6 +946,7 @@ lada, grantacrosscross |Lada, Granta Cross | 402
 lada, (ваз)grantacrossiрестайлингуниверсал |Lada, Granta Cross | 402
 lada, grantadriveactivedriveactive |Lada, Granta Drive Active | 403
 lada, (ваз)grantaactivecrossiрестайлинглифтбек |Lada, Granta Active Cross Liftback | 1033
+lada, grantaactivecross |Lada, Granta Active Cross Liftback | 1033
 lada, kalinaхэтчбек |Lada, Kalina Hatchback | 962
 lada, kalinacross |Lada, Kalina Cross | 963
 lada, largus |Lada, Largus | 418
@@ -1006,6 +1011,7 @@ lada, niva |Lada, Niva | 422
 lada, (ваз)niva |Lada, Niva | 422
 lada, 21230 |Lada, Niva | 422
 lada, nivalegend |Lada, Niva Legend 3 двери | 423
+lada, nivalegendsport |Lada, Niva Legend 3 двери Sport| 1038
 lada, nivalegend3d |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3dr. |Lada, Niva Legend 3 двери | 423
 lada, nivalegend3д |Lada, Niva Legend 3 двери | 423
@@ -1051,6 +1057,7 @@ lada, 4x43дв. |Lada, 4x4 3 двери | 701
 lada, 2121(4x4) |Lada, 4x4 3 двери | 701
 lada, 4x45дв. |Lada, 4x4 5 дверей | 431
 lada, nivalegendbronto |Lada, Niva Legend Bronto | 432
+lada, (ваз)nivalegendbrontoiвнедорожник |Lada, Niva Legend Bronto | 432
 lada, nivalegendbrontobronto |Lada, Niva Legend Bronto | 432
 lada, legendbronto |Lada, Niva Legend Bronto | 432
 lada, niva legend bronto |Lada, Niva Legend Bronto | 432
@@ -1176,6 +1183,7 @@ mazda, new6 |Mazda, 6 New | 482
 mazda, 6new |Mazda, 6 New | 482
 mazda, 6 |Mazda, 6 | 483
 mazda, cx-5new |Mazda, CX-5 New | 484
+mazda, cx-5рестайлинг |Mazda, CX-5 New | 484
 mazda, cx-4 |Mazda, CX-4 | 485
 mazda, cx-50 |Mazda, CX-50 | 486
 mazda, cx-60 |Mazda, CX-60 | 487
@@ -1484,6 +1492,7 @@ toyota, verso |Toyota, Verso | 958
 toyota, prius |Toyota, Prius | 959
 toyota, bz4x |Toyota, BZ4X | 738
 toyota, corolla |Toyota, Corolla | 617
+toyota, corollacross |Toyota, Corolla Cross | 1034
 toyota, fortuner |Toyota, Fortuner | 618
 toyota, fortunernew |Toyota, Fortuner New | 619
 toyota, rav4 |Toyota, RAV4 | 620
@@ -1636,3 +1645,4 @@ xcite, x-cross7new |XCite, X-Cross 7 New | 676
 lada, x-cross7new |XCite, X-Cross 7 New | 676
 xcite, x-cross8 |XCite, X-Cross 8 | 787
 xcite, x-cross8универсал |XCite, X-Cross 8 | 787
+xiaomi, yu7 |Xiaomi, YU7 | 1035
