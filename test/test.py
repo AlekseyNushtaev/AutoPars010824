@@ -20,40 +20,49 @@ from selenium.webdriver import Chrome
 
 
 
-def vita_avto(dct_up):
+def kanavto(dct_up):
     headers = fake_headers.Headers(browser='firefox', os='win')
-    link = 'https://vita-auto.ru/'
-    response = requests.get(link, headers.generate())
-    html = response.text
-    soup = bs4.BeautifulSoup(html, 'lxml')
-    brands = soup.find_all(attrs={"class": "catalogTop_item"})
-    res = []
-    print(len(brands))
-    for brand_ in brands:
+    count = 1
+    dct = {}
+    while True:
         time.sleep(0.2)
-        brand = brand_.find(attrs={"class": "nameCar"}).text.strip().lower()
-        link_1 = 'https://vita-auto.ru' + brand_.find("a").get("href")
-        response = requests.get(link_1, headers.generate())
+        link_1 = f'https://kanavto.ru/new/?page={count}'
+        response = requests.get(link_1, headers.generate(), verify=False)
+        count += 1
         html = response.text
         soup = bs4.BeautifulSoup(html, 'lxml')
-        cards = soup.find(attrs={"class": "CATALOG_items"}).find_all(attrs={"class": "CATALOG_item"})
-        print(len(cards))
+        cards = soup.find_all(attrs={"class": "card height"})
+        if len(cards) == 0:
+            break
         for card in cards:
-            link = 'https://vita-auto.ru' + card.find(attrs={"class": "CATALOG_item_imageCar_img_link"}).get("href")
-            model = card.find(attrs={"class": "CATALOG_item_detail_content_nameCar"}).text.lower().strip().replace(" ", "")
-            cost__ = card.find(attrs={"class": "CATALOG_item_detail_content_price"}).text
-            cost_ = ''
-            for y in cost__:
-                if y.isdigit():
-                    cost_ += y
-            cost = int(cost_)
-            name = brand + ', ' + model
             try:
-                name = dct_up[name]
-            except KeyError:
-                pass
-                # await bot.send_message(CHANEL_ID, f'{name} {link}')
-            res.append([name, cost, link])
+                title = card.find(attrs={"class": "card-name"}).text.lower().strip()
+                link = card.get("href")
+                brand = title.split()[0]
+                model = title.replace(brand, '').strip().replace(" ", "").replace("|","i")
+                cost__ = card.find(attrs={"class": "card-price"}).text
+                cost_ = ''
+                for y in cost__:
+                    if y.isdigit():
+                        cost_ += y
+                cost = int(cost_)
+                name = brand + ', ' + model
+                if name not in dct.keys():
+                    dct[name] = [cost, link]
+                else:
+                    cost_old = dct[name][0]
+                    if cost < cost_old:
+                        dct[name] = [cost, link]
+            except Exception as e:
+                print(e)
+    res = []
+    for key in dct.keys():
+        name = key
+        try:
+            name = dct_up[name]
+        except KeyError:
+            print(f'{name} {dct[key][1]}')
+        res.append([name, dct[key][0], dct[key][1]])
     return res
 
 
@@ -72,5 +81,5 @@ with open('../autolist.txt', 'r', encoding='utf-8') as f:
     lst = f.readlines()
     for item in lst:
         dct[item.split('|')[0].strip()] = item.split('|')[1].strip()
-res = vita_avto(dct)
+res = kanavto(dct)
 print(len(res))
